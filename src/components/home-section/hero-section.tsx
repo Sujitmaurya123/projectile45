@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -10,7 +11,7 @@ const HeroSection: React.FC = () => {
         Projectile 45: Your Launchpad to Academic Success
       </h1>
       <p className="text-gray-700 text-base sm:text-lg mb-6 sm:mb-8">
-        In today's fast-changing world, your preparation should evolve with
+        In today&apos;s fast-changing world, your preparation should evolve with
         you. At Projectile 45, we transform IB, IGCSE, SAT, GMAT, and GRE
         preparation into an inspiring journey tailored to your unique
         learning style.
@@ -27,10 +28,12 @@ const HeroSection: React.FC = () => {
 
     {/* Right Illustration */}
     <div className="lg:w-1/2 mb-10 lg:mb-0">
-      <img
+      <Image
         src="/images/Analyze-Data-3--Streamline-Milano.png"
         alt="Illustration"
         className="max-w-full mx-auto lg:mx-0 float-right"
+        width={450}
+        height={450}
       />
     </div>
   </div>
