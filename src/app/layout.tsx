@@ -2,7 +2,7 @@ import "./globals.css"
 import { Metadata } from "next"
 
 import { cn } from "@/lib/utils"
-import { Navigation } from "@/components/navigation"
+
 import { SiteHeader } from "@/components/site-header"
 
 // Define the metadata for the app
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader />
-          {/* <Navigation /> */}
+         
           <div className="flex-1">{children}</div>
         </div>
       </body>
