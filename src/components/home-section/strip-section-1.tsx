@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const FirstStripSection: React.FC = () => {
@@ -24,10 +25,12 @@ const FirstStripSection: React.FC = () => {
 
         {/* Right Illustration */}
         <div className="lg:w-1/4 mb-10 lg:mb-0 mr-12">
-          <img
+          <Image
             src="/images/Online-Learning-1--Streamline-Milano.png"
             alt="Illustration"
             className="max-w-full mx-auto lg:mx-0 float-left"
+            width={400}
+            height={400}
           />
         </div>
       </div>

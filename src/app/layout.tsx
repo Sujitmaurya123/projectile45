@@ -4,6 +4,7 @@ import { Metadata } from "next"
 import { cn } from "@/lib/utils"
 
 import { SiteHeader } from "@/components/site-header"
+import Footer from "@/components/home-section/footer-section"
 
 // Define the metadata for the app
 export const metadata: Metadata = {
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <SiteHeader />
          
           <div className="flex-1">{children}</div>
+          <Footer/>
         </div>
       </body>
     </html>
