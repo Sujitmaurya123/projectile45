@@ -50,7 +50,7 @@ const CourseCard: React.FC<Course> = ({ name, logo, link }) => (
 
 const CourseSection: React.FC = () => {
     return (
-        <div className="container mx-auto p-8 bg-gray-100  flex flex-col items-center">
+        <div className="container mx-auto p-8 bg-gray-100  flex  flex-col items-center">
             <h1 className="text-3xl font-bold mb-4">All the skills you need in one place</h1>
             <p className="text-lg text-gray-700 mb-8 text-center">
                 From critical skills to technical topics, EdTech supports your professional development.

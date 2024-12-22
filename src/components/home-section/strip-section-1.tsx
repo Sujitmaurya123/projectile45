@@ -26,7 +26,7 @@ const FirstStripSection: React.FC = () => {
         {/* Right Illustration */}
         <div className="lg:w-1/4 mb-10 lg:mb-0 mr-12">
           <Image
-            src="/images/Online-Learning-1--Streamline-Milano.png"
+            src="/images/Online-Learning-1--Streamline-Milano.svg"
             alt="Illustration"
             className="max-w-full mx-auto lg:mx-0 float-left"
             width={400}

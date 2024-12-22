@@ -4,7 +4,7 @@ import Image from 'next/image';
 const CallToActionSection = () => {
     return (
         <section className="bg-gray-100 py-16">
-            <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
+            <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image
                         src="/images/students-studying.svg" // Replace with the actual path to your illustration
