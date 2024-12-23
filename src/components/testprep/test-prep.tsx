@@ -49,12 +49,21 @@ const TestPrepDropdown: React.FC = () => {
                             <ul className="space-y-2">
                                 <li><Link href="/about-sat">About SAT</Link></li>
                                 <li><Link href="/sat-Digital-Exam-PatternandFAQ">SAT Digital Exam Pattern and FAQ</Link></li>
-                                <li><Link href="/sat-online-prep">SAT Online Prep</Link></li>
-                                <li><Link href="/sat-test-registration">SAT Test Registration</Link></li>
-                                <li><Link href="/sat-pattern">SAT Pattern</Link></li>
+                                <li><Link href="/sat-2024-25-test-dates">SAT 2024-25 Test DATES</Link></li>
+                                <li><Link href="/sat-fees-structure">Fees Structure</Link></li>
+                                {/* <li><Link href="/sat-pattern">SAT Pattern</Link></li>
                                 <li><Link href="/sat-syllabus">SAT Syllabus 2024</Link></li>
                                 <li><Link href="/sat-eligibility">SAT Eligibility 2024</Link></li>
-                                <li><Link href="/sat-dates">SAT Dates</Link></li>
+                                <li><Link href="/sat-dates">SAT Dates</Link></li> */}
+                            </ul>
+                        </div>
+                        {/* IB Section */}
+                        <div>
+                            <h3 className="text-lg font-semibold text-red-600 mb-2">IB</h3>
+                            <ul className="space-y-2">
+                                <li><Link href="/ib-curriculam">IB Curriculam</Link></li>
+                                <li><Link href="/ib-course-coaching-details">Course Structure and Coaching Details</Link></li>
+                                <li><Link href="/ib-online-coaching-technology">Online Coaching and Technology Integration</Link></li>
                             </ul>
                         </div>
                         {/* GRE Section */}

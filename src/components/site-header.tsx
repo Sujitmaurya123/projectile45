@@ -73,12 +73,7 @@ export function SiteHeader() {
 function MobileNav() {
   return (
     <div className="flex flex-col space-y-3 p-4">
-      <Link
-        href="/testprep"
-        className="text-sm font-medium transition-colors hover:text-black/80"
-      >
-        Test Prep
-      </Link>
+      <TestPrepDropdown />
       <Link
         href="/igcseibtutoring"
         className="text-sm font-medium transition-colors hover:text-black/80"
