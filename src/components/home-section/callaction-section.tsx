@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const CallToActionSection = () => {
     return (
@@ -22,9 +24,11 @@ const CallToActionSection = () => {
                         Join us to transform your test preparation—because the future belongs to
                         those who dare to dream big.
                     </p>
-                    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">
+                    <Link  href="free-demo">
+                    <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">
                         Get Started
-                    </button>
+                    </Button>
+                    </Link>
                 </div>
             </div>
         </section>

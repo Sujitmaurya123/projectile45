@@ -7,6 +7,7 @@ import { Menu } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import Image from "next/image"
+import TestPrepDropdown from "./testprep/test-prep"
 
 export function SiteHeader() {
   return (
@@ -40,12 +41,9 @@ export function SiteHeader() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex md:flex-1 md:items-center md:justify-end md:space-x-6">
           <nav className="flex items-center space-x-6">
-            <Link
-              href="/testprep"
-              className="text-sm font-medium transition-colors hover:text-black/80"
-            >
-              Test Prep
-            </Link>
+           
+              <TestPrepDropdown/>
+            
             <Link
               href="/igcseibtutoring"
               className="text-sm font-medium transition-colors hover:text-black/80"
@@ -53,14 +51,18 @@ export function SiteHeader() {
               IGCSE & IB Tutoring
             </Link>
             <Link
-              href="#"
+              href="/free-demo"
               className="text-sm font-medium transition-colors hover:text-black/80"
             >
               Free Demo
             </Link>
+            <Link 
+            href="/sign-up-for-free"
+            >
             <Button className="bg-black text-white hover:bg-black/90 rounded">
               Sign up for free
             </Button>
+            </Link>
           </nav>
         </div>
       </div>

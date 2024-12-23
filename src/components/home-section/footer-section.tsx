@@ -20,7 +20,7 @@ const Footer = () => {
                         <span className="text-xl font-bold ml-2">Projectile 45</span>
                     </div>
                     <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 sm:flex-row sm:space-x-4">
-                        <Link href="/get-started">
+                        <Link href="/free-demo">
                             <Button
                                 className="bg-green-500 text-white hover:bg-green-600 focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
                             >

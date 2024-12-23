@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HeroSection: React.FC = () => {
   return (
@@ -21,9 +23,13 @@ const HeroSection: React.FC = () => {
         bring decades of experience to ensure you master complex concepts,
         think critically, and tackle challenges with confidence.
       </p>
-      <button className="bg-black text-white py-3 px-6 rounded text-base sm:text-lg shadow-lg hover:bg-gray-800">
+      <Link
+      href="/free-demo"
+      >
+      <Button className="bg-black text-white py-3 px-6 rounded text-base sm:text-lg shadow-lg hover:bg-gray-800">
         Book Your Free Demo Session Today
-      </button>
+      </Button>
+      </Link>
     </div>
 
     {/* Right Illustration */}
