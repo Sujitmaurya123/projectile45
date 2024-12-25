@@ -53,7 +53,7 @@ const TestPrepDropdown: React.FC = () => {
                       <li><Link href="/sat-Digital-Exam-PatternandFAQ">SAT Digital Exam Pattern and FAQ</Link></li>
                       <li><Link href="/sat-2024-25-test-dates">SAT 2024-25 Test DATES</Link></li>
                       <li><Link href="/sat-fees-structure">Fees Structure</Link></li>
-                    </ul>
+                     </ul>           
                   </div>
               
                   {/* IB Section */}
@@ -63,6 +63,8 @@ const TestPrepDropdown: React.FC = () => {
                       <li><Link href="/ib-curriculam">IB Curriculam</Link></li>
                       <li><Link href="/ib-course-coaching-details">Course Structure and Coaching Details</Link></li>
                       <li><Link href="/ib-online-coaching-technology">Online Coaching and Technology Integration</Link></li>
+                                <li><Link href="/ib-fees-scheduling-registration">Fees, Scheduling, and Registration</Link></li>
+                            
                     </ul>
                   </div>
               
@@ -70,14 +72,14 @@ const TestPrepDropdown: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-red-600 mb-2">GRE</h3>
                     <ul className="space-y-2">
-                      <li><Link href="/gre-prep-options">GRE Prep Options</Link></li>
-                      <li><Link href="/gre-practice-test">GRE Practice Test</Link></li>
+                      <li><Link href="/gre">GRE </Link></li>
+                      {/* <li><Link href="/gre-practice-test">GRE Practice Test</Link></li>
                       <li><Link href="/gre-online-prep">GRE Online Prep</Link></li>
                       <li><Link href="/gre-overview">GRE Overview</Link></li>
                       <li><Link href="/gre-wordsapp">GRE WordsApp</Link></li>
                       <li><Link href="/gre-syllabus">GRE Syllabus</Link></li>
                       <li><Link href="/gre-eligibility">GRE Eligibility 2024</Link></li>
-                      <li><Link href="/gre-test-series">GRE Test Series</Link></li>
+                      <li><Link href="/gre-test-series">GRE Test Series</Link></li> */}
                     </ul>
                   </div>
               
