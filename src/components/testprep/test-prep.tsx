@@ -60,6 +60,7 @@ const TestPrepDropdown: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-red-600 mb-2">IB</h3>
                     <ul className="space-y-2">
+                                <li><Link href="/ib">IB</Link></li> 
                       <li><Link href="/ib-curriculam">IB Curriculam</Link></li>
                       <li><Link href="/ib-course-coaching-details">Course Structure and Coaching Details</Link></li>
                       <li><Link href="/ib-online-coaching-technology">Online Coaching and Technology Integration</Link></li>
