@@ -59,7 +59,7 @@ export function SiteHeader() {
             <Link 
             href="/sign-up-for-free"
             >
-            <Button className="bg-black text-white hover:bg-black/90 rounded">
+            <Button className="bg-black text-white hover:bg-black/90  rounded-3xl">
               Sign up for free
             </Button>
             </Link>
@@ -91,55 +91,30 @@ function MobileNav() {
           <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto bg-green-100">
             <div>
               <h3 className="text-lg font-semibold text-red-600 mb-2">SAT</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="/about-sat">About SAT</Link>
-                </li>
-                <li>
-                  <Link href="/sat-Digital-Exam-PatternandFAQ">
-                    SAT Digital Exam Pattern and FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/sat-2024-25-test-dates">
-                    SAT 2024-25 Test DATES
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/sat-fees-structure">Fees Structure</Link>
-                </li>
+              <ul className="space-y-2">                            
+                    <li><Link href="/about-sat">About SAT</Link></li>
+                    <li><Link href="/sat-Digital-Exam-PatternandFAQ">SAT Digital Exam Pattern and FAQ</Link></li>
+                    <li><Link href="/sat-2024-25-test-dates">SAT 2024-25 Test DATES</Link></li>
+                    <li><Link href="/sat-fees-structure">Fees Structure</Link></li>               
               </ul>
             </div>
 
             <div className="mt-4">
               <h3 className="text-lg font-semibold text-red-600 mb-2">IB</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link href="/ib-curriculam">IB Curriculam</Link>
-                </li>
-                <li>
-                  <Link href="/ib-course-coaching-details">
-                    Course Structure and Coaching Details
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/ib-online-coaching-technology">
-                    Online Coaching and Technology Integration
-                  </Link>
-                </li>
+                <li><Link href="/ib">IB</Link></li>
+                <li><Link href="/ib-curriculam">IB Curriculam</Link></li>
+                <li><Link href="/ib-course-coaching-details">Course Structure and Coaching Details</Link></li>
+                <li><Link href="/ib-online-coaching-technology">Online Coaching and Technology Integration</Link></li>
+                <li><Link href="/ib-fees-scheduling-registration">Fees, Scheduling, and Registration</Link></li>
               </ul>
             </div>
 
             <div className="mt-4">
               <h3 className="text-lg font-semibold text-red-600 mb-2">GRE</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link href="/gre-prep-options">GRE Prep Options</Link>
-                </li>
-                <li>
-                  <Link href="/gre-practice-test">GRE Practice Test</Link>
-                </li>
-                <li>
+                <li><Link href="/gre">GRE </Link></li>
+                {/* <li>
                   <Link href="/gre-online-prep">GRE Online Prep</Link>
                 </li>
                 <li>
@@ -156,7 +131,7 @@ function MobileNav() {
                 </li>
                 <li>
                   <Link href="/gre-test-series">GRE Test Series</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 

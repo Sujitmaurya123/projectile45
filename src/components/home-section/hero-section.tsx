@@ -12,13 +12,13 @@ const HeroSection: React.FC = () => {
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
         Projectile 45: Your Launchpad to Academic Success
       </h1>
-      <p className="text-gray-700 text-base sm:text-lg mb-6 sm:mb-8">
+      <p className="text-gray-700 text-base sm:text-lg  text-justify sm:mb-2">
         In today&apos;s fast-changing world, your preparation should evolve with
         you. At Projectile 45, we transform IB, IGCSE, SAT, GMAT, and GRE
         preparation into an inspiring journey tailored to your unique
         learning style.
       </p>
-      <p className="text-gray-700 text-base sm:text-lg mb-6 sm:mb-8">
+      <p className="text-gray-700 text-base sm:text-lg text-justify sm:mb-2">
         Our expert educators, alumni of IITs, IIMs, and global institutions,
         bring decades of experience to ensure you master complex concepts,
         think critically, and tackle challenges with confidence.
