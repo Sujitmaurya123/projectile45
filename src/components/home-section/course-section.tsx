@@ -37,16 +37,16 @@ const courses: Course[] = [
 ];
 
 const CourseCard: React.FC<Course> = ({ name, logo, link }) => (
-    <div className="bg-white rounded-xl shadow-lg p-5 flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+    <div className=" bg-green-300 rounded-xl shadow-lg p-5 flex flex-col items-center hover:shadow-3xl transition-shadow duration-300">
         <div className="w-24 h-24 rounded-full bg-gray-100 flex items-center justify-center mb-4 overflow-hidden">
             <Image src={logo} alt={`${name} Logo`} width={80} height={80} objectFit="contain" />
         </div>
         <h2 className="text-lg font-semibold text-gray-800 mb-2">{name}</h2>
         <div className="flex flex-col sm:flex-col gap-3 mt-auto">
-            <Link href={link} className="inline-block text-white bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-lg font-medium transition duration-200 text-center">             
+            <Link href={link} className="inline-block text-white bg-green-500 hover:bg-green-700 px-6 py-2 rounded-xl font-medium transition duration-200 text-center">             
                     Explore Course              
             </Link>
-            <Link href={link} className="inline-block text-blue-500 hover:underline font-medium transition duration-200 text-center">                
+            <Link href={link} className=" font-bold inline-block text-blue-500 hover:underline  transition duration-200 text-center">                
                     Test Prep →              
             </Link>
         </div>

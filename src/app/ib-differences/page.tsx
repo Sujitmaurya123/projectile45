@@ -123,7 +123,7 @@ const IBComparison: React.FC = () => {
     );
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 text-justify">
             <h2 className="text-2xl font-bold mb-4">Introduction to Key Differences Between IB and Other Curricula</h2>
             <p className="mb-4">
                 The International Baccalaureate (IB) program offers a unique and

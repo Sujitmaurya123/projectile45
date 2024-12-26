@@ -2,7 +2,7 @@ import React from 'react';
 
 const IBStructure: React.FC = () => {
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 text-justify">
             {/* Introduction to the Structure of the IB Program */}
             <div className="mb-8">
                 <h2 className="text-xl font-bold mb-4">

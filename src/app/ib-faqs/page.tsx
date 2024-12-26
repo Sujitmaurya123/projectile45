@@ -181,7 +181,7 @@ const IBFAQ: React.FC = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 text-justify">
             <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions (FAQs) About the IB Curriculum</h2>
             <p className="mb-4">
                 The International Baccalaureate (IB) curriculum is often surrounded by

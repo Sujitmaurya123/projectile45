@@ -7,7 +7,7 @@ const IBCore: React.FC = () => {
 
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 text-justify">
 
             <h1 className="text-2xl font-bold mb-4">
                 1. Introduction to the Core Components of the IB Diploma
