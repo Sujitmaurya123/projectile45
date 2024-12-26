@@ -2,7 +2,7 @@ import React from 'react';
 
 const IBExamPreparation: React.FC = () => {
     return (
-        <div className="container mx-auto p-4 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify">
             {/* Study Tips and Strategies for Success */}
             <div className="mb-8">
                 <h2 className="text-xl font-bold mb-4">Study Tips and Strategies for Success</h2>

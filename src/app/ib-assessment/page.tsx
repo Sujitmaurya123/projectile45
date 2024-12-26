@@ -3,7 +3,7 @@ import React from 'react';
 
 const IBAssessmentSystem: React.FC = () => {
     return (
-        <div className="container mx-auto p-4 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify">
             <h1 className="text-2xl font-bold mb-4">
                 4. Introduction to the IB Assessment System
             </h1>

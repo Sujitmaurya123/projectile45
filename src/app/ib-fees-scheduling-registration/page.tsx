@@ -293,7 +293,7 @@ const CombinedFAQPage: React.FC = () => {
     
 
     return (
-        <div>
+        <div className=' container mx-auto px-14 py-5 text-justify'>
             <FAQ faqs={coachingFAQs} title="Coaching FAQs" />
             <FAQ faqs={classStructureFAQs} title="Class Structure and Student Interaction" />
             <FAQ faqs={curriculumFAQs} title="IB Curriculum Alignment and Syllabus Coverage" />

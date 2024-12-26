@@ -2,7 +2,7 @@ import React from 'react';
 
 const IBUniversityRecognition: React.FC = () => {
     return (
-        <div className="container mx-auto p-4 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify">
             <h2 className="text-2xl font-bold mb-4">
                 Introduction to University Recognition of the IB Diploma
             </h2>
