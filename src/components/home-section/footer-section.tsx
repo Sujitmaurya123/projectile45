@@ -5,8 +5,8 @@ import { Button } from '../ui/button';
 
 const Footer = () => {
     return (
-        <footer className="bg-green-100 py-8">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <footer className=" py-8  bg-slate-100 shadow-lg">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 shadow-lg">
                 {/* Logo and Get Started Section */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <div className="flex flex-row  items-center mb-4">
@@ -19,17 +19,17 @@ const Footer = () => {
                         />
                         <span className="text-xl font-bold ml-2">Projectile 45</span>
                     </div>
-                    <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 sm:flex-row sm:space-x-4">
+                    <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 sm:flex-row sm:space-x-4 mb-2">
                         <Link href="/free-demo">
                             <Button
-                                className="bg-green-500 text-white hover:bg-green-600 focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
+                                className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
                             >
                                 Get Started for Free
                             </Button>
                         </Link>
                         <Link href="/contact">
                             <Button
-                                className="bg-green-500 text-white hover:bg-green-600 focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
+                                className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
                             >
                                 Contacts
                             </Button>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
 
                 {/* Company Links */}
-                <div className="flex flex-col items-center md:items-start">
+                <div className="flex flex-col items-center md:items-start  ">
                     <h3 className="text-lg font-semibold mb-4">Company</h3>
                     <Link href="/about-us">About us</Link>
                     <Link href="/careers">Careers</Link>
