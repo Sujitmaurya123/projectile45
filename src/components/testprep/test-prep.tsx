@@ -36,7 +36,7 @@ const TestPrepDropdown: React.FC = () => {
         >
             {/* Trigger Button */}
             <Button className="text-sm font-medium transition-colors hover:text-black/80">
-                Test Prep
+                Test Prep {isOpen ? "▲" : "▼"}
             </Button>
 
             {/* Dropdown Content */}
