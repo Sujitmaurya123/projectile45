@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Button } from "../ui/button";
+
 
 const TestPrepDropdown: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,14 +35,14 @@ const TestPrepDropdown: React.FC = () => {
             ref={dropdownRef}
         >
             {/* Trigger Button */}
-            <Button className="text-sm font-medium transition-colors hover:text-black/80">
-                Test Prep
-            </Button>
+            <span className="text-xl font-medium transition-colors hover:text-black/80 flex justify-center  cursor-pointer">
+          Test Prep{isOpen ? "▲" : "▼"}
+            </span>
 
             {/* Dropdown Content */}
             {isOpen && (
                 <div
-                className="absolute left-1/2 transform -translate-x-1/2 mt-2  w-[600px] bg-white shadow-lg border rounded-lg p-4 z-50 transition-all ease-in-out duration-300"
+                className="absolute left-1/2 transform -translate-x-1/2 mt-2  w-[600px] bg-white shadow-lg border rounded-lg p-4 z-50 transition-all ease-in-out duration-300 text-gray-600"
               >
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   {/* SAT Section */}

@@ -37,16 +37,16 @@ const courses: Course[] = [
 ];
 
 const CourseCard: React.FC<Course> = ({ name, logo, link }) => (
-    <div className=" bg-green-300 rounded-xl shadow-lg p-5 flex flex-col items-center hover:shadow-3xl transition-shadow duration-300">
-        <div className="w-24 h-24 rounded-full bg-gray-100 flex items-center justify-center mb-4 overflow-hidden">
+    <div className=" bg-white rounded-xl shadow-lg p-5 flex flex-col items-center hover:shadow-3xl transition-shadow duration-300">
+        <div className="w-24 h-24 rounded-full  flex items-center justify-center mb-4 overflow-hidden">
             <Image src={logo} alt={`${name} Logo`} width={80} height={80} objectFit="contain" />
         </div>
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">{name}</h2>
+        <h2 className="text-lg font-semibold text-purple-900 mb-2">{name}</h2>
         <div className="flex flex-col sm:flex-col gap-3 mt-auto">
-            <Link href={link} className="inline-block text-white bg-green-500 hover:bg-green-700 px-6 py-2 rounded-xl font-medium transition duration-200 text-center">             
+            <Link href={link} className="inline-block bg-gray-100 text-purple-500 hover:bg-purple-700 hover:text-white px-6 py-2 rounded-xl shadow-lg font-medium transition duration-200 text-center">             
                     Explore Course              
             </Link>
-            <Link href={link} className=" font-bold inline-block text-blue-500 hover:underline  transition duration-200 text-center">                
+            <Link href={link} className=" font-bold inline-block text-purple-500 hover:underline  transition duration-200 text-center">                
                     Test Prep →              
             </Link>
         </div>
@@ -55,11 +55,11 @@ const CourseCard: React.FC<Course> = ({ name, logo, link }) => (
 
 const CourseSection: React.FC = () => {
     return (
-        <div className="container mx-auto p-8 bg-gray-50 flex flex-col items-center">
-            <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
+        <div className="container mx-auto p-8  flex flex-col items-center">
+            <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center ">
                 All the skills you need in one place
             </h1>
-            <p className="text-lg text-gray-600 mb-10 text-center max-w-3xl">
+            <p className="text-lg text-gray-500 mb-10 text-center max-w-3xl font-bold">
                 From critical skills to technical topics, EdTech supports your professional development. Choose the
                 right course to enhance your journey.
             </p>

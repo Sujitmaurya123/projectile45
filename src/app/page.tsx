@@ -8,7 +8,7 @@ import MissionSection from "@/components/home-section/mission-section";
 import FirstStripSection from "@/components/home-section/strip-section-1";
 export default function Home() {
   return (
-    <div>
+    <div  >
      <HeroSection/>
      <FirstStripSection/>
      <CourseSection/>
