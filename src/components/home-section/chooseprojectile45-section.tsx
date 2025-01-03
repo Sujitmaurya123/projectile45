@@ -27,8 +27,8 @@ const benefits: Projectile45Benefit[] = [
 
 const Projectile45Benefits = () => {
     return (
-        <section className="bg-blue-500 py-16">
-            <div className="container px-6 md:px-10 lg:px-20 mx-auto text-center text-white">
+        <section className="text-black py-16">
+            <div className="container px-6 md:px-10 lg:px-20 mx-auto text-center ">
                 <h2 className="text-3xl font-bold mb-8">Why Choose - Projectile 45</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {benefits.map((benefit, index) => (
