@@ -87,8 +87,8 @@ export function SiteHeader() {
               <span className="sr-only">Toggle Menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="left" className="pr-0 bg-green-400 dark:bg-gray-900 z-50">
-            <SheetTitle className="text-left">Projectile 45</SheetTitle>
+          <SheetContent side="left" className="pr-0 bg-purple-200 dark:bg-gray-900 z-50">
+            <SheetTitle className="text-left text-3xl text-gray-700 ml-3">Projectile 45</SheetTitle>
             <MobileNav />
           </SheetContent>
         </Sheet>
@@ -99,13 +99,13 @@ export function SiteHeader() {
 
             <Link
               href="/igcseibtutoring"
-              className="text-sm font-medium transition-colors hover:text-black/80"
+              className="text-base font-medium lg:text-xl  transition-colors hover:text-black/80"
             >
               IGCSE & IB Tutoring
             </Link>
             <Link
               href="/free-demo"
-              className="text-sm font-medium transition-colors hover:text-black/80"
+              className="text-base   lg:text-xl font-medium transition-colors hover:text-black/80 "
             >
               Free Demo
             </Link>
@@ -341,17 +341,17 @@ function MobileNav() {
   };
 
   return (
-    <div className="flex flex-col space-y-3 p-4">
+    <div className="flex flex-col space-y-3 p-4 mt-6 ml-2 text-gray-700">
       {/* Test Prep Section */}
       <div>
         <button
           onClick={toggleTestPrep}
-          className="w-full text-left text-sm font-medium transition-colors hover:text-black/80 focus:outline-none"
+          className="w-full text-left text-xl font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
         >
           Test Prep {isTestPrepOpen ? "▲" : "▼"}
         </button>
         {isTestPrepOpen && (
-          <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto bg-green-100">
+          <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
             <div>
               <h3 className="text-lg font-semibold text-red-600 mb-2">SAT</h3>
               <ul className="space-y-2">
@@ -456,19 +456,23 @@ function MobileNav() {
       {/* Other Navigation Links */}
       <Link
         href="/igcseibtutoring"
-        className="text-sm font-medium transition-colors hover:text-black/80"
+        className="text-xl font-medium transition-colors hover:text-black/80"
       >
         IGCSE & IB Tutoring
       </Link>
       <Link
         href="/free-demo"
-        className="text-sm font-medium transition-colors hover:text-black/80"
+        className="text-xl font-medium transition-colors hover:text-black/80"
       >
         Free Demo
       </Link>
-      <Button className="bg-black text-white hover:bg-black/90">
-        Sign up for free
-      </Button>
+      <Link
+        href="/sign-up-for-free"
+      >
+        <Button className="  text-purple-600 bg-white  hover:bg-purple-700 hover:text-white rounded-2xl text-xl">
+          Sign up for free
+        </Button>
+      </Link>
     </div>
   );
 }
