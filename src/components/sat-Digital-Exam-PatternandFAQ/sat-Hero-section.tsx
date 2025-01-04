@@ -5,11 +5,11 @@ import Image from 'next/image';
 const SATHero = () => {
     return (
         <div className="container mx-auto p-4 md:p-8">
-            <h1 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center text-gray-700">
+            <h1 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">
                 SAT Digital Exam Pattern 2024
             </h1>
 
-            <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-600 ">
+            <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-8 ">
                 <div>
                     <p className="text-base text-justify md:text-lg leading-relaxed ">
                         The SAT Exam Pattern for the year 2024-2025 has undergone major changes to

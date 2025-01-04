@@ -25,7 +25,7 @@ const SATReadingWritingFees: React.FC = () => {
     ];
 
     return (
-        <div className="p-6 font-sans container mx-auto max-w-6xl">
+        <div className="p-6 font-sans container mx-auto max-w-2xl">
             <h1 className="text-2xl font-bold mb-4 text-center">SAT Course Information</h1> {/* Example title */}
             
        
