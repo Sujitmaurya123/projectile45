@@ -36,7 +36,7 @@ const SATRWPackageComparison: React.FC = () => {
     ];
 
     return (
-        <div className="p-6 font-sans container mx-auto max-w-3xl">
+        <div className="p-6 font-sans container mx-auto max-w-6xl">
            
         
         <div>

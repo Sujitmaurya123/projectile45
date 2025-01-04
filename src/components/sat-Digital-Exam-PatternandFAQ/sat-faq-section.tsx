@@ -181,7 +181,7 @@ const FAQsPage: React.FC = () => {
         },
     ];
     return (
-        <div className="p-6 font-sans container mx-auto max-w-2xl"> {/* Added container for centering */}
+        <div className="p-6 font-sans container mx-auto max-w-6xl"> {/* Added container for centering */}
             <h1 className="text-xl font-bold mb-8 text-center">FAQs for the SAT New Digital Format (2024-2025)</h1>
             <FAQSection faqs={faqs} />
         </div>
