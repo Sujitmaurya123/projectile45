@@ -25,7 +25,7 @@ import {
 } from "@/components/ui/select";
 
 export function SiteHeader() {
-  const [isOpen, setIsOpen] = useState(true); // Popup is open by default for demo purposes
+  const [isOpen, setIsOpen] = useState(false); // Popup is open by default for demo purposes
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
