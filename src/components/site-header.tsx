@@ -61,9 +61,9 @@ export function SiteHeader() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-500 pr-4">
+    <header className="sticky top-0 z-50 w-full border-b bg-green-400 pr-4">
       <div className="container flex h-16 items-center w-auto justify-between">
-        <div className="ml-[80px] mr-4 flex items-center md:mr-6">
+        <div className="ml-4 mr-4 flex items-center md:mr-6">
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo_projectile45.jpg"
@@ -73,7 +73,7 @@ export function SiteHeader() {
               style={{ objectFit: "cover" }}
               className="h-8 w-auto rounded-full"
             />
-            <span className="text-2xl font-bold">Projectile 45</span>
+            <span className="text-xl font-bold">Projectile 45</span>
           </Link>
         </div>
         {/* Mobile Navigation */}
@@ -87,13 +87,8 @@ export function SiteHeader() {
               <span className="sr-only">Toggle Menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent
-            side="left"
-            className="pr-0 bg-green-400 dark:bg-gray-900 z-50"
-          >
-            <SheetTitle className="text-left text-2xl">
-              Projectile 45
-            </SheetTitle>
+          <SheetContent side="left" className="pr-0 bg-green-400 dark:bg-gray-900 z-50">
+            <SheetTitle className="text-left">Projectile 45</SheetTitle>
             <MobileNav />
           </SheetContent>
         </Sheet>
@@ -104,13 +99,13 @@ export function SiteHeader() {
 
             <Link
               href="/igcseibtutoring"
-              className="text-xl font-medium transition-colors hover:text-black/80"
+              className="text-sm font-medium transition-colors hover:text-black/80"
             >
               IGCSE & IB Tutoring
             </Link>
             <Link
               href="/free-demo"
-              className="text-xl font-medium transition-colors hover:text-black/80"
+              className="text-sm font-medium transition-colors hover:text-black/80"
             >
               Free Demo
             </Link>
@@ -119,6 +114,7 @@ export function SiteHeader() {
               className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl"
               onClick={() => setIsOpen(true)}
             >
+            <Button className="bg-black text-white hover:bg-black/90 rounded">
               Sign up for free
             </Button>
           </nav>
@@ -348,12 +344,12 @@ function MobileNav() {
     <div className="flex flex-col space-y-3 p-4">
       {/* Test Prep Section */}
       <div>
-        <span
+        <button
           onClick={toggleTestPrep}
-          className="w-full text-left text-sm font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+          className="w-full text-left text-sm font-medium transition-colors hover:text-black/80 focus:outline-none"
         >
           Test Prep {isTestPrepOpen ? "▲" : "▼"}
-        </span>
+        </button>
         {isTestPrepOpen && (
           <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto bg-green-100">
             <div>
@@ -382,9 +378,6 @@ function MobileNav() {
               <h3 className="text-lg font-semibold text-red-600 mb-2">IB</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/ib">IB</Link>
-                </li>
-                <li>
                   <Link href="/ib-curriculam">IB Curriculam</Link>
                 </li>
                 <li>
@@ -397,11 +390,6 @@ function MobileNav() {
                     Online Coaching and Technology Integration
                   </Link>
                 </li>
-                <li>
-                  <Link href="/ib-fees-scheduling-registration">
-                    Fees, Scheduling, and Registration
-                  </Link>
-                </li>
               </ul>
             </div>
 
@@ -409,9 +397,12 @@ function MobileNav() {
               <h3 className="text-lg font-semibold text-red-600 mb-2">GRE</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/gre">GRE </Link>
+                  <Link href="/gre-prep-options">GRE Prep Options</Link>
                 </li>
-                {/* <li>
+                <li>
+                  <Link href="/gre-practice-test">GRE Practice Test</Link>
+                </li>
+                <li>
                   <Link href="/gre-online-prep">GRE Online Prep</Link>
                 </li>
                 <li>
@@ -428,7 +419,7 @@ function MobileNav() {
                 </li>
                 <li>
                   <Link href="/gre-test-series">GRE Test Series</Link>
-                </li> */}
+                </li>
               </ul>
             </div>
 

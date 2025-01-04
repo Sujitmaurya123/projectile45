@@ -38,7 +38,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "min-h-screen bg-gradient-to-br from-pink-40 to-purple-200 font-sans antialiased"
+          "min-h-screen bg-background font-sans antialiased"
         )}
       >
         <div className="relative flex min-h-screen flex-col">

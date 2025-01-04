@@ -49,9 +49,7 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			},
-			'navcolors':'#8D77AB',
-			'backcolors':'linear-gradient(to bottom right, #F8E9F9, #D6C4E1)'
+  			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -62,4 +60,3 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-

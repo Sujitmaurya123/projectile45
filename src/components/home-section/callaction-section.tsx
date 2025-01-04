@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const CallToActionSection = () => {
     return (
-        <section className=" py-16">
+        <section className="bg-gray-100 py-16">
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image
@@ -17,15 +17,15 @@ const CallToActionSection = () => {
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0">
-                    <h2 className="text-3xl font-bold mb-4 text-gray-700">
+                    <h2 className="text-3xl font-bold mb-4">
                         Are you ready to take the next step toward your goals?
                     </h2>
-                    <p className="text-lg text-gray-500">
+                    <p className="text-lg">
                         Join us to transform your test preparation—because the future belongs to
                         those who dare to dream big.
                     </p>
                     <Link  href="free-demo">
-                    <Button className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white font-bold py-2 px-4 rounded mt-4">
+                    <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">
                         Get Started
                     </Button>
                     </Link>
