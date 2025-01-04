@@ -4,14 +4,15 @@ import { Metadata } from "next"
 import { cn } from "@/lib/utils"
 
 import { SiteHeader } from "@/components/site-header"
+import Footer from "@/components/home-section/footer-section"
 
 // Define the metadata for the app
 export const metadata: Metadata = {
   title: {
-    default: 'My App',
-    template: '%s | My App',
+    default: 'Projectile45',
+    template: '%s | Projectile45',
   },
-  description: 'Welcome to my app',
+  description: 'Welcome to Projectile45',
   icons: {
     icon: "/favicon.ico", // Ensure this file exists in your public directory
     shortcut: "/logo_projectile45.jpg", // Ensure this file exists in your public directory
@@ -37,13 +38,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased"
+          "min-h-screen bg-gradient-to-br from-pink-40 to-purple-200 font-sans antialiased"
         )}
       >
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader />
          
           <div className="flex-1">{children}</div>
+          <Footer/>
         </div>
       </body>
     </html>
