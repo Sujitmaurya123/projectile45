@@ -29,7 +29,7 @@ const Projectile45Benefits = () => {
     return (
         <section className="text-black py-16">
             <div className="container px-6 md:px-10 lg:px-20 mx-auto text-center ">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800">Why Choose - Projectile 45</h2>
+                <h2 className="text-3xl font-bold mb-8">Why Choose - Projectile 45</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {benefits.map((benefit, index) => (
                         <div key={index} className="flex flex-col items-center">
@@ -40,8 +40,8 @@ const Projectile45Benefits = () => {
                                 height={100}
                                 className="mb-4"
                             />
-                            <h3 className="text-xl font-semibold mb-2 text-gray-900">{benefit.title}</h3>
-                            <p className="text-lg text-gray-700">{benefit.description}</p>
+                            <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
+                            <p className="text-lg">{benefit.description}</p>
                         </div>
                     ))}
                 </div>

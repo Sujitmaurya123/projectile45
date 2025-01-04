@@ -98,7 +98,7 @@ const ibData: IBSection[] = [
 
 const IBTableOfContents: React.FC = () => {
     return (
-        <div className="container mx-auto py-16 px-4">
+        <div className="container mx-auto p-4">
             <h1 className="text-2xl font-bold mb-4">IB- Table of Contents</h1>
             <ul className="list-decimal pl-6">
                 {ibData.map((section, index) => (
