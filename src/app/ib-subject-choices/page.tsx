@@ -187,7 +187,7 @@ const subjectGroups: SubjectGroup[] = [
 
 const IBSubjectChoices: React.FC = () => {
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             <h2 className="text-2xl font-bold mb-4">Introduction to Subject Choices in the IB Diploma</h2>
             <p className="mb-4">
                 The International Baccalaureate Diploma Program (IBDP) is renowned for
@@ -203,7 +203,7 @@ const IBSubjectChoices: React.FC = () => {
 
             {subjectGroups.map((group, index) => (
                 <div key={index} className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">{group.name}</h3>
+                    <h3 className="text-xl font-semibold mb-4" id= {`group-${index+1}`}>{group.name}</h3>
                     <p className="mb-4">{group.description}</p>
                     {group.keyFeatures.map((feature, featureIndex) => (
                         <div key={featureIndex} className="mb-2">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const IBStructure: React.FC = () => {
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             {/* Introduction to the Structure of the IB Program */}
             <div className="mb-8">
                 <h2 className="text-xl font-bold mb-4">
@@ -25,7 +25,7 @@ const IBStructure: React.FC = () => {
 
             {/* The IB Primary Years Program (PYP) */}
             <div>
-                <h2 className="text-xl font-bold mb-4">The IB Primary Years Program (PYP)</h2>
+                <h2 className="text-xl font-bold mb-4" id='pyp'>The IB Primary Years Program (PYP)</h2>
                 <p className="mb-4">
                     The Primary Years Program (PYP) is the first stage of the IB continuum
                     and is designed for students aged 3 to 12. This program focuses on
@@ -63,7 +63,7 @@ const IBStructure: React.FC = () => {
             </div>
             {/* The IB Middle Years Program (MYP) */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">The IB Middle Years Program (MYP)</h2>
+                <h2 className="text-xl font-bold mb-4" id='myp'>The IB Middle Years Program (MYP)</h2>
                 <p className="mb-4">
                     The Middle Years Program (MYP) is designed for students aged 11 to 16
                     and serves as a bridge between the PYP and the DP. The MYP builds on
@@ -103,7 +103,7 @@ const IBStructure: React.FC = () => {
 
             {/* The IB Diploma Program (DP) */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">The IB Diploma Program (DP)</h2>
+                <h2 className="text-xl font-bold mb-4" id='dp'>The IB Diploma Program (DP)</h2>
                 <p className="mb-4">
                     The Diploma Program (DP) is the flagship of the IB and is designed
                     for students aged 16 to 19. The DP is known for its rigor and
@@ -146,7 +146,7 @@ const IBStructure: React.FC = () => {
 
             {/* The IB Career-related Program (CP) */}
             <div>
-                <h2 className="text-xl font-bold mb-4">The IB Career-related Program (CP)</h2>
+                <h2 className="text-xl font-bold mb-4" id='cp'>The IB Career-related Program (CP)</h2>
                 <p className="mb-4">
                     The Career-related Program (CP) is designed for students aged 16 to
                     19 who want to pursue a more career-focused pathway while still

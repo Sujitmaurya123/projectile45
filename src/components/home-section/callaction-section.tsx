@@ -17,7 +17,7 @@ const CallToActionSection = () => {
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0">
-                    <h2 className="text-3xl font-bold mb-4 text-gray-700">
+                    <h2 className="text-3xl font-bold mb-4 text-headingcol">
                         Are you ready to take the next step toward your goals?
                     </h2>
                     <p className="text-lg text-gray-500">

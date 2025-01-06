@@ -1,9 +1,14 @@
+"use client"
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "../ui/button";
-import Link from "next/link";
+
+import { FreeDemo } from "../free-demo-signup/FreeDemo";
 
 const HeroSection: React.FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <section className=" py-16">
   <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col-reverse lg:flex-row items-center">
@@ -23,13 +28,12 @@ const HeroSection: React.FC = () => {
         bring decades of experience to ensure you master complex concepts,
         think critically, and tackle challenges with confidence.
       </p>
-      <Link
-      href="/free-demo"
-      >
-            <Button className="text-purple-900 bg-white py-3 px-6 mt-10 rounded-full text-base sm:text-lg shadow-lg hover:bg-purple-900 hover:text-white ">
+      
+          <Button onClick={() => setIsOpen(true)}
+             className="text-purple-900 bg-white py-3 px-6 mt-10 rounded-full text-base sm:text-lg shadow-lg hover:bg-purple-900 hover:text-white ">
         Book Your Free Demo Session Today
       </Button>
-      </Link>
+     
     </div>
 
     {/* Right Illustration */}
@@ -37,12 +41,13 @@ const HeroSection: React.FC = () => {
       <Image
         src="/images/heroimagess.png"
         alt="Illustration"
-        className="max-w-full mx-auto lg:mx-0 float-right "
+            className="max-w-full mx-auto lg:mx-0 float-right opacity-75 "
         width={450}
         height={450}
       />
     </div>
   </div>
+   {isOpen && <FreeDemo  setIsOpen={setIsOpen} /> }
 </section>
   );
 };

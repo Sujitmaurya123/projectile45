@@ -24,11 +24,11 @@ const FirstStripSection: React.FC = () => {
         </div>
 
         {/* Right Illustration */}
-        <div className="lg:w-1/4 mb-10 lg:mb-0 mr-12 ml-5">
+          <div className="lg:w-1/4 mb-10 lg:mb-0 mr-12 ml-5  ">
           <Image
             src="/images/Online-Learning-1--Streamline-Milano.svg"
             alt="Illustration"
-            className="max-w-full mx-auto lg:mx-0 float-left "
+              className="max-w-full mx-auto lg:mx-0 float-left "
             width={300}
             height={400}
           />

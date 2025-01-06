@@ -2,8 +2,8 @@ import { FC } from "react";
 
 const SATJourney: FC = () => {
     return (
-        <div className="bg-gray-50 min-h-screen flex flex-col justify-center">
-            <div className="container mx-auto p-4">
+        <div className="bg-gray-50  flex flex-col justify-centermax-w-6xl items-center">
+            <div className="container mx-auto p-4 max-w-6xl">
                 <header className="text-center py-6">
                     <h1 className="text-3xl font-bold text-indigo-700">A Fun Journey Through the Digital SAT 2024</h1>
                     <p className="mt-2 text-lg text-gray-700">Join Lexi and Jake as they explore the Digital SAT in an interactive way!</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const IBExamPreparation: React.FC = () => {
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             {/* Study Tips and Strategies for Success */}
             <div className="mb-8">
                 <h2 className="text-xl font-bold mb-4">Study Tips and Strategies for Success</h2>
@@ -15,7 +15,7 @@ const IBExamPreparation: React.FC = () => {
                 </p>
 
                 <div className="ml-6 mb-4">
-                    <h3 className="text-lg font-semibold mb-2">Key Strategies:</h3>
+                    <h3 className="text-lg font-semibold mb-2" id='study-tips'>Key Strategies:</h3>
                     <ol className="list-decimal pl-6">
                         <li className="mb-2">
                             <span className="font-semibold">Plan and Prioritize:</span> Create
@@ -64,7 +64,7 @@ const IBExamPreparation: React.FC = () => {
 
             {/* Understanding IB Exam Patterns and Marking Schemes */}
             <div>
-                <h2 className="text-xl font-bold mb-4">Understanding IB Exam Patterns and Marking Schemes</h2>
+                <h2 className="text-xl font-bold mb-4" id='exam-patterns'>Understanding IB Exam Patterns and Marking Schemes</h2>
                 <p className="mb-4">
                     The structure of the IB exams is unique, with each subject having
                     its own set of assessments designed to measure students&apos;
@@ -141,7 +141,7 @@ const IBExamPreparation: React.FC = () => {
                 </div>
                 <p>Understanding the format and weight of each type of exam helps you to allocate study time effectively and tailor your revision to the specific needs of each subject.</p>
             </div>
-            <h2 className="text-2xl font-bold mb-4">How to Manage Stress During Exam Periods</h2>
+            <h2 className="text-2xl font-bold mb-4" id='exam-stress-management'>How to Manage Stress During Exam Periods</h2>
             <p className="mb-4">
                 Stress management is a critical aspect of preparing for the IB exams, as
                 the pressure of balancing multiple subjects and assignments can be

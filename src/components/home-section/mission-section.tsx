@@ -15,7 +15,7 @@ const MissionSection = () => {
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0 ">
-                    <h2 className="text-3xl font-bold mb-4 text-justify text-gray-700">Every child deserves the chance to learn.</h2>
+                    <h2 className="text-3xl font-bold mb-4 text-justify text-headingcol">Every child deserves the chance to learn.</h2>
                     <p className="text-lg text-justify text-gray-600">
                         Through real-time feedback, adaptive practice, and global resources, we make sure you&apos;re ready to excel in every section of your test.
                     </p>

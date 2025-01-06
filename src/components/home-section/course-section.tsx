@@ -56,7 +56,7 @@ const CourseCard: React.FC<Course> = ({ name, logo, link }) => (
 const CourseSection: React.FC = () => {
     return (
         <div className="container mx-auto p-8  flex flex-col items-center">
-            <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center ">
+            <h1 className="text-4xl font-bold text-headingcol mb-6 text-center ">
                 All the skills you need in one place
             </h1>
             <p className="text-lg text-gray-500 mb-10 text-center max-w-3xl font-bold">

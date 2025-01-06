@@ -1,46 +1,28 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 
 const TestPrepDropdown: React.FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const dropdownRef = useRef<HTMLDivElement>(null);
+    const [isTestPrepOpen, setIsTestPrepOpen] = useState(false);
+    
 
-    const handleMouseEnter = () => {
-        setIsOpen(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsOpen(false);
-    };
-
-    // Close the dropdown if clicked outside
-    useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-                setIsOpen(false);
-            }
-        };
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, []);
+  const toggleTestPrep = () => {
+    setIsTestPrepOpen((prev) => !prev);
+  };
 
     return (
         <div
             className="relative"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            ref={dropdownRef}
+           
         >
             {/* Trigger Button */}
-            <span className="text-xl font-medium transition-colors hover:text-black/80 flex justify-center  cursor-pointer">
-          Test Prep{isOpen ? "▲" : "▼"}
+        <span onClick={toggleTestPrep}
+             className="lg:text-xl text-balance  font-medium transition-colors hover:text-black/80 flex justify-center  cursor-pointer">
+          Test Prep{isTestPrepOpen ? "▲" : "▼"}
             </span>
 
             {/* Dropdown Content */}
-            {isOpen && (
+        {isTestPrepOpen && (
                 <div
                 className="absolute left-1/2 transform -translate-x-1/2 mt-2  w-[600px] bg-white shadow-lg border rounded-lg p-4 z-50 transition-all ease-in-out duration-300 text-gray-600"
               >

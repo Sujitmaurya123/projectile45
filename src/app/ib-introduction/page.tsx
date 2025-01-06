@@ -3,7 +3,7 @@ import React from 'react';
 
 const IBIntroduction: React.FC = () => {
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             <h1 className="text-2xl font-bold mb-4">1. Introduction to the IB Curriculum</h1>
 
             <p className="mb-4">
@@ -18,7 +18,7 @@ const IBIntroduction: React.FC = () => {
                 philosophy, and the many benefits it offers students.
             </p>
 
-            <h2 className="text-xl font-semibold mb-2">Overview of the IB Program</h2>
+            <h2 className="text-xl font-semibold mb-2" id='overview'>Overview of the IB Program</h2>
             <p className="mb-4">
                 The International Baccalaureate (IB) program was founded in 1968 with
                 the goal of providing a high-quality education to students of different
@@ -54,7 +54,7 @@ const IBIntroduction: React.FC = () => {
                 from multiple perspectives.
             </p>
 
-            <h2 className="text-xl font-semibold mb-2">
+            <h2 className="text-xl font-semibold mb-2" id='keyprinciples'>
                 Key Principles and Philosophy of the IB
             </h2>
             <p className="mb-4">
@@ -93,7 +93,7 @@ const IBIntroduction: React.FC = () => {
             <p className="mb-4">The underlying philosophy of the IB encourages both academic excellence and the cultivation of values such as respect, integrity, and responsibility. These principles make the IB an educational pathway focused on holistic development and preparing students for success in the 21st century.</p>
             {/* Benefits of Choosing the IB Pathway */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Benefits of Choosing the IB Pathway</h2>
+                <h2 className="text-xl font-bold mb-4" id=' benefits'>Benefits of Choosing the IB Pathway</h2>
                 <p className="mb-4">
                     Choosing the International Baccalaureate (IB) pathway offers a host of
                     benefits for students, including the development of a well-rounded

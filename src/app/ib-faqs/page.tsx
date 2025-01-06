@@ -178,10 +178,10 @@ const IBFAQ: React.FC = () => {
 
     const toggleFAQ = (index: number) => {
         setOpenFAQ(openFAQ === index ? null : index);
-    };
+    }; 
 
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions (FAQs) About the IB Curriculum</h2>
             <p className="mb-4">
                 The International Baccalaureate (IB) curriculum is often surrounded by

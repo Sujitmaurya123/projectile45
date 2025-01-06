@@ -15,7 +15,7 @@ const HelpGrowSection = () => {
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0">
-                    <h2 className="text-3xl font-bold mb-4 text-gray-700">Help them grow their own way</h2>
+                    <h2 className="text-3xl font-bold mb-4 text-headingcol">Help them grow their own way</h2>
                     <p className="text-lg text-justify text-gray-500">
                         Our online tutoring service is tailored for students preparing for the SAT, GMAT, and GRE. We don&apos;t just teach strategies—we ignite critical thinking, sharpen problem-solving skills, and build confidence to tackle these competitive exams head-on.
                     </p>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const IBAssessmentSystem: React.FC = () => {
     return (
-        <div className="container mx-auto px-14 py-5 text-justify">
+        <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             <h1 className="text-2xl font-bold mb-4">
                 4. Introduction to the IB Assessment System
             </h1>
@@ -22,7 +22,7 @@ const IBAssessmentSystem: React.FC = () => {
 
             {/* Grading Scale and Criteria */}
             <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4">Grading Scale and Criteria</h2>
+                <h2 className="text-xl font-semibold mb-4" id='grading-scale'>Grading Scale and Criteria</h2>
                 <p className="mb-4">
                     The IB grading scale for the Diploma Program (DP) uses a numerical
                     system from 1 to 7, with 7 being the highest score possible. This
@@ -55,7 +55,7 @@ const IBAssessmentSystem: React.FC = () => {
 
             {/* Internal vs. External Assessments */}
             <div>
-                <h2 className="text-xl font-semibold mb-4">
+                <h2 className="text-xl font-semibold mb-4" id='internal-external'>
                     Internal vs. External Assessments
                 </h2>
                 <p className="mb-4">
@@ -98,7 +98,7 @@ const IBAssessmentSystem: React.FC = () => {
                     exploration of a student&apos;s work throughout the year.
                 </p>
             </div>
-            <h2 className="text-xl font-bold mb-4">Understanding Your IB Scores</h2>
+            <h2 className="text-xl font-bold mb-4" id='ib-scores'>Understanding Your IB Scores</h2>
 
             <p className="mb-4">
                 Once the assessments are completed, students receive their final IB

@@ -13,52 +13,16 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import TestPrepDropdown from "./testprep/test-prep";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-// import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
-import {
-  Select,
-  SelectTrigger,
-  SelectContent,
-  SelectItem,
-} from "@/components/ui/select";
+
+
+import { FreeDemo } from "./free-demo-signup/FreeDemo";
 
 export function SiteHeader() {
-  const [isOpen, setIsOpen] = useState(false); // Popup is open by default for demo purposes
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    mobile: "",
-    countryCode: "India (+91)",
-    course: "",
-    consent: false,
-  });
+  
+  const [isOpen, setIsOpen] = useState(false);
+  
 
-  const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-  ) => {
-    const { name, value, type } = e.target as HTMLInputElement;
-    const checked = (e.target as HTMLInputElement).checked;
-    setFormData({
-      ...formData,
-      [name]: type === "checkbox" ? checked : value,
-    });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form Submitted: ", formData);
-    setIsOpen(false); // Close the popup on submission
-  };
-
-  const handleCheckboxChange = (checked: boolean) => {
-    setFormData({
-      ...formData,
-      consent: checked,
-    });
-  };
+  
 
   return (
     <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-500 pr-4">
@@ -89,9 +53,9 @@ export function SiteHeader() {
           </SheetTrigger>
           <SheetContent
             side="left"
-            className="pr-0 bg-green-400 dark:bg-gray-900 z-50"
+            className="pr-0 bg-purple-100 dark:bg-gray-900 z-50"
           >
-            <SheetTitle className="text-left text-2xl">
+            <SheetTitle className="text-left text-3xl font-bold ml-4 text-gray-700">
               Projectile 45
             </SheetTitle>
             <MobileNav />
@@ -104,13 +68,13 @@ export function SiteHeader() {
 
             <Link
               href="/igcseibtutoring"
-              className="text-xl font-medium transition-colors hover:text-black/80"
+              className="lg:text-xl text-balance font-medium transition-colors hover:text-black/80"
             >
               IGCSE & IB Tutoring
             </Link>
             <Link
               href="/free-demo"
-              className="text-xl font-medium transition-colors hover:text-black/80"
+              className="lg:text-xl text-balance font-medium transition-colors hover:text-black/80"
             >
               Free Demo
             </Link>
@@ -124,215 +88,7 @@ export function SiteHeader() {
           </nav>
         </div>
       </div>
-      {isOpen && (
-        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50 ">
-          <div className="bg-white rounded-xl shadow-lg max-w-lg w-full">
-            {/* Header */}
-            <div className="bg-[#764f94] text-white p-4 flex justify-between items-center rounded-t-xl">
-              <h2 className="text-lg font-bold">Just One Step Away!</h2>
-              <button
-                className="text-white text-xl font-bold"
-                onClick={() => setIsOpen(false)}
-              >
-                &times;
-              </button>
-            </div>
-
-            {/* Content */}
-            <div className="p-6">
-              <p className="text-gray-700 mb-4">
-                Our Experts require more information to assist you in a better
-                way.
-              </p>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                {/* First Name & Last Name */}
-                <div className="flex space-x-4">
-                  <div className="w-1/2">
-                    <Label htmlFor="firstName">First Name*</Label>
-                    <Input
-                      id="firstName"
-                      type="text"
-                      name="firstName"
-                      value={formData.firstName}
-                      onChange={handleInputChange}
-                      placeholder="First Name"
-                      required
-                    />
-                  </div>
-                  <div className="w-1/2">
-                    <Label htmlFor="lastName">Last Name*</Label>
-                    <Input
-                      id="lastName"
-                      type="text"
-                      name="lastName"
-                      value={formData.lastName}
-                      onChange={handleInputChange}
-                      placeholder="Last Name"
-                      required
-                    />
-                  </div>
-                </div>
-
-                {/* Email */}
-                <div>
-                  <Label htmlFor="email">Email*</Label>
-                  <Input
-                    id="email"
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    placeholder="Enter your email"
-                    required
-                  />
-                </div>
-
-                {/* Country Code & Mobile Number */}
-                <div className="flex space-x-4">
-                  <div className="w-1/2">
-                    <Label htmlFor="countryCode">Country Code</Label>
-                    <Select
-                      name="countryCode"
-                      value={formData.countryCode}
-                      onValueChange={(value) =>
-                        setFormData((prevData) => ({
-                          ...prevData,
-                          countryCode: value,
-                        }))
-                      }
-                      required
-                      // className="w-full p-2 border rounded-lg text-gray-700"
-                    >
-                      <SelectTrigger
-                        id="countryCode"
-                        className="w-full p-2 text-gray-700 bg-white border border-gray-300 rounded-lg"
-                      >
-                        {formData.countryCode || "Select a country code"}
-                      </SelectTrigger>
-                      <SelectContent className="w-full bg-white border border-gray-300 rounded-lg shadow-lg">
-                        <SelectItem
-                          value="India (+91)"
-                          className="p-2 text-gray-700 hover:bg-gray-200"
-                        >
-                          India (+91)
-                        </SelectItem>
-                        <SelectItem
-                          value="USA (+1)"
-                          className="p-2 text-gray-700 hover:bg-gray-200"
-                        >
-                          USA (+1)
-                        </SelectItem>
-                        <SelectItem
-                          value="UK (+44)"
-                          className="p-2 text-gray-700 hover:bg-gray-200"
-                        >
-                          UK (+44)
-                        </SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div className="w-1/2">
-                    <Label htmlFor="mobile">Mobile Number*</Label>
-                    <Input
-                      id="mobile"
-                      type="tel"
-                      name="mobile"
-                      value={formData.mobile}
-                      onChange={handleInputChange}
-                      placeholder="Enter your mobile number"
-                      required
-                    />
-                  </div>
-                </div>
-
-                {/* Select Course */}
-                <div>
-                  <Label htmlFor="course">Select Course*</Label>
-                  <Select
-                    name="course"
-                    value={formData.course || ""} // Ensure it defaults to an empty string if no value
-                    onValueChange={(value) =>
-                      setFormData((prevData) => ({
-                        ...prevData,
-                        course: value,
-                      }))
-                    }
-                    required
-                  >
-                    <SelectTrigger
-                      id="course"
-                      className="w-full p-2 text-gray-700 bg-white border border-gray-300 rounded-lg"
-                    >
-                      {formData.course || "Choose a course"}
-                    </SelectTrigger>
-                    <SelectContent className="w-full bg-white border border-gray-300 rounded-lg shadow-lg">
-                      <SelectItem
-                        value="none"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        Choose a course
-                      </SelectItem>
-                      <SelectItem
-                        value="SAT"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        SAT
-                      </SelectItem>
-                      <SelectItem
-                        value="GMAT"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        GMAT
-                      </SelectItem>
-                      <SelectItem
-                        value="GRE"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        GRE
-                      </SelectItem>
-                      <SelectItem
-                        value="IELTS"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        IELTS
-                      </SelectItem>
-                      <SelectItem
-                        value="TOEFL"
-                        className="p-2 text-gray-700 hover:bg-gray-200"
-                      >
-                        TOEFL
-                      </SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Consent Checkbox */}
-                <div className="flex items-start space-x-2">
-                  <Checkbox
-                    id="consent"
-                    name="consent"
-                    checked={formData.consent}
-                    onCheckedChange={handleCheckboxChange}
-                  />
-                  <Label htmlFor="consent" className="text-sm text-gray-700">
-                    I authorize Manya - The Princeton Review to contact me even
-                    if my number is registered with DND to assist with my
-                    enquiry and get regular updates through SMS/Whatsapp.
-                  </Label>
-                </div>
-
-                {/* Submit Button */}
-                <Button
-                  type="submit"
-                  className="w-full bg-[#091987] text-white font-semibold py-2 rounded-lg shadow-md hover:bg-[#0A2BAF] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300"
-                >
-                  Submit
-                </Button>
-              </form>
-            </div>
-          </div>
-        </div>
-      )}
+      {isOpen && <FreeDemo  setIsOpen={setIsOpen} /> }
     </header>
   );
 }
@@ -345,17 +101,17 @@ function MobileNav() {
   };
 
   return (
-    <div className="flex flex-col space-y-3 p-4">
+    <div className="flex flex-col space-y-3 p-4 ">
       {/* Test Prep Section */}
       <div>
         <span
           onClick={toggleTestPrep}
-          className="w-full text-left text-sm font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+          className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
         >
           Test Prep {isTestPrepOpen ? "▲" : "▼"}
         </span>
         {isTestPrepOpen && (
-          <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto bg-green-100">
+          <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto ">
             <div>
               <h3 className="text-lg font-semibold text-red-600 mb-2">SAT</h3>
               <ul className="space-y-2">
@@ -465,17 +221,17 @@ function MobileNav() {
       {/* Other Navigation Links */}
       <Link
         href="/igcseibtutoring"
-        className="text-sm font-medium transition-colors hover:text-black/80"
+        className="text-xl font-medium transition-colors hover:text-black/80 text-gray-700"
       >
         IGCSE & IB Tutoring
       </Link>
       <Link
         href="/free-demo"
-        className="text-sm font-medium transition-colors hover:text-black/80"
+        className="text-xl font-medium transition-colors hover:text-black/80 text-gray-700"
       >
         Free Demo
       </Link>
-      <Button className="bg-black text-white hover:bg-black/90">
+      <Button className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl ">
         Sign up for free
       </Button>
     </div>
