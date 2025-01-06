@@ -72,19 +72,21 @@ export function SiteHeader() {
             >
               IGCSE & IB Tutoring
             </Link>
-            <Link
-              href="/free-demo"
-              className="lg:text-xl text-balance font-medium transition-colors hover:text-black/80"
+            <span
+              
+              className="lg:text-xl text-balance font-medium transition-colors hover:text-black/80 cursor-pointer"
+              onClick={() => setIsOpen(true)}
             >
               Free Demo
-            </Link>
-
+            </span>
+            <Link href="/sign-up-for-free">
             <Button
               className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl"
-              onClick={() => setIsOpen(true)}
+              
             >
               Sign up for free
             </Button>
+            </Link>
           </nav>
         </div>
       </div>
