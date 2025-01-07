@@ -7,11 +7,11 @@ const MissionSection = () => {
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image
-                        src="/images/student-reading.svg" // Replace with the actual path to your illustration
+                        src="/images/bestonlineimg.svg" // Replace with the actual path to your illustration
                         alt="Student reading a book"
                         width={300}
                         height={300}
-                        className="md:mr-16"
+                        className="md:mr-16  opacity-75"
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0 ">

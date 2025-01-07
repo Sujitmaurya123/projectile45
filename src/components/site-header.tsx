@@ -97,6 +97,7 @@ export function SiteHeader() {
 
 function MobileNav() {
   const [isTestPrepOpen, setIsTestPrepOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleTestPrep = () => {
     setIsTestPrepOpen((prev) => !prev);
@@ -227,15 +228,17 @@ function MobileNav() {
       >
         IGCSE & IB Tutoring
       </Link>
-      <Link
-        href="/free-demo"
-        className="text-xl font-medium transition-colors hover:text-black/80 text-gray-700"
+      <span
+
+        className="text-xl text-balance font-medium transition-colors hover:text-black/80 cursor-pointer text-gray-700"
+        onClick={() => setIsOpen(true)}
       >
         Free Demo
-      </Link>
+      </span>
       <Button className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl ">
         Sign up for free
       </Button>
+      {isOpen && <FreeDemo setIsOpen={setIsOpen} />}
     </div>
   );
 }
