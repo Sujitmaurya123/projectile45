@@ -5,7 +5,7 @@ const IBExamPreparation: React.FC = () => {
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             {/* Study Tips and Strategies for Success */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Study Tips and Strategies for Success</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol">Study Tips and Strategies for Success</h2>
                 <p className="mb-4">
                     Effective study strategies are essential for success in the IB exams,
                     as the curriculum is known for its breadth and depth. The IB places a
@@ -64,7 +64,7 @@ const IBExamPreparation: React.FC = () => {
 
             {/* Understanding IB Exam Patterns and Marking Schemes */}
             <div>
-                <h2 className="text-xl font-bold mb-4" id='exam-patterns'>Understanding IB Exam Patterns and Marking Schemes</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol" id='exam-patterns'>Understanding IB Exam Patterns and Marking Schemes</h2>
                 <p className="mb-4">
                     The structure of the IB exams is unique, with each subject having
                     its own set of assessments designed to measure students&apos;
@@ -141,7 +141,7 @@ const IBExamPreparation: React.FC = () => {
                 </div>
                 <p>Understanding the format and weight of each type of exam helps you to allocate study time effectively and tailor your revision to the specific needs of each subject.</p>
             </div>
-            <h2 className="text-2xl font-bold mb-4" id='exam-stress-management'>How to Manage Stress During Exam Periods</h2>
+            <h2 className="text-2xl font-bold mb-4 text-headingcol" id='exam-stress-management'>How to Manage Stress During Exam Periods</h2>
             <p className="mb-4">
                 Stress management is a critical aspect of preparing for the IB exams, as
                 the pressure of balancing multiple subjects and assignments can be
@@ -199,7 +199,7 @@ const IBExamPreparation: React.FC = () => {
                 period with greater ease and confidence.
             </p>
 
-            <h2 className="text-xl font-bold mb-4">Conclusion</h2>
+            <h2 className="text-xl font-bold mb-4 text-headingcol">Conclusion</h2>
             <p>
                 Preparing for the IB exams requires a well-rounded approach that
                 integrates strategic study habits, an understanding of the exam

@@ -47,12 +47,12 @@ const SATExamPatternTable: React.FC = () => {
     ];
 
     return (
-        <div className="p-6 font-sans container mx-auto max-w-3xl">
-            <h1 className="text-lg font-bold mb-8 text-center">Let&apos;s see the highlights of the SAT Exam Pattern 2024 and beyond.</h1>
+        <div className="p-6 font-sans container mx-auto max-w-6xl">
+            <h1 className="text-lg font-bold mb-8 text-center  text-gray-700">Let&apos;s see the highlights of the SAT Exam Pattern 2024 and beyond.</h1>
 
        
         <div className="overflow-x-auto w-full">
-            <table className="w-full border-collapse border border-gray-300 min-w-[800px] text-sm md:text-base">
+            <table className="w-full border-collapse border border-gray-300 min-w-[800px] text-sm md:text-base text-gray-700">
                 <thead>
                     <tr className="bg-gray-100 font-medium">
                         <th className="py-3 px-4 text-left border border-gray-300">SAT Exam Pattern</th>

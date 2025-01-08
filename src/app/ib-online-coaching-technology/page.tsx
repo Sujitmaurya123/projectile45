@@ -69,8 +69,8 @@ const IBFAQsOnlineCoachingTech: React.FC = () => {
     };
 
     return (
-        <div className="p-6 sm:p-8 lg:p-12 font-sans container mx-auto max-w-4xl">
-            <h1 className="text-2xl font-extrabold mb-8 text-center leading-tight">
+        <div className="p-6 sm:p-8 lg:p-12 font-sans container mx-auto max-w-6xl">
+            <h1 className="text-5xl font-extrabold mb-8 text-center leading-tight text-headingcol">
                 Frequently Asked Questions about Online Coaching and Technology Integration
             </h1>
             <div className="space-y-4">

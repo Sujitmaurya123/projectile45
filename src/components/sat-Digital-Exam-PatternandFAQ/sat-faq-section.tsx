@@ -11,7 +11,7 @@ const FAQSection: React.FC<{ faqs: { title: string; items: FAQItem[] }[] }> = ({
         <div className="space-y-8"> {/* Space between sections */}
             {faqs.map((section, index) => (
                 <div key={index} className="mb-8"> {/* Margin bottom for spacing */}
-                    <h2 className="text-xl font-semibold mb-4 border-b pb-2">{section.title}</h2>
+                    <h2 className="text-xl font-semibold mb-4 border-b pb-2 text-gray-600">{section.title}</h2>
                     <div className="space-y-4"> {/* Space between FAQ items */}
                         {section.items.map((faq, i) => (
                             <FAQItemCard key={i} faq={faq} />
@@ -29,7 +29,7 @@ const FAQItemCard: React.FC<{ faq: FAQItem }> = ({ faq }) => {
     return (
         <div className="bg-white rounded-lg shadow p-4 transition duration-300">
             <button
-                className="w-full text-left font-medium text-lg flex justify-between items-center"
+                className="w-full text-left font-medium text-lg flex justify-between items-center text-gray-700"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 {faq.question}
@@ -181,8 +181,8 @@ const FAQsPage: React.FC = () => {
         },
     ];
     return (
-        <div className="p-6 font-sans container mx-auto max-w-2xl"> {/* Added container for centering */}
-            <h1 className="text-xl font-bold mb-8 text-center">FAQs for the SAT New Digital Format (2024-2025)</h1>
+        <div className="p-6 font-sans container mx-auto max-w-6xl"> {/* Added container for centering */}
+            <h1 className="text-3xl font-bold mb-8 text-center text-headingcol">FAQs for the SAT New Digital Format (2024-2025)</h1>
             <FAQSection faqs={faqs} />
         </div>
     );

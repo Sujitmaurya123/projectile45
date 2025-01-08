@@ -33,15 +33,15 @@ const SATPackageComparison: React.FC = () => {
     ];
 
     return (
-        <div className="p-6 font-sans container mx-auto max-w-3xl">
+        <div className="p-6 font-sans container mx-auto max-w-6xl">
             
         
         <div>
-            <h2 className="text-xl font-semibold mb-4 text-center">Comparison: 30-Hour vs. 50-Hour SAT Maths Package</h2>
+            <h2 className="text-xl font-semibold mb-4 text-center text-gray-700">Comparison: 30-Hour vs. 50-Hour SAT Maths Package</h2>
             <div className="overflow-x-auto w-full">
                 <table className="w-full border-collapse border border-gray-300 min-w-[800px]">
                     <thead>
-                        <tr className="bg-yellow-100"> {/* Yellow header */}
+                        <tr className="bg-yellow-100 text-gray-700"> {/* Yellow header */}
                             <th className="py-2 px-4 border border-gray-300 text-left">Feature</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">30-Hour SAT Maths Package</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">50-Hour SAT Maths Package</th>
@@ -60,7 +60,7 @@ const SATPackageComparison: React.FC = () => {
             </div>
 
             <div className="mt-8">
-                <h3 className="text-lg font-semibold mb-2">Highlights of 50-Hour SAT Maths Package</h3>
+                <h3 className="text-lg font-semibold mb-2 text-gray-700">Highlights of 50-Hour SAT Maths Package</h3>
                 <ul className="list-disc ml-6 space-y-2">
                     {highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>

@@ -98,7 +98,7 @@ const IBComparison: React.FC = () => {
 
     const createTable = (data: ComparisonRow[], title: string) => (
         <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-4">{title}</h3>
+            <h3 className="text-xl font-semibold mb-4 text-headingcol">{title}</h3>
             <div className="overflow-x-auto"> {/* Added for horizontal scrolling */}
                 <table className="min-w-full divide-y divide-gray-200 border border-gray-300">
                     <thead className="bg-gray-50">
@@ -124,7 +124,7 @@ const IBComparison: React.FC = () => {
 
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h2 className="text-2xl font-bold mb-4">Introduction to Key Differences Between IB and Other Curricula</h2>
+            <h2 className="text-2xl font-bold mb-4 text-headingcol">Introduction to Key Differences Between IB and Other Curricula</h2>
             <p className="mb-4">
                 The International Baccalaureate (IB) program offers a unique and
                 holistic approach to education, emphasizing critical thinking, global
@@ -138,7 +138,7 @@ const IBComparison: React.FC = () => {
 
             {createTable(aLevelsData, "IB vs. A-Levels")}
             {createTable(apData, "IB vs. AP")}
-            <h2 className="text-2xl font-bold mb-4" id='ib-university-prep'>How IB Prepares Students for University</h2>
+            <h2 className="text-2xl font-bold mb-4 text-headingcol" id='ib-university-prep'>How IB Prepares Students for University</h2>
             <p className="mb-4">
                 The IB Diploma Program provides a comprehensive foundation for
                 university success. It&apos;s designed to equip students with the skills and

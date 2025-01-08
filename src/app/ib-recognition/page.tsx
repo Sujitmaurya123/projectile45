@@ -3,7 +3,7 @@ import React from 'react';
 const IBUniversityRecognition: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="text-2xl font-bold mb-4 text-headingcol">
                 Introduction to University Recognition of the IB Diploma
             </h2>
             <p className="mb-4">
@@ -20,7 +20,7 @@ const IBUniversityRecognition: React.FC = () => {
 
             {/* Global University Acceptance */}
             <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4" id='global-acceptance'>Global University Acceptance</h3>
+                <h3 className="text-xl font-semibold mb-4 text-headingcol" id='global-acceptance'>Global University Acceptance</h3>
                 <p className="mb-4">
                     The IB Diploma enjoys widespread recognition from universities
                     worldwide. Institutions from every continent accept the IB as a
@@ -33,7 +33,7 @@ const IBUniversityRecognition: React.FC = () => {
                 </p>
 
                 <div className="ml-6 mb-4"> {/* Indent Key Insights */}
-                    <h4 className="text-lg font-semibold mb-2">Key Insights:</h4>
+                    <h4 className="text-lg font-semibold mb-2 ">Key Insights:</h4>
                     <ul className="list-disc pl-6">
                         <li>
                             <span className="font-semibold">Global Reach:</span> The IB
@@ -66,7 +66,7 @@ const IBUniversityRecognition: React.FC = () => {
 
             {/* How IB Affects University Admissions */}
             <div>
-                <h3 className="text-xl font-semibold mb-4" id='ib-university-admissions'>How IB Affects University Admissions</h3>
+                <h3 className="text-xl font-semibold mb-4 " id='ib-university-admissions'>How IB Affects University Admissions</h3>
                 <p className="mb-4">
                     The IB Diploma Program has a unique impact on university admissions.
                     Unlike many national exams that focus on a specific area of
@@ -111,7 +111,7 @@ const IBUniversityRecognition: React.FC = () => {
             </div>
             {/* Scholarships and Credits for IB Students */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4" id='ib-scholarships'>Scholarships and Credits for IB Students</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol" id='ib-scholarships'>Scholarships and Credits for IB Students</h2>
                 <p className="mb-4">
                     Many universities offer scholarships and academic credits to IB
                     graduates, recognizing the rigorous academic preparation and
@@ -165,7 +165,7 @@ const IBUniversityRecognition: React.FC = () => {
 
             {/* Conclusion (for University Recognition section) */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Conclusion</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol">Conclusion</h2>
                 <p className="mb-4">
                     The recognition of the IB Diploma by universities reflects its value
                     as a rigorous and globally respected academic credential. The
@@ -182,7 +182,7 @@ const IBUniversityRecognition: React.FC = () => {
 
             {/* Introduction to Preparing for the IB Exams */}
             <div>
-                <h2 className="text-xl font-bold mb-4">Introduction to Preparing for the IB Exams</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol">Introduction to Preparing for the IB Exams</h2>
                 <p className="mb-4">
                     The International Baccalaureate (IB) Diploma Program is renowned for
                     its challenging academic structure, and the exams are a critical

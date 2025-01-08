@@ -36,13 +36,13 @@ const SATExamTable: React.FC = () => {
     ];
 
     return (
-        <div className="p-4 md:p-6 font-sans">
-            <h1 className="  text-lg flex justify-center font-bold mb-4">Below is a breakdown of the sections in the SAT Exam Pattern, including the
+        <div className="p-4 md:p-6 font-sans ">
+            <h1 className="  text-lg flex justify-center font-bold mb-4  text-gray-700">Below is a breakdown of the sections in the SAT Exam Pattern, including the
                 number of questions and time allotted for each:</h1>
             <div className="w-full flex  justify-center overflow-x-auto mb-5"> {/* Responsive container */}
                 <table className="w-500  items-center border-collapse border border-gray-300 text-sm md:text-base">
                     <thead>
-                        <tr className="bg-gray-100 font-medium">
+                        <tr className="bg-gray-100 font-medium text-gray-700">
                             <th className="py-3 px-2 md:px-4 text-left">SAT Section</th>
                             <th className="py-3 px-2 md:px-4 text-left">Number of Questions</th>
                             <th className="py-3 px-2 md:px-4 text-left">Time Duration (mins)</th>

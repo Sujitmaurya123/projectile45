@@ -23,7 +23,7 @@ const greData: GREComparison[] = [
 const GREComparisonTable: React.FC = () => {
     return (
         <div className='container mx-auto p-4 max-w-6xl'>
-            <h1 className=' text-2xl flex justify-center font-bold mb-4'>GRE General Test pattern:</h1>
+            <h1 className=' text-5xl flex justify-center font-bold mb-4 text-headingcol'>GRE General Test pattern</h1>
        
         <div className="overflow-x-auto">
             <table

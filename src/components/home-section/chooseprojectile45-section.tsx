@@ -41,7 +41,7 @@ const Projectile45Benefits = () => {
                                 className="mb-4 bg-cover"
                             />
                             <h3 className="text-xl font-semibold mb-2 text-headingcol">{benefit.title}</h3>
-                            <p className="text-lg text-gray-700">{benefit.description}</p>
+                            <p className="text-lg text-gray-500">{benefit.description}</p>
                         </div>
                     ))}
                 </div>

@@ -4,7 +4,7 @@ import React from 'react';
 const IBAssessmentSystem: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-2xl font-bold mb-4">
+            <h1 className="text-2xl font-bold mb-4 text-headingcol">
                 4. Introduction to the IB Assessment System
             </h1>
             <p className="mb-4">
@@ -22,7 +22,7 @@ const IBAssessmentSystem: React.FC = () => {
 
             {/* Grading Scale and Criteria */}
             <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4" id='grading-scale'>Grading Scale and Criteria</h2>
+                <h2 className="text-xl font-semibold mb-4 text-headingcol" id='grading-scale'>Grading Scale and Criteria</h2>
                 <p className="mb-4">
                     The IB grading scale for the Diploma Program (DP) uses a numerical
                     system from 1 to 7, with 7 being the highest score possible. This
@@ -55,7 +55,7 @@ const IBAssessmentSystem: React.FC = () => {
 
             {/* Internal vs. External Assessments */}
             <div>
-                <h2 className="text-xl font-semibold mb-4" id='internal-external'>
+                <h2 className="text-xl font-semibold mb-4 text-headingcol" id='internal-external'>
                     Internal vs. External Assessments
                 </h2>
                 <p className="mb-4">
@@ -64,7 +64,7 @@ const IBAssessmentSystem: React.FC = () => {
                     (EA).
                 </p>
                 <div className="mb-4">
-                    <h3 className="text-lg font-semibold mb-2">1. Internal Assessments (IA):</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">1. Internal Assessments (IA):</h3>
                     <p className="mb-4">
                         These assessments are designed and graded by teachers, although they
                         are subject to moderation by external examiners to ensure
@@ -78,7 +78,7 @@ const IBAssessmentSystem: React.FC = () => {
                     </p>
                 </div>
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">2. External Assessments (EA):</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">2. External Assessments (EA):</h3>
                     <p className="mb-4">
                         These are the exams that are externally set, administered, and
                         marked. They form the bulk of the assessment in many subjects and
@@ -98,7 +98,7 @@ const IBAssessmentSystem: React.FC = () => {
                     exploration of a student&apos;s work throughout the year.
                 </p>
             </div>
-            <h2 className="text-xl font-bold mb-4" id='ib-scores'>Understanding Your IB Scores</h2>
+            <h2 className="text-xl font-bold mb-4 text-headingcol" id='ib-scores'>Understanding Your IB Scores</h2>
 
             <p className="mb-4">
                 Once the assessments are completed, students receive their final IB
@@ -109,7 +109,7 @@ const IBAssessmentSystem: React.FC = () => {
                 TOK components.
             </p>
 
-            <h3 className="text-lg font-semibold mb-2">Here&apos;s how the scoring works:</h3>
+            <h3 className="text-lg font-semibold mb-2 text-headingcol">Here&apos;s how the scoring works:</h3>
             <ol className="list-decimal pl-6 mb-4">
                 <li>Each subject contributes a score from 1 to 7.</li>
                 <li>

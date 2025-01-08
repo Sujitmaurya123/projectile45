@@ -14,7 +14,7 @@ const FirstStripSection: React.FC = () => {
             ignite critical thinking, sharpen problem-solving skills, and build
             confidence to tackle these competitive exams head-on.
           </p>
-            <p className="text-gray-600 text-base sm:text-lg mb-6 sm:mb-8 text-justify">
+            <p className="text-gray-500 text-base sm:text-lg mb-6 sm:mb-8 text-justify">
             With personalized, flexible learning led by expert tutors, we focus
             on equipping you with the tools to master complex concepts and ace
             challenging questions. Our approach ensures that preparation

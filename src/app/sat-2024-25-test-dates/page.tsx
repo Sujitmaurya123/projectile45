@@ -19,15 +19,15 @@ const SATTestDatesTable: React.FC = () => {
     ];
 
     return (
-        <div className="p-6 font-sans container mx-auto max-w-2xl">
-            <h1 className="text-2xl font-bold mb-4 text-center">SAT 2024-2025 Test Dates</h1>
-            <p className="mb-4  font-bold text-center">August 2024–June 2025 Test Dates<br /> These test dates and deadlines apply to all students—U.S. and international—taking the SAT:</p>
+        <div className="p-6 font-sans container mx-auto max-w-6xl">
+            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">SAT 2024-2025 Test Dates</h1>
+            <p className="mb-4  font-bold text-center text-gray-700">August 2024–June 2025 Test Dates<br /> These test dates and deadlines apply to all students—U.S. and international—taking the SAT:</p>
            
         
         <div className="overflow-x-auto w-full">
             <table className="w-full border-collapse border border-gray-300 min-w-[600px] text-sm md:text-base">
                 <thead>
-                    <tr className="bg-gray-100 font-medium">
+                    <tr className="bg-gray-100 font-medium text-gray-700">
                         <th className="py-3 px-4 text-left border border-gray-300">SAT Test Date*</th>
                         <th className="py-3 px-4 text-left border border-gray-300">Registration Deadline</th>
                         <th className="py-3 px-4 text-left border border-gray-300">Cancellation, and Late Registration**</th>

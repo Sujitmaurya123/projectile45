@@ -31,11 +31,11 @@ const SATMathsFees: React.FC = () => {
             
        
         <div>
-            <h2 className="text-xl font-semibold mb-4">SAT Maths Fee Structure</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-700">SAT Maths Fee Structure</h2>
             <div className="overflow-x-auto w-full"> {/* Added for horizontal scrolling */}
                 <table className="w-full border-collapse border border-gray-300 min-w-[600px]">
                     <thead>
-                        <tr className="bg-green-100"> {/* Green background for header */}
+                        <tr className="bg-green-100 text-gray-700"> {/* Green background for header */}
                             <th className="py-2 px-4 border border-gray-300 text-left">Type of Coaching</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">Fee per Hour per student</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">Package Options</th>

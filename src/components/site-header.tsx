@@ -37,7 +37,7 @@ export function SiteHeader() {
               style={{ objectFit: "cover" }}
               className="h-8 w-auto rounded-full"
             />
-            <span className="text-2xl font-bold">Projectile 45</span>
+            <span className="text-2xl font-bold text-headingcol">Projectile 45</span>
           </Link>
         </div>
         {/* Mobile Navigation */}
@@ -55,7 +55,7 @@ export function SiteHeader() {
             side="left"
             className="pr-0 bg-purple-100 dark:bg-gray-900 z-50"
           >
-            <SheetTitle className="text-left text-3xl font-bold ml-4 text-gray-700">
+            <SheetTitle className="text-left text-3xl font-bold ml-4 text-headingcol">
               Projectile 45
             </SheetTitle>
             <MobileNav />

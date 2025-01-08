@@ -9,7 +9,7 @@ const IBCore: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
 
-            <h1 className="text-2xl font-bold mb-4">
+            <h1 className="text-2xl font-bold mb-4 text-headingcol">
                 1. Introduction to the Core Components of the IB Diploma
             </h1>
             <p className="mb-4">
@@ -27,7 +27,7 @@ const IBCore: React.FC = () => {
 
             {/* Theory of Knowledge (TOK) */}
             <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4" id='tok'>Theory of Knowledge (TOK)</h2>
+                <h2 className="text-xl font-semibold mb-4 text-headingcol" id='tok'>Theory of Knowledge (TOK)</h2>
                 <p className="mb-4">
                     Theory of Knowledge (TOK) is one of the defining features of the IB
                     Diploma Program, providing students with a framework for critically
@@ -68,7 +68,7 @@ const IBCore: React.FC = () => {
 
             {/* Extended Essay (EE) */}
             <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4" id='ee'>Extended Essay (EE)</h2>
+                <h2 className="text-xl font-semibold mb-4 text-headingcol" id='ee'>Extended Essay (EE)</h2>
                 <p className="mb-4">
                     The Extended Essay (EE) is an independent research project that
                     allows IB students to delve deeply into a topic of their choice,
@@ -108,7 +108,7 @@ const IBCore: React.FC = () => {
 
             {/* Creativity, Activity, Service (CAS) */}
             <div>
-                <h2 className="text-xl font-semibold mb-4" id='cas'>
+                <h2 className="text-xl font-semibold mb-4 text-headingcol" id='cas'>
                     Creativity, Activity, Service (CAS)
                 </h2>
                 <p className="mb-4">

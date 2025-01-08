@@ -23,17 +23,17 @@ const Footer = () => {
                         />
                         <span className="text-xl font-bold ml-2">Projectile 45</span>
                     </div>
-                    <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 sm:flex-row sm:space-x-4 mb-2">
+                    <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 md:flex-row md:space-x-4 mb-2 ">
                        
                             <Button onClick={() => setIsOpen(true)}
-                                className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
+                            className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto "
                             >
                                 Get Started for Free
                             </Button>
                        
                         <Link href="/contact">
                             <Button
-                                className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto"
+                                className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white focus:ring-2 focus:ring-green-400 rounded focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 px-6 py-3 shadow-md w-full sm:w-auto  mt-3 md:mt-0"
                             >
                                 Contacts
                             </Button>

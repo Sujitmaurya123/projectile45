@@ -4,7 +4,7 @@ import React from 'react';
 const VerbalReasoningSection: React.FC = () => {
     return (
         <div className="container mx-auto p-4 max-w-6xl">
-            <h2 className="text-xl font-bold mb-4">VERBAL REASONING SECTION</h2>
+            <h2 className="text-3xl font-bold mb-4 text-headingcol">VERBAL REASONING SECTION</h2>
             <p className="mb-4">
                 The Verbal Reasoning section of the GRE General Test assesses critical
                 reading, vocabulary usage, and analytical skills. It includes three types
@@ -94,7 +94,7 @@ const VerbalReasoningSection: React.FC = () => {
                 <p className="mt-4">This question diversity ensures comprehensive evaluation, from vocabulary usage to logical reasoning. About half of Verbal Reasoning questions derive from passages, with 1-6 questions per passage</p>
             </div>
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Text Completion in GRE Verbal Reasoning</h2>
+                <h2 className="text-3xl text-headingcol font-bold mb-4">Text Completion in GRE Verbal Reasoning</h2>
                 <p className="mb-4">
                     Text Completion questions assess your ability to interpret and evaluate
                     incomplete passages by filling in missing words or phrases. This tests
@@ -131,7 +131,7 @@ const VerbalReasoningSection: React.FC = () => {
 
             {/* Sentence Equivalence */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Sentence Equivalence in GRE Verbal Reasoning</h2>
+                <h2 className="text-2xl font-bold mb-4 text-headingcol">Sentence Equivalence in GRE Verbal Reasoning</h2>
                 <p className="mb-4">
                     Sentence Equivalence questions assess your ability to complete a sentence
                     meaningfully while producing two sentences with similar meanings. This
@@ -161,7 +161,7 @@ const VerbalReasoningSection: React.FC = () => {
 
             {/* Quantitative Reasoning Overview */}
             <div>
-                <h2 className="text-xl font-bold mb-4">Overview of the GRE Quantitative Reasoning Measure</h2>
+                <h2 className="text-3xl font-bold mb-4 text-headingcol">Overview of the GRE Quantitative Reasoning Measure</h2>
                 <p>The Quantitative Reasoning section of the GRE General Test evaluates:</p>
                 <ul className="list-decimal pl-6 mt-4">
                     <li>
@@ -232,7 +232,7 @@ const VerbalReasoningSection: React.FC = () => {
 
             {/* Question Types and Data Interpretation Sets */}
             <div>
-                <h2 className="text-xl font-bold mb-4">
+                <h2 className="text-3xl font-bold mb-4 text-headingcol">
                     GRE Quantitative Reasoning: Question Types and Data Interpretation Sets
                 </h2>
                 <p className="mb-4">
@@ -301,7 +301,7 @@ const VerbalReasoningSection: React.FC = () => {
                     </ul>
                 </div>
             </div>
-            <h2 className="text-xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-headingcol">
                 Overview of the GRE Analytical Writing Measure
             </h2>
             <p className="mb-4">
