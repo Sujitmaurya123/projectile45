@@ -35,7 +35,7 @@ const SATHero = () => {
 
                 <div className="flex justify-center">
                     <Image
-                        src="/images/sat-digital.svg"
+                        src="/images/sat-digital2.png"
                         alt="SAT Digital Exam Pattern Illustration"
                         width={500}
                         height={300}

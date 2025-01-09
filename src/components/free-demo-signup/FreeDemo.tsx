@@ -195,6 +195,18 @@ export function FreeDemo({
                                         Choose a course
                                     </SelectItem>
                                     <SelectItem
+                                        value="IB"
+                                        className="p-2 text-gray-700 hover:bg-gray-200"
+                                    >
+                                        IB
+                                    </SelectItem>
+                                    <SelectItem
+                                        value="IGCSE"
+                                        className="p-2 text-gray-700 hover:bg-gray-200"
+                                    >
+                                        IGCSE
+                                    </SelectItem>
+                                    <SelectItem
                                         value="SAT"
                                         className="p-2 text-gray-700 hover:bg-gray-200"
                                     >
@@ -212,18 +224,6 @@ export function FreeDemo({
                                     >
                                         GRE
                                     </SelectItem>
-                                    <SelectItem
-                                        value="IELTS"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        IELTS
-                                    </SelectItem>
-                                    <SelectItem
-                                        value="TOEFL"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        TOEFL
-                                    </SelectItem>
                                 </SelectContent>
                             </Select>
                         </div>
@@ -237,7 +237,7 @@ export function FreeDemo({
                                 onCheckedChange={handleCheckboxChange}
                             />
                             <Label htmlFor="consent" className="text-sm text-gray-700">
-                                I authorize Manya - The Princeton Review to contact me even
+                                I authorize Projectile45 Review to contact me even
                                 if my number is registered with DND to assist with my
                                 enquiry and get regular updates through SMS/Whatsapp.
                             </Label>

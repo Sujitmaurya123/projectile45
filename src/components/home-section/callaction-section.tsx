@@ -9,11 +9,11 @@ const CallToActionSection = () => {
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image
-                        src="/images/footerimage.svg" // Replace with the actual path to your illustration
+                        src="/images/footerimg3.svg" // Replace with the actual path to your illustration
                         alt="Students studying together"
                         width={300}
                         height={300}
-                        className="md:mr-16  opacity-75"
+                        className="md:mr-16  "
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0">

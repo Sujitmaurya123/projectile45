@@ -51,7 +51,7 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			},
 			'navcolors':'#8D77AB',
-			'backcolors':'linear-gradient(to bottom right, #F8E9F9, #D6C4E1)',
+			'backcolors':'linear-gradient(to bottom right, #f280e2, #594063)',
 			'headingcol':'#202867'
   		},
   		borderRadius: {

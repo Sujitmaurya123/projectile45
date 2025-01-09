@@ -11,7 +11,7 @@ const MissionSection = () => {
                         alt="Student reading a book"
                         width={300}
                         height={300}
-                        className="md:mr-16  opacity-75"
+                        className="md:mr-16  "
                     />
                 </div>
                 <div className="flex-1 text-center md:text-left md:mt-0 ">

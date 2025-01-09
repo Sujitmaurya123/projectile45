@@ -70,13 +70,13 @@ const TestPrepDropdown: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-red-600 mb-2">GMAT</h3>
                     <ul className="space-y-2">
-                      <li><Link href="/gmat-prep-options">GMAT Prep Options</Link></li>
-                      <li><Link href="/gmat-practice-test">GMAT Practice Test</Link></li>
+                      <li><Link href="/gmat-prep">GMAT Prep </Link></li>
+                      {/* <li><Link href="/gmat-practice-test">GMAT Practice Test</Link></li>
                       <li><Link href="/gmat-online-prep">GMAT Online Prep</Link></li>
                       <li><Link href="/gmat-books">GMAT Books</Link></li>
                       <li><Link href="/gmat-exam-dates">GMAT Exam Dates</Link></li>
                       <li><Link href="/gmat-syllabus">GMAT Syllabus</Link></li>
-                      <li><Link href="/gmat-eligibility">GMAT Eligibility</Link></li>
+                      <li><Link href="/gmat-eligibility">GMAT Eligibility</Link></li> */}
                     </ul>
                   </div>
                 </div>

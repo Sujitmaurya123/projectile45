@@ -13,11 +13,11 @@ const ClassroomSection = () => {
                 </div>
                 <div className="md:w-1/2 flex  justify-end">
                     <Image
-                        src="/images/classroom2.svg" // Replace with the actual path to your illustration
+                        src="/images/classroom3.png" // Replace with the actual path to your illustration
                         alt="Laptop with a teacher illustration"
                         width={400}
                         height={300}
-                        className=' opacity-75'
+                        
                     />
                 </div>
             </div>

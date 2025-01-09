@@ -39,9 +39,9 @@ const HeroSection: React.FC = () => {
     {/* Right Illustration */}
     <div className="lg:w-1/2 mb-10 lg:mb-0  ">
       <Image
-        src="/images/heroimagess.png"
+        src="/images/heroimg6.png"
         alt="Illustration"
-            className="max-w-full mx-auto lg:mx-0 float-right opacity-75 "
+            className="max-w-full mx-auto lg:mx-0 float-right  "
         width={450}
         height={450}
       />

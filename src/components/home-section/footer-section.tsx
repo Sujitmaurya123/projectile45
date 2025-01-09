@@ -46,7 +46,7 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold mb-4">Company</h3>
                     <Link href="/about-us">About us</Link>
                     <Link href="/careers">Careers</Link>
-                    <Link href="/press">Press</Link>
+                    
                 </div>
 
                 {/* Resources Links */}
