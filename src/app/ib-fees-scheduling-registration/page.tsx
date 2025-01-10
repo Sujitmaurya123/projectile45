@@ -92,7 +92,7 @@ const CombinedFAQPage: React.FC = () => {
         },
         {
             question: '4. How many students are there in one batch?',
-            answer: 'We maintain small batch sizes, typically 8-10 students, to ensure personalized attention.',
+            answer: 'We offer 1:1 tutoring or small batches of up to 4 students.Batch sizes can be customized based on specific needs for personalized attention.',
         },
         {
             question: '5. Are there opportunities for students to interact and collaborate during classes?',

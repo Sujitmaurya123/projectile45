@@ -4,7 +4,7 @@ import React from "react";
 const FirstStripSection: React.FC = () => {
   return (
     <>
-      <section className=" py-16" >
+      <section className=" py-16 bg-[#eceff2] bg-opacity-70" >
       <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col-reverse lg:flex-row-reverse items-center " >
         {/* Left Content */}
         <div className="text-center lg:text-left lg:w-3/4 font-medium ">
@@ -28,7 +28,7 @@ const FirstStripSection: React.FC = () => {
           <Image
             src="/images/onlineservice1.png"
             alt="Illustration"
-              className="max-w-full mx-auto lg:mx-0 float-left "
+              className="max-w-full mx-auto lg:mx-0 float-left  "
             width={300}
             height={400}
           />

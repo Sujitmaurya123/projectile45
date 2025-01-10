@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ClassroomSection = () => {
     return (
-        <section className=" py-16">
+        <section className=" py-16 bg-[#f2f1f4] bg-opacity-70">
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col md:flex-row items-center justify-between">
                 <div className="text-center md:text-left md:w-1/2">
                     <h2 className="text-3xl font-bold mb-4 text-headingcol">Build the best classroom yet</h2>

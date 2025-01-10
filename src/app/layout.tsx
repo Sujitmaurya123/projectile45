@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   description: 'Welcome to Projectile45',
   icons: {
-    icon: "/favicon.ico", // Ensure this file exists in your public directory
+    icon: "/projectile45.ico", // Ensure this file exists in your public directory
     shortcut: "/logo_projectile45.jpg", // Ensure this file exists in your public directory
     apple: "/apple-touch-icon.png", // Ensure this file exists in your public directory
   },

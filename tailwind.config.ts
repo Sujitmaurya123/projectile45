@@ -52,7 +52,8 @@ export default {
   			},
 			'navcolors':'#8D77AB',
 			'backcolors':'linear-gradient(to bottom right, #f280e2, #594063)',
-			'headingcol':'#202867'
+			'headingcol':'#202867',
+			'custom-gradient':'linear-gradient(180deg, #d1eff5 0%, #d1eff5 50%, rgba(245, 246, 247, 0.7) 50%, rgba(245, 246, 247, 0.7))',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

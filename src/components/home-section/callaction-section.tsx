@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const CallToActionSection = () => {
     return (
-        <section className=" py-16">
+        <section className=" py-16 bg-[#f5f5f6] bg-opacity-70">
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image

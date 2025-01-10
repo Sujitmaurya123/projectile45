@@ -9,6 +9,12 @@ const TestPrepDropdown: React.FC = () => {
   const toggleTestPrep = () => {
     setIsTestPrepOpen((prev) => !prev);
   };
+  const handleDropdownClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    // Close dropdown when any child element (like a link) is clicked
+    if ((e.target as HTMLElement).tagName === "A") {
+      setIsTestPrepOpen(false);
+    }
+  };
 
     return (
         <div
@@ -23,7 +29,7 @@ const TestPrepDropdown: React.FC = () => {
 
             {/* Dropdown Content */}
         {isTestPrepOpen && (
-                <div
+          <div onClick={handleDropdownClick} // Handle clicks inside the dropdown
                 className="absolute left-1/2 transform -translate-x-1/2 mt-2  w-[600px] bg-white shadow-lg border rounded-lg p-4 z-50 transition-all ease-in-out duration-300 text-gray-600"
               >
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -43,7 +49,7 @@ const TestPrepDropdown: React.FC = () => {
                     <h3 className="text-lg font-semibold text-red-600 mb-2">IB</h3>
                     <ul className="space-y-2">
                       <li><Link href="/ib">IB</Link></li> 
-                      <li><Link href="/ib-curriculam">IB Curriculam</Link></li>
+                      <li><Link href="/ib-curriculam">IB Curriculum</Link></li>
                       <li><Link href="/ib-course-coaching-details">Course Structure and Coaching Details</Link></li>
                       <li><Link href="/ib-online-coaching-technology">Online Coaching and Technology Integration</Link></li>
                       <li><Link href="/ib-fees-scheduling-registration">Fees, Scheduling, and Registration</Link></li>
