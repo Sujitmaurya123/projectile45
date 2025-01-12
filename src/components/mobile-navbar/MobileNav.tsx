@@ -1,11 +1,11 @@
 "use client"
 import Link from "next/link";
-import { useState } from "react";
+import {   useState } from "react";
 import { Button } from "../ui/button";
 import { FreeDemo } from "../free-demo-signup/FreeDemo";
 
 
-const MobileNav: React.FC = () => {
+const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     const [isSATOpen, setIsSATOpen] = useState(false);
     const [isIBOpen, setIsIBOpen] = useState(false);
     const [isGREOpen, setIsGREOpen] = useState(false);
@@ -13,18 +13,33 @@ const MobileNav: React.FC = () => {
     const [isIGCSEOpen, setIsIGCSEOpen] = useState(false);
     const [isFreeDemoOpen, setIsFreeDemoOpen] = useState(false);
 
+     
+
+    const handleDropdownClick = (e: React.MouseEvent<HTMLDivElement>) => {
+            // Close dropdown when a link inside is clicked
+            if ((e.target as HTMLElement).tagName === "A") {
+                setIsSATOpen(false);
+                onClose();
+            }
+        };
+         
+        
+            
+
     return (
         <div className="flex flex-col space-y-3 p-4">
             {/* SAT Section */}
-            <div>
+            <div >
                 <span
                     onClick={() => setIsSATOpen(!isSATOpen)}
+
                     className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
                     SAT {isSATOpen ? "▲" : "▼"}
                 </span>
                 {isSATOpen && (
-                    <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
+                    <div onClick={handleDropdownClick}
+                     className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
                             <li><Link href="/about-sat" className="hover:text-black">a) About SAT</Link></li>
@@ -37,7 +52,7 @@ const MobileNav: React.FC = () => {
             </div>
 
             {/* IB Section */}
-            <div>
+            <div >
                 <span
                     onClick={() => setIsIBOpen(!isIBOpen)}
                     className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
@@ -45,7 +60,8 @@ const MobileNav: React.FC = () => {
                     IB {isIBOpen ? "▲" : "▼"}
                 </span>
                 {isIBOpen && (
-                    <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
+                    <div onClick={handleDropdownClick}
+                     className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
                             <li><Link href="/ib" className="hover:text-black">a) IB</Link></li>
@@ -59,7 +75,7 @@ const MobileNav: React.FC = () => {
             </div>
 
             {/* GRE Section */}
-            <div>
+            <div >
                 <span
                     onClick={() => setIsGREOpen(!isGREOpen)}
                     className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
@@ -67,7 +83,8 @@ const MobileNav: React.FC = () => {
                     GRE {isGREOpen ? "▲" : "▼"}
                 </span>
                 {isGREOpen && (
-                    <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
+                    <div onClick={handleDropdownClick}
+                     className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
                             <li>
                                 <Link href="/gre" className="hover:text-black">
@@ -88,7 +105,8 @@ const MobileNav: React.FC = () => {
                     GMAT {isGMATOpen ? "▲" : "▼"}
                 </span>
                 {isGMATOpen && (
-                    <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
+                    <div onClick={handleDropdownClick}
+                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
                             <li>
                                 <Link href="/gmat-course" className="hover:text-black">
@@ -109,7 +127,8 @@ const MobileNav: React.FC = () => {
                     IGCSE {isIGCSEOpen ? "▲" : "▼"}
                 </span>
                 {isIGCSEOpen && (
-                    <div className="mt-2 pl-4 max-h-[300px] overflow-y-auto">
+                    <div onClick={handleDropdownClick}
+                     className="mt-2 pl-4 max-h-[300px] overflow-y-auto">
                         <ul className="space-y-2">
                             <li>
                                 <Link href="/igcse" className="hover:text-black">

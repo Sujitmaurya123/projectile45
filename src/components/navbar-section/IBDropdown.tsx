@@ -1,10 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 
 const IBDropdown: React.FC = () => {
     const [isSATOpen, setIsSATOpen] = useState(false);
-
+     const dropdownRef = useRef<HTMLDivElement>(null);
+     const handleClickOutside = (event: MouseEvent) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setIsSATOpen(false);
+            }
+        };
+    
+        useEffect(() => {
+            // Add event listener to detect outside clicks
+            document.addEventListener("mousedown", handleClickOutside);
+            return () => {
+                // Cleanup event listener
+                document.removeEventListener("mousedown", handleClickOutside);
+            };
+        }, []);
 
     const toggleTestPrep = () => {
         setIsSATOpen((prev) => !prev);
@@ -19,7 +33,7 @@ const IBDropdown: React.FC = () => {
     return (
         <div
             className="relative"
-
+            ref={dropdownRef}
         >
             {/* Trigger Button */}
             <span onClick={toggleTestPrep}

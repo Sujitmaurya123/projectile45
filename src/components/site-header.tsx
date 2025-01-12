@@ -26,8 +26,16 @@ import MobileNav from "./mobile-navbar/MobileNav";
 export function SiteHeader() {
   
   const [isOpen, setIsOpen] = useState(false);
-  
+  // mobile open sheet and close 
+  const [isOpenMobile, setIsOpenMobile] = useState(false);
 
+  const toggleSheet = (open: boolean) => {
+    setIsOpenMobile(open);
+  };
+
+  const handleClose = () => {
+    setIsOpenMobile(false);
+  }
   
 
   return (
@@ -47,7 +55,7 @@ export function SiteHeader() {
           </Link>
         </div>
         {/* Mobile Navigation */}
-        <Sheet>
+        <Sheet open={isOpenMobile} onOpenChange={toggleSheet}>
           <SheetTrigger asChild>
             <Button
               variant="ghost"
@@ -64,7 +72,7 @@ export function SiteHeader() {
             <SheetTitle className="text-left text-2xl font-bold ml-4 text-headingcol">
               Projectile 45
             </SheetTitle>
-            <MobileNav />
+            <MobileNav onClose={handleClose} />
           </SheetContent>
         </Sheet>
         {/* Desktop Navigation */}
@@ -101,5 +109,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
-

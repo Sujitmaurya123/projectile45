@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'Projectile45',
     template: '%s | Projectile45',
   },
-  description: 'Welcome to Projectile45',
+  description: 'At Projectile45, we believe learning should be transformative, engaging, and uniquely tailored to you. We specialize in preparing students for IB, IGCSE, SAT, GMAT, and GRE, turning exam preparation into a personalized and inspiring journey.With expert educators—alumni from IITs, IIMs, and prestigious global institutions—we bring decades of experience to help you master complex concepts, think critically, and excel in every challenge.Our mission is to empower you to achieve your academic and career goals with confidence and clarity.',
   icons: {
     icon: "/projectile45.ico", // Ensure this file exists in your public directory
     shortcut: "/logo_projectile45.jpg", // Ensure this file exists in your public directory
