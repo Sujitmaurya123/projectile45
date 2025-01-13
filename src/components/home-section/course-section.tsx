@@ -12,31 +12,31 @@ interface Course {
 const courses: Course[] = [
     {
         name: 'IB',
-        logo: '/images/ib-logo.png', // Replace with your actual image paths
+        logo: '/images/ib-logo.svg', // Replace with your actual image paths
         link: '/ib',
         linkprep:'/ib-testprep'
     },
     {
         name: 'IGCSE',
-        logo: '/images/igcse-logo.png',
+        logo: '/images/igcse-logo.svg',
         link: '/igcse',
         linkprep: '/igcse-testprep'
     },
     {
         name: 'SAT',
-        logo: '/images/sat-logo.png',
+        logo: '/images/sat-logo.svg',
         link: '/about-sat',
         linkprep: '/sat-testprep'
     },
     {
         name: 'GMAT',
-        logo: '/images/gmat-logo.png',
+        logo: '/images/gmat-logo.svg',
         link: '/gmat-course',
         linkprep: '/gmat-testprep'
     },
     {
         name: 'GRE',
-        logo: '/images/gre-logo.png',
+        logo: '/images/gre-logo.svg',
         link: '/gre',
         linkprep: '/gre-testprep'
     },

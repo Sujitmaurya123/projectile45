@@ -15,12 +15,13 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <div className="flex flex-row  items-center mb-4">
                         <Image
-                            src="/logo_projectile45.jpg"
-                            alt="Projectile 45 Logo"
-                            width={80}
-                            height={80}
-                            className="h-15 w-auto rounded-full"
-                        />
+                                      src="/logo_projectile45.svg"
+                                      alt="Projectile 45 Logo"
+                                      width={100}
+                                      height={100}
+                                      style={{ objectFit: "cover" }}
+                                      className="h-8 w-auto rounded-full"
+                                    />
                         <span className="text-xl font-bold ml-2">Projectile 45</span>
                     </div>
                     <div className="flex flex-col items-center md:items-start space-y-4 w-full sm:space-y-0 md:flex-row md:space-x-4 mb-2 ">

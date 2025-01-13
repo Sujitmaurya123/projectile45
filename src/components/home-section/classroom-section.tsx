@@ -13,7 +13,7 @@ const ClassroomSection = () => {
                 </div>
                 <div className="md:w-1/2 flex  justify-end">
                     <Image
-                        src="/images/classroom4.png" // Replace with the actual path to your illustration
+                        src="/images/classroom4.svg" // Replace with the actual path to your illustration
                         alt="Laptop with a teacher illustration"
                         width={400}
                         height={300}

@@ -44,7 +44,7 @@ export function SiteHeader() {
         <div className="ml-[25px] lg:ml-[80px] mr-4 flex items-center md:mr-6">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/logo_projectile45.jpg"
+              src="/logo_projectile45.svg"
               alt="Projectile 45 Logo"
               width={100}
               height={100}

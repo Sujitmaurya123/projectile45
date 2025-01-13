@@ -7,7 +7,7 @@ const HelpGrowSection = () => {
             <div className="container mx-auto flex flex-col px-6 md:px-10 lg:px-20 items-center md:flex-row md:justify-between">
                 <div className="flex-1">
                     <Image
-                        src="/images/helpimg5.png" // Replace with the actual path to your illustration
+                        src="/images/helpimg5.svg" // Replace with the actual path to your illustration
                         alt="Tutor helping students"
                         width={350}
                         height={350}
