@@ -12,7 +12,7 @@ const SATHero = () => {
             <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-500 font-medium">
                 <div>
                     <p className="text-base text-justify md:text-lg leading-relaxed ">
-                        The SAT Exam Pattern for the year 2024-2025 has undergone major changes to
+                        The <strong className='text-gray-700'>SAT Exam Pattern</strong> for the year 2024-2025 has undergone major changes to
                         better align with the skills required for college success. The test now scores between
                         400 and 1600 points, with no negative marking for incorrect answers, allowing you to
                         focus on accuracy without worrying about penalties.
@@ -20,7 +20,7 @@ const SATHero = () => {
                     <p className="text-base text-justify md:text-lg leading-relaxed ">
                         One significant update is the reduced overall exam duration, making the test more
                         streamlined and efficient. Another improvement is the allowance of calculators for all
-                        Math questions, including access to the Desmos graphing calculator directly on
+                        Math questions, including access to the <strong className='text-gray-700'>Desmos graphing calculator</strong> directly on
                         the test platform. This feature provides enhanced flexibility and tools for solving
                         complex problems.
                     </p>

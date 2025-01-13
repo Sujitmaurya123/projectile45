@@ -94,14 +94,14 @@ export function SiteHeader() {
             >
               Free Demo
             </span>
-            <Link href="/sign-up-for-free">
-            <Button
-              className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-lg"
+          
+              <Button onClick={() => setIsOpen(true)}
+              className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-lg cursor-pointer"
               
             >
               Sign up for free
             </Button>
-            </Link>
+            
           </nav>
         </div>
       </div>
