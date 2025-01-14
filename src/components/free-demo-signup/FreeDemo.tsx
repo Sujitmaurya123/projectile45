@@ -4,25 +4,19 @@ import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger } from "../ui/select";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
-
-export function FreeDemo({
-    
-    setIsOpen,
-}: {
-    
-    setIsOpen: (open: boolean) => void;
-}) {
-     // Popup is open by default for demo purposes
-      const [formData, setFormData] = useState({
+export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) {
+    const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
         email: "",
-        mobile: "",
-        countryCode: "India (+91)",
+        phone: "",
         course: "",
         consent: false,
-      });
+    });
+
     const handleInputChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
     ) => {
@@ -39,6 +33,7 @@ export function FreeDemo({
         console.log("Form Submitted: ", formData);
         setIsOpen(false); // Close the popup on submission
     };
+
     const handleCheckboxChange = (checked: boolean) => {
         setFormData({
             ...formData,
@@ -46,8 +41,8 @@ export function FreeDemo({
         });
     };
 
-    return(
-        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50 ">
+    return (
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
             <div className="bg-white rounded-xl shadow-lg max-w-lg w-full">
                 {/* Header */}
                 <div className="bg-[#764f94] text-white p-4 flex justify-between items-center rounded-t-xl">
@@ -63,8 +58,7 @@ export function FreeDemo({
                 {/* Content */}
                 <div className="p-6">
                     <p className="text-gray-700 mb-4">
-                        Our Experts require more information to assist you in a better
-                        way.
+                        Our Experts require more information to assist you in a better way.
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-6">
                         {/* First Name & Last Name */}
@@ -109,62 +103,22 @@ export function FreeDemo({
                             />
                         </div>
 
-                        {/* Country Code & Mobile Number */}
-                        <div className="flex space-x-4">
-                            <div className="w-1/2">
-                                <Label htmlFor="countryCode">Country Code</Label>
-                                <Select
-                                    name="countryCode"
-                                    value={formData.countryCode}
-                                    onValueChange={(value) =>
-                                        setFormData((prevData) => ({
-                                            ...prevData,
-                                            countryCode: value,
-                                        }))
-                                    }
-                                    required
-                                // className="w-full p-2 border rounded-lg text-gray-700"
-                                >
-                                    <SelectTrigger
-                                        id="countryCode"
-                                        className="w-full p-2 text-gray-700 bg-white border border-gray-300 rounded-lg"
-                                    >
-                                        {formData.countryCode || "Select a country code"}
-                                    </SelectTrigger>
-                                    <SelectContent className="w-full bg-white border border-gray-300 rounded-lg shadow-lg">
-                                        <SelectItem
-                                            value="India (+91)"
-                                            className="p-2 text-gray-700 hover:bg-gray-200"
-                                        >
-                                            India (+91)
-                                        </SelectItem>
-                                        <SelectItem
-                                            value="USA (+1)"
-                                            className="p-2 text-gray-700 hover:bg-gray-200"
-                                        >
-                                            USA (+1)
-                                        </SelectItem>
-                                        <SelectItem
-                                            value="UK (+44)"
-                                            className="p-2 text-gray-700 hover:bg-gray-200"
-                                        >
-                                            UK (+44)
-                                        </SelectItem>
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="w-1/2">
-                                <Label htmlFor="mobile">Mobile Number*</Label>
-                                <Input
-                                    id="mobile"
-                                    type="tel"
-                                    name="mobile"
-                                    value={formData.mobile}
-                                    onChange={handleInputChange}
-                                    placeholder="Enter your mobile number"
-                                    required
-                                />
-                            </div>
+                        {/* Phone Number */}
+                        <div>
+                            <Label htmlFor="phone">Phone Number*</Label>
+                            <PhoneInput
+                                country="in" // Default country code (India)
+                                value={formData.phone}
+                                onChange={(value) =>
+                                    setFormData((prevData) => ({ ...prevData, phone: value }))
+                                }
+                                inputProps={{
+                                    name: "phone",
+                                    required: true,
+                                }}
+                                containerClass="phone-input-container w-full"
+                                inputClass="w-full border border-gray-300 rounded-lg p-2"
+                            />
                         </div>
 
                         {/* Select Course */}
@@ -188,12 +142,6 @@ export function FreeDemo({
                                     {formData.course || "Choose a course"}
                                 </SelectTrigger>
                                 <SelectContent className="w-full bg-white border border-gray-300 rounded-lg shadow-lg">
-                                    <SelectItem
-                                        value="none"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        Choose a course
-                                    </SelectItem>
                                     <SelectItem
                                         value="IB"
                                         className="p-2 text-gray-700 hover:bg-gray-200"
@@ -237,9 +185,9 @@ export function FreeDemo({
                                 onCheckedChange={handleCheckboxChange}
                             />
                             <Label htmlFor="consent" className="text-sm text-gray-700">
-                                I authorize Projectile45 Review to contact me even
-                                if my number is registered with DND to assist with my
-                                enquiry and get regular updates through SMS/Whatsapp.
+                                I authorize Projectile45 Review to contact me even if my number
+                                is registered with DND to assist with my enquiry and get regular
+                                updates through SMS/Whatsapp.
                             </Label>
                         </div>
 
@@ -254,5 +202,5 @@ export function FreeDemo({
                 </div>
             </div>
         </div>
-    )
+    );
 }

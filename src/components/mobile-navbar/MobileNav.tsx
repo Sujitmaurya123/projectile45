@@ -147,7 +147,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             >
                 Free Demo
             </span>
-            <Button className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl">
+            <Button onClick={() => setIsFreeDemoOpen(true)} className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl">
                 Sign up for free
             </Button>
             {isFreeDemoOpen && <FreeDemo setIsOpen={setIsFreeDemoOpen} />}

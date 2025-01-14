@@ -8,10 +8,54 @@ import type { NextConfig } from "next";
 
 // import type { NextConfig } from "next";
 
+// const nextConfig: NextConfig = {
+//   /* config options here */
+//   // output: 'export',
+//   // distDir: 'dist'
+// };
+
+// export default nextConfig;
+
+// import { NextConfig } from 'next';
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  // output: 'export',
-  // distDir: 'dist'
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'projectile45.info', // Match requests from projectile45.info
+          },
+        ],
+        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        permanent: true, // Use a 301 redirect for SEO
+      },
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'projectile45.in', // Match requests from projectile45.in
+          },
+        ],
+        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'projectile45.com', // Match requests from projectile45.com
+          },
+        ],
+        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        permanent: true,
+      },
+    ];
+  },
 };
 
-export default nextConfig;
+export default nextConfig;
