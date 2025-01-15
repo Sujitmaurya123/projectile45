@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
             value: 'projectile45.info', // Match requests from projectile45.info
           },
         ],
-        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        destination: 'https://www.p45.in/:path*', // Redirect to the main domain
         permanent: true, // Use a 301 redirect for SEO
       },
       {
@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
             value: 'projectile45.in', // Match requests from projectile45.in
           },
         ],
-        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        destination: 'https://www.p45.in/:path*', // Redirect to the main domain
         permanent: true,
       },
       {
@@ -51,11 +51,13 @@ const nextConfig: NextConfig = {
             value: 'projectile45.com', // Match requests from projectile45.com
           },
         ],
-        destination: 'https://projectile45.vercel.app/:path*', // Redirect to the main domain
+        destination: 'https://www.p45.in/:path*', // Redirect to the main domain
         permanent: true,
       },
     ];
   },
+  // output: 'export',
+  // distDir: 'dist'
 };
 
 export default nextConfig;

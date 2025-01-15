@@ -51,11 +51,11 @@ const GMATDropdown: React.FC = () => {
                         <div>
 
                             <ul className="space-y-2">
-                                <li><Link href="/gmat-course" className="hover:text-black">a) GMAT </Link></li>
-                                {/* <li><Link href="/gre-practice-test">GRE Practice Test</Link></li>
-                                <li><Link href="/gre-online-prep">GRE Online Prep</Link></li>
-                                <li><Link href="/gre-overview">GRE Overview</Link></li>
-                                <li><Link href="/gre-wordsapp">GRE WordsApp</Link></li>
+                                <li><Link href="/gmat-introduction" className="hover:text-black">a) Introduction to GMAT</Link></li>
+                                <li><Link href="/gmat-structure">b) GMAT Structure</Link></li>
+                                <li><Link href="/gmat-sections">c) GMAT Sections</Link></li>
+                                <li><Link href="/gmat-scoring">d) GMAT Scoring</Link></li>
+                                {/* <li><Link href="/gre-wordsapp">GRE WordsApp</Link></li>
                                 <li><Link href="/gre-syllabus">GRE Syllabus</Link></li>
                                 <li><Link href="/gre-eligibility">GRE Eligibility 2024</Link></li>
                                 <li><Link href="/gre-test-series">GRE Test Series</Link></li> */}
