@@ -42,10 +42,10 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
-                            <li><Link href="/about-sat" className="hover:text-black">a) About SAT</Link></li>
-                            <li><Link href="/sat-Digital-Exam-PatternandFAQ " className="hover:text-black">b) SAT Pattern</Link></li>
-                            <li><Link href="/sat-2024-25-test-dates" className="hover:text-black">c) SAT Test Dates</Link></li>
-                            <li><Link href="/sat-fees-structure" className="hover:text-black">d) Fees Structure</Link></li>
+                            <li><Link href="/about-sat" className="hover:text-black"> About SAT</Link></li>
+                            <li><Link href="/sat-Digital-Exam-PatternandFAQ " className="hover:text-black"> SAT Pattern</Link></li>
+                            <li><Link href="/sat-2024-25-test-dates" className="hover:text-black"> SAT Test Dates</Link></li>
+                            <li><Link href="/sat-fees-structure" className="hover:text-black"> Fees Structure</Link></li>
                         </ul>
                     </div>
                 )}
@@ -64,11 +64,11 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
-                            <li><Link href="/ib" className="hover:text-black">a) IB</Link></li>
-                            <li><Link href="/ib-curriculam" className="hover:text-black">b) IB Curriculum</Link></li>
-                            <li><Link href="/ib-course-coaching-details" className="hover:text-black">c) Course Structure & Coaching Details</Link></li>
-                            <li><Link href="/ib-online-coaching-technology" className="hover:text-black">d) Remote Tutoring</Link></li>
-                            <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black">e) Fees,Scheduling & Registration</Link></li>
+                            <li><Link href="/ib" className="hover:text-black"> IB</Link></li>
+                            <li><Link href="/ib-curriculam" className="hover:text-black"> IB Curriculum</Link></li>
+                            <li><Link href="/ib-course-coaching-details" className="hover:text-black"> Course Structure & Coaching Details</Link></li>
+                            <li><Link href="/ib-online-coaching-technology" className="hover:text-black"> Remote Tutoring</Link></li>
+                            <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black"> Fees,Scheduling & Registration</Link></li>
                         </ul>
                     </div>
                 )}
@@ -108,10 +108,10 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                     <div onClick={handleDropdownClick}
                       className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
-                            <li><Link href="/gmat-introduction" className="hover:text-black">a) Introduction to GMAT</Link></li>
-                            <li><Link href="/gmat-structure" className="hover:text-black">b) GMAT Structure</Link></li>
-                            <li><Link href="/gmat-sections" className="hover:text-black">c) GMAT Sections</Link></li>
-                            <li><Link href="/gmat-scoring" className="hover:text-black">d) GMAT Scoring</Link></li>
+                            <li><Link href="/gmat-introduction" className="hover:text-black"> Introduction to GMAT</Link></li>
+                            <li><Link href="/gmat-structure" className="hover:text-black"> GMAT Structure</Link></li>
+                            <li><Link href="/gmat-sections" className="hover:text-black"> GMAT Sections</Link></li>
+                            <li><Link href="/gmat-scoring" className="hover:text-black"> GMAT Scoring</Link></li>
                         </ul>
                     </div>
                 )}

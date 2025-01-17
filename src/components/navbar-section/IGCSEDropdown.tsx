@@ -51,7 +51,7 @@ const IGCSEDropdown: React.FC = () => {
                         <div>
 
                             <ul className="space-y-2">
-                                <li><Link href="/igcse" className="hover:text-black">a) IGCSE </Link></li>
+                                <li><Link href="/igcse" className="hover:text-black"> IGCSE </Link></li>
                                 {/* <li><Link href="/gre-practice-test">GRE Practice Test</Link></li>
                                 <li><Link href="/gre-online-prep">GRE Online Prep</Link></li>
                                 <li><Link href="/gre-overview">GRE Overview</Link></li>

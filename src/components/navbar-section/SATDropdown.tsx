@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
+
 const SATDropdown: React.FC = () => {
     const [isSATOpen, setIsSATOpen] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
@@ -53,23 +54,31 @@ const SATDropdown: React.FC = () => {
                             <ul className="space-y-2">
                                 <li>
                                     <Link href="/about-sat" className="hover:text-black">
-                                        a) About SAT
+                                         About SAT
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/sat-Digital-Exam-PatternandFAQ" className="hover:text-black">
-                                        b) SAT Pattern
+                                         SAT Pattern
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/sat-2024-25-test-dates" className="hover:text-black">
-                                        c) SAT Test Dates
+                                        SAT Test Dates
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/sat-fees-structure" className="hover:text-black">
-                                        d) Fees Structure
+                                         Fees Structure
                                     </Link>
+                                </li>
+                                <li>
+                                   
+                                    <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" target="_blank" className="hover:text-black">
+                                        SAT Maths - Sample Questions
+                                    </Link>
+                                  
+                                    
                                 </li>
                             </ul>
                         </div>
