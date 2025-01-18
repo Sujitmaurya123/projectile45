@@ -128,12 +128,15 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 {isIGCSEOpen && (
                     <div onClick={handleDropdownClick}
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto">
-                        <ul className="space-y-2">
-                            <li>
-                                <Link href="/igcse" className="hover:text-black">
-                                    IGCSE
-                                </Link>
-                            </li>
+                        <ul className="space-y-2 text-gray-700">
+                            <li><Link href="/igcse-introduction" className="hover:text-black"> Introduction to IGCSE</Link></li>
+                            <li><Link href="/igcse-curriculum" className="hover:text-black"> IGCSE Curriculum</Link></li>
+                            <li><Link href="/igcse-mathematics" className="hover:text-black"> IGCSE Mathematics</Link></li>
+                            <li><Link href="/igcse-sciences" className="hover:text-black"> IGCSE Sciences</Link></li>
+                            <li><Link href="/igcse-languages" className="hover:text-black"> IGCSE Languages</Link></li>
+                            <li><Link href="/igcse-humanities-social" className="hover:text-black"> IGCSE Humanities &amp; Social Sciences</Link></li>
+                            <li><Link href="/igcse-creative-professional" className="hover:text-black"> IGCSE Creative &amp; Professional</Link></li>
+                            <li><Link href="/igcse-english-literature" className="hover:text-black"> IGCSE English Language &amp; Literature</Link></li>
                         </ul>
                     </div>
                 )}
