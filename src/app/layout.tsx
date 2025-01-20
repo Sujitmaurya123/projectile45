@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 
 import { SiteHeader } from "@/components/site-header"
 import Footer from "@/components/home-section/footer-section"
+import StickyButton from "@/components/sticky-component/sticky-button"
 
 // Define the metadata for the app
 export const metadata: Metadata = {
@@ -42,7 +43,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <div className="relative flex min-h-screen flex-col">
+
           <SiteHeader />
+          <StickyButton/>
          
           <div className="flex-1">{children}</div>
           <Footer/>
