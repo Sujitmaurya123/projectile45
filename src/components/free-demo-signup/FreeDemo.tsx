@@ -1,44 +1,98 @@
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger } from "../ui/select";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) {
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState<{
+        firstName: string;
+        email: string;
+        phone: string;
+        courses: string[];
+        consent: boolean;
+    }>({
         firstName: "",
-        lastName: "",
         email: "",
         phone: "",
-        course: "",
+        courses: [],
         consent: false,
     });
 
-    const handleInputChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-    ) => {
-        const { name, value, type } = e.target as HTMLInputElement;
-        const checked = (e.target as HTMLInputElement).checked;
-        setFormData({
-            ...formData,
+    const [errors, setErrors] = useState<{
+        firstName: string;
+        email: string;
+        phone: string;
+        courses: string;
+        consent: string;
+    }>({
+        firstName: "",
+        email: "",
+        phone: "",
+        courses: "",
+        consent: "",
+    });
+
+    const validate = () => {
+        const newErrors = {
+            firstName: formData.firstName.trim() ? "" : "First name is required.",
+            email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)
+                ? ""
+                : "A valid email is required.",
+            phone: formData.phone.trim() ? "" : "Phone number is required.",
+            courses: formData.courses.length > 0 ? "" : "At least one course must be selected.",
+            consent: formData.consent ? "" : "You must provide consent.",
+        };
+        setErrors(newErrors);
+        return Object.values(newErrors).every((error) => error === "");
+    };
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value, type, checked } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
             [name]: type === "checkbox" ? checked : value,
-        });
+        }));
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleCourseChange = (course: string, isChecked: boolean) => {
+        setFormData((prevData) => ({
+            ...prevData,
+            courses: isChecked
+                ? [...prevData.courses, course]
+                : prevData.courses.filter((c) => c !== course),
+        }));
+    };
+
+    const handleSubmit = async(e: React.FormEvent) => {
+        // e.preventDefault();
+        // if (validate()) {
+        //     console.log("Form Submitted:", formData);
+        //     setIsOpen(false); // Close the popup on successful submission
+        // }
         e.preventDefault();
-        console.log("Form Submitted: ", formData);
-        setIsOpen(false); // Close the popup on submission
-    };
+        if (validate()) {
+            try {
+                const response = await fetch("/api/submit", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(formData),
+                });
 
-    const handleCheckboxChange = (checked: boolean) => {
-        setFormData({
-            ...formData,
-            consent: checked,
-        });
+                if (response.ok) {
+                    alert("Form submitted successfully!");
+                    setIsOpen(false);
+                } else {
+                    alert("Failed to submit the form. Please try again.");
+                }
+            } catch (error) {
+                console.error("Error submitting form:", error);
+                alert("An error occurred. Please try again.");
+            }
+            console.log("Form Submitted:", formData);
+            setIsOpen(false); // Close the popup on successful submission
+        }
     };
 
     return (
@@ -61,32 +115,21 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                         Our Experts require more information to assist you in a better way.
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-6">
-                        {/* First Name & Last Name */}
-                        <div className="flex space-x-4">
-                            <div className="w-1/2">
-                                <Label htmlFor="firstName">First Name*</Label>
-                                <Input
-                                    id="firstName"
-                                    type="text"
-                                    name="firstName"
-                                    value={formData.firstName}
-                                    onChange={handleInputChange}
-                                    placeholder="First Name"
-                                    required
-                                />
-                            </div>
-                            <div className="w-1/2">
-                                <Label htmlFor="lastName">Last Name*</Label>
-                                <Input
-                                    id="lastName"
-                                    type="text"
-                                    name="lastName"
-                                    value={formData.lastName}
-                                    onChange={handleInputChange}
-                                    placeholder="Last Name"
-                                    required
-                                />
-                            </div>
+                        {/* First Name */}
+                        <div>
+                            <Label htmlFor="firstName">Full Name*</Label>
+                            <Input
+                                id="firstName"
+                                type="text"
+                                name="firstName"
+                                value={formData.firstName}
+                                onChange={handleInputChange}
+                                placeholder="Enter your full name"
+                                aria-required="true"
+                            />
+                            {errors.firstName && (
+                                <p className="text-red-500 text-sm">{errors.firstName}</p>
+                            )}
                         </div>
 
                         {/* Email */}
@@ -99,15 +142,18 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                                 value={formData.email}
                                 onChange={handleInputChange}
                                 placeholder="Enter your email"
-                                required
+                                aria-required="true"
                             />
+                            {errors.email && (
+                                <p className="text-red-500 text-sm">{errors.email}</p>
+                            )}
                         </div>
 
                         {/* Phone Number */}
                         <div>
                             <Label htmlFor="phone">Phone Number*</Label>
                             <PhoneInput
-                                country="in" // Default country code (India)
+                                country="in"
                                 value={formData.phone}
                                 onChange={(value) =>
                                     setFormData((prevData) => ({ ...prevData, phone: value }))
@@ -119,77 +165,62 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                                 containerClass="phone-input-container w-full"
                                 inputClass="w-full border border-gray-300 rounded-lg p-2"
                             />
+                            {errors.phone && (
+                                <p className="text-red-500 text-sm">{errors.phone}</p>
+                            )}
                         </div>
 
-                        {/* Select Course */}
+                        {/* Courses */}
                         <div>
-                            <Label htmlFor="course">Select Course*</Label>
-                            <Select
-                                name="course"
-                                value={formData.course || ""} // Ensure it defaults to an empty string if no value
-                                onValueChange={(value) =>
-                                    setFormData((prevData) => ({
-                                        ...prevData,
-                                        course: value,
-                                    }))
-                                }
-                                required
-                            >
-                                <SelectTrigger
-                                    id="course"
-                                    className="w-full p-2 text-gray-700 bg-white border border-gray-300 rounded-lg"
-                                >
-                                    {formData.course || "Choose a course"}
-                                </SelectTrigger>
-                                <SelectContent className="w-full bg-white border border-gray-300 rounded-lg shadow-lg">
-                                    <SelectItem
-                                        value="IB"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        IB
-                                    </SelectItem>
-                                    <SelectItem
-                                        value="IGCSE"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        IGCSE
-                                    </SelectItem>
-                                    <SelectItem
-                                        value="SAT"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        SAT
-                                    </SelectItem>
-                                    <SelectItem
-                                        value="GMAT"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        GMAT
-                                    </SelectItem>
-                                    <SelectItem
-                                        value="GRE"
-                                        className="p-2 text-gray-700 hover:bg-gray-200"
-                                    >
-                                        GRE
-                                    </SelectItem>
-                                </SelectContent>
-                            </Select>
+                            <Label>Select Courses*</Label>
+                            <div className="space-y-2">
+                                {["IB", "IGCSE", "SAT", "GMAT", "GRE"].map((course) => (
+                                    <div key={course} className="flex items-center space-x-2">
+                                        <input title="checkbox"
+                                            type="checkbox"
+                                            id={course}
+                                            name={course}
+                                            checked={formData.courses.includes(course)}
+                                            onChange={(e) =>
+                                                handleCourseChange(course, e.target.checked)
+                                            }
+                                            className="form-checkbox h-5 w-5 text-blue-600"
+                                        />
+                                        <Label htmlFor={course} className="text-gray-700">
+                                            {course}
+                                        </Label>
+                                    </div>
+                                ))}
+                            </div>
+                            {errors.courses && (
+                                <p className="text-red-500 text-sm">{errors.courses}</p>
+                            )}
                         </div>
 
-                        {/* Consent Checkbox */}
+                        {/* Consent */}
                         <div className="flex items-start space-x-2">
-                            <Checkbox
+                            <input title="checkbox"
+                                type="checkbox"
                                 id="consent"
                                 name="consent"
                                 checked={formData.consent}
-                                onCheckedChange={handleCheckboxChange}
+                                onChange={(e) =>
+                                    setFormData((prevData) => ({
+                                        ...prevData,
+                                        consent: e.target.checked,
+                                    }))
+                                }
+                                className="form-checkbox h-5 w-5 text-blue-600"
                             />
                             <Label htmlFor="consent" className="text-sm text-gray-700">
                                 I authorize Projectile45 Review to contact me even if my number
                                 is registered with DND to assist with my enquiry and get regular
-                                updates through SMS/Whatsapp.
+                                updates through SMS/WhatsApp.
                             </Label>
                         </div>
+                        {errors.consent && (
+                            <p className="text-red-500 text-sm">{errors.consent}</p>
+                        )}
 
                         {/* Submit Button */}
                         <Button
