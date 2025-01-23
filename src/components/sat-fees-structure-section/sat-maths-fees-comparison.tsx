@@ -1,5 +1,5 @@
 // components/SATPackageComparison.tsx
-import React from 'react';
+import React, { JSX } from 'react';
 
 
 interface PackageComparison {
