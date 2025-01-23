@@ -32,6 +32,15 @@
       }
     ]
   },
+    // "jsx": "preserve",
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "jsx": "preserve" // For React 17+ or "react" for React <17
+  },
+  // Optional, to ensure strict type checking
+  // other options
   "include": [
     "**/*.ts",
     "**/*.tsx",
