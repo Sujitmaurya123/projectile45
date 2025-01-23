@@ -4,6 +4,8 @@ import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { sendEmail } from "@/utils/emailService";
+import toast from "react-hot-toast";
 
 export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) {
     const [formData, setFormData] = useState<{
@@ -33,6 +35,8 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
         courses: "",
         consent: "",
     });
+
+    const [loading, setLoading] = useState(false); // Add loading state
 
     const validate = () => {
         const newErrors = {
@@ -65,14 +69,10 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
         }));
     };
 
-    const handleSubmit = async(e: React.FormEvent) => {
-        // e.preventDefault();
-        // if (validate()) {
-        //     console.log("Form Submitted:", formData);
-        //     setIsOpen(false); // Close the popup on successful submission
-        // }
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (validate()) {
+            setLoading(true); // Start loading
             try {
                 const response = await fetch("/api/submit", {
                     method: "POST",
@@ -80,18 +80,30 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                     body: JSON.stringify(formData),
                 });
 
-                if (response.ok) {
-                    alert("Form submitted successfully!");
-                    setIsOpen(false);
+                const userTemplateVars = {
+                    user_name: formData.firstName,
+                    user_email: formData.email,
+                    user_phone: formData.phone,
+                    user_courses: formData.courses.join(", "),
+                };
+
+                const userEmailSent = await sendEmail(
+                    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_USER!, // Template ID for user
+                    userTemplateVars
+                );
+
+                if (userEmailSent && response.ok) {
+                    toast.success("Form submitted successfully!");
+                    setIsOpen(false); // Close the popup on successful submission
                 } else {
-                    alert("Failed to submit the form. Please try again.");
+                    toast.error("Failed to submit the form. Please try again.");
                 }
             } catch (error) {
                 console.error("Error submitting form:", error);
-                alert("An error occurred. Please try again.");
+                toast.error("An error occurred. Please try again.");
+            } finally {
+                setLoading(false); // Stop loading
             }
-            console.log("Form Submitted:", formData);
-            setIsOpen(false); // Close the popup on successful submission
         }
     };
 
@@ -176,7 +188,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                             <div className="space-y-2">
                                 {["IB", "IGCSE", "SAT", "GMAT", "GRE"].map((course) => (
                                     <div key={course} className="flex items-center space-x-2">
-                                        <input title="checkbox"
+                                        <Input
                                             type="checkbox"
                                             id={course}
                                             name={course}
@@ -199,7 +211,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
 
                         {/* Consent */}
                         <div className="flex items-start space-x-2">
-                            <input title="checkbox"
+                            <Input 
                                 type="checkbox"
                                 id="consent"
                                 name="consent"
@@ -225,9 +237,13 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                         {/* Submit Button */}
                         <Button
                             type="submit"
-                            className="w-full bg-[#091987] text-white font-semibold py-2 rounded-lg shadow-md hover:bg-[#0A2BAF] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300"
+                            disabled={loading} // Disable the button when loading
+                            className={`w-full font-semibold py-2 rounded-lg shadow-md ${loading
+                                    ? "bg-purple-500 cursor-not-allowed"
+                                    : "bg-[#091987] text-white hover:bg-[#0A2BAF]"
+                                } focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300`}
                         >
-                            Submit
+                            {loading ? "Submitting..." : "Submit"} {/* Display loader text */}
                         </Button>
                     </form>
                 </div>

@@ -72,13 +72,10 @@ const SATDropdown: React.FC = () => {
                                          Fees Structure
                                     </Link>
                                 </li>
-                                <li>
-                                   
+                                <li>  
                                     <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" target="_blank" className="hover:text-black">
                                         SAT Maths - Sample Questions
-                                    </Link>
-                                  
-                                    
+                                    </Link> 
                                 </li>
                             </ul>
                         </div>

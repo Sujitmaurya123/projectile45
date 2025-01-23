@@ -56,7 +56,11 @@ const IBDropdown: React.FC = () => {
                                 <li><Link href="/ib-course-coaching-details" className="hover:text-black"> Course Structure & Coaching Details</Link></li>
                                 <li><Link href="/ib-online-coaching-technology" className="hover:text-black"> Remote Tutoring</Link></li>
                                 <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black"> Fees,Scheduling & Registration</Link></li>
-
+                                <li>
+                                    <Link href="/files/IBDP_Subjects.pdf" target="_blank" className="hover:text-black">
+                                        IBDP-Subjects
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
