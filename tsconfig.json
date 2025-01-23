@@ -16,22 +16,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "jsx": "preserve",
-    "types": [
-      "react",
-      "node"
+    "plugins": [
+      {
+        "name": "next"
+      }
     ],
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
-  },
     // "jsx": "preserve",
     "types": [
       "react",
