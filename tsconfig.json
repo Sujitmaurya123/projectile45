@@ -26,7 +26,9 @@
         "./src/*"
       ]
     },
-    "jsx": "preserve" // For React 17+ or "react" for React <17
+    // "jsx": "preserve",
+     "types": ["react", "react-dom"],
+     "jsx": "react-jsx"  // For React 17+ or "react" for React <17
   },
   // Optional, to ensure strict type checking
   // other options

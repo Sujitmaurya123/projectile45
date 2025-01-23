@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 interface FAQItem {
     question: string;
-    answer: string | JSX.Element | JSX.Element[];
+    answer: string;
 }
 
 const FAQ: React.FC<{ faqs: FAQItem[]; title: string }> = ({ faqs, title }) => {
