@@ -16,22 +16,22 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
+    "jsx": "preserve",
+    "types": [
+      "react",
+      "node"
     ],
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
-    // "jsx": "preserve",
-     "types": ["react", "react-dom"],
-     "jsx": "react-jsx"  // For React 17+ or "react" for React <17
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  // Optional, to ensure strict type checking
-  // other options
   "include": [
     "**/*.ts",
     "**/*.tsx",

@@ -1,11 +1,11 @@
 // components/SATPackageComparison.tsx
-import React, { JSX } from 'react';
+import React from 'react';
 
 
 interface PackageComparison {
     feature: string;
-    package30: string | JSX.Element; // Allow JSX for checkmarks/crosses
-    package50: string | JSX.Element;
+    package30: string | React.JSX.Element; // Allow JSX for checkmarks/crosses
+    package50: string | React.JSX.Element;
 }
 
 const SATPackageComparison: React.FC = () => {

@@ -3,8 +3,8 @@ import React from 'react';
 
 interface PackageComparison {
     feature: string;
-    package30: string | JSX.Element;
-    package50: string | JSX.Element;
+    package30: string | React.JSX.Element;
+    package50: string | React.JSX.Element;
 }
 
 const SATRWPackageComparison: React.FC = () => {
