@@ -361,7 +361,7 @@ const SubjectContent:React.FC= () => {
                               <ul className="list-disc pl-6">
                                   <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. know not to round values within a calculation and to only round the final answer.</li>
-                                  <li>e.g. enter 2 hours 30 minutes as 2.5 hours or 2° 30' 0".</li>
+                                  <li>e.g. enter 2 hours 30 minutes as 2.5 hours or 2° 30&apos; 0&quot;.</li>
                                   <li>e.g. in money 4.8 means $4.80; in time 3.25 means 3 hours 15 minutes.</li>
                               </ul>
                           </section>
