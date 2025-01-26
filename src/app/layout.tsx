@@ -46,8 +46,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
           <SiteHeader />
           <Toaster/>
-          <StickyButton/>
          
+          <StickyButton/>
           <div className="flex-1">{children}</div>
           <Footer/>
         </div>
