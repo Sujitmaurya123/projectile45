@@ -93,7 +93,7 @@ const SyllabusOverview:React.FC= () => {
                             <div className="list-disc pl-6 text-gray-600 ">
                                 <p>Core candidates take Paper 1 and Paper 3. The questions are based on the Core subject content only:</p>
                                 <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                                    <section className="max-w-sm">
+                                    <section >
                                         <ul className="list-disc pl-6">
                                             <li className="mt-2 font-medium list-none mb-3 bg-red-100">Paper 1: Non-calculator (Core)</li>
                                             <li>1 hour 30 minutes</li>
@@ -104,9 +104,9 @@ const SyllabusOverview:React.FC= () => {
                                             <li>Externally assessed</li>
                                         </ul>
                                     </section>
-                                    <section className="max-w-sm">
-                                        <ul className="list-disc pl-6">
-                                            <li className="mt-4 font-medium list-none mb-3 bg-red-100">Paper 3: Calculator (Core)</li>
+                                    <section >
+                                        <ul className="list-disc ">
+                                            <li className="mt-2 font-medium list-none mb-3 bg-red-100">Paper 3: Calculator (Core)</li>
                                             <li>1 hour 30 minutes</li>
                                             <li>80 marks</li>
                                             <li>50%</li>
@@ -137,8 +137,8 @@ const SyllabusOverview:React.FC= () => {
                                         </ul>
                                     </section>
                                     <section className="max-w-sm">
-                                        <ul className="list-disc pl-6">
-                                            <li className="mt-4 font-medium list-none mb-3 bg-red-100">Paper 4: Calculator (Extended)</li>
+                                        <ul className="list-disc">
+                                            <li className="mt-2 font-medium list-none mb-3 bg-red-100">Paper 4: Calculator (Extended)</li>
                                             <li>2 hours</li>
                                             <li>100 marks</li>
                                             <li>50%</li>

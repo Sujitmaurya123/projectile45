@@ -28,8 +28,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Example tasks include:</li>
                                   <ul>
                                       <li>convert between numbers and words, e.g. six billion is 6000000000</li>
@@ -49,8 +49,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Venn diagrams are limited to two or three sets.</li>
                                   <li>The following set notation will be used:</li>
                                   <ul>
@@ -90,8 +90,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes recall of squares and their corresponding roots from 1 to 15, and recall of cubes and their corresponding roots of 1, 2, 3, 4, 5 and 10, e.g.:</li>
                                   <ul>
                                       <li>Write down the value of √169.</li>
@@ -125,8 +125,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates are expected to be able to write fractions in their simplest form.</li>
                                   <li>Recurring decimal notation is required, e.g.</li>
                                   <ul>
@@ -148,8 +148,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -162,8 +162,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes:</li>
                                   <ul>
                                       <li>negative numbers</li>
@@ -184,8 +184,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Examples include:</li>
                                   <ul>
                                       <li>6^½ = √6</li>
@@ -207,8 +207,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -230,8 +230,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes decimal places and significant figures.</li>
                                   <li>e.g. write 5764 correct to the nearest thousand.</li>
                                   <li>e.g. by writing each number correct to 1 significant figure, estimate the value of 41.3 / (9.79 x 0.765)</li>
@@ -248,8 +248,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write down the upper bound of a length measured correct to the nearest metre.</li>
                                   <li>Example calculations include:</li>
                                   <ul>
@@ -273,8 +273,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 20:30:40 in its simplest form is 2:3:4.</li>
                                   <li>e.g. adapt recipes, use map scales, determine best value.</li>
                               </ul>
@@ -298,8 +298,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. calculate with:</li>
                                   <ul>
                                       <li>hourly rates of pay</li>
@@ -333,8 +333,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Problems may include repeated percentage change.</li>
                                   <li>e.g. find the cost price given the selling price and the percentage profit.</li>
                                   <li>Formulas are not given.</li>
@@ -360,8 +360,8 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. know not to round values within a calculation and to only round the final answer.</li>
                                   <li>e.g. enter 2 hours 30 minutes as 2.5 hours or 2° 30&apos; 0&quot;.</li>
                                   <li>e.g. in money 4.8 means $4.80; in time 3.25 means 3 hours 15 minutes.</li>
@@ -383,7 +383,7 @@ const ExtendedSubjectContent = () => {
                       <li>3 Read clocks and timetables.</li>
                   </ul>
                   <p className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
-                  <ul className="list-disc pl-6">
+                  <ul className="list-disc ">
                       <li>1 year = 365 days.</li>
                       <li>In the 24-hour clock, for example, 3.15 a.m. will be denoted by 0315 and 3.15 p.m. by 1515.</li>
                       <li>Includes problems involving time zones, local times and time differences.</li>

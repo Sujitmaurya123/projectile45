@@ -17,8 +17,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>When representing and interpreting inequalities on a number line:</li>
                                   <ul>
                                       <li>open circles should be used to represent strict inequalities {`(<, >)`}</li>
@@ -57,8 +57,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write the next two terms in this sequence: 1, 3, 6, 10, 15, ...</li>
                                   <li>e.g. find the nth term of 2, 5, 10, 17, ...</li>
                               </ul>
@@ -72,7 +72,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -86,8 +86,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. interpret the gradient of a straight-line graph as a rate of change.</li>
                                   <li>e.g. draw a distance-time graph to represent a journey.</li>
                               </ul>
@@ -117,8 +117,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the intersection of a line and a curve.</li>
                               </ul>
                           </section>
@@ -136,8 +136,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Knowledge of symmetry and roots is required.</li>
                                   <li>Knowledge of turning points is not required.</li>
                               </ul>
@@ -151,7 +151,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -163,7 +163,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -184,8 +184,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -198,8 +198,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Equations will be given in the form y = mx + c (e.g. y = -2x + 5), unless a table of values is given.</li>
                               </ul>
                           </section>
@@ -213,8 +213,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>From a grid only.</li>
                               </ul>
                           </section>
@@ -227,7 +227,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -240,8 +240,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Questions may:</li>
                                   <ul>
                                       <li>use and request lines in the forms y = mx + c</li>
@@ -262,8 +262,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the equation of the line parallel to y = 4x - 1 that passes through (1, -3).</li>
                               </ul>
                           </section>
@@ -276,7 +276,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -319,8 +319,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates are not expected to show that two shapes are congruent.</li>
                                   <li>Includes the following terms:</li>
                                   <ul>
@@ -382,8 +382,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes the following terms:</li>
                                   <ul>
                                       <li>centre</li>
@@ -411,8 +411,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>A ruler should be used for all straight edges.</li>
                                   <li>Constructions of perpendicular bisectors and angle bisectors are not required.</li>
                                   <li>e.g. construct a rhombus by drawing two triangles.</li>
@@ -443,8 +443,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>A ruler must be used for all straight edges.</li>
                                   <li>Bearings are measured clockwise from north (000° to 360°).</li>
                                   <li>e.g. find the bearing of A from B if the bearing of B from A is 025°.</li>
@@ -462,8 +462,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -476,8 +476,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes properties of triangles, quadrilaterals and polygons directly related to their symmetries.</li>
                               </ul>
                           </section>
@@ -504,8 +504,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Knowledge of three-letter notation for angles is required, e.g. angle ABC. Candidates are expected to use the correct geometrical terminology when giving reasons for answers.</li>
                                   <li>Includes exterior and interior angles, and angle sum.</li>
                               </ul>
@@ -531,8 +531,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates will be expected to use the geometrical properties listed in the syllabus when giving reasons for answers.</li>
                               </ul>
                           </section>
@@ -545,7 +545,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -566,8 +566,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Units include:</li>
                                   <ul>
                                       <li>mm, cm, m, km</li>
@@ -593,8 +593,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Except for area of a triangle, formulas are not given.</li>
                               </ul>
                           </section>
@@ -609,8 +609,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
                                   <li>Formulas are given in the List of formulas.</li>
                               </ul>
@@ -633,8 +633,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
                                   <li>The following formulas are given in the List of formulas:</li>
                                   <ul>
@@ -677,8 +677,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
                                   <li>e.g. find the volume of half of a sphere.</li>
                               </ul>
@@ -701,8 +701,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -716,8 +716,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Angles will be given in degrees and answers should be written in degrees, with decimals correct to one decimal place.</li>
                                   <li>Knowledge of bearings may be required.</li>
                               </ul>
@@ -731,7 +731,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -743,7 +743,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -755,7 +755,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -767,7 +767,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -801,8 +801,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Questions will not involve combinations of transformations. A ruler must be used for all straight edges.</li>
                                   <li>Positive and fractional scale factors only.</li>
                               </ul>
@@ -816,7 +816,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -828,7 +828,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -840,7 +840,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -863,8 +863,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Probability notation is not required.</li>
                                   <li>Probabilities should be given as a fraction, decimal or percentage.</li>
                                   <li>Problems may require using information from tables, graphs or Venn diagrams (limited to two sets).</li>
@@ -882,8 +882,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. use results of experiments with a spinner to estimate the probability of a given outcome.</li>
                                   <li>e.g. use probability to estimate an expected value from a population.</li>
                                   <li>Includes understanding what is meant by fair, bias and random.</li>
@@ -904,8 +904,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Combined events will only be with replacement.</li>
                                   <li>Venn diagrams will be limited to two sets.</li>
                                   <li>In tree diagrams, outcomes will be written at the end of the branches and probabilities by the side of the branches.</li>
@@ -920,7 +920,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -941,8 +941,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. tally tables, two-way tables.</li>
                               </ul>
                           </section>
@@ -958,8 +958,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. compare averages and ranges between two data sets.</li>
                               </ul>
                           </section>
@@ -973,8 +973,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Data may be in a list or frequency table, but will not be grouped.</li>
                               </ul>
                           </section>
@@ -995,8 +995,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes composite (stacked) and dual (side-by-side) bar charts.</li>
                                   <li>Stem-and-leaf diagrams should have ordered data with a key.</li>
                               </ul>
@@ -1020,8 +1020,8 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Plotted points should be clearly marked, for example as small crosses (x).</li>
                                   <li>A line of best fit:</li>
                                   <ul>
@@ -1040,7 +1040,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -1052,7 +1052,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>

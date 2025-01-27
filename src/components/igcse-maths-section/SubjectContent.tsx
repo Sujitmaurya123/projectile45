@@ -87,8 +87,8 @@ const SubjectContent:React.FC= () => {
                           </ul>
                       </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Venn diagrams are limited to two sets. The following set notation will be used:</li>
                               <li>n(A) Number of elements in set A</li>
                               <li>A&apos; Complement of set A</li>
@@ -116,8 +116,8 @@ const SubjectContent:React.FC= () => {
                           </ul>
                       </section>
                       <section className="max-w-sm">
-                          <ul className="list-disc pl-6">
-                              <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                          <ul className="list-disc ">
+                              <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Includes recall of squares and their corresponding roots from 1 to 15, and recall of cubes and their corresponding roots of 1, 2, 3, 4, 5 and 10, e.g.:</li>
                               <li>Write down the value of √169.</li>
                               <li>Work out 5² x ³√8.</li>
@@ -139,8 +139,8 @@ const SubjectContent:React.FC= () => {
                           </ul>
                       </section>
                       <section className="max-w-sm">
-                          <ul className="list-disc pl-6">
-                              <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                          <ul className="list-disc ">
+                              <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Candidates are expected to be able to write fractions in their simplest form.</li>
                               <li>Candidates are not expected to use recurring decimal notation.</li>
                               <li>Candidates are not expected to demonstrate the conversion of a recurring decimal to a fraction and vice versa.</li>
@@ -156,8 +156,8 @@ const SubjectContent:React.FC= () => {
                           </ul>
                       </section>
                       <section className="max-w-sm">
-                          <ul className="list-disc pl-6">
-                              <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                          <ul className="list-disc ">
+                              <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                           </ul>
                       </section>
                   </div>
@@ -179,8 +179,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes:</li>
                                   <li>negative numbers</li>
                                   <li>improper fractions</li>
@@ -199,8 +199,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the value of \(7^{-2}.\)</li>
                                   <li>e.g. find the value of \(2^{-3}\times2^{4}, (2^{3})^{2}, 2^{3}\div2^{4}\)</li>
                               </ul>
@@ -217,8 +217,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Core candidates are expected to calculate with standard form only on Paper 3.</li>
                               </ul>
                           </section>
@@ -234,8 +234,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes decimal places and significant figures.</li>
                                   <li>e.g. write 5764 correct to the nearest thousand.</li>
                                   <li>e.g. by writing each number correct to 1 significant figure, estimate the value of 41.3/9.79x0.765</li>
@@ -251,8 +251,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write down the upper bound of a length measured correct to the nearest metre.</li>
                                   <li>Candidates are not expected to find the bounds of the results of calculations which have used data rounded to a specified accuracy.</li>
                               </ul>
@@ -279,8 +279,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 20:30:40 in its simplest form is 2:3:4.</li>
                                   <li>e.g. adapt recipes, use map scales; determine best value.</li>
                               </ul>
@@ -297,8 +297,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. calculate with:</li>
                                   <li>• hourly rates of pay</li>
                                   <li>• exchange rates between currencies</li>
@@ -327,8 +327,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Formulas are not given.</li>
                                   <li>Percentage calculations may include:</li>
                                   <li>• deposit</li>
@@ -358,8 +358,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. know not to round values within a calculation and to only round the final answer.</li>
                                   <li>e.g. enter 2 hours 30 minutes as 2.5 hours or 2° 30&apos; 0&quot;.</li>
                                   <li>e.g. in money 4.8 means $4.80; in time 3.25 means 3 hours 15 minutes.</li>
@@ -377,8 +377,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>1 year = 365 days.</li>
                                   <li>In the 24-hour clock, for example, 3.15 a.m. will be denoted by 0315 and 3.15 p.m. by 15 15.</li>
                                   <li>Includes problems involving time zones, local times and time differences.</li>
@@ -395,8 +395,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -408,7 +408,7 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -420,7 +420,7 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -442,8 +442,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
                           </section>
                       </div>
@@ -458,8 +458,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Simplify means give the answer in its simplest form, e.g. 2a + 3b + 5a - 9b = 7a - 6b.</li>
                                   <li>e.g. expand 3x(2x - 4y).</li>
                                   <li>Includes products of two brackets involving one variable, e.g. expand (2x + 1)(x - 4).</li>
@@ -475,7 +475,7 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
+                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -489,8 +489,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 2^x = 32. Find the value of x.</li>
                                   <li>e.g. simplify:</li>
                                   <ul>
@@ -514,8 +514,8 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
+                              <ul className="list-disc ">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write an expression for a number that is 2 more than x.</li>
                                   <li>Includes constructing linear simultaneous equations.</li>
                                   <li>Examples include:</li>

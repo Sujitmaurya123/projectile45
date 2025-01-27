@@ -61,6 +61,22 @@ const IBDropdown: React.FC = () => {
                                         IBDP-Subjects
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="/files/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf" target="_blank" className="hover:text-black">
+                                        IBDP-Maths-1
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/files/dp-mathematics-applications-and-interpretation-specimen-papers-en.pdf" target="_blank" className="hover:text-black">
+                                        IBDP-Maths-2
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/files/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf" target="_blank" className="hover:text-black">
+                                        IBDP-Physics
+                                    </Link>
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
