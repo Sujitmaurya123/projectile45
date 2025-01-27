@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { connectToDatabase } from "@/lib/mogodb";
 import { FormSubmission } from "@/model/FormSubmission";
-
+export const dynamic = "force-dynamic"; 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*", // Allow all origins (use specific domain in production)
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS", // Allowed HTTP methods
