@@ -44,7 +44,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json(
       { message: "Form submitted successfully." },
-      { status: 200, headers: corsHeaders }
+      { status: 200, headers: CORS_HEADERS }
     );
   } catch (error) {
     console.error("Error processing the request:", error);
@@ -53,4 +53,11 @@ export async function POST(req: Request) {
       { status: 500, headers: CORS_HEADERS }
     );
   }
+}
+
+export async function GET() {
+    return new Response("This is the GET endpoint for /api/submit.", {
+        status: 200,
+        headers: CORS_HEADERS,
+    });
 }
