@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
-import  {prisma}  from "@/lib/prisma";
-
-export const dynamic = "force-dynamic";
-
+import { FormSubmission } from "@/model/FormSubmission";
+import { connectToDatabase } from "@/lib/mongodb";
+export const dynamic = "force-dynamic"; 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*", // Allow all origins (use specific domain in production)
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS", // Allowed HTTP methods
@@ -19,79 +18,46 @@ export async function OPTIONS() {
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
-    console.log("Parsed Request Body:", body);
+    // Add CORS headers
+    const corsHeaders = {
+      ...CORS_HEADERS,
+    };
 
-    const { firstName, email, phone, courses, consent } = body;
+    // Parse JSON body
+    const { firstName, email, phone, courses, consent } = await req.json();
+    console.log("Request Body:", { firstName, email, phone, courses, consent });
 
     // Validate input
-    if (!firstName || !email || !phone || !Array.isArray(courses) || consent === undefined) {
+    if (!firstName || !email || !phone || !courses?.length || consent === undefined) {
       return NextResponse.json(
         { message: "Invalid input. All fields are required." },
-        { status: 400, headers: CORS_HEADERS }
+        { status: 400, headers: corsHeaders }
       );
     }
 
-    // Save to the database
-    const submission = await prisma.formsubmission.create({
-      data: {
-        firstName,
-        email,
-        phone,
-        courses, // Store array directly (no need for JSON.stringify)
-        consent,
-      },
-    });
+    // Connect to MongoDB
+    await connectToDatabase();
 
-    console.log("Database Response:", submission);
+    // Save form submission to MongoDB
+    const submission = new FormSubmission({ firstName, email, phone, courses, consent });
+    await submission.save();
 
     return NextResponse.json(
-      { message: "Form submitted successfully.", submission },
+      { message: "Form submitted successfully." },
       { status: 200, headers: CORS_HEADERS }
     );
-  } catch (error: unknown) {
-    // Assert the error type to 'Error'
-    if (error instanceof Error) {
-      // Log the stack trace to avoid Next.js pretty-printing issue
-      console.error("Error processing the request:", error.stack || error);
-
-      const errorMessage = error.message || "Unknown error occurred";
-
-      return new Response(
-        JSON.stringify({ message: errorMessage }),
-        { status: 500, headers: { "Content-Type": "application/json", ...CORS_HEADERS } }
-      );
-    } else {
-      // Handle the case where the error is not an instance of Error
-      console.error("An unknown error occurred:", error);
-      return new Response(
-        JSON.stringify({ message: "Unknown error occurred" }),
-        { status: 500, headers: { "Content-Type": "application/json", ...CORS_HEADERS } }
-      );
-    }
-  }
-}
-
-export async function GET() {
-  try {
-    // Fetch all form submissions from MySQL using Prisma
-    const submissions = await prisma.formsubmission.findMany();
-
-    return NextResponse.json(
-      { submissions },
-      { status: 200, headers: CORS_HEADERS }
-    );
-  } catch (error: unknown) {
-    // Assert the error type to 'Error'
-    if (error instanceof Error) {
-      console.error("Error fetching data:", error.stack || error);
-    } else {
-      console.error("An unknown error occurred:", error);
-    }
-
+  } catch (error) {
+    console.error("Error processing the request:", error);
     return NextResponse.json(
       { message: "Internal Server Error" },
       { status: 500, headers: CORS_HEADERS }
     );
   }
+}
+
+export async function GET() {
+    return new Response("This is the GET endpoint for /api/submit.", {
+        status: 200,
+        headers: CORS_HEADERS,
+    });
 }
