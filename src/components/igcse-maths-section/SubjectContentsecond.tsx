@@ -177,13 +177,13 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">3 Coordinate geometry</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.1 Coordinates</li>
                                   <li>Use and interpret Cartesian coordinates in two dimensions.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -206,13 +206,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.3 Gradient of linear graphs</li>
                                   <li>Find the gradient of a straight line.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>From a grid only.</li>
@@ -290,7 +290,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">4 Geometry</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.1 Geometrical terms</li>
                                   <li>1 Use and interpret the following geometrical terms:</li>
@@ -318,7 +318,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates are not expected to show that two shapes are congruent.</li>
@@ -362,7 +362,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">4 Geometry (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.1 Geometrical terms (continued)</li>
                                   <li>Simple solids:</li>
@@ -381,7 +381,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Use and interpret the vocabulary of a circle.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes the following terms:</li>
@@ -402,7 +402,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.2 Geometrical constructions</li>
                                   <li>1 Measure and draw lines and angles.</li>
@@ -410,7 +410,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Draw, use and interpret nets.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>A ruler should be used for all straight edges.</li>
@@ -435,14 +435,14 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">4 Geometry (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.3 Scale drawings</li>
                                   <li>1 Draw and interpret scale drawings.</li>
                                   <li>2 Use and interpret three-figure bearings.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>A ruler must be used for all straight edges.</li>
@@ -455,13 +455,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.4 Similarity</li>
                                   <li>Calculate lengths of similar shapes.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -469,13 +469,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.5 Symmetry</li>
                                   <li>Recognise line symmetry and order of rotational symmetry in two dimensions.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes properties of triangles, quadrilaterals and polygons directly related to their symmetries.</li>
@@ -484,7 +484,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.6 Angles</li>
                                   <li>1 Calculate unknown angles and give simple explanations using the following geometrical properties:</li>
@@ -503,7 +503,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Know and use angle properties of regular polygons.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Knowledge of three-letter notation for angles is required, e.g. angle ABC. Candidates are expected to use the correct geometrical terminology when giving reasons for answers.</li>
@@ -559,13 +559,13 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">5 Mensuration</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C5.1 Units of measure</li>
                                   <li>Use metric units of mass, length, area, volume and capacity in practical situations and convert quantities into larger or smaller units.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Units include:</li>
@@ -586,13 +586,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C5.2 Area and perimeter</li>
                                   <li>Carry out calculations involving the perimeter and area of a rectangle, triangle, parallelogram and trapezium.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Except for area of a triangle, formulas are not given.</li>
@@ -601,14 +601,14 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C5.3 Circles, arcs and sectors</li>
                                   <li>1 Carry out calculations involving the circumference and area of a circle.</li>
                                   <li>2 Carry out calculations involving arc length and sector area as fractions of the circumference and area of a circle, where the sector angle is a factor of 360°.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
@@ -618,7 +618,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C5.4 Surface area and volume</li>
                                   <li>Carry out calculations and solve problems involving the surface area and volume of a:</li>
@@ -632,7 +632,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
@@ -692,15 +692,15 @@ const SubjectContentsecond = () => {
           <div className="mb-6 flex">
               <div className="mb-6">
                   <h2 className="text-xl font-semibold text-headingcol mb-2">6 Trigonometry</h2>
-                  <div className="list-disc pl-6 text-gray-600">
+                  <div className="list-disc pl-3 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.1 Pythagoras&apos; theorem</li>
                                   <li>Know and use Pythagoras&apos; theorem.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -934,13 +934,13 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">9 Statistics</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.1 Classifying statistical data</li>
                                   <li>Classify and tabulate statistical data.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. tally tables, two-way tables.</li>
@@ -981,7 +981,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.4 Statistical charts and diagrams</li>
                                   <li>Draw and interpret:</li>
@@ -994,7 +994,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes composite (stacked) and dual (side-by-side) bar charts.</li>

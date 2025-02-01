@@ -80,13 +80,13 @@ const SubjectContent:React.FC= () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.2 Sets</li>
                               <li>Understand and use set language, notation and Venn diagrams to describe sets.</li>
                           </ul>
                       </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Venn diagrams are limited to two sets. The following set notation will be used:</li>
@@ -104,7 +104,7 @@ const SubjectContent:React.FC= () => {
                   </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                           <ul className="list-disc pl-6">
                               <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.3 Powers and roots</li>
                               <li>Calculate with the following:</li>
@@ -115,7 +115,7 @@ const SubjectContent:React.FC= () => {
                               <li>other powers and roots of numbers.</li>
                           </ul>
                       </section>
-                      <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                           <ul className="list-disc ">
                               <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Includes recall of squares and their corresponding roots from 1 to 15, and recall of cubes and their corresponding roots of 1, 2, 3, 4, 5 and 10, e.g.:</li>
@@ -126,7 +126,7 @@ const SubjectContent:React.FC= () => {
                   </div>
 
                   <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                      <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                           <ul className="list-disc pl-6">
                               <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.4 Fractions, decimals and percentages</li>
                               <li>1 Use the language and notation of the following in appropriate contexts:</li>
@@ -138,7 +138,7 @@ const SubjectContent:React.FC= () => {
                               <li>2 Recognise equivalence and convert between these forms.</li>
                           </ul>
                       </section>
-                      <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                           <ul className="list-disc ">
                               <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               <li>Candidates are expected to be able to write fractions in their simplest form.</li>
@@ -148,19 +148,27 @@ const SubjectContent:React.FC= () => {
                       </section>
                   </div>
 
-                  <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                      <section className="max-w-sm">
-                          <ul className="list-disc pl-6">
-                              <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.5 Ordering</li>
-                              <li>Order quantities by magnitude and demonstrate familiarity with the symbols {`=`}, {`>`}, {`<`}, and ≥.</li>
-                          </ul>
-                      </section>
-                      <section className="max-w-sm">
-                          <ul className="list-disc ">
-                              <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                          </ul>
-                      </section>
-                  </div>
+                      <div className="flex flex-col md:flex-row justify-center items-start space-x-2 mt-6">
+                          <section className="flex-1 min-h-[100px] p-4   ">
+                              <ul className="list-disc pl-3">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100  rounded">
+                                      C1.5 Ordering
+                                  </li>
+                                  <li>
+                                      Order quantities by magnitude and demonstrate familiarity with the
+                                      symbols {`=`}, {`>`}, {`<`}, and ≥.
+                                  </li>
+                              </ul>
+                          </section>
+                          <section className="flex-1 min-h-[100px] p-4 ">
+                              <ul className="list-disc">
+                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100  rounded">
+                                      Notes and examples
+                                  </li>
+                              </ul>
+                          </section>
+                      </div>
+
 
               </div>
           </div>
@@ -170,15 +178,15 @@ const SubjectContent:React.FC= () => {
           <div className="mb-6 flex">
               <div className="mb-6">
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
-                  <div className="list-disc pl-6 text-gray-600">
+                  <div className="list-disc  text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.6 The four operations</li>
                                   <li>Use the four operations for calculations with integers, fractions and decimals, including correct ordering of operations and use of brackets.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes:</li>
@@ -191,14 +199,14 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.7 Indices I</li>
                                   <li>1 Understand and use indices (positive, zero and negative integers).</li>
                                   <li>2 Understand and use the rules of indices.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the value of \(7^{-2}.\)</li>
@@ -208,7 +216,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.8 Standard form</li>
                                   <li>1 Use the standard form A x 10^n where in is a positive or negative integer and {`1< A<10.`}</li>
@@ -216,7 +224,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Calculate with values in standard form.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Core candidates are expected to calculate with standard form only on Paper 3.</li>
@@ -225,7 +233,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.9 Estimation</li>
                                   <li>1 Round values to a specified degree of accuracy.</li>
@@ -233,7 +241,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Round answers to a reasonable degree of accuracy in the context of a given problem.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes decimal places and significant figures.</li>
@@ -244,13 +252,13 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.10 Limits of accuracy</li>
                                   <li>Give upper and lower bounds for data rounded to a specified accuracy.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write down the upper bound of a length measured correct to the nearest metre.</li>
@@ -269,7 +277,7 @@ const SubjectContent:React.FC= () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.11 Ratio and proportion</li>
                                   <li>Understand and use ratio and proportion to:</li>
@@ -278,7 +286,7 @@ const SubjectContent:React.FC= () => {
                                   <li>• use proportional reasoning and ratios in context.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 20:30:40 in its simplest form is 2:3:4.</li>
@@ -288,7 +296,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.12 Rates</li>
                                   <li>1 Use common measures of rate.</li>
@@ -296,7 +304,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Solve problems involving average speed.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. calculate with:</li>
@@ -317,7 +325,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.13 Percentages</li>
                                   <li>1 Calculate a given percentage of a quantity.</li>
@@ -326,7 +334,7 @@ const SubjectContent:React.FC= () => {
                                   <li>4 Calculate with simple and compound interest.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Formulas are not given.</li>
@@ -387,14 +395,14 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.16 Money</li>
                                   <li>1 Calculate with money.</li>
                                   <li>2 Convert from one currency to another.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -407,10 +415,7 @@ const SubjectContent:React.FC= () => {
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.17 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
+                        
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
@@ -419,10 +424,7 @@ const SubjectContent:React.FC= () => {
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.18 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
+                         
                       </div>
 
                   </div>
@@ -434,14 +436,14 @@ const SubjectContent:React.FC= () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">2 Algebra and graphs</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.1 Introduction to algebra</li>
                                   <li>1 Know that letters can be used to represent generalised numbers.</li>
                                   <li>2 Substitute numbers into expressions and formulas.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -481,14 +483,14 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.4 Indices II</li>
                                   <li>1 Understand and use indices (positive, zero and negative).</li>
                                   <li>2 Understand and use the rules of indices.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 2^x = 32. Find the value of x.</li>

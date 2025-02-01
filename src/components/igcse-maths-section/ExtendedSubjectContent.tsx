@@ -110,7 +110,7 @@ const ExtendedSubjectContent = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.4 Fractions, decimals and percentages</li>
                                   <li>1 Use the language and notation of the following in appropriate contexts:</li>
@@ -124,7 +124,7 @@ const ExtendedSubjectContent = () => {
                                   <li>2 Recognise equivalence and convert between these forms.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates are expected to be able to write fractions in their simplest form.</li>
@@ -141,13 +141,13 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.5 Ordering</li>
                                   <li>Order quantities by magnitude and demonstrate familiarity with the symbols {`=, ≠, >, <, ≥ and ≤.`}</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -155,13 +155,13 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.6 The four operations</li>
                                   <li>Use the four operations for calculations with integers, fractions and decimals, including correct ordering of operations and use of brackets.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes:</li>
@@ -176,14 +176,14 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.7 Indices I</li>
                                   <li>1 Understand and use indices (positive, zero, negative, and fractional).</li>
                                   <li>2 Understand and use the rules of indices.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Examples include:</li>
@@ -198,7 +198,7 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.8 Standard form</li>
                                   <li>1 Use the standard form A x 10^n where n is a positive or negative integer and {`1 ≤ A < 10`}.</li>
@@ -206,7 +206,7 @@ const ExtendedSubjectContent = () => {
                                   <li>3 Calculate with values in standard form.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                               </ul>
@@ -375,7 +375,7 @@ const ExtendedSubjectContent = () => {
           
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">1 Number (continued)</h2>
+                  <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <ul className="list-disc pl-6 text-gray-600">
                       <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.15 Time</li>
                       <li>1 Calculate with time: seconds (s), minutes (min), hours (h), days, weeks, months, years, including the relationship between units.</li>
@@ -432,7 +432,7 @@ const ExtendedSubjectContent = () => {
 
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
@@ -443,7 +443,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E2.2 Algebraic manipulation</h3>
+                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">E2.2 Algebraic manipulation</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Simplify expressions by collecting like terms.</li>
                                   <li>2 Expand products of algebraic expressions.</li>
@@ -460,7 +460,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E2.3 Algebraic fractions</h3>
+                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">E2.3 Algebraic fractions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Manipulate algebraic fractions.</li>
                                   <li>2 Factorise and simplify rational expressions.</li>
@@ -469,7 +469,7 @@ const ExtendedSubjectContent = () => {
                       </div>
                       <div className="flex-1">
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Simplify means give the answer in its simplest form, e.g. 2a² + 3ab - 1 + 5a² - 9ab + 4 = 7a² - 6ab + 3.</li>
                                   <li>e.g. expand 3x(2x - 4y), (3x + y)(x - 4y).</li>
@@ -477,13 +477,13 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Factorise means factorise fully, e.g. 9x² + 15xy = 3x(3x + 5y).</li>
                               </ul>
                           </div>
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Examples include:</li>
                                   <ul className="list-disc pl-6">
@@ -503,7 +503,7 @@ const ExtendedSubjectContent = () => {
 
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
@@ -555,7 +555,7 @@ const ExtendedSubjectContent = () => {
           
                   <div className="container mx-auto">
                       <div className="section mb-6">
-                          <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                           <div className="flex flex-col md:flex-row justify-between items-start">
                               <div className="flex-1">
                                   <div className="mb-4">
@@ -616,7 +616,7 @@ const ExtendedSubjectContent = () => {
 
                   <div className="container mx-auto">
                       <div className="section mb-6">
-                          <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                           <div className="flex flex-col md:flex-row justify-between items-start">
                               <div className="flex-1">
                                   <div className="mb-4">
@@ -681,7 +681,7 @@ const ExtendedSubjectContent = () => {
           
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
@@ -746,7 +746,7 @@ const ExtendedSubjectContent = () => {
 
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">2 Algebra and Graphs (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
@@ -781,7 +781,7 @@ const ExtendedSubjectContent = () => {
 
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">3 Coordinate geometry</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
@@ -857,7 +857,7 @@ const ExtendedSubjectContent = () => {
 
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">3 Coordinate geometry (continued)</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">

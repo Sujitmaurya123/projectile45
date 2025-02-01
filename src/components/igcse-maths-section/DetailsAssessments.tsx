@@ -7,7 +7,7 @@ const DetailsAssessments = () => {
     <>
           <div className="container mx-auto">
               <div className="section mb-6">
-                  <h2 className="text-xl font-semibold mb-2">4 Details of the Assessment</h2>
+                  <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Details of the Assessment</h2>
                   <p>All candidates take two components.</p>
                   <p>Candidates who have studied the Core subject content, or who are expected to achieve a grade D or below, should be entered for Paper 1 and Paper 3. These candidates will be eligible for grades C to G.</p>
                   <p>Candidates who have studied the Extended subject content and who are expected to achieve a grade C or above should be entered for Paper 2 and Paper 4. These candidates will be eligible for grades A to E.</p>
@@ -29,7 +29,7 @@ const DetailsAssessments = () => {
               </div>
           </div>
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4 ">Core Assessment</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Core Assessment</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -65,7 +65,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Extended Assessment</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Extended Assessment</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -101,7 +101,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">List of Formulas - Core (Paper 1 and Paper 3)</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">List of Formulas - Core (Paper 1 and Paper 3)</h2>
               <p>This list of formulas will be included on page 2 of Paper 1 and Paper 3.</p>
 
               <div className="grid grid-cols-2 gap-4">
@@ -130,7 +130,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">List of Formulas - Extended (Paper 2 and Paper 4)</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">List of Formulas - Extended (Paper 2 and Paper 4)</h2>
               <p>This list of formulas will be included on page 2 of Paper 2 and Paper 4.</p>
 
               <div className="grid grid-cols-2 gap-4">
@@ -164,10 +164,10 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Mathematical Conventions</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Mathematical Conventions</h2>
               <p>Mathematics is a universal language where there are some similarities and differences around the world. The guidance below outlines the conventions used in Cambridge examinations and we encourage candidates to follow these conventions.</p>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Working with graphs</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Working with graphs</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li><b>A plot of a graph should have points clearly marked, for example as small crosses (x), and must:</b></li>
                   <ul className="list-disc pl-6">
@@ -196,12 +196,12 @@ const DetailsAssessments = () => {
                   <li>Values should be read off a graph to an accuracy of within half of the smallest square on the grid.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Communicating mathematically</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Communicating mathematically</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>If candidates are asked to show their working, they cannot gain full marks without clearly communicating their method, even if their final answer is correct.</li>
                   <li>A numerical answer should not be given as a combination of fractions and decimals, e.g. 0.2 is not acceptable.</li>
               </ul>
-              <h2 className="text-2xl font-semibold mb-4">Accuracy</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Accuracy</h2>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>Answers are expected to be given in their simplest form unless the question states otherwise.</li>
                   <li>Where a question asks for &apos;xact value&apos;, the answer may need to be given in terms of π or in surd form, depending on the question.</li>
@@ -214,7 +214,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Command Words</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Command Words</h2>
               <p>Command words and their meanings help candidates know what is expected from them in the exams. The table below includes command words used in the assessment for this syllabus. The use of the command word will relate to the subject context.</p>
 
               <table className="table-auto border-collapse border border-gray-200 w-full">
@@ -283,7 +283,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">What Else You Need to Know</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
               <p>This section is an overview of other information you need to know about this syllabus. It will help to share the administrative information with your exams officer so they know when you will need their support. Find more information about our administrative processes at www.cambridgeinternational.org/eoguide</p>
 
               <h4>Before you start</h4>
@@ -319,7 +319,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">What Else You Need to Know</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
 
               <h4>Making entries</h4>
               <p>Exams officers are responsible for submitting entries to Cambridge International. We encourage them to work closely with you to ensure they enter the right number of candidates for the right combination of syllabus components. Entry option codes and instructions for submitting entries are in the Cambridge Guide to Making Entries. Your exams officer has a copy of this guide.</p>
@@ -346,7 +346,7 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">What Else You Need to Know</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
 
               <h4>Making entries</h4>
               <p>Exams officers are responsible for submitting entries to Cambridge International. We encourage them to work closely with you to ensure they enter the right number of candidates for the right combination of syllabus components. Entry option codes and instructions for submitting entries are in the Cambridge Guide to Making Entries. Your exams officer has a copy of this guide.</p>
@@ -410,23 +410,23 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Changes to this syllabus for 2025, 2026 and 2027</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
               <p>This syllabus is version 3, published May 2024.</p>
               <p>You must read the whole syllabus before planning your teaching programme.</p>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 3 of the syllabus, published May 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 3 of the syllabus, published May 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>Alignment of text on pages 41-56 has been adjusted.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 2 of the syllabus, published February 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 2 of the syllabus, published February 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The term prism has been clarified in C5.4 and E5.4 in the notes and guidance.</li>
                   <li>Drawing graphs in E2.11 has been clarified to define the expectations for reciprocal and exponential graphs.</li>
                   <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 1 of the syllabus, published September 2022.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
                   <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
@@ -449,23 +449,23 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Changes to this syllabus for 2025, 2026 and 2027</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
               <p>This syllabus is version 3, published May 2024.</p>
               <p>You must read the whole syllabus before planning your teaching programme.</p>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 3 of the syllabus, published May 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 3 of the syllabus, published May 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>Alignment of text on pages 41-56 has been adjusted.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Changes to version 2 of the syllabus, published February 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 2 of the syllabus, published February 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The term prism has been clarified in C5.4 and E5.4 in the notes and guidance.</li>
                   <li>Drawing graphs in E2.11 has been clarified to define the expectations for reciprocal and exponential graphs.</li>
                   <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Changes to version 1 of the syllabus, published September 2022.</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
                   <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
@@ -514,23 +514,23 @@ const DetailsAssessments = () => {
           </div>
 
           <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Changes to this syllabus for 2025, 2026 and 2027</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
               <p>This syllabus is version 3, published May 2024.</p>
               <p>You must read the whole syllabus before planning your teaching programme.</p>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 3 of the syllabus, published May 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 3 of the syllabus, published May 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>Alignment of text on pages 41-56 has been adjusted.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">Changes to version 2 of the syllabus, published February 2024.</h3>
+              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 2 of the syllabus, published February 2024.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The term prism has been clarified in C5.4 and E5.4 in the notes and guidance.</li>
                   <li>Drawing graphs in E2.11 has been clarified to define the expectations for reciprocal and exponential graphs.</li>
                   <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Changes to version 1 of the syllabus, published September 2022.</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
                   <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
@@ -576,7 +576,7 @@ const DetailsAssessments = () => {
                   <li>The wording of the assessment objectives (AOs) has been updated. There are no changes to the knowledge and skills being assessed for each AO.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 bg-red-100">Changes to assessment (including changes to specimen papers)</h3>
+              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to assessment (including changes to specimen papers)</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>A non-calculator assessment has been introduced at each tier to build candidates&apos; confidence in working mathematically without a calculator.</li>
                   <li>The examination papers have been rebalanced to provide improved accessibility and a better candidate experience. The marks, durations and weightings are the same for both papers in a tier.</li>
