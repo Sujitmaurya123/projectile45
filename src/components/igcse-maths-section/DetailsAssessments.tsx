@@ -5,7 +5,7 @@ import React from 'react'
 const DetailsAssessments = () => {
   return (
     <>
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Details of the Assessment</h2>
                   <p>All candidates take two components.</p>
@@ -28,7 +28,7 @@ const DetailsAssessments = () => {
                   <p>The Additional materials list for exams is updated before each series. You can view the list for the relevant series and year on our website in the Phase 4 - Before the exams section of the Cambridge Exams Officer&apos;s Guide at www.cambridgeinternational.org/eoguide.</p>
               </div>
           </div>
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">Core Assessment</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -64,7 +64,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">Extended Assessment</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -100,7 +100,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">List of Formulas - Core (Paper 1 and Paper 3)</h2>
               <p>This list of formulas will be included on page 2 of Paper 1 and Paper 3.</p>
 
@@ -129,7 +129,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">List of Formulas - Extended (Paper 2 and Paper 4)</h2>
               <p>This list of formulas will be included on page 2 of Paper 2 and Paper 4.</p>
 
@@ -163,7 +163,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">Mathematical Conventions</h2>
               <p>Mathematics is a universal language where there are some similarities and differences around the world. The guidance below outlines the conventions used in Cambridge examinations and we encourage candidates to follow these conventions.</p>
 
@@ -213,7 +213,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">Command Words</h2>
               <p>Command words and their meanings help candidates know what is expected from them in the exams. The table below includes command words used in the assessment for this syllabus. The use of the command word will relate to the subject context.</p>
 
@@ -282,7 +282,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
               <p>This section is an overview of other information you need to know about this syllabus. It will help to share the administrative information with your exams officer so they know when you will need their support. Find more information about our administrative processes at www.cambridgeinternational.org/eoguide</p>
 
@@ -318,7 +318,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
 
               <h4>Making entries</h4>
@@ -345,7 +345,7 @@ const DetailsAssessments = () => {
 
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">What Else You Need to Know</h2>
 
               <h4>Making entries</h4>
@@ -408,6 +408,7 @@ const DetailsAssessments = () => {
               <p>Grade descriptions for Cambridge IGCSE Mathematics will be published after the first assessment of the syllabus in 2025.</p>
 
           </div>
+         
 
           <div className="container mx-auto">
               <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
@@ -426,46 +427,7 @@ const DetailsAssessments = () => {
                   <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
-                  <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
-                  <ul className="list-disc pl-6">
-                      <li>No new topics have been added to the Core subject content.</li>
-                      <li>Content removed from the Core subject content:</li>
-                      <ul className="list-disc pl-6">
-                          <li>adding and subtracting vectors</li>
-                          <li>multiplying a vector by a scalar</li>
-                          <li>data collection (it is expected that data collection will be part of a course based on this syllabus, although it will not be assessed in an examination).</li>
-                      </ul>
-                      <li>Content added to the Core subject content:</li>
-                      <ul className="list-disc pl-6">
-                          <li>inequalities</li>
-                          <li>recall of certain squares, cubes and roots</li>
-                      </ul>
-                  </ul>
-              </ul>
-
-          </div>
-
-          <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
-              <p>This syllabus is version 3, published May 2024.</p>
-              <p>You must read the whole syllabus before planning your teaching programme.</p>
-
-              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 3 of the syllabus, published May 2024.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>Alignment of text on pages 41-56 has been adjusted.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 2 of the syllabus, published February 2024.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>The term prism has been clarified in C5.4 and E5.4 in the notes and guidance.</li>
-                  <li>Drawing graphs in E2.11 has been clarified to define the expectations for reciprocal and exponential graphs.</li>
-                  <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
+              <h3 className="text-xl font-semibold mb-2  text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
                   <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
@@ -511,72 +473,7 @@ const DetailsAssessments = () => {
                   <li>The wording of the assessment objectives (AOs) has been updated. There are no changes to the knowledge and skills being assessed for each AO.</li>
               </ul>
 
-          </div>
-
-          <div className="container mx-auto">
-              <h2 className="text-2xl font-semibold mb-4 text-headingcol">Changes to this syllabus for 2025, 2026 and 2027</h2>
-              <p>This syllabus is version 3, published May 2024.</p>
-              <p>You must read the whole syllabus before planning your teaching programme.</p>
-
-              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 3 of the syllabus, published May 2024.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>Alignment of text on pages 41-56 has been adjusted.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold mb-2 text-headingcol">Changes to version 2 of the syllabus, published February 2024.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>The term prism has been clarified in C5.4 and E5.4 in the notes and guidance.</li>
-                  <li>Drawing graphs in E2.11 has been clarified to define the expectations for reciprocal and exponential graphs.</li>
-                  <li>Guidance has been updated to include the term random in C8.2.2 and E8.2.2.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to version 1 of the syllabus, published September 2022.</h3>
-              <ul className="list-disc pl-6 text-gray-700">
-                  <li>The wording of the learning outcomes has been updated and additional notes and examples included, to clarify the depth of teaching.</li>
-                  <li>The subject content has been refreshed and updated, with some topics and learning outcomes added and some removed. Significant changes to content have been summarised below.</li>
-                  <ul className="list-disc pl-6">
-                      <li>No new topics have been added to the Core subject content.</li>
-                      <li>Content removed from the Core subject content:</li>
-                      <ul className="list-disc pl-6">
-                          <li>adding and subtracting vectors</li>
-                          <li>multiplying a vector by a scalar</li>
-                          <li>data collection (it is expected that data collection will be part of a course based on this syllabus, although it will not be assessed in an examination).</li>
-                      </ul>
-                      <li>Content added to the Core subject content:</li>
-                      <ul className="list-disc pl-6">
-                          <li>inequalities</li>
-                          <li>recall of certain squares, cubes and roots</li>
-                      </ul>
-                  </ul>
-                  <li>Content removed from the Extended subject content:</li>
-                  <ul className="list-disc pl-6">
-                      <li>proper subsets</li>
-                      <li>linear programming</li>
-                      <li>congruence criteria (knowledge of congruence itself is still in the syllabus)</li>
-                      <li>data collection (it is expected that data collection will be part of a course based on this syllabus, although it will not be assessed in an examination)</li>
-                      <li>box-and-whisker plots</li>
-                  </ul>
-                  <li>Content added to the Extended subject content:</li>
-                  <ul className="list-disc pl-6">
-                      <li>recall of certain squares, cubes and roots</li>
-                      <li>surds</li>
-                      <li>graphs of functions in the form ax^n now include values of n of -1, 1 and 2</li>
-                      <li>domain and range</li>
-                      <li>exact trigonometric values</li>
-                  </ul>
-                  <li>Other content has been clarified within topics; you are advised to read the subject content in the syllabus carefully for details.</li>
-                  <li>The teaching time has not changed.</li>
-                  <li>The Details of the assessment section includes:</li>
-                  <ul className="list-disc pl-6">
-                      <li>the List of formulas that is provided in the examinations</li>
-                      <li>mathematical conventions.</li>
-                  </ul>
-                  <li>The wording of the learner attributes has been updated to improve the clarity of wording.</li>
-                  <li>The wording of the aims has been updated to improve the clarity of wording but the meaning is the same.</li>
-                  <li>The wording of the assessment objectives (AOs) has been updated. There are no changes to the knowledge and skills being assessed for each AO.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold mb-2 bg-red-100 text-headingcol">Changes to assessment (including changes to specimen papers)</h3>
+              <h3 className="text-xl font-semibold mb-2  text-headingcol">Changes to assessment (including changes to specimen papers)</h3>
               <ul className="list-disc pl-6 text-gray-700">
                   <li>A non-calculator assessment has been introduced at each tier to build candidates&apos; confidence in working mathematically without a calculator.</li>
                   <li>The examination papers have been rebalanced to provide improved accessibility and a better candidate experience. The marks, durations and weightings are the same for both papers in a tier.</li>
@@ -617,11 +514,11 @@ const DetailsAssessments = () => {
                   <li>The specimen assessment materials have been updated to reflect the changes to the assessment.</li>
               </ul>
 
-              <p>In addition to reading the syllabus, you should refer to the updated specimen assessment materials. The specimen papers will help your students become familiar with exam requirements and command words in questions. The specimen mark schemes show how students should answer questions to meet the assessment objectives.</p>
+              <p className='text-gray-600'>In addition to reading the syllabus, you should refer to the updated specimen assessment materials. The specimen papers will help your students become familiar with exam requirements and command words in questions. The specimen mark schemes show how students should answer questions to meet the assessment objectives.</p>
 
           
-              <p className="text-lg">“While studying Cambridge IGCSE and Cambridge International A Levels, students broaden their horizons through a global perspective and develop a lasting passion for learning.”</p>
-              <p className="text-sm">Feedback from: Zhai Xiaoning, Deputy Principal, The High School Affiliated to Renmin University of China</p>
+              <p className="text-lg font-medium text-headingcol">“While studying Cambridge IGCSE and Cambridge International A Levels, students broaden their horizons through a global perspective and develop a lasting passion for learning.”</p>
+              <p className="text-sm text-gray-600">Feedback from: Zhai Xiaoning, Deputy Principal, The High School Affiliated to Renmin University of China</p>
           </div>
           
 

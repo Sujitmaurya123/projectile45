@@ -5,6 +5,7 @@ import ExtendedSubjectContentsecond from '@/components/igcse-maths-section/Exten
 import SubjectContent from '@/components/igcse-maths-section/SubjectContent';
 import SubjectContentsecond from '@/components/igcse-maths-section/SubjectContentsecond';
 import SyllabusOverview from '@/components/igcse-maths-section/SyllabusOverview';
+import Image from 'next/image';
 import React from 'react';
 
 const IGCSEMaths: React.FC = () => {
@@ -33,17 +34,34 @@ const IGCSEMaths: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
             {/* IGCSE Section */}
-            <div className="container mx-auto py-16 text-gray-600">
-                <p>{iGCSEData.title}</p>
-                <p>{iGCSEData.description}</p>
+            <div className="container mx-auto  text-gray-600">
+                <div className=" mx-auto   flex flex-col-reverse lg:flex-row items-center gap-8">
+                    {/* Text Section */}
+                    <div className=" lg:text-left lg:w-3/4 space-y-4 ">
+                        <p className="text-2xl font-semibold text-justify text-headingcol">{iGCSEData.title}</p>
+                        <p className="text-gray-700">{iGCSEData.description}</p>
 
-                <div className=" gap-8">
-                    {iGCSEData.benefits.map((benefit, index) => (
-                        <div key={index} className="flex items-center">
-                            <span>{benefit}</span>
+                        <div className="space-y-2">
+                            {iGCSEData.benefits.map((benefit, index) => (
+                                <div key={index} className="flex items-center space-x-2">
+                                    <span className="text-gray-600"> {benefit}</span>
+                                </div>
+                            ))}
                         </div>
-                    ))}
+                    </div>
+
+                    {/* Image Section */}
+                    <div className="lg:w-1/2 flex  justify-end">
+                        <Image
+                            src="/images/igcsemaths.png"
+                            alt="iGCSE Maths"
+                           
+                            width={550}
+                            height={550}
+                        />
+                    </div>
                 </div>
+
 
                 <div className="mt-12">
                     <h2 className="text-2xl font-semibold mb-4 text-headingcol">Key Features</h2>

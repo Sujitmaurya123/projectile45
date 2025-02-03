@@ -5,7 +5,7 @@ import React from 'react'
 const ExtendedSubjectContentsecond = () => {
   return (
     <>
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -77,7 +77,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -136,7 +136,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -216,7 +216,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -296,7 +296,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">5 Mensuration</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -391,7 +391,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">5 Mensuration (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -427,7 +427,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">6 Trigonometry</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -499,7 +499,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">6 Trigonometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -539,7 +539,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">7 Transformations and Vectors</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -619,7 +619,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">8 Probability</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -693,7 +693,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">9 Statistics</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -764,7 +764,7 @@ const ExtendedSubjectContentsecond = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2text-headingcol text-headingcol">9 Statistics (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">

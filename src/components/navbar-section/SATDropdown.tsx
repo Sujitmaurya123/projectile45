@@ -73,7 +73,7 @@ const SATDropdown: React.FC = () => {
                                     </Link>
                                 </li>
                                 <li>  
-                                    <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" target="_blank" className="hover:text-black">
+                                    <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true"  className="hover:text-black">
                                         SAT Maths - Sample Questions
                                     </Link> 
                                 </li>

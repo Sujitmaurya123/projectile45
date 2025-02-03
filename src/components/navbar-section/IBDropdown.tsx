@@ -57,22 +57,22 @@ const IBDropdown: React.FC = () => {
                                 <li><Link href="/ib-online-coaching-technology" className="hover:text-black"> Remote Tutoring</Link></li>
                                 <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black"> Fees,Scheduling & Registration</Link></li>
                                 <li>
-                                    <Link href="/files/IBDP_Subjects.pdf" target="_blank" className="hover:text-black">
+                                    <Link href="/files/IBDP_Subjects.pdf"  className="hover:text-black">
                                         IBDP-Subjects
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/files/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf" target="_blank" className="hover:text-black">
+                                    <Link href="/files/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf"  className="hover:text-black">
                                         IBDP-Maths-1
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/files/dp-mathematics-applications-and-interpretation-specimen-papers-en.pdf" target="_blank" className="hover:text-black">
+                                    <Link href="/files/dp-mathematics-applications-and-interpretation-specimen-papers-en.pdf"  className="hover:text-black">
                                         IBDP-Maths-2
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/files/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf" target="_blank" className="hover:text-black">
+                                    <Link href="/files/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf"  className="hover:text-black">
                                         IBDP-Physics
                                     </Link>
                                 </li>

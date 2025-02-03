@@ -46,6 +46,11 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/sat-Digital-Exam-PatternandFAQ " className="hover:text-black"> SAT Pattern</Link></li>
                             <li><Link href="/sat-2024-25-test-dates" className="hover:text-black"> SAT Test Dates</Link></li>
                             <li><Link href="/sat-fees-structure" className="hover:text-black"> Fees Structure</Link></li>
+                            <li>
+                                <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" className="hover:text-black">
+                                    SAT Maths - Sample Questions
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 )}
@@ -69,6 +74,27 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/ib-course-coaching-details" className="hover:text-black"> Course Structure & Coaching Details</Link></li>
                             <li><Link href="/ib-online-coaching-technology" className="hover:text-black"> Remote Tutoring</Link></li>
                             <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black"> Fees,Scheduling & Registration</Link></li>
+                            <li>
+                                <Link href="/files/IBDP_Subjects.pdf" className="hover:text-black">
+                                    IBDP-Subjects
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/files/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf" className="hover:text-black">
+                                    IBDP-Maths-1
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/files/dp-mathematics-applications-and-interpretation-specimen-papers-en.pdf" className="hover:text-black">
+                                    IBDP-Maths-2
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/files/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf" className="hover:text-black">
+                                    IBDP-Physics
+                                </Link>
+                            </li>
+
                         </ul>
                     </div>
                 )}

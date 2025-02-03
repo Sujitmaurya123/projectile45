@@ -373,10 +373,10 @@ const ExtendedSubjectContent = () => {
               </div>
           </div>
           
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
-                  <ul className="list-disc pl-6 text-gray-600">
+                  <ul className="list-disc pl-6 ">
                       <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.15 Time</li>
                       <li>1 Calculate with time: seconds (s), minutes (min), hours (h), days, weeks, months, years, including the relationship between units.</li>
                       <li>2 Calculate times in terms of the 24-hour and 12-hour clock.</li>
@@ -436,7 +436,7 @@ const ExtendedSubjectContent = () => {
                   <div className="flex flex-col md:flex-row justify-between items-start">
                       <div className="flex-1">
                           <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E2.1 Introduction to algebra</h3>
+                              <h3 className="text-lg font-semibold  text-headingcol bg-red-100">E2.1 Introduction to algebra</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Know that letters can be used to represent generalised numbers.</li>
                                   <li>2 Substitute numbers into expressions and formulas.</li>
@@ -501,7 +501,7 @@ const ExtendedSubjectContent = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -553,7 +553,7 @@ const ExtendedSubjectContent = () => {
           </div>
 
           
-                  <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
                       <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                           <div className="flex flex-col md:flex-row justify-between items-start">
@@ -614,7 +614,7 @@ const ExtendedSubjectContent = () => {
 
     
 
-                  <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
                       <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                           <div className="flex flex-col md:flex-row justify-between items-start">
@@ -679,7 +679,7 @@ const ExtendedSubjectContent = () => {
                       </div>
                   </div>
           
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -744,7 +744,7 @@ const ExtendedSubjectContent = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -779,7 +779,7 @@ const ExtendedSubjectContent = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
@@ -855,7 +855,7 @@ const ExtendedSubjectContent = () => {
               </div>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
