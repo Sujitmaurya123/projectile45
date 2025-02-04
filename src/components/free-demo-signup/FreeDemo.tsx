@@ -109,7 +109,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
 
     return (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
-            <div className="bg-white rounded-xl shadow-lg max-w-lg w-full">
+            <div className="bg-white rounded-xl shadow-lg  w-full max-w-lg h-1/2 overflow-y-auto sm:h-auto ">
                 {/* Header */}
                 <div className="bg-[#764f94] text-white p-4 flex justify-between items-center rounded-t-xl">
                     <h2 className="text-lg font-bold">Just One Step Away!</h2>

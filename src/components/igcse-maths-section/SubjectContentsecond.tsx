@@ -10,13 +10,13 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">2 Algebra and graphs (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.6 Inequalities</li>
                                   <li>Represent and interpret inequalities, including on a number line.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>When representing and interpreting inequalities on a number line:</li>
@@ -43,7 +43,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.7 Sequences</li>
                                   <li>1 Continue a given number sequence or pattern.</li>
@@ -56,7 +56,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write the next two terms in this sequence: 1, 3, 6, 10, 15, ...</li>
@@ -66,26 +66,26 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.8 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.9 Graphs in practical situations</li>
                                   <li>1 Use and interpret graphs in practical situations including travel graphs and conversion graphs.</li>
                                   <li>2 Draw graphs from given data.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. interpret the gradient of a straight-line graph as a rate of change.</li>
@@ -103,7 +103,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">2 Algebra and graphs (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.10 Graphs of functions</li>
                                   <li>1 Construct tables of values, and draw, recognise and interpret graphs for functions of the following forms:</li>
@@ -116,7 +116,7 @@ const SubjectContentsecond = () => {
                                   <li>2 Solve associated equations graphically, including finding and interpreting roots by graphical methods.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the intersection of a line and a curve.</li>
@@ -125,7 +125,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.11 Sketching curves</li>
                                   <li>Recognise, sketch and interpret graphs of the following functions:</li>
@@ -135,7 +135,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Knowledge of symmetry and roots is required.</li>
@@ -145,24 +145,24 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.12 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100 ">C2.13 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -191,13 +191,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.2 Drawing linear graphs</li>
                                   <li>Draw straight-line graphs for linear equations.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Equations will be given in the form y = mx + c (e.g. y = -2x + 5), unless a table of values is given.</li>
@@ -221,25 +221,25 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.4 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.5 Equations of linear graphs</li>
                                   <li>Interpret and obtain the equation of a straight-line graph in the form y = mx + c.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Questions may:</li>
@@ -255,13 +255,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.6 Parallel lines.</li>
                                   <li>Find the gradient and equation of a straight line parallel to a given line.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. find the equation of the line parallel to y = 4x - 1 that passes through (1, -3).</li>
@@ -270,12 +270,12 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.7 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -520,7 +520,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">4 Geometry (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.7 Circle theorems</li>
                                   <li>Calculate unknown angles and give explanations using the following geometrical properties of circles:</li>
@@ -530,7 +530,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Candidates will be expected to use the geometrical properties listed in the syllabus when giving reasons for answers.</li>
@@ -539,12 +539,12 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.8 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -661,7 +661,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">5 Mensuration (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C5.5 Compound shapes and parts of shapes</li>
                                   <li>1 Carry out calculations and solve problems involving perimeters and areas of:</li>
@@ -676,7 +676,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Answers may be asked for in terms of π.</li>
@@ -708,14 +708,14 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.2 Right-angled triangles</li>
                                   <li>1 Know and use the sine, cosine and tangent ratios for acute angles in calculations involving sides and angles of a right-angled triangle.</li>
                                   <li>2 Solve problems in two dimensions using Pythagoras&apos; theorem and trigonometry.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Angles will be given in degrees and answers should be written in degrees, with decimals correct to one decimal place.</li>
@@ -725,48 +725,48 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.3 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.4 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.5 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.6 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -781,7 +781,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">7 Transformations and vectors</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.1 Transformations</li>
                                   <li>Recognise, describe and draw the following transformations:</li>
@@ -800,7 +800,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Questions will not involve combinations of transformations. A ruler must be used for all straight edges.</li>
@@ -810,36 +810,36 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.2 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.3 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.4 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -854,7 +854,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">8 Probability</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C8.1 Introduction to probability</li>
                                   <li>1 Understand and use the probability scale from 0 to 1.</li>
@@ -862,7 +862,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Understand that the probability of an event not occurring = 1 - the probability of the event occurring.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Probability notation is not required.</li>
@@ -874,14 +874,14 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C8.2 Relative and expected frequencies</li>
                                   <li>1 Understand relative frequency as an estimate of probability.</li>
                                   <li>2 Calculate expected frequencies.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. use results of experiments with a spinner to estimate the probability of a given outcome.</li>
@@ -892,7 +892,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C8.3 Probability of combined events</li>
                                   <li>Calculate the probability of combined events using, where appropriate:</li>
@@ -903,7 +903,7 @@ const SubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Combined events will only be with replacement.</li>
@@ -914,12 +914,12 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C8.4 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
@@ -949,7 +949,7 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.2 Interpreting statistical data</li>
                                   <li>1 Read, interpret and draw inferences from tables and statistical diagrams.</li>
@@ -957,7 +957,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Appreciate restrictions on drawing conclusions from given data.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. compare averages and ranges between two data sets.</li>
@@ -966,13 +966,13 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.3 Averages and range</li>
                                   <li>Calculate the mean, median, mode and range for individual data and distinguish between the purposes for which these are used.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Data may be in a list or frequency table, but will not be grouped.</li>
@@ -1011,7 +1011,7 @@ const SubjectContentsecond = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">9 Statistics (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.5 Scatter diagrams</li>
                                   <li>1 Draw and interpret scatter diagrams.</li>
@@ -1019,7 +1019,7 @@ const SubjectContentsecond = () => {
                                   <li>3 Draw by eye, interpret and use a straight line of best fit.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Plotted points should be clearly marked, for example as small crosses (x).</li>
@@ -1034,24 +1034,24 @@ const SubjectContentsecond = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.6 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.7 Extended content only.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                               </ul>
                           </section>

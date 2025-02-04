@@ -10,7 +10,7 @@ const ExtendedSubjectContent = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">Extended subject content</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.1 Types of number</li>
                                   <li>Identify and use:</li>
@@ -27,7 +27,7 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Example tasks include:</li>
@@ -42,13 +42,13 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.2 Sets</li>
                                   <li>Understand and use set language, notation and Venn diagrams to describe sets and represent relationships between sets.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Venn diagrams are limited to two or three sets.</li>
@@ -76,7 +76,7 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.3 Powers and roots</li>
                                   <li>Calculate with the following:</li>
@@ -89,7 +89,7 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes recall of squares and their corresponding roots from 1 to 15, and recall of cubes and their corresponding roots of 1, 2, 3, 4, 5 and 10, e.g.:</li>
@@ -221,7 +221,7 @@ const ExtendedSubjectContent = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.9 Estimation</li>
                                   <li>1 Round values to a specified degree of accuracy.</li>
@@ -229,7 +229,7 @@ const ExtendedSubjectContent = () => {
                                   <li>3 Round answers to a reasonable degree of accuracy in the context of a given problem.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Includes decimal places and significant figures.</li>
@@ -240,14 +240,14 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.10 Limits of accuracy</li>
                                   <li>1 Give upper and lower bounds for data rounded to a specified accuracy.</li>
                                   <li>2 Find upper and lower bounds of the results of calculations which have used data rounded to a specified accuracy.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write down the upper bound of a length measured correct to the nearest metre.</li>
@@ -261,7 +261,7 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.11 Ratio and proportion</li>
                                   <li>Understand and use ratio and proportion to:</li>
@@ -272,7 +272,7 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. 20:30:40 in its simplest form is 2:3:4.</li>
@@ -289,7 +289,7 @@ const ExtendedSubjectContent = () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.12 Rates</li>
                                   <li>1 Use common measures of rate.</li>
@@ -297,7 +297,7 @@ const ExtendedSubjectContent = () => {
                                   <li>3 Solve problems involving average speed.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. calculate with:</li>
@@ -322,7 +322,7 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.13 Percentages</li>
                                   <li>1 Calculate a given percentage of a quantity.</li>
@@ -332,7 +332,7 @@ const ExtendedSubjectContent = () => {
                                   <li>5 Calculate using reverse percentages.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Problems may include repeated percentage change.</li>
@@ -351,7 +351,7 @@ const ExtendedSubjectContent = () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.14 Using a calculator</li>
                                   <li>1 Use a calculator efficiently.</li>
@@ -359,7 +359,7 @@ const ExtendedSubjectContent = () => {
                                   <li>3 Interpret the calculator display appropriately.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. know not to round values within a calculation and to only round the final answer.</li>
@@ -374,52 +374,72 @@ const ExtendedSubjectContent = () => {
           </div>
           
           <div className="container mx-auto text-gray-600">
-              <div className="section mb-6">
+
+              <div className="flex flex-col md:flex-row justify-between items-start">  
+                <div className="flex-1 min-h-[100px] p-4">
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
-                  <ul className="list-disc pl-6 ">
+                  <ul className="list-disc  ">
                       <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.15 Time</li>
                       <li>1 Calculate with time: seconds (s), minutes (min), hours (h), days, weeks, months, years, including the relationship between units.</li>
                       <li>2 Calculate times in terms of the 24-hour and 12-hour clock.</li>
                       <li>3 Read clocks and timetables.</li>
                   </ul>
-                  <p className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
+                  </div>
+                <div className="flex-1 min-h-[100px] p-4 mt-7">
+
+                  <p className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
                   <ul className="list-disc ">
                       <li>1 year = 365 days.</li>
                       <li>In the 24-hour clock, for example, 3.15 a.m. will be denoted by 0315 and 3.15 p.m. by 1515.</li>
                       <li>Includes problems involving time zones, local times and time differences.</li>
                   </ul>
+                  </div>
+             
               </div>
-
-              <div className="section mb-6">
+              <div className="flex flex-col md:flex-row justify-between items-start">
+                  <div className='flex-1 min-h-[100px] p-4 '>
                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.16 Money</li>
                   <ul className="list-disc pl-6 text-gray-600">
                       <li>1 Calculate with money.</li>
                       <li>2 Convert from one currency to another.</li>
                   </ul>
-                  <p className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
+                    </div>
+                  <div className='flex-1 min-h-[100px] p-4 '>
+                  <p className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
                   <ul className="list-disc pl-6">
                       <li>...</li>
                   </ul>
+
+                    </div>
               </div>
 
-              <div className="section mb-6">
+              <div className="flex flex-col md:flex-row justify-between items-start">
+                  <div className='flex-1 min-h-[100px] p-4 '>
                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.17 Exponential growth and decay</li>
                   <ul className="list-disc pl-6 text-gray-600">
                       <li>Use exponential growth and decay.</li>
                   </ul>
-                  <p className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
+
+                </div>
+                  <div className='flex-1 min-h-[100px] p-4 '>
+                  <p className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
                   <ul className="list-disc pl-6">
                       <li>e.g. depreciation, population change.</li>
                       <li>Knowledge of e is not required.</li>
                   </ul>
+                </div>
               </div>
 
-              <div className="section mb-6">
+              <div className="flex flex-col md:flex-row justify-between items-start">
+                  <div className='flex-1 min-h-[100px] p-4'>
                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">E1.18 Surds</li>
                   <ul className="list-disc pl-6 text-gray-600">
                       <li>1 Understand and use surds, including simplifying expressions.</li>
                       <li>2 Rationalise the denominator.</li>
                   </ul>
+
+                </div>
+                  <div className='flex-1 min-h-[100px] p-4'>
                   <p className="mt-4 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
                   <ul className="list-disc pl-6">
                       <li>√20 = 2√5</li>
@@ -427,62 +447,73 @@ const ExtendedSubjectContent = () => {
                       <li>10/√5 = 2√5</li>
                       <li>(1+√3)/(1-√3) = -2 - √3</li>
                   </ul>
+
+                </div>
               </div>
           </div>
 
           <div className="container mx-auto">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold  text-headingcol bg-red-100">E2.1 Introduction to algebra</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
-                                  <li>1 Know that letters can be used to represent generalised numbers.</li>
-                                  <li>2 Substitute numbers into expressions and formulas.</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">E2.2 Algebraic manipulation</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
-                                  <li>1 Simplify expressions by collecting like terms.</li>
-                                  <li>2 Expand products of algebraic expressions.</li>
-                                  <li>3 Factorise by extracting common factors.</li>
-                                  <li>4 Factorise expressions of the form:</li>
-                                  <ul className="list-disc pl-6">
-                                      <li>ax + bx + kay + kby</li>
-                                      <li>a²x² - b²y²</li>
-                                      <li>a² + 2ab + b²</li>
-                                      <li>ax² + bx + c</li>
-                                      <li>ax³ + bx² + cx</li>
-                                  </ul>
-                                  <li>5 Complete the square for expressions in the form ax² + bx + c.</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
+                  <div >
+                                <div className="flex flex-col md:flex-row justify-between items-start">
+
+                                    <div className="flex-1 min-h-[100px] p-4">
+                                        <h3 className="text-lg font-semibold  text-headingcol bg-red-100">E2.1 Introduction to algebra</h3>
+                                        <ul className="list-disc pl-6 text-gray-600">
+                                            <li>1 Know that letters can be used to represent generalised numbers.</li>
+                                            <li>2 Substitute numbers into expressions and formulas.</li>
+                                        </ul>
+                                    </div>
+                                    <div className="flex-1 min-h-[100px] p-4">
+                                        <h3 className="text-lg font-semibold bg-red-100 text-headingcol">E2.2 Algebraic manipulation</h3>
+                                        <ul className="list-disc pl-6 text-gray-600">
+                                            <li>1 Simplify expressions by collecting like terms.</li>
+                                            <li>2 Expand products of algebraic expressions.</li>
+                                            <li>3 Factorise by extracting common factors.</li>
+                                            <li>4 Factorise expressions of the form:</li>
+                                            <ul className="list-disc pl-6">
+                                                <li>ax + bx + kay + kby</li>
+                                                <li>a²x² - b²y²</li>
+                                                <li>a² + 2ab + b²</li>
+                                                <li>ax² + bx + c</li>
+                                                <li>ax³ + bx² + cx</li>
+                                            </ul>
+                                            <li>5 Complete the square for expressions in the form ax² + bx + c.</li>
+                                        </ul>
+                                    </div>
+                                 </div>
+                      <div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100 text-headingcol">E2.3 Algebraic fractions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Manipulate algebraic fractions.</li>
                                   <li>2 Factorise and simplify rational expressions.</li>
                               </ul>
                           </div>
+                              <div className="flex-1 min-h-[100px] p-4">
+                                  <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
+                                  <ul className="list-disc pl-6 text-gray-600">
+                                      <li>Simplify means give the answer in its simplest form, e.g. 2a² + 3ab - 1 + 5a² - 9ab + 4 = 7a² - 6ab + 3.</li>
+                                      <li>e.g. expand 3x(2x - 4y), (3x + y)(x - 4y).</li>
+                                      <li>Includes products of more than two brackets, e.g. expand (x - 2)(x + 3)(2x + 1).</li>
+                                  </ul>
+                              </div>
+                            </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
-                                  <li>Simplify means give the answer in its simplest form, e.g. 2a² + 3ab - 1 + 5a² - 9ab + 4 = 7a² - 6ab + 3.</li>
-                                  <li>e.g. expand 3x(2x - 4y), (3x + y)(x - 4y).</li>
-                                  <li>Includes products of more than two brackets, e.g. expand (x - 2)(x + 3)(2x + 1).</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
+                      </div>
+                  <div className="flex flex-col md:flex-row justify-between items-start">
+                          
+                      <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Factorise means factorise fully, e.g. 9x² + 15xy = 3x(3x + 5y).</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                      <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100 text-headingcol">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Examples include:</li>
@@ -497,7 +528,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                  </div>
+                 
               </div>
           </div>
 
@@ -505,7 +536,7 @@ const ExtendedSubjectContent = () => {
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E2.4 Indices II</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -513,7 +544,7 @@ const ExtendedSubjectContent = () => {
                                   <li>2 Understand and use the rules of indices.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="mb-4 mt-9">
                               <h3 className="text-lg font-semibold bg-red-100">E2.5 Equations</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Construct expressions, equations and formulas.</li>
@@ -526,7 +557,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -557,7 +588,7 @@ const ExtendedSubjectContent = () => {
                       <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                           <div className="flex flex-col md:flex-row justify-between items-start">
-                              <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                                   <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E2.6 Inequalities</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
@@ -576,7 +607,7 @@ const ExtendedSubjectContent = () => {
                                       </ul>
                                   </div>
                               </div>
-                              <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                                   <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
@@ -617,25 +648,47 @@ const ExtendedSubjectContent = () => {
           <div className="container mx-auto text-gray-600">
                       <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
-                          <div className="flex flex-col md:flex-row justify-between items-start">
-                              <div className="flex-1">
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E2.8 Proportion</h3>
+                          <div >
+                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
+
+                              <div className="flex-1 min-h-[100px] p-4">
+                                    <h3 className="text-lg font-semibold bg-red-100">E2.8 Proportion</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
                                           <li>Express direct and inverse proportion in algebraic terms and use this form of expression to find unknown quantities.</li>
                                       </ul>
                                   </div>
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E2.9 Graphs in practical situations</h3>
+                                <div className="flex-1 min-h-[100px] p-4">
+                                        <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                                        <ul className="list-disc pl-6 text-gray-600">
+                                            <li>Includes linear, square, square root, cube and cube root proportion.</li>
+                                            <li>Knowledge of proportional symbol (∝) is required.</li>
+                                        </ul>
+                                    </div>
+                        </div>
+                      
+                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
+
+
+                              <div className="flex-1 min-h-[100px] p-4">
+                                    <h3 className="text-lg font-semibold bg-red-100">E2.9 Graphs in practical situations</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
                                           <li>1 Use and interpret graphs in practical situations including travel graphs and conversion graphs.</li>
                                           <li>2 Draw graphs from given data.</li>
                                           <li>3 Apply the idea of rate of change to simple kinematics involving distance-time and speed-time graphs, acceleration and deceleration.</li>
                                           <li>4 Calculate distance travelled as area under a speed-time graph.</li>
                                       </ul>
-                                  </div>
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semiboldbg-red-100 bg-red-100">E2.10 Graphs of functions</h3>
+                                    </div>
+                              <div className="flex-1 min-h-[100px] p-4">
+                                        <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                                        <ul className="list-disc pl-6 text-gray-600">
+                                            <li>Includes estimation and interpretation of the gradient of a tangent at a point.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                      
+                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">       
+                              <div className="flex-1 min-h-[100px] p-4">
+                                    <h3 className="text-lg font-semiboldbg-red-100 bg-red-100">E2.10 Graphs of functions</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
                                           <li>1 Construct tables of values, and draw, recognise and interpret graphs for functions of the following forms:</li>
                                           <ul className="list-disc pl-6">
@@ -646,23 +699,8 @@ const ExtendedSubjectContent = () => {
                                           <li>3 Draw and interpret graphs representing exponential growth and decay problems.</li>
                                       </ul>
                                   </div>
-                              </div>
-                              <div className="flex-1">
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                                      <ul className="list-disc pl-6 text-gray-600">
-                                          <li>Includes linear, square, square root, cube and cube root proportion.</li>
-                                          <li>Knowledge of proportional symbol (∝) is required.</li>
-                                      </ul>
-                                  </div>
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                                      <ul className="list-disc pl-6 text-gray-600">
-                                          <li>Includes estimation and interpretation of the gradient of a tangent at a point.</li>
-                                      </ul>
-                                  </div>
-                                  <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                                   <div className="flex-1 min-h-[100px] p-4 ">
+                                     <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                                       <ul className="list-disc pl-6 text-gray-600">
                                           <li>Examples include:</li>
                                           <ul className="list-disc pl-6">
@@ -674,17 +712,19 @@ const ExtendedSubjectContent = () => {
                                           <li>e.g. finding the intersection of a line and a curve.</li>
                                       </ul>
                                   </div>
+                         
                               </div>
-                          </div>
                       </div>
+                          </div>
+                     
                   </div>
           
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                      
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E2.11 Sketching curves</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Recognise, sketch and interpret graphs of the following functions:</li>
@@ -697,7 +737,7 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E2.12 Differentiation</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Estimate gradients of curves by drawing tangents.</li>
@@ -707,8 +747,9 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                  <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
+                      <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Functions will be equivalent to:</li>
@@ -726,7 +767,7 @@ const ExtendedSubjectContent = () => {
                                   <li>Finding turning points of quadratics by completing the square is required.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                      <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>dy/dx notation will be expected.</li>
@@ -740,7 +781,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                  </div>
+                  
               </div>
           </div>
 
@@ -748,7 +789,7 @@ const ExtendedSubjectContent = () => {
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">2 Algebra and Graphs (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E2.13 Functions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -758,7 +799,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -782,46 +823,60 @@ const ExtendedSubjectContent = () => {
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">E3.1 Coordinates</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
+                 
+                      
+                              <div className='flex flex-col md:flex-row justify-between items-start'>
+                                  <div className="flex-1 min-h-[100px] p-4">
+                                 <h3 className="text-lg font-semibold bg-red-100">E3.1 Coordinates</h3>
+                                 <ul className="list-disc pl-6 text-gray-600">
                                   <li>Use and interpret Cartesian coordinates in two dimensions.</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
+                                 </ul>
+                              </div>
+                                  <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E3.2 Drawing linear graphs</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Draw straight-line graphs for linear equations.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                      </div>
+
+                      <div className='flex flex-col md:flex-row justify-between items-start'>
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E3.3 Gradient of linear graphs</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Find the gradient of a straight line.</li>
                                   <li>2 Calculate the gradient of a straight line from the coordinates of two points on it.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E3.4 Length and midpoint</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Calculate the length of a line segment.</li>
                                   <li>2 Find the coordinates of the midpoint of a line segment.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                      </div>
+
+                      <div className='flex flex-col md:flex-row justify-between items-start'>
+
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E3.5 Equations of linear graphs</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Interpret and obtain the equation of a straight-line graph.</li>
                               </ul>
                           </div>
+                            <div className="flex-1 min-h-[100px] p-4">
+                                <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                            </div>
+                      
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
-                          <div className="mb-4">
+
+
+                      
+                          <div  className='flex flex-col md:flex-row justify-between items-start'>
+
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Examples include:</li>
@@ -832,13 +887,17 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                           </div>
-                          <div className="mb-4">
+                          </div>
+
+                            <div className='flex flex-col md:flex-row justify-between items-start'>
+
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Questions may:</li>
@@ -850,16 +909,17 @@ const ExtendedSubjectContent = () => {
                                   <li>Candidates are expected to give equations of a line in a fully simplified form.</li>
                               </ul>
                           </div>
+                            </div>
                       </div>
-                  </div>
-              </div>
+                 
+             
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">3 Coordinate geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E3.6 Parallel lines</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -873,7 +933,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">

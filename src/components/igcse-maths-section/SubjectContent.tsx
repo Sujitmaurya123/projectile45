@@ -357,7 +357,7 @@ const SubjectContent:React.FC= () => {
                   <h2 className="text-xl font-semibold text-headingcol mb-2">1 Number (continued)</h2>
                   <div className="list-disc pl-6 text-gray-600">
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.14 Using a calculator</li>
                                   <li>1 Use a calculator efficiently.</li>
@@ -365,7 +365,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Interpret the calculator display appropriately.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. know not to round values within a calculation and to only round the final answer.</li>
@@ -376,7 +376,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.15 Time</li>
                                   <li>1 Calculate with time: seconds (s), minutes (min), hours (h), days, weeks, months, years, including the relationship between units.</li>
@@ -384,7 +384,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Read clocks and timetables.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>1 year = 365 days.</li>
@@ -451,7 +451,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.2 Algebraic manipulation</li>
                                   <li>1 Simplify expressions by collecting like terms.</li>
@@ -459,7 +459,7 @@ const SubjectContent:React.FC= () => {
                                   <li>3 Factorise by extracting common factors.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Simplify means give the answer in its simplest form, e.g. 2a + 3b + 5a - 9b = 7a - 6b.</li>
@@ -506,7 +506,7 @@ const SubjectContent:React.FC= () => {
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc pl-6">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.5 Equations</li>
                                   <li>1 Construct simple expressions, equations and formulas.</li>
@@ -515,7 +515,7 @@ const SubjectContent:React.FC= () => {
                                   <li>4 Change the subject of simple formulas.</li>
                               </ul>
                           </section>
-                          <section className="max-w-sm">
+                          <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>e.g. write an expression for a number that is 2 more than x.</li>

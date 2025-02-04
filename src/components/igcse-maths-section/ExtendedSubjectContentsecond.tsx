@@ -9,7 +9,7 @@ const ExtendedSubjectContentsecond = () => {
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.1 Geometrical terms</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -41,7 +41,7 @@ const ExtendedSubjectContentsecond = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -81,7 +81,7 @@ const ExtendedSubjectContentsecond = () => {
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
                   <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.1 Geometrical terms (continued)</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -89,7 +89,7 @@ const ExtendedSubjectContentsecond = () => {
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-h-[100px] p-4">
                           <div className="mb-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -139,9 +139,9 @@ const ExtendedSubjectContentsecond = () => {
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.2 Geometrical constructions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Measure and draw lines and angles.</li>
@@ -149,14 +149,18 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Draw, use and interpret nets.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.3 Scale drawings</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Draw and interpret scale drawings.</li>
                                   <li>2 Use and interpret three-figure bearings.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.4 Similarity</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Calculate lengths of similar shapes.</li>
@@ -164,16 +168,21 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Solve problems and give simple explanations involving similarity.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.5 Symmetry</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Recognise line symmetry and order of rotational symmetry in two dimensions.</li>
                                   <li>2 Recognise symmetry properties of prisms, cylinders, pyramids and cones.</li>
                               </ul>
                           </div>
-                      </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                        </div>
+
+                      
+                      
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>A ruler should be used for all straight edges.</li>
@@ -186,7 +195,7 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>A ruler must be used for all straight edges.</li>
@@ -196,7 +205,11 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>e.g. point D is due east of point C.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Includes use of scale factor, e.g.</li>
@@ -204,24 +217,25 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>Includes showing that two triangles are similar using geometric reasons.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Includes properties of triangles, quadrilaterals and polygons directly related to their symmetries.</li>
                                   <li>e.g. identify planes and axes of symmetry.</li>
                               </ul>
                           </div>
-                      </div>
-                  </div>
+
+                        </div>    
               </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Geometry (continued)</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                  
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.6 Angles</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Calculate unknown angles and give simple explanations using the following geometrical properties:</li>
@@ -240,7 +254,7 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Know and use angle properties of regular and irregular polygons.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.7 Circle theorems I</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Calculate unknown angles and give explanations using the following geometrical properties of circles:</li>
@@ -254,7 +268,11 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E4.8 Circle theorems II</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Use the following symmetry properties of circles:</li>
@@ -265,62 +283,76 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                      </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
-                                  <li>Knowledge of 3-letter notation for angles is required, e.g. angle ABC. Candidates are expected to use the correct geometrical terminology when giving reasons for answers.</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
+                                  <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                                  <ul className="list-disc pl-6 text-gray-600">
+                                      <li>Knowledge of 3-letter notation for angles is required, e.g. angle ABC. Candidates are expected to use the correct geometrical terminology when giving reasons for answers.</li>
+                                  </ul>
+                              </div>
+
+                        </div>
+                      
+                     
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Includes exterior and interior angles, and angle sum.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Candidates are expected to use the geometrical properties listed in the syllabus when giving reasons for answers.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                        </div>
+
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Candidates are expected to use the geometrical properties listed in the syllabus when giving reasons for answers.</li>
                               </ul>
                           </div>
+
+                         
                       </div>
-                  </div>
+                 
               </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">5 Mensuration</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                    
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E5.1 Units of measure</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Use metric units of mass, length, area, volume and capacity in practical situations and convert quantities into larger or smaller units.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E5.2 Area and perimeter</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Carry out calculations involving the perimeter and area of a rectangle, triangle, parallelogram and trapezium.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg  font-semibold bg-red-100">E5.3 Circles, arcs and sectors</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Carry out calculations involving the circumference and area of a circle.</li>
                                   <li>2 Carry out calculations involving arc length and sector area as fractions of the circumference and area of a circle.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E5.4 Surface area and volume</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Carry out calculations and solve problems involving the surface area and volume of a:</li>
@@ -334,9 +366,12 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                      </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+                        </div>
+
+
+                      
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Units include:</li>
@@ -354,13 +389,17 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Except for the area of a triangle, formulas are not given.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Answers may be asked for in terms of π.</li>
@@ -368,7 +407,7 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>Includes minor and major sectors.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Answers may be asked for in terms of π.</li>
@@ -386,8 +425,9 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>The term prism refers to any solid with a uniform cross-section, e.g. a cylindrical sector.</li>
                               </ul>
                           </div>
+
+                       
                       </div>
-                  </div>
               </div>
           </div>
 
@@ -430,15 +470,16 @@ const ExtendedSubjectContentsecond = () => {
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">6 Trigonometry</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                  
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.1 Pythagoras&apos; theorem</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Know and use Pythagoras&apos; theorem.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.2 Right-angled triangles</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Know and use the sine, cosine and tangent ratios for acute angles in calculations involving sides and angles of a right-angled triangle.</li>
@@ -447,7 +488,11 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>4 Carry out calculations involving angles of elevation and depression.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.3 Exact trigonometric values</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Know the exact values of:</li>
@@ -457,7 +502,7 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.4 Trigonometric functions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Recognise, sketch and interpret the following graphs for 0° ≤ x ≤ 360°:</li>
@@ -469,22 +514,29 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>2 Solve trigonometric equations involving sin x, cos x or tan x, for 0° ≤ x ≤ 360°.</li>
                               </ul>
                           </div>
+
+                        </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+                     
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Angles will be given in degrees and answers should be written in degrees, with decimals correct to one decimal place.</li>
                                   <li>Knowledge of bearings may be required.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>e.g. solve:</li>
@@ -494,17 +546,17 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                      </div>
-                  </div>
-              </div>
+
+                        </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">6 Trigonometry (continued)</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                  
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                        
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.5 Non-right-angled triangles</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Use the sine and cosine rules in calculations involving lengths and angles for any triangle.</li>
@@ -514,37 +566,38 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E6.6 Pythagoras&apos; theorem and trigonometry in 3D</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Carry out calculations and solve problems in three dimensions using Pythagoras&apos; theorem and trigonometry, including calculating the angle between a line and a plane.</li>
                               </ul>
                           </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Includes problems involving obtuse angles and the ambiguous case.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>The sine and cosine rules and the formula for area of a triangle are given in the List of formulas.</li>
                               </ul>
                           </div>
                       </div>
-                  </div>
+                 
               </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">7 Transformations and Vectors</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                  
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E7.1 Transformations</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Recognise, describe and draw the following transformations:</li>
@@ -556,7 +609,7 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E7.2 Vectors in two dimensions</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Describe a translation using a vector represented by [x, y] or a.</li>
@@ -564,13 +617,16 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Multiply a vector by a scalar.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E7.3 Magnitude of a vector</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Calculate the magnitude of a vector [x, y] as √(x² + y²).</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E7.4 Vector geometry</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Represent vectors by directed line segments.</li>
@@ -579,21 +635,30 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>4 Use vectors to reason and to solve geometric problems.</li>
                               </ul>
                           </div>
+
+                        </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                     
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Questions may involve combinations of transformations. A ruler must be used for all straight edges.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Vectors will be printed as AB or a.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>The magnitudes of vectors will be denoted by modulus signs, e.g.</li>
@@ -603,7 +668,7 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Examples include:</li>
@@ -614,17 +679,17 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                      </div>
-                  </div>
-              </div>
+
+                        </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">8 Probability</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                 
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E8.1 Introduction to probability</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Understand and use the probability scale from 0 to 1.</li>
@@ -633,14 +698,17 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>4 Understand that the probability of an event not occurring = 1 - the probability of the event occurring.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E8.2 Relative and expected frequencies</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Understand relative frequency as an estimate of probability.</li>
                                   <li>2 Calculate expected frequencies.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E8.3 Probability of combined events</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Calculate the probability of combined events using, where appropriate:</li>
@@ -651,22 +719,25 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E8.4 Conditional probability</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Calculate conditional probability using Venn diagrams, tree diagrams and tables.</li>
                               </ul>
                           </div>
+
+                        </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+                      
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>P(A) is the probability of A.</li>
                                   <li>P(A&apos;) is the probability of not A.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>e.g. use results of experiments with a spinner to estimate the probability of a given outcome.</li>
@@ -674,7 +745,11 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>Includes understanding what is meant by fair, bias and random.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Combined events could be with or without replacement.</li>
@@ -682,29 +757,29 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>On tree diagrams outcomes will be written at the end of branches and probabilities by the side of the branches.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Knowledge of notation, P(A|B), and formulas relating to conditional probability is not required.</li>
                               </ul>
                           </div>
+
+                      
                       </div>
-                  </div>
-              </div>
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">9 Statistics</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.1 Classifying statistical data</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Classify and tabulate statistical data.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.2 Interpreting statistical data</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Read, interpret and draw inferences from tables and statistical diagrams.</li>
@@ -712,7 +787,10 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Appreciate restrictions on drawing conclusions from given data.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.3 Averages and measures of spread</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Calculate the mean, median, mode, quartiles, range and interquartile range for individual data and distinguish between the purposes for which these are used.</li>
@@ -720,7 +798,7 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Identify the modal class from a grouped frequency distribution.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.4 Statistical charts and diagrams</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Draw and interpret:</li>
@@ -733,24 +811,33 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
+
+                        </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
+
+                      
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>e.g. tally tables, two-way tables.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>e.g. compare averages and measures of spread between two data sets.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                        <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Includes composite (stacked) and dual (side-by-side) bar charts.</li>
@@ -759,17 +846,19 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>Stem-and-leaf diagrams should have ordered data with a key.</li>
                               </ul>
                           </div>
-                      </div>
-                  </div>
-              </div>
+
+                        </div>
+                     
+                 
           </div>
 
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2text-headingcol text-headingcol">9 Statistics (continued)</h2>
-                  <div className="flex flex-col md:flex-row justify-between items-start">
-                      <div className="flex-1">
-                          <div className="mb-4">
+                  
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.5 Scatter diagrams</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Draw and interpret scatter diagrams.</li>
@@ -777,29 +866,36 @@ const ExtendedSubjectContentsecond = () => {
                                   <li>3 Draw by eye, interpret and use a straight line of best fit.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.6 Cumulative frequency diagrams</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Draw and interpret cumulative frequency tables and diagrams.</li>
                                   <li>2 Estimate and interpret the median, percentiles, quartiles and interquartile range from cumulative frequency diagrams.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+
+                        </div>
+
+                          <div className="flex flex-col md:flex-row justify-between items-start">
+                              <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">E9.7 Histograms</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>1 Draw and interpret histograms.</li>
                                   <li>2 Calculate with frequency density.</li>
                               </ul>
                           </div>
+                              <div className="flex-1 min-h-[100px] p-4">
+                                  <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
+                                  <ul className="list-disc pl-6 text-gray-600">
+                                      <li>Plotted points should be clearly marked, for example as small crosses (x).</li>
+                                  </ul>
+                              </div>
+
+                        </div>
                       </div>
-                      <div className="flex-1">
-                          <div className="mb-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                              <ul className="list-disc pl-6 text-gray-600">
-                                  <li>Plotted points should be clearly marked, for example as small crosses (x).</li>
-                              </ul>
-                          </div>
-                          <div className="mb-4">
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                         
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>A line of best fit</li>
@@ -810,24 +906,26 @@ const ExtendedSubjectContentsecond = () => {
                                   </ul>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>Plotted points on a cumulative frequency diagram should be clearly marked, for example as small crosses (x), and be joined with a smooth curve.</li>
                               </ul>
                           </div>
-                          <div className="mb-4">
+                          
+                      </div>
+                      <div className="flex flex-col md:flex-row justify-between items-start">
+                          <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>On histograms, the vertical axis is labelled ‘Frequency density’.</li>
                                   <li>Frequency density is defined as</li>
-                                  <ul className="list-disc pl-6">
-                                      <li>frequency density = frequency ÷ class width.</li>
-                                  </ul>
+                                  
+                                  <li>frequency density = frequency ÷ class width.</li>
+                                  
                               </ul>
                           </div>
-                      </div>
-                  </div>
+                     
               </div>
           </div>
 
