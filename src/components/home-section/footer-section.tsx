@@ -91,14 +91,11 @@ const Footer = () => {
             <div className="text-center mt-8">
                 <p className="text-sm">
                     &copy; Projectile 45, Inc.{' '}
-                    <Link href="/terms-of-service" className="underline hover:no-underline">
-                        Terms of Service
+                    <Link href="/terms-of-conditions" className="underline hover:no-underline">
+                        Terms of Conditions
                     </Link>{' '}
                     |{' '}
-                    <Link href="/product-privacy-policy" className="underline hover:no-underline">
-                        Product Privacy Policy
-                    </Link>{' '}
-                    |{' '}
+                   
                     <Link href="/website-privacy-policy" className="underline hover:no-underline">
                         Website Privacy Policy
                     </Link>
