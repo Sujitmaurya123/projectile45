@@ -78,9 +78,7 @@ const PrivacyPolicy = () => {
                 <h2 className="text-xl font-semibold">10. Contact Us</h2>
                 <p>For any questions or concerns regarding this Privacy Policy, please contact us at:</p>
                 <p><strong>Projectile45</strong></p>
-                <p>Email: [Insert Contact Email]</p>
-                <p>Address: [Insert Physical Address]</p>
-               
+                <p>Email:info@projectile45.com </p>
             </section>
         </div>
     );
