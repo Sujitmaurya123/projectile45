@@ -86,6 +86,9 @@ export function SiteHeader() {
             <IGCSEDropdown/>
             
             {/* <TestPrepDropdown /> */}
+            <Link href="/new-fees" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
+              Fees Structure
+            </Link>
             
             <span
               

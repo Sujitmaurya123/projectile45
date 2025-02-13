@@ -168,6 +168,13 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 )}
             </div>
 
+            <div onClick={handleDropdownClick}>
+
+            <Link href="/new-fees"
+             className="text-lg font-medium transition-colors hover:text-black text-gray-700 cursor-pointer">
+                Fees Structure
+            </Link>
+                </div>
             {/* Free Demo */}
             <span
                 className="text-xl text-balance font-medium transition-colors hover:text-black/80 cursor-pointer text-gray-700"
