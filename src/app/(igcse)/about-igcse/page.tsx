@@ -7,7 +7,7 @@ import React from 'react';
 const IGCSEIntroduction: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-3xl font-bold mb-4 text-headingcol">Introduction to IGCSE</h1>
+            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">About IGCSE</h1>
             <p className="text-lg mb-4 text-gray-500">
                 The International General Certificate of Secondary Education (IGCSE) is a globally
                 recognized qualification for students typically aged 14 to 16. It was developed by the

@@ -42,10 +42,26 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
-                            <li><Link href="/about-sat" className="hover:text-black"> About SAT</Link></li>
-                            <li><Link href="/sat-Digital-Exam-PatternandFAQ " className="hover:text-black"> SAT Pattern</Link></li>
-                            <li><Link href="/sat-2024-25-test-dates" className="hover:text-black"> SAT Test Dates</Link></li>
-                            <li><Link href="/sat-fees-structure" className="hover:text-black"> Fees Structure</Link></li>
+                            <li>
+                                <Link href="/about-sat" className="hover:text-black">
+                                    About SAT
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/sat-pattern" className="hover:text-black">
+                                    SAT Pattern
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/sat-test-dates" className="hover:text-black">
+                                    SAT Test Dates
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/sat-fees-structure" className="hover:text-black">
+                                    Fees Structure
+                                </Link>
+                            </li>
                             <li>
                                 <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" className="hover:text-black">
                                     SAT Maths - Sample Questions
@@ -69,11 +85,8 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         
                         <ul className="space-y-2">
-                            <li><Link href="/ib" className="hover:text-black"> IB</Link></li>
-                            <li><Link href="/ib-curriculam" className="hover:text-black"> IB Curriculum</Link></li>
-                            <li><Link href="/ib-course-coaching-details" className="hover:text-black"> Course Structure & Coaching Details</Link></li>
-                            <li><Link href="/ib-online-coaching-technology" className="hover:text-black"> Remote Tutoring</Link></li>
-                            <li><Link href="/ib-fees-scheduling-registration" className="hover:text-black"> Fees,Scheduling & Registration</Link></li>
+                            <li><Link href="/about-ib" className="hover:text-black">About IB</Link></li>
+
                             <li>
                                 <Link href="/files/IBDP_Subjects.pdf" className="hover:text-black">
                                     IBDP-Subjects
@@ -95,6 +108,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                 </Link>
                             </li>
 
+
                         </ul>
                     </div>
                 )}
@@ -112,11 +126,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                     <div onClick={handleDropdownClick}
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
-                            <li>
-                                <Link href="/gre" className="hover:text-black">
-                                    GRE
-                                </Link>
-                            </li>
+                            <li><Link href="/about-gre" className="hover:text-black">About GRE </Link></li>
                         </ul>
                     </div>
                 )}
@@ -134,7 +144,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                     <div onClick={handleDropdownClick}
                       className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
-                            <li><Link href="/gmat-introduction" className="hover:text-black"> Introduction to GMAT</Link></li>
+                            <li><Link href="/about-gmat" className="hover:text-black"> About GMAT</Link></li>
                             <li><Link href="/gmat-structure" className="hover:text-black"> GMAT Structure</Link></li>
                             <li><Link href="/gmat-sections" className="hover:text-black"> GMAT Sections</Link></li>
                             <li><Link href="/gmat-scoring" className="hover:text-black"> GMAT Scoring</Link></li>
@@ -155,7 +165,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                     <div onClick={handleDropdownClick}
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto">
                         <ul className="space-y-2 text-gray-700">
-                            <li><Link href="/igcse-introduction" className="hover:text-black"> Introduction to IGCSE</Link></li>
+                            <li><Link href="/about-igcse" className="hover:text-black"> About IGCSE</Link></li>
                             <li><Link href="/igcse-curriculum" className="hover:text-black"> IGCSE Curriculum</Link></li>
                             <li><Link href="/igcse-mathematics" className="hover:text-black"> IGCSE Mathematics</Link></li>
                             <li><Link href="/igcse-sciences" className="hover:text-black"> IGCSE Sciences</Link></li>

@@ -6,7 +6,7 @@ const SATHero = () => {
     return (
         <div className="container mx-auto p-4 md:p-8">
             <h1 className="text-4xl md:text-5xl text-headingcol font-bold mb-6 md:mb-8 text-center">
-                SAT Digital Exam Pattern 2024
+                SAT Pattern 2024
             </h1>
 
             <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-500 font-medium">

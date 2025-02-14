@@ -51,7 +51,7 @@ const GMATDropdown: React.FC = () => {
                         <div>
 
                             <ul className="space-y-2">
-                                <li><Link href="/gmat-introduction" className="hover:text-black"> Introduction to GMAT</Link></li>
+                                <li><Link href="/about-gmat" className="hover:text-black"> About GMAT</Link></li>
                                 <li><Link href="/gmat-structure" className="hover:text-black"> GMAT Structure</Link></li>
                                 <li><Link href="/gmat-sections" className="hover:text-black"> GMAT Sections</Link></li>
                                 <li><Link href="/gmat-scoring" className="hover:text-black"> GMAT Scoring</Link></li>

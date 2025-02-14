@@ -4,7 +4,7 @@ import React from 'react';
 const VerbalReasoningSection: React.FC = () => {
     return (
         <div className="container mx-auto p-4 max-w-6xl">
-            <h2 className="text-3xl font-bold mb-4 text-headingcol">VERBAL REASONING SECTION</h2>
+            <p className="text-2xl font-bold mb-4 text-headingcol">VERBAL REASONING SECTION</p>
             <p className="mb-4">
                 The Verbal Reasoning section of the GRE General Test assesses critical
                 reading, vocabulary usage, and analytical skills. It includes three types

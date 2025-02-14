@@ -28,7 +28,8 @@ export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
   // mobile open sheet and close 
   const [isOpenMobile, setIsOpenMobile] = useState(false);
-
+  
+ 
   const toggleSheet = (open: boolean) => {
     setIsOpenMobile(open);
   };
@@ -37,6 +38,7 @@ export function SiteHeader() {
     setIsOpenMobile(false);
   }
   
+ 
 
   return (
     <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-500 pr-4">
@@ -108,7 +110,9 @@ export function SiteHeader() {
           </nav>
         </div>
       </div>
-      {isOpen && <FreeDemo  setIsOpen={setIsOpen} /> }
+      {isOpen && (<div >
+        <FreeDemo setIsOpen={setIsOpen} />
+      </div>)}
     </header>
   );
 }

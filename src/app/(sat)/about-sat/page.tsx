@@ -5,7 +5,9 @@ const SATJourney: FC = () => {
         <div className="bg-gray-50  flex flex-col justify-centermax-w-6xl items-center">
             <div className="container mx-auto p-4 max-w-6xl">
                 <header className="text-center py-6">
-                    <h1 className="text-5xl font-bold text-headingcol">A Fun Journey Through the Digital SAT 2024</h1>
+                    <h1 className="text-5xl font-bold text-headingcol">About SAT</h1>
+                    <p className="text-3xl font-bold text-headingcol mt-7">A Fun Journey Through the Digital SAT 2024</p>
+
                     <p className="mt-2 text-lg text-gray-700">Join Lexi and Jake as they explore the Digital SAT in an interactive way!</p>
                 </header>
 

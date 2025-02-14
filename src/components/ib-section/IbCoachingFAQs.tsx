@@ -312,34 +312,34 @@ const IBCoachingFAQs: React.FC = () => {
 
     return (
         <div className="p-6 sm:p-8 lg:p-12 font-sans container mx-auto max-w-6xl">
-            <h1 className="text-5xl font-extrabold mb-8 text-center leading-tight text-headingcol">
+            <h1 className="text-3xl font-extrabold mb-8 text-center leading-tight text-headingcol">
                 IB Course Structure and Coaching Details FAQs
             </h1>
 
             <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4">Coaching Information</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">Coaching Information</h2>
                 <div className="space-y-4">{renderFAQs(coachingSection, 0)}</div>
             </div>
 
             <div>
-                <h2 className="text-xl font-semibold mb-4">Faculty and Teaching Approach</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">Faculty and Teaching Approach</h2>
                 <div className="space-y-4">{renderFAQs(facultySection, coachingSection.length)}</div>
             </div>
             <div>
-                <h2 className="text-xl font-semibold mb-4">Study Materials and Resources</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">Study Materials and Resources</h2>
                 <div className="space-y-4">{renderFAQs(studySection, facultySection.length)}</div>
             </div>
             <div>
-                <h2 className="text-xl font-semibold mb-4">Assessment and Exam Preparation</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">Assessment and Exam Preparation</h2>
                 <div className="space-y-4">{renderFAQs(assessmentFAQsSection, facultySection.length)}</div>
             </div>
 
             <div>
-                <h2 className="text-xl font-semibold mb-4">Internal Assessments (IAs), Extended Essay (EE), and TOK</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">Internal Assessments (IAs), Extended Essay (EE), and TOK</h2>
                 <div className="space-y-4">{renderFAQs(iaEeTokFAQsSection, facultySection.length)}</div>
             </div>
             <div>
-                <h2 className="text-xl font-semibold mb-4">IB Subject-Specific Questions</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Subject-Specific Questions</h2>
                 <div className="space-y-4">{renderFAQs(subjectSpecificFAQsSection, facultySection.length)}</div>
             </div>
             

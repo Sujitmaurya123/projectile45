@@ -42,7 +42,7 @@
     ".next/types/**/*.ts",
     "next-env.d.ts",
     "dist/types/**/*.ts"
-  ],
+, ".next/types/app/(ib)/about-ib/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]

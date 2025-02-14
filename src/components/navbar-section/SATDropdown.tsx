@@ -58,12 +58,12 @@ const SATDropdown: React.FC = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/sat-Digital-Exam-PatternandFAQ" className="hover:text-black">
+                                    <Link href="/sat-pattern" className="hover:text-black">
                                          SAT Pattern
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/sat-2024-25-test-dates" className="hover:text-black">
+                                    <Link href="/sat-test-dates" className="hover:text-black">
                                         SAT Test Dates
                                     </Link>
                                 </li>

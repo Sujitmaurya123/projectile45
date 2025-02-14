@@ -1,4 +1,8 @@
 // components/IBTableOfContents.tsx
+import CombinedFAQPage from '@/components/ib-section/CombinedFAQPage';
+import IBCoachingFAQs from '@/components/ib-section/IbCoachingFAQs';
+import IBFAQs from '@/components/ib-section/IbFAQs';
+import IBOnlineCoachingFAQs from '@/components/ib-section/IbOnilneCoachingFAQs'; 
 import Link from 'next/link';
 import React from 'react';
 
@@ -99,8 +103,10 @@ const ibData: IBSection[] = [
 
 const IBTableOfContents: React.FC = () => {
     return (
+        <>
+        
         <div className="container mx-auto py-16 px-4">
-            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">IB- Table of Contents</h1>
+            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">About IB</h1>
             <ul className="list-decimal pl-6">
                 {ibData.map((section, index) => (
                     <li key={index} className="mb-4">
@@ -122,6 +128,13 @@ const IBTableOfContents: React.FC = () => {
                 ))}
             </ul>
         </div>
+        <div>
+                <IBFAQs/>
+                <IBCoachingFAQs/>
+                <IBOnlineCoachingFAQs/>
+                <CombinedFAQPage/>
+        </div>
+        </>
     );
 };
 

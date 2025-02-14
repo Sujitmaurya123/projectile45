@@ -24,8 +24,8 @@ const scoreData: ScoreInfo[] = [
 const GREScores: React.FC = () => {
     return (
         <div className="container mx-auto p-4 max-w-6xl">
-            <h2 className="text-5xl font-bold mb-4 text-headingcol">GRE General Test Scores</h2>
-            <h3 className="text-lg font-semibold mb-2">What scores are reported?</h3>
+            <p className="text-2xl font-bold mb-4 text-headingcol">GRE General Test Scores</p>
+            <p className="text-lg font-semibold mb-2">What scores are reported?</p>
 
             <div className="overflow-x-auto">
                 <table className="min-w-full divide-y divide-gray-200 border border-gray-300">

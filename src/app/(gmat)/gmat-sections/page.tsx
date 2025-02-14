@@ -5,7 +5,7 @@ import React from 'react';
 const GMATSections = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-3xl font-bold mb-4 text-headingcol">GMAT Exam Sections</h1>
+            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">GMAT Sections</h1>
 
             <h2 className="text-2xl font-semibold mt-8 text-headingcol">Quantitative Reasoning</h2>
 

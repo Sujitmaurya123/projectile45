@@ -8,7 +8,7 @@ import React from 'react';
 const IGCSECurriculum: React.FC= () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-3xl font-bold mb-4 text-headingcol">IGCSE Curriculum</h1>
+            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">IGCSE Curriculum</h1>
             <p className="text-lg mb-4 text-gray-500">
                 The Cambridge IGCSE curriculum offers a variety of routes for learners with a wide
                 range of abilities, including those whose first language is not English.

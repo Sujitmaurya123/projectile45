@@ -5,7 +5,7 @@ import React from 'react';
 const GMATStructure = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-3xl font-bold mb-4 text-headingcol">GMAT Exam Structure</h1>
+            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">GMAT Structure</h1>
 
             <p className='text-gray-600'>
                 The GMAT Focus Edition, introduced on November 7, 2023, represents a significant evolution in the Graduate

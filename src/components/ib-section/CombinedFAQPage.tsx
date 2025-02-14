@@ -16,7 +16,7 @@ const FAQ: React.FC<{ faqs: FAQItem[]; title: string }> = ({ faqs, title }) => {
 
     return (
         <div className="container mx-auto p-4">
-            <h2 className="text-5xl font-bold mb-4 text-headingcol">{title}</h2>
+            <h2 className="text-3xl font-bold mb-4 text-headingcol">{title}</h2>
             {faqs.map((faq, index) => (
                 <div key={index} className="mb-4 border border-gray-300 rounded p-4">
                     <button

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
@@ -37,6 +37,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
     });
 
     const [loading, setLoading] = useState(false); // Add loading state
+    const modalRef = useRef<HTMLDivElement>(null); // Reference to the modal content
 
     const validate = () => {
         const newErrors = {
@@ -107,11 +108,28 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
         }
     };
 
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (modalRef.current && !modalRef.current.contains(event.target as Node)) {
+                setIsOpen(false); // Close the modal if clicked outside
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside); // Cleanup the event listener
+        };
+    }, [setIsOpen]);
+
     return (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
-            <div className="bg-white rounded-xl shadow-lg  w-full max-w-lg h-1/2 overflow-y-auto sm:h-auto ">
+            <div
+                ref={modalRef}
+                className="bg-white rounded-xl shadow-lg w-full max-w-lg h-1/2 overflow-y-auto sm:h-auto"
+            >
                 {/* Header */}
-                <div className="bg-[#764f94] text-white p-4 flex justify-between items-center rounded-t-xl">
+                <div className="bg-[#764f94] text-white p-2 flex justify-between items-center rounded-t-xl">
                     <h2 className="text-lg font-bold">Just One Step Away!</h2>
                     <button
                         className="text-white text-xl font-bold"
@@ -122,11 +140,11 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
-                    <p className="text-gray-700 mb-4">
+                <div className="p-2">
+                    <p className="text-gray-700 mb-2">
                         Our Experts require more information to assist you in a better way.
                     </p>
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form onSubmit={handleSubmit} className="space-y-3">
                         {/* First Name */}
                         <div>
                             <Label htmlFor="firstName">Full Name*</Label>
@@ -183,11 +201,11 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                         </div>
 
                         {/* Courses */}
-                        <div>
+                        <div className="m-2">
                             <Label>Select Courses*</Label>
-                            <div className="space-y-2">
+                            <div className="space-y-2 flex  items-baseline mt-2 mb-4">
                                 {["IB", "IGCSE", "SAT", "GMAT", "GRE"].map((course) => (
-                                    <div key={course} className="flex items-center space-x-2">
+                                    <div key={course} className="flex items-center space-x-2 ml-5">
                                         <Input
                                             type="checkbox"
                                             id={course}
@@ -211,7 +229,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
 
                         {/* Consent */}
                         <div className="flex items-start space-x-2">
-                            <Input 
+                            <Input
                                 type="checkbox"
                                 id="consent"
                                 name="consent"
@@ -239,9 +257,8 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                             type="submit"
                             disabled={loading} // Disable the button when loading
                             className={`w-full font-semibold py-2 rounded-lg shadow-md ${loading
-                                    ? "bg-purple-500 cursor-not-allowed"
-                                    : "bg-[#091987] text-white hover:bg-[#0A2BAF]"
-                                } focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300`}
+                                ? "bg-purple-500 cursor-not-allowed"
+                                : "bg-[#091987] text-white hover:bg-[#0A2BAF]"} focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300`}
                         >
                             {loading ? "Submitting..." : "Submit"} {/* Display loader text */}
                         </Button>
