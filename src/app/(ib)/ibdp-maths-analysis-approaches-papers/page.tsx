@@ -22,16 +22,16 @@ const IBDPMathsAnalysisApproachesPapers: React.FC = () => {
         <div className="container  p-4 max-w-6xl  mx-auto ">
             <section>
 
-                <h1 className="text-4xl font-bold mb-2 text-center text-headingcol">Mathematics: analysis and
-                    approaches</h1>
+                <h1 className="text-4xl font-bold mb-2 text-center text-headingcol">Mathematics: Analysis and
+                    Approaches</h1>
                 <p className="text-xl font-bold mb-4 text-center text-headingcol">
                     (Higher level and Standard level)</p>
 
 
 
 
-                <p className="text-2xl font-bold  text-center text-headingcol">Specimen papers 1, 2 and 3</p>
-                <p className="text-2xl font-bold  text-center text-headingcol">First examinations in 2021</p>
+                <p className="text-2xl font-bold  text-center text-headingcol">Specimen Papers 1, 2 and 3</p>
+                <p className="text-2xl font-bold  text-center text-headingcol">First Examinations in 2021</p>
                 <p className="text-2xl font-bold mb-2 mt-5 text-center text-headingcol">CONTENTS</p>
 
 
@@ -51,13 +51,13 @@ const IBDPMathsAnalysisApproachesPapers: React.FC = () => {
                     <div className=" p-8"> {/* Card-like styling */}
                         <div className="flex justify-between items-center mb-6"> {/* Header section */}
                             <div>
-                                <h1 className="text-2xl font-bold">Mathematics: analysis and approaches</h1>
+                                <h1 className="text-2xl font-bold">Mathematics: Analysis and Approaches</h1>
                                 <p className="text-lg">Higher level</p>
                                 <p className="text-lg">Paper 1</p>
-                                <p className="mb-2 mt-5">Specimen paper</p>
+                                <p className="mb-2 mt-5">Specimen Paper</p>
                             </div>
                             <div className="text-right"> {/* Right-aligned text */}
-                                <p className="mt-2">Candidate session number</p>
+                                <p className="mt-2">Candidate Session Number</p>
                                 <div className="border border-black w-50 h-8"> {/* Session number box */}
                                     {/* You can add input fields here if needed */}
                                 </div>
@@ -66,7 +66,7 @@ const IBDPMathsAnalysisApproachesPapers: React.FC = () => {
 
                         <div className="mb-6"> {/* Time and Instructions */}
                             <p className="text-lg mb-2">2 hours</p>
-                            <h2 className="text-xl font-semibold mb-2">Instructions to candidates</h2>
+                            <h2 className="text-xl font-semibold mb-2">Instructions To Candidates</h2>
                             <ul className="list-disc pl-6 text-lg">
                                 <li>Write your session number in the boxes above.</li>
                                 <li>Do not open this examination paper until instructed to do so.</li>

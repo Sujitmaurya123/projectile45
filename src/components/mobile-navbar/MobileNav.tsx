@@ -88,22 +88,22 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/about-ib" className="hover:text-black">About IB</Link></li>
 
                             <li>
-                                <Link href="/files/IBDP_Subjects.pdf" className="hover:text-black">
+                                <Link href="/ibdp-subjects" className="hover:text-black">
                                     IBDP-Subjects
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/files/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf" className="hover:text-black">
+                                <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
                                     IBDP-Maths-1
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/files/dp-mathematics-applications-and-interpretation-specimen-papers-en.pdf" className="hover:text-black">
+                                <Link href="/ibdp-maths-applications-interpretation-papers" className="hover:text-black">
                                     IBDP-Maths-2
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/files/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf" className="hover:text-black">
+                                <Link href="/ibpd-physics-papers" className="hover:text-black">
                                     IBDP-Physics
                                 </Link>
                             </li>

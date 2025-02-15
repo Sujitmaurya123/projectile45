@@ -142,7 +142,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                 {/* Content */}
                 <div className="p-2">
                     <p className="text-gray-700 mb-2">
-                        Our Experts require more information to assist you in a better way.
+                        Our experts require more information to assist you in a better way.
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-3">
                         {/* First Name */}
@@ -243,7 +243,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                                 className="form-checkbox h-5 w-5 text-blue-600"
                             />
                             <Label htmlFor="consent" className="text-sm text-gray-700">
-                                I authorize Projectile45 Review to contact me even if my number
+                                I authorize Projectile45 review to contact me even if my number
                                 is registered with DND to assist with my enquiry and get regular
                                 updates through SMS/WhatsApp.
                             </Label>

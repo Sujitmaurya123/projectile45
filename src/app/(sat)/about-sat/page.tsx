@@ -1,8 +1,9 @@
+import SATExamTable from "@/components/sat-Digital-Exam-PatternandFAQ/sat-exam-table";
 import { FC } from "react";
 
 const SATJourney: FC = () => {
     return (
-        <div className="bg-gray-50  flex flex-col justify-centermax-w-6xl items-center">
+        <div className="  flex flex-col justify-center  items-center">
             <div className="container mx-auto p-4 max-w-6xl">
                 <header className="text-center py-6">
                     <h1 className="text-5xl font-bold text-headingcol">About SAT</h1>
@@ -11,7 +12,7 @@ const SATJourney: FC = () => {
                     <p className="mt-2 text-lg text-gray-700">Join Lexi and Jake as they explore the Digital SAT in an interactive way!</p>
                 </header>
 
-                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Characters:</h2>
                     <p className="mt-4 text-gray-600">
                         <strong>Lexi:</strong> Confident, book-loving student
@@ -22,7 +23,7 @@ const SATJourney: FC = () => {
 
                 
 
-                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Reading and Writing</h2>
                     <p className="mt-4 text-gray-600">
                         <strong>Lexi:</strong> Yo, Jake! Have you heard about the Digital SAT 2024? It&apos;s like a game, where the test levels up based on how well you do!
@@ -59,8 +60,9 @@ const SATJourney: FC = () => {
                         <strong>Jake:</strong> Perfect! I’ll need fuel for the Math part. What comes next?
                     </p>
                 </div>
+                <SATExamTable/>
 
-                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Math Section</h2>
                     <p className="mt-4 text-gray-600">
                         <strong>Lexi:</strong> Next up, <strong>Math</strong> . You&apos;ve got <strong>70 minutes</strong> to tackle <strong>44 questions</strong>  in <strong>two modules</strong> . The questions cover four key areas:
@@ -80,7 +82,7 @@ const SATJourney: FC = () => {
                     </p>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Test Overview</h2>
                     <p className="mt-4 text-gray-600">
                         <strong>Jake: </strong>Alright, so after all that, how does the whole thing add up?

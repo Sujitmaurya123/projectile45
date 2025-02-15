@@ -35,8 +35,8 @@ const IBDPPhysicsPapers: React.FC = () => {
 
 
 
-                <p className="text-2xl font-bold  text-center text-headingcol">Specimen papers 1A, 1B and 2</p>
-                <p className="text-2xl font-bold  text-center text-headingcol">First examinations in 2025</p>
+                <p className="text-2xl font-bold  text-center text-headingcol">Specimen Papers 1A, 1B and 2</p>
+                <p className="text-2xl font-bold  text-center text-headingcol">First Examinations in 2025</p>
                 <p className="text-2xl font-bold mb-2 mt-5 text-center text-headingcol">CONTENTS</p>
 
 
@@ -59,14 +59,14 @@ const IBDPPhysicsPapers: React.FC = () => {
                                 <h1 className="text-2xl font-bold">Physics</h1>
                                 <p className="text-lg">Higher level</p>
                                 <p className="text-lg">Paper 1</p>
-                                <p className="mb-2 mt-5">Specimen paper</p>
+                                <p className="mb-2 mt-5">Specimen Paper</p>
                             </div>
                             
                         </div>
 
                         <div className="mb-6"> {/* Time and Instructions */}
                             <p className="text-lg mb-2">2 hours [Paper 1A and Paper 1B]</p>
-                            <h2 className="text-xl font-semibold mb-2">Instructions to candidates</h2>
+                            <h2 className="text-xl font-semibold mb-2">Instructions To Candidates</h2>
                             <ul className="list-disc pl-6 text-lg">
                                
                                 <li>Do not open this examination paper until instructed to do so.</li>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const SATHero = () => {
     return (
-        <div className="container mx-auto p-4 md:p-8">
+        <div className="container mx-auto p-4 md:p-8 max-w-6xl">
             <h1 className="text-4xl md:text-5xl text-headingcol font-bold mb-6 md:mb-8 text-center">
                 SAT Pattern 2024
             </h1>
@@ -43,6 +43,8 @@ const SATHero = () => {
                     />
                 </div>
             </div>
+            <h1 className=" mt-8 text-lg flex justify-center font-bold mb-4  text-gray-700">Below is a breakdown of the sections in the SAT Exam Pattern, including the
+                number of questions and time allotted for each:</h1>
         </div>
     );
 };

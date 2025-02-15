@@ -1619,7 +1619,7 @@ const IBDPSubjects: React.FC =()=> {
     return (
         <>
             <h1 className="text-4xl font-bold mb-4 text-headingcol text-center" >IBDP Subjects</h1>
-            <p className="text-2xl font-bold mt-4 text-headingcol text-center" >All Diploma Programme (DP) subjects</p>
+            <p className="text-2xl font-bold mt-4 text-headingcol text-center" >All Diploma Programme (DP) Subjects</p>
             <div className="overflow-x-auto mt-6 max-w-6xl container mx-auto">
             <table className="  divide-y divide-gray-200 table-auto">
                 <thead className="bg-blue-200">
