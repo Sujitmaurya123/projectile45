@@ -64,6 +64,7 @@ const GREScores: React.FC = () => {
                 Note: If no questions are answered for a specific measure (e.g., Verbal
                 Reasoning), then you will receive a No Score (NS) for that measure.
             </p>
+           
         </div>
     );
 };
