@@ -13,13 +13,13 @@ const courses: Course[] = [
     {
         name: 'IB',
         logo: '/images/ib-logo.svg', // Replace with your actual image paths
-        link: '/ib',
+        link: '/about-ib',
         linkprep:'/ib-testprep'
     },
     {
         name: 'IGCSE',
         logo: '/images/igcse-logo.svg',
-        link: '/igcse',
+        link: '/about-igcse',
         linkprep: '/igcse-testprep'
     },
     {
@@ -31,7 +31,7 @@ const courses: Course[] = [
     {
         name: 'GMAT',
         logo: '/images/gmat-logo.svg',
-        link: '/gmat-course',
+        link: '/about-gmat',
         linkprep: '/gmat-testprep'
     },
     {
