@@ -32,13 +32,13 @@ const Projectile45Benefits = () => {
                 <h2 className="text-3xl font-bold mb-8 text-headingcol">Why Choose - Projectile 45</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8  ">
                     {benefits.map((benefit, index) => (
-                        <div key={index} className="flex flex-col items-center justify-center shadow-xl rounded-lg bg-white">
+                        <div key={index} className="flex flex-col items-center justify-center  rounded-lg">
                             <Image
                                 src={benefit.icon}
                                 alt={benefit.title}
                                 width={200}
                                 height={200}
-                                className="mb-4 bg-cover opacity-90"
+                                className="mb-4 bg-cover opacity-90 "
                             />
                             <h3 className="text-xl font-semibold mb-2 text-headingcol">{benefit.title}</h3>
                             <p className="text-lg text-gray-500">{benefit.description}</p>

@@ -23,6 +23,9 @@ import GMATDropdown from "./navbar-section/GMATDropdown";
 import IGCSEDropdown from "./navbar-section/IGCSEDropdown";
 import MobileNav from "./mobile-navbar/MobileNav";
 
+
+
+
 export function SiteHeader() {
   
   const [isOpen, setIsOpen] = useState(false);
@@ -91,6 +94,7 @@ export function SiteHeader() {
             <Link href="/new-fees" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
               Fees Structure
             </Link>
+           
             
             <span
               
@@ -106,7 +110,7 @@ export function SiteHeader() {
             >
               Sign up for free
             </Button>
-            
+           
           </nav>
         </div>
       </div>

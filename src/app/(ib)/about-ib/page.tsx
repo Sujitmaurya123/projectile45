@@ -179,12 +179,13 @@ const IBTableOfContents: React.FC = () => {
                             <a className="text-lg font-semibold text-headingcol hover:underline mb-2">{section.title}</a>
                         </Link>
                         {section.subsections && (
-                            <ul className="list-decimal pl-6">
+                            <ul className=" pl-6">
                                 {section.subsections.map((subsection, subIndex) => (
-                                    <li key={subIndex} className="mb-2">
-                                        <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
+                                    <li  key={subIndex} className="mb-2  list-decimal">
+                                        {/* <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
                                             <a className=" hover:underline">{subsection.title}</a>
-                                        </Link>
+                                        </Link> */}
+                                        <p >{subsection.title}</p>
                                     </li>
                                 ))}
                             </ul>

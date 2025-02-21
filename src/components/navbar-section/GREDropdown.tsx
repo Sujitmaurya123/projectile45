@@ -52,6 +52,10 @@ const GREDropdown: React.FC = () => {
                             
                             <ul className="space-y-2">
                                 <li><Link href="/about-gre" className="hover:text-black">About GRE </Link></li>
+                                <li><Link href="/gre-pattern" className="hover:text-black">GRE Pattern</Link></li>
+                                <li><Link href="/gre-structure" className="hover:text-black">GRE Structure</Link></li>
+
+
                                 {/* <li><Link href="/gre-practice-test">GRE Practice Test</Link></li>
                                 <li><Link href="/gre-online-prep">GRE Online Prep</Link></li>
                                 <li><Link href="/gre-overview">GRE Overview</Link></li>

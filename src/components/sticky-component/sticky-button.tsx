@@ -40,7 +40,7 @@ export default function StickyButton() {
         <>
        
         <TooltipProvider>
-                <div className="fixed bottom-3 right-3 z-20 mb-[150px] mr-8">
+                <div className="fixed bottom-3 right-2  mb-[150px] mr-8">
                     <Tooltip delayDuration={100} >
                 <TooltipTrigger asChild>
                     <Button
