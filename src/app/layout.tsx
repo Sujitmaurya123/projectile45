@@ -11,18 +11,67 @@ import { Toaster } from 'react-hot-toast';
 import FaqChat from "@/components/FAQsChats/FaqChat";
 
 // Define the metadata for the app
+// export const metadata: Metadata = {
+//   title: {
+//     default: 'Projectile45',
+//     template: '%s | Projectile45',
+//   },
+//   description: 'At Projectile45, we believe learning should be transformative, engaging, and uniquely tailored to you. We specialize in preparing students for IB, IGCSE, SAT, GMAT, and GRE, turning exam preparation into a personalized and inspiring journey.With expert educators—alumni from IITs, IIMs, and prestigious global institutions—we bring decades of experience to help you master complex concepts, think critically, and excel in every challenge.Our mission is to empower you to achieve your academic and career goals with confidence and clarity.',
+//   icons: {
+//     icon: "/projectile45.ico", // Ensure this file exists in your public directory
+//     shortcut: "/logo_projectile45.jpg", // Ensure this file exists in your public directory
+//     apple: "/apple-touch-icon.png", // Ensure this file exists in your public directory
+//   },
+// }
+
 export const metadata: Metadata = {
   title: {
-    default: 'Projectile45',
-    template: '%s | Projectile45',
+    default: "Projectile45 | Expert Coaching for IB, GRE, GMAT, IGCSE & SAT",
+    template: "%s | Projectile45",
   },
-  description: 'At Projectile45, we believe learning should be transformative, engaging, and uniquely tailored to you. We specialize in preparing students for IB, IGCSE, SAT, GMAT, and GRE, turning exam preparation into a personalized and inspiring journey.With expert educators—alumni from IITs, IIMs, and prestigious global institutions—we bring decades of experience to help you master complex concepts, think critically, and excel in every challenge.Our mission is to empower you to achieve your academic and career goals with confidence and clarity.',
+  description:
+    "P45 offers top-tier coaching for IB, GRE, GMAT, IGCSE, and SAT with expert faculty, personalized mentoring, and comprehensive study material. Boost your scores with a trusted test prep institute.",
   icons: {
     icon: "/projectile45.ico", // Ensure this file exists in your public directory
     shortcut: "/logo_projectile45.jpg", // Ensure this file exists in your public directory
-    apple: "/apple-touch-icon.png", // Ensure this file exists in your public directory
+    // apple: "/apple-touch-icon.png", // Ensure this file exists in your public directory
   },
-}
+  openGraph: {
+    title: "Projectile45 | Expert Coaching for IB, GRE, GMAT, IGCSE & SAT",
+    description:
+      "P45 provides personalized coaching for IB, GRE, GMAT, IGCSE, and SAT with expert mentors and study materials to boost your success.",
+    url: "https://www.p45.in", // Replace with the actual website URL
+    type: "website",
+    images: [
+      {
+        url: "/logo_projectile45.jpg", // Replace with a relevant OG image
+        width: 1200,
+        height: 630,
+        alt: "Projectile45 Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projectile45 | Expert Coaching for IB, GRE, GMAT, IGCSE & SAT",
+    description:
+      "Join Projectile45 for elite test preparation with expert faculty and tailored learning strategies.",
+    images: ["/logo_projectile45.jpg"],
+  },
+  keywords: [
+    "Online Test Preparation",
+    "online tutoring service",
+    "P45",
+    "Projectile 45",
+    "Projectile 45 test preparation",
+    "IB Coaching",
+    "GRE Preparation",
+    "GMAT Tutoring",
+    "IGCSE Study Help",
+    "SAT Test Prep",
+  ],
+};
+
 
 // Define viewport-related settings (themeColor)
 export const viewport = {

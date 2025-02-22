@@ -3,8 +3,15 @@ import SATPackageComparison from '@/components/sat-fees-structure-section/sat-ma
 import SATMathsFees from '@/components/sat-fees-structure-section/sat-maths-fees-section';
 import SATRWPackageComparison from '@/components/sat-fees-structure-section/sat-reading-writing-comparison';
 import SATReadingWritingFees from '@/components/sat-fees-structure-section/sat-writing-fees-structure';
+import { Metadata } from 'next';
 import React from 'react';
 
+
+export const metadata: Metadata = {
+    title: "SAT Fees Structure | Projectile 45",
+    description: "Get detailed insights into the SAT exam fees, including registration costs, rescheduling fees, and additional charges. Plan your SAT preparation with P45 today!",
+    keywords: ["sat registration", "sat test registration", "sat exam registration", "best sat coaching"],
+}
 
 
 const SATCourseFees: React.FC = () => {

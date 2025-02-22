@@ -1,45 +1,64 @@
 import { NextResponse } from "next/server";
 
-export async function GET() {
-  const baseUrl = "https://www.p45.in";
+export const domains = ["p45.com", "p45.in", "projectile45.com"];
 
-  // Static pages
+export async function GET(req: Request) {
+  const domain = req.headers.get("host") || "www.p45.in";
+
+  // Normalize the domain (remove 'www.' for checking)
+  let normalizedDomain = domain.replace(/^www\./, "");
+
+// Ensure only whitelisted domains are allowed
+  if (!domains.includes(normalizedDomain)) {
+    normalizedDomain = "p45.in"; // Default domain
+  }
+
+  // Use both `domain` and `domains` together (set final domain)
+  const finalDomain = domains.includes(normalizedDomain) ? normalizedDomain : "p45.in";
+  const siteUrl = `https://www.${finalDomain}`;
+
+  // **Static pages**
   const staticPages = [
-    "about-sat","about-ib","about-gre","about-gmat","about-igcse","new-fees", "ib-testprep", "igcse-testprep", "about-sat", "sat-testprep",
-    "gmat-testprep", "gre-testprep", "free-demo", "about-us", "careers",
-    "big-ideas", "training", "remote-learning", "teacher-community",
-    "terms-of-conditions", "website-privacy-policy"
+    "about-sat", "about-ib", "about-gre", "about-gmat", "about-igcse", "new-fees", 
+    "ib-testprep", "igcse-testprep", "sat-testprep", "gmat-testprep", "gre-testprep", 
+    "free-demo", "about-us", "careers", "big-ideas", "training", "remote-learning", 
+    "teacher-community", "terms-of-conditions", "website-privacy-policy"
   ];
 
-//   let dynamicPages: string[] = [];
+  // // **Dynamic pages (Fetch from API)**
+  // let dynamicPages: string[] = [];
 
-  // Fetch dynamic pages from API (optional)
-//   try {
-//     const res = await fetch(`${baseUrl}/api/get-pages`, { cache: "no-store" });
-//     if (!res.ok) throw new Error("Failed to fetch dynamic pages");
-//     dynamicPages = await res.json();
-//   } catch (error) {
-//     console.error("Error fetching dynamic pages:", error);
-//   }
+  // try {
+  //   const res = await fetch(`${siteUrl}/api/get-pages`, { cache: "no-store" });
 
-  // Combine static & dynamic pages
-//   const allPages = [...staticPages, ...dynamicPages];
+  //   if (res.ok) {
+  //     dynamicPages = await res.json();
+  //   } else {
+  //     console.error("Failed to fetch dynamic pages");
+  //   }
+  // } catch (error) {
+  //   console.error("Error fetching dynamic pages:", error);
+  // }
+
+  // // Combine static & dynamic pages
+  // const allPages = [...staticPages, ...dynamicPages];
+
   const allPages=staticPages;
-  // Generate XML Sitemap
+
+  // **Generate XML Sitemap**
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${allPages
     .map(
       (page) => `
     <url>
-      <loc>${baseUrl}/${page}</loc>
+      <loc>${siteUrl}/${page}</loc>
       <lastmod>${new Date().toISOString()}</lastmod>
     </url>`
     )
     .join("\n")}
 </urlset>`;
 
-  // Return response with XML content-type
   return new NextResponse(xml, {
     headers: {
       "Content-Type": "application/xml",
