@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export const domains = ["p45.com", "p45.in", "projectile45.com"];
+ const domains = ["p45.com", "p45.in", "projectile45.com"];
 
 export async function GET(req: Request) {
   const domain = req.headers.get("host") || "www.p45.in";
