@@ -9,17 +9,15 @@ const FirstStripSection: React.FC = () => {
         {/* Left Content */}
         <div className="text-center lg:text-left lg:w-3/4 font-medium ">
             <p className="text-gray-600 text-base sm:text-lg mb-6 sm:mb-8 text-justify">
-            Our online tutoring service is tailored for students preparing for
-            the IB, IGCSE, SAT, GMAT, and GRE. We don’t just teach strategies—we
-            ignite critical thinking, sharpen problem-solving skills, and build
-            confidence to tackle these competitive exams head-on.
+              <strong>Projectile 45 Test Preparation (P45)</strong> offers expert <strong>online tutoring</strong> for <strong>IB, IGCSE,
+                SAT, GMAT, and GRE</strong> aspirants. More than just strategies, we cultivate <strong>critical
+                thinking, problem-solving skills, and confidence </strong>to conquer competitive exams.
           </p>
-            <p className="text-gray-500 text-base sm:text-lg mb-6 sm:mb-8 text-justify">
-            With personalized, flexible learning led by expert tutors, we focus
-            on equipping you with the tools to master complex concepts and ace
-            challenging questions. Our approach ensures that preparation
-            inspires, not overwhelms, by addressing each student’s unique
-            strengths and areas for improvement.
+            <p className="text-gray-600 text-base sm:text-lg mb-6 sm:mb-8 text-justify">
+              With <strong>personalized, flexible learning</strong>, our top-tier tutors ensure you <strong>master
+                complex concepts and excel under pressure</strong>. At <strong>P45</strong>, preparation is inspiring, not
+              overwhelming—tailored to your unique strengths for <strong>exam success. Join Projectile
+                45 Test Preparation today and unlock your full potential!</strong>
           </p>
         </div>
 

@@ -19,9 +19,12 @@ const SATCourseFees: React.FC = () => {
 
     return (
         <div className="p-6 font-sans container mx-auto max-w-6xl">
-            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">SAT Fees Structure</h1>
+            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">SAT Coaching Fees at Projectile 45</h1>
             <p className="mb-4">
-                The SAT course by Projectile 45 will focus on preparing students comprehensively for both Math and Reading & Writing sections. Here&apos;s the detailed breakdown of Course coverage
+                At Projectile 45, our SAT courses are designed to provide comprehensive test
+                preparation for both Math and Reading &amp; Writing sections. We offer 1:1 coaching
+                and small group coaching (up to 4 students) to ensure personalized learning and
+                maximum score improvement.
             </p>
             
        <SATMathsFees/>

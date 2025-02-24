@@ -14,109 +14,123 @@ const SATJourney: FC = () => {
             <div className="container mx-auto p-4 max-w-6xl">
                 <header className="text-center py-6">
                     <h1 className="text-5xl font-bold text-headingcol">About SAT</h1>
-                    <p className="text-3xl font-bold text-headingcol mt-7">A Fun Journey Through the Digital SAT 2024</p>
+                    <p className="text-3xl font-bold text-headingcol mt-7">Your Ultimate Guide to the Digital SAT 2025</p>
 
-                    <p className="mt-2 text-lg text-gray-700">Join Lexi and Jake as they explore the Digital SAT in an interactive way!</p>
+                    <p className="mt-2 text-lg text-gray-700">Join <strong>Lexi and Jake</strong> on an exciting journey through the <strong>SAT exam</strong>, where they
+                        explore everything from test structure to the best <strong>SAT prep courses</strong> for mastering
+                        the <strong>Digital SAT!</strong></p>
                 </header>
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
-                    <h2 className="text-2xl font-semibold text-headingcol">Characters:</h2>
+                    <h2 className="text-2xl font-semibold text-headingcol">Meet the Squad</h2>
                     <p className="mt-4 text-gray-600">
-                        <strong>Lexi:</strong> Confident, book-loving student
+                        <strong>Lexi:</strong> The confident, book-loving strategist.
                         <br />
-                        <strong>Jake:</strong> Laid-back, humorous friend.
+                        <strong>Jake:</strong> The laid-back, funny friend who loves a challenge.
                     </p>
                 </div>
 
                 
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
-                    <h2 className="text-2xl font-semibold text-headingcol">Reading and Writing</h2>
+                    <h2 className="text-2xl font-semibold text-headingcol">Level 1: Conquering the Reading &amp; Writing Section</h2>
                     <p className="mt-4 text-gray-600">
-                        <strong>Lexi:</strong> Yo, Jake! Have you heard about the Digital SAT 2024? It&apos;s like a game, where the test levels up based on how well you do!
+                        <strong>Lexi:</strong> Yo, Jake! Have you heard about the <strong>Digital SAT 2025?</strong> It&apos;s adaptive—like a
+                        game where the difficulty changes based on how well you do!
                         <br />
-                        <strong>Jake:</strong> Sounds cool! What&apos;s the first level?
+                        <strong>Jake:</strong> Whoa, so the <strong>SAT exam</strong> adjusts in real time? What’s the first challenge?
                         <br />
-                        <strong>Lexi:</strong> Alright, let&apos;s dive into the <strong>Reading and Writing</strong>  section! You&apos;ve got <strong>64 minutes</strong>  for <strong>54 questions</strong>  across two modules. The questions test four main areas.
+                        <strong>Lexi:</strong> The <strong>Reading &amp; Writing section</strong>—64 minutes, 54 questions, split into two modules. The passages are short (25 to 150 words) and cover literature, history,
+                        social studies, science, and humanities.
                         <br />
-                        <strong>Jake:</strong> What kind of reading are we looking at?
+                        <strong>Jake:</strong> What kind of questions are we looking at?
                         <br />
-                        <strong>Lexi:</strong> Passages ranging from <strong>25 to 150 words</strong>, covering <strong>literature, history/social studies, science</strong>, and <strong>humanities</strong>.
-                        <br />
-                        <strong>Jake:</strong> And what are the questions like?
+                        <strong>Lexi</strong>:Four major skill areas:
+                        
                     </p>
                     <ul className="list-disc pl-6 mt-4 text-gray-600">
-                        <li><strong>Information and Ideas:</strong> Understanding and analyzing texts and graphics.</li>
-                        <li><strong>Craft and Structure:</strong> Analyzing word choices and text structure.</li>
-                        <li><strong>Expression of Ideas:</strong> Revising text for clarity and style.</li>
-                        <li><strong>Standard English Conventions:</strong> Fixing grammar, punctuation, and sentence structure.</li>
+                        <li><strong>Information &amp; Ideas:</strong> Understanding and analyzing texts and graphics.</li>
+                        <li><strong>Craft &amp; Structure:</strong> Evaluating word choices and text structure..</li>
+                        <li><strong>Expression of Ideas:</strong> Revising text for clarity and effectiveness.</li>
+                        <li><strong>Standard English Conventions:</strong> Mastering grammar, punctuation, and
+                            sentence structure.</li>
                     </ul>
                     <p className="mt-4 text-gray-600">
-                        <strong>Jake:</strong> So it’s like a detective game? Figuring out stories and fixing sentences?
+                        <strong>Jake:</strong> So, it’s basically a detective game—solving reading puzzles and fixing
+                        sentences?
                         <br />
-                        <strong>Lexi:</strong> Exactly!
+                        <strong>Lexi:</strong> Exactly! And because the <strong>Digital SAT</strong> is adaptive, the second module
+                        adjusts based on how you perform in the first one.
                         <br />
-                        <strong>Jake:</strong> Why do we have <strong>two modules</strong> though?
+                        <strong>Jake:</strong> So, if I ace the first part, the second one gets tougher? And if I struggle, it
+                        gets a little easier?
                         <br />
-                        <strong>Lexi:</strong> Good question! The two modules let the test adapt to your performance. If you do well in the first module, the second one will challenge you more. If not, it&apos;ll give you a bit of a break with easier questions.
+                        <strong>Lexi:</strong> Yep! Just like how you don&apos;t start a video game on &quot;boss level&quot; right away.
+                        
                         <br />
-                        <strong>Jake:</strong> Got it! So, the test is designed to match my skill level. It&apos;s like how my mom knows I&apos;m not ready for the boss level yet?😂
+                        <strong>Jake:</strong> Nice! What’s next?
                         <br />
-                        <strong>Lexi:</strong> Pretty much! After that, you get a <strong>10-minute break</strong> to recharge.
-                        <br />
-                        <strong>Jake:</strong> Perfect! I’ll need fuel for the Math part. What comes next?
+                        <strong>Lexi:</strong> A <strong>10-minute break</strong> before we hit the Math section—grab a snack and
+                        recharge!
+                        
                     </p>
                 </div>
-                <SATExamTable/>
+               
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
-                    <h2 className="text-2xl font-semibold text-headingcol">Math Section</h2>
+                    <h2 className="text-2xl font-semibold text-headingcol">Level 2: Tackling the Math Section</h2>
                     <p className="mt-4 text-gray-600">
-                        <strong>Lexi:</strong> Next up, <strong>Math</strong> . You&apos;ve got <strong>70 minutes</strong> to tackle <strong>44 questions</strong>  in <strong>two modules</strong> . The questions cover four key areas:
+                        <strong>Lexi:</strong> Next up, <strong>Math</strong>. You&#39;ve got <strong>70 minutes</strong> to complete <strong>44 questions</strong> across
+                        two modules. Topics include:
                     </p>
                     <ul className="list-disc pl-6 mt-4 text-gray-600">
-                        <li><strong>Algebra</strong> (13–15 questions): Get ready for some number-crunching fun!</li>
-                        <li><strong>Advanced Math</strong> (13–15 questions): This is where you level up to more complex problems.</li>
-                        <li><strong>Problem-Solving and Data Analysis</strong> (5–7 questions): Time to think critically with real-world data.</li>
-                        <li><strong>Geometry and Trigonometry</strong> (5–7 questions): Shapes and angles are your friends here!</li>
-                        <li className="mt-3">It&#39;s a mix of <strong>multiple-choice</strong>  and questions where you’ll need to <strong>enter the answer</strong>.
-                            No pressure though, just dive in and do your best!</li>
+                        <li><strong>Algebra</strong> (13–15 questions): Solving equations and inequalities.</li>
+                        <li><strong>Advanced Math</strong> (13–15 questions): Working with complex expressions and
+                            functions.</li>
+                        <li><strong>Problem-Solving & Data Analysis</strong> (5–7 questions): Interpreting real-world
+                            data and trends.</li>
+                        <li><strong>Geometry & Trigonometry</strong> (5–7 questions): Angles, shapes, and trigonometric
+                            functions.</li>
+                        
                     </ul>
                     <p className="mt-4 text-gray-600">
-                        <strong>Jake:</strong> Puzzles? Like Sudoku, but with more pressure?
+                        <strong>Jake:</strong> So, basically puzzles… but with more pressure?
                         <br />
-                        <strong>Lexi:</strong> Yep! And the best part? No penalty for guessing! So, if you’re stuck, just guess and move on.
+                        <strong>Lexi:</strong> Exactly! But don&apos;t stress—there&apos;s <strong>no penalty for guessing</strong>, so if you&#39;re
+                        unsure, take a shot and move on.
                     </p>
                 </div>
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
-                    <h2 className="text-2xl font-semibold text-headingcol">Test Overview</h2>
+                    <h2 className="text-2xl font-semibold text-headingcol">Level 3: Cracking the Test Format</h2>
                     <p className="mt-4 text-gray-600">
-                        <strong>Jake: </strong>Alright, so after all that, how does the whole thing add up?
+                        <strong>Jake: </strong> Alright, so how does the whole thing add up?
                         <br /> 
-                        <strong>Lexi:</strong> Here’s the lowdown:-
+                        <strong>Lexi:</strong> Here&apos;s the breakdown:
                     </p>
-                    <ul className="list-disc pl-6 mt-4 text-gray-600">
-                        <li><strong>Total Questions: </strong>98 (54 in Reading & Writing, 44 in Math)</li>
-                        <li><strong>Duration: </strong>2 hours, 14 minutes</li>
-                        <li><strong>Break: </strong>A quick 10-minute snack break after Reading & Writing</li>
-                        <li><strong>Adaptive Test: </strong>Adaptive Test: The questions get harder or easier based on how you do.</li>
-                        <li><strong>Guessing:</strong> No penalty for guessing, so just go for it!</li>
-                    </ul>
+                    <SATExamTable />
+                    <p className="mt-4 text-gray-600">
+                        <strong>Jake: </strong> And this whole thing is <strong>adaptive</strong>, right?
+                        <br />
+                        <strong>Lexi:</strong> Yep! Your second module in both sections changes in difficulty based on
+                        how well you perform in the first.
+                    </p>
                 </div>
 
-                <footer className="text-center py-6">
-                    <h2 className="text-xl font-semibold text-headingcol">Get Prepared</h2>
+                <footer className=" p-6  rounded-lg shadow-lg">
+                    <h2 className="text-xl font-semibold text-headingcol">Level 4: Preparing for the Digital SAT</h2>
                     <p className="mt-2 text-lg text-gray-700">
-                        <strong>Jake: </strong>Sounds intense but doable. So, which institute should I join to prepare
+                        <strong>Jake: </strong>This sounds intense. Which <strong>SAT prep courses</strong> should I check out?
                         for this?
                         <br />
-                        <strong>Lexi:</strong> Undoubtedly, <strong>Projectile 45!</strong> They’ve got everything you need to ace the Digital SAT.
+                        <strong>Lexi:</strong> <strong>Projectile 45 (P45)!</strong> They offer expert <strong>SAT exam</strong> coaching, personalized
+                        strategies, and a structured approach to <strong>Digital SAT</strong> prep.
                         <br />
-                        <strong>Jake:</strong> Perfect! I’m in. Let’s do this!
+                        <strong>Jake:</strong> Perfect! I&apos;m signing up for Projectile 45 test preparation. Let&apos;s crush this!
                         <br />
-                        <strong>Lexi:</strong> Totally! Time to crush the Digital SAT!
+                        <strong>Lexi:</strong> You got this! Time to ace the Digital SAT!
                     </p>
+                    <p className="text-xl font-medium">Want to master the SAT exam? Enrol in top-rated SAT prep courses today!</p>
                 </footer>
             </div>
         </div>

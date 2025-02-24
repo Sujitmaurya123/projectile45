@@ -12,13 +12,13 @@ const SATReadingWritingFees: React.FC = () => {
     const fees: FeeStructure[] = [
         {
             type: '1:1 Coaching',
-            hourlyFee: '₹3800',
+            hourlyFee: '₹3800 per hour',
             package30: '₹1,14,000',
             package50: '₹1,90,000',
         },
         {
             type: 'Group Coaching (up to 4)',
-            hourlyFee: '₹2800',
+            hourlyFee: '₹2800 per hour',
             package30: '₹84,000',
             package50: '₹1,40,000',
         },
@@ -56,7 +56,10 @@ const SATReadingWritingFees: React.FC = () => {
                     </tbody>
                 </table>
             </div>
+
         </div>
+            <p><strong>Enrol now</strong> in our expert-led <strong>SAT test prep</strong> to boost your scores with personalized
+                strategies!</p>
         </div>  
     );
 };

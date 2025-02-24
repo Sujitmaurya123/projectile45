@@ -6,18 +6,18 @@ const SATHero = () => {
     return (
         <div className="container mx-auto p-4 md:p-8 max-w-6xl">
             <h1 className="text-4xl md:text-5xl text-headingcol font-bold mb-6 md:mb-8 text-center">
-                SAT Pattern 2024
+                SAT Exam Pattern 2025: Everything You Need to Know
             </h1>
 
-            <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-500 font-medium">
+            <div className="flex flex-col-reverse  md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-600 font-medium">
                 <div>
-                    <p className="text-base text-justify md:text-lg leading-relaxed ">
-                        The <strong className='text-gray-700'>SAT Exam Pattern</strong> for the year 2024-2025 has undergone major changes to
-                        better align with the skills required for college success. The test now scores between
-                        400 and 1600 points, with no negative marking for incorrect answers, allowing you to
-                        focus on accuracy without worrying about penalties.
+                    <p className="text-base text-justify md:text-lg leading-relaxed mt-9">
+                        The <strong>SAT exam pattern</strong> for 2025 has been redesigned to make the test more
+                        efficient, adaptive, and aligned with essential college-ready skills. Whether you&#39;re
+                        preparing with a <strong>Digital SAT practice</strong> test or enrolling in a <strong>SAT prep course,</strong>
+                        understanding these updates is crucial for achieving your target score.
                     </p>
-                    <p className="text-base text-justify md:text-lg leading-relaxed ">
+                    {/* <p className="text-base text-justify md:text-lg leading-relaxed ">
                         One significant update is the reduced overall exam duration, making the test more
                         streamlined and efficient. Another improvement is the allowance of calculators for all
                         Math questions, including access to the <strong className='text-gray-700'>Desmos graphing calculator</strong> directly on
@@ -30,21 +30,20 @@ const SATHero = () => {
                         ability to analyze information, solve problems, and think critically—skills essential for
                         academic success. Familiarizing yourself with these changes in the SAT Exam
                         Pattern will help you plan effectively and maximize your score.
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className="flex justify-center">
                     <Image
                         src="/images/sat-digital2.svg"
                         alt="SAT Digital Exam Pattern Illustration"
-                        width={500}
-                        height={300}
+                        width={400}
+                        height={200}
                         className="rounded-lg"
                     />
                 </div>
             </div>
-            <h1 className=" mt-8 text-lg flex justify-center font-bold mb-4  text-gray-700">Below is a breakdown of the sections in the SAT Exam Pattern, including the
-                number of questions and time allotted for each:</h1>
+           
         </div>
     );
 };

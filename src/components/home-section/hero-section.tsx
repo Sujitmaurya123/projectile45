@@ -17,16 +17,17 @@ const HeroSection: React.FC = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-6xl font-extrabold text-[#091987] mb-6">
             Projectile 45: Your Launchpad to <span className="text-[#764f94]">Academic Success</span> 
       </h1>
-      <p className="text-gray-500 text-base sm:text-lg font-medium text-justify sm:mb-2">
-        In today&apos;s fast-changing world, your preparation should evolve with
-        you. At Projectile 45, we transform IB, IGCSE, SAT, GMAT, and GRE
-        preparation into an inspiring journey tailored to your unique
-        learning style.
+      <p className="text-gray-600 text-base sm:text-lg font-medium text-justify sm:mb-2">
+            In today&apos;s dynamic world, <strong>online test preparation</strong> must keep pace with your
+            ambitions. At <strong>Projectile 45</strong>, we redefine <strong>IB, IGCSE, SAT, GMAT, and GRE
+              preparation </strong>, offering a personalized, results-driven approach tailored to your
+            learning style.
       </p>
-          <p className="text-gray-500 text-base sm:text-lg font-medium text-justify sm:mb-2">
-        Our expert educators, alumni of IITs, IIMs, and global institutions,
-        bring decades of experience to ensure you master complex concepts,
-        think critically, and tackle challenges with confidence.
+          <p className="text-gray-600 text-base sm:text-lg font-medium text-justify sm:mb-2">
+            Our expert educators—alumni of IITs, IIMs, and top global institutions—bring
+            decades of experience to help you master complex concepts, develop critical
+            thinking, and approach every challenge with confidence. <strong>Elevate your success with
+              the best in online test preparation!</strong>
       </p>
       
           <Button onClick={() => setIsOpen(true)}
