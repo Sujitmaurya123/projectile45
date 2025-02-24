@@ -127,6 +127,8 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                      className="mt-2 pl-4 max-h-[300px] overflow-y-auto text-gray-700">
                         <ul className="space-y-2">
                             <li><Link href="/about-gre" className="hover:text-black">About GRE </Link></li>
+                            <li><Link href="/gre-pattern" className="hover:text-black">GRE Pattern</Link></li>
+                            <li><Link href="/gre-structure" className="hover:text-black">GRE Structure</Link></li>
                         </ul>
                     </div>
                 )}
@@ -169,10 +171,10 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/igcse-curriculum" className="hover:text-black"> IGCSE Curriculum</Link></li>
                             <li><Link href="/igcse-mathematics" className="hover:text-black"> IGCSE Mathematics</Link></li>
                             <li><Link href="/igcse-sciences" className="hover:text-black"> IGCSE Sciences</Link></li>
-                            <li><Link href="/igcse-languages" className="hover:text-black"> IGCSE Languages</Link></li>
+                            {/* <li><Link href="/igcse-languages" className="hover:text-black"> IGCSE Languages</Link></li>
                             <li><Link href="/igcse-humanities-social" className="hover:text-black"> IGCSE Humanities &amp; Social Sciences</Link></li>
                             <li><Link href="/igcse-creative-professional" className="hover:text-black"> IGCSE Creative &amp; Professional</Link></li>
-                            <li><Link href="/igcse-english-literature" className="hover:text-black"> IGCSE English Language &amp; Literature</Link></li>
+                            <li><Link href="/igcse-english-literature" className="hover:text-black"> IGCSE English Language &amp; Literature</Link></li> */}
                         </ul>
                     </div>
                 )}

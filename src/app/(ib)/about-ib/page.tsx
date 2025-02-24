@@ -60,15 +60,15 @@ const ibData: IBSection[] = [
         ],
     },
     {
-        title: 'Subject Choices in the IB Diploma',
+        title: 'IB Diploma Subjects &amp; Core Components',
         href: '/ib-subject-choices',
         subsections: [
-            { title: 'Group 1: Studies in Language and Literature', href: 'group-1' },
+            { title: 'Group 1: Studies in Language &amp; Literature', href: 'group-1' },
             { title: 'Group 2: Language Acquisition', href: 'group-2' },
-            { title: 'Group 3: Individuals and Societies', href: 'group-3' },
-            { title: 'Group 4: Sciences', href: 'group-4' },
-            { title: 'Group 5: Mathematics', href: 'group-5' },
-            { title: 'Group 6: The Arts or Electives', href: 'group-6' },
+            { title: 'Group 3: Individuals &amp; Societies (History, Economics, Psychology)', href: 'group-3' },
+            { title: 'Group 4: Sciences (IB Physics, Chemistry, Biology)', href: 'group-4' },
+            { title: 'Group 5: IB Maths (Analysis &amp; Approaches, Applications &amp; Interpretation)', href: 'group-5' },
+            { title: 'Group 6: Arts (Visual Arts, Music, Theatre)', href: 'group-6' },
         ],
     },
     {
@@ -108,15 +108,18 @@ const IBTableOfContents: React.FC = () => {
         <div className="container mx-auto py-10 px-4 max-w-6xl">
                 <h1 className="text-4xl font-bold mb-4 text-center text-headingcol">About IB </h1>
 
-                <h1 className="text-3xl font-bold mb-4 text-center text-headingcol">IB Coaching: Excel in the International Baccalaureate Program
+                <h1 className="text-3xl font-bold mb-4 text-center text-headingcol">IB Coaching:Master the International Baccalaureate Program
 </h1>
             
             <div>
-                <p className='mb-4'>
-                        The <strong>International Baccalaureate (IB)</strong> is a globally recognized curriculum that nurtures critical thinking, research skills, and international-mindedness. It offers four programs:
+                <p className='mb-4 text-gray-600'>
+                        The <strong>International Baccalaureate (IB) Program</strong> is a globally recognized curriculum
+                        designed to develop critical thinking, research skills, and international-mindedness. It
+                        prepares students for academic excellence and career success through a well-
+                        rounded approach to learning.
                 </p>
-                <section>
-               
+                <section className='text-gray-600'>
+                        <p className='font-semibold'>Understanding the International Baccalaureate Program</p>
                         <ul className="list-disc list-inside">
                             <li className="mb-2"> <strong>Primary Years Program (PYP) (Ages 3-12):</strong> Inquiry-based learning to build foundational skills.</li>
                             <li className="mb-2"><strong>Middle Years Program (MYP) (Ages 11-16):</strong> Interdisciplinary learning for academic and personal growth.</li>
@@ -124,52 +127,82 @@ const IBTableOfContents: React.FC = () => {
                             <li className="mb-2"> <strong>Career-related Program (CP) (Ages 16-19):</strong> A blend of academics and career-focused studies for skill-based learning.</li>
                         </ul>
                 </section>
-                    <section className="mb-8">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose IB?</h2>
+                    <section className="mb-8 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose the IB Diploma?</h2>
                         <ul className="list-disc list-inside">
-                            <li className="mb-2">Globally Recognized: Preferred by top universities worldwide.</li>
-                            <li className="mb-2">Holistic Development: Blends academics with personal and social growth.</li>
-                            <li className="mb-2">Critical Thinking & Research: TOK and EE sharpen analytical skills.</li>
-                            <li className="mb-2">University & Career Preparation: Equips students for success in higher education and beyond.</li>
+                            <li className="mb-2"><strong>Globally Recognized:</strong> The <strong>International Baccalaureate Diploma</strong> is preferred
+                                by top universities worldwide.</li>
+                            <li className="mb-2"><strong>Holistic Development:</strong> The <strong>IB Program</strong> emphasizes a balance between
+academics and personal growth..</li>
+                            <li className="mb-2"><strong>Critical Thinking & Research:</strong> Research: The <strong>Theory of Knowledge (TOK)</strong> and <strong>Extended
+                                Essay (EE)</strong> enhance analytical skills.</li>
+                            <li className="mb-2"><strong>University & Career Preparation:</strong>A well-structured curriculum ensures success
+                                in higher education and beyond.</li>
                         </ul>
                     </section>
-
-                    <section className="mb-8">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Diploma Core Components</h2>
+                    <section className="mb-8 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Diploma Subjects &amp; Core Components</h2>
+                        <p>The IB subjects list includes six core areas:</p>
+                        <ul className="list-disc list-inside">
+                            <li className="mb-2"><strong>Group 1:</strong> Studies in Language &amp; Literature</li>
+                            <li className="mb-2"><strong>Group 2:</strong> Language Acquisition
+                                </li>
+                            <li className="mb-2"><strong>Group 3:</strong> Individuals &amp; Societies (History, Economics, Psychology)
+                                </li>
+                            <li className="mb-2"><strong>Group 4:</strong> Sciences (<strong>IB Physics</strong>, Chemistry, Biology)
+                                </li>
+                            <li className="mb-2"><strong>Group 5:</strong> <strong>IB Maths</strong> (Analysis &amp; Approaches, Applications &amp; Interpretation)
+                            </li>
+                            <li className="mb-2"><strong>Group 6:</strong> Arts (Visual Arts, Music, Theatre)
+                            </li>
+                        </ul>
+                    </section>
+                    <section className="mb-8 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Core Components of the IB Diploma</h2>
                         <div className="space-y-4">
                             <div>
                                 <h3 className="text-xl font-medium">1. Theory of Knowledge (TOK)</h3>
-                                <p>Explores the nature of knowledge across disciplines. Includes a TOK Essay and TOK Presentation on real-world applications.</p>
+                                <p>Encourages students to explore the nature of
+                                    knowledge through essays and presentations.</p>
                             </div>
                             <div>
                                 <h3 className="text-xl font-medium">2. Extended Essay (EE)</h3>
-                                <p>A 4,000-word independent research project, developing university-level writing and critical thinking. Students refine research questions, methodology, and progress through the Reflections on Planning and Progress Form (RPPF).</p>
+                                <p>(EE): A 4,000-word research paper refining writing and critical
+                                    analysis skills.</p>
                             </div>
                             <div>
                                 <h3 className="text-xl font-medium">3. Creativity, Activity, Service (CAS)</h3>
-                                <p>Creativity: Engaging in artistic pursuits. Activity: Physical well-being through sports and fitness. Service: Meaningful community service for real-world impact.</p>
+                                <p>Involves arts, physical activities, and
+                                    meaningful community service.</p>
                             </div>
                         </div>
                     </section>
 
-                    <section className="mb-8">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Assessment & Grading</h2>
+                    <section className="mb-8 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Assessment &amp; Grading System</h2>
                         <ul className="list-disc list-inside">
-                            <li className="mb-2">Grading Scale: Subjects scored 1-7, with TOK & EE (A-E) adding up to 3 bonus points (Max: 45 points).</li>
-                            <li className="mb-2">Internal Assessments (IA): Teacher-graded coursework, moderated externally.</li>
-                            <li className="mb-2">External Assessments (EA): Externally set 8 graded exams for global standardization.</li>
-                            <li className="mb-2">University Readiness: A score of 35+ is competitive, while 40+ is ideal for top universities.</li>
+                            <li className="mb-2"><strong>IB diploma subjects</strong> are scored on a <strong>1-7 scale,</strong> with <strong>TOK &amp; EE</strong> contributing
+                                up to <strong>3 bonus points</strong> (Max Score: <strong>45 points</strong>).</li>
+                            <li className="mb-2"><strong>Internal Assessments (IA):</strong> Coursework graded by teachers and moderated
+                                externally.</li>
+                            <li className="mb-2"><strong>External Assessments (EA):</strong> Standardized exams to ensure global
+                                evaluation consistency.</li>
+                            <li className="mb-2"><strong>University Readiness:</strong> A <strong>35+ IB score</strong> is competitive, while <strong>40+</strong> is ideal for
+                                top-tier universities.</li>
                         </ul>
                     </section>
 
-                    <section>
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose IB Coaching?</h2>
+                    <section className='text-gray-600'>
+                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose Expert IB Tutors?</h2>
                         <ul className="list-disc list-inside">
-                            <li className="mb-2">Expert guidance for TOK essays, EE research, and CAS projects.</li>
-                            <li className="mb-2">Personalized strategies for internal assessments & IB exams.</li>
-                            <li className="mb-2">Comprehensive support to maximize IB scores and university admissions.</li>
+                            <li className="mb-2">Personalized strategies for IB Maths, IB Physics, and all IB subjects</li>
+                            <li className="mb-2">Expert guidance for TOK essays, Extended Essays, and CAS projects</li>
+                            <li className="mb-2">Comprehensive IB test preparation to maximize scores</li>
+                            <li className="mb-2">University admissions support for top institutions worldwide</li>
                         </ul>
-                        <p className="mt-4">Looking for top IB coaching classes? Get expert IB tuition today and excel in your IB journey!</p>
+                        <p className="mt-4">Looking for top <strong>IB tutors</strong> to ace your <strong>IB diploma subjects?</strong> Enrol in expert-led <strong>IB
+                            coaching</strong> today and achieve excellence in the <strong>International Baccalaureate
+                                Program!</strong></p>
                     </section>
             </div>
                 <ul className="list-none  mt-4">

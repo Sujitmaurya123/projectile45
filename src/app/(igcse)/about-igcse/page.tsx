@@ -7,69 +7,74 @@ import React from 'react';
 const IGCSEIntroduction: React.FC = () => {
     return (
         <div className="container mx-auto px-14 py-5 text-justify max-w-6xl">
-            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">About IGCSE</h1>
+            <h1 className="text-3xl font-bold mb-4 text-headingcol text-center">IGCSE Syllabus, Past Papers &amp; Preparation Guide</h1>
             <p className="text-lg mb-4 text-gray-500">
-                The International General Certificate of Secondary Education (IGCSE) is a globally
-                recognized qualification for students typically aged 14 to 16. It was developed by the
-                University of Cambridge International Examinations (CIE) in 1988, and it is now offered
-                by several examination boards, including Cambridge Assessment International
-                Education and Edexcel. The IGCSE serves as a preparatory step for higher-level
-                qualifications such as the A-Levels, IB Diploma Programme (IBDP), or equivalent
-                national qualifications.
+                The <strong>International General Certificate of Secondary Education (IGCSE)</strong> is a
+                globally recognized qualification for students aged 14 to 16. Designed by
+                <strong>Cambridge Assessment International Education (CAIE)</strong> and other examination
+                boards like <strong>Edexcel</strong>, the <strong>IGCSE syllabus</strong> prepares students for higher-level courses
+                such as <strong>A-Levels, the IB Diploma Programme (IBDP), and national
+                    qualifications.</strong>
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-headingcol">Key Features of the IGCSE</h2>
-            <ul className="list-disc ml-6 text-gray-500">
-                <li>
-                    <span className="font-semibold">Broad Curriculum:</span> The IGCSE offers a wide range of subjects across languages,
-                    humanities, social sciences, mathematics, and creative, technical, and vocational
-                    disciplines. This broad spectrum allows students to explore their interests and
-                    strengths.
-                </li>
-                <li>
-                    <span className="font-semibold">Flexible Subject Choices:</span> Students can choose subjects based on their
-                    preferences and future academic goals. Typically, schools offer a combination of
-                    core and elective subjects, enabling a personalized learning experience.
-                </li>
-                <li>
-                    <span className="font-semibold">Skill Development:</span> The IGCSE curriculum emphasizes the development of
-                    essential skills such as:
-                    <ul className="list-disc ml-6">
-                        <li>Critical Thinking</li>
-                        <li>Problem-Solving</li>
-                        <li>Analytical Skills</li>
+            <div>
+                <header className=" mb-12">
+                    <h1 className="text-3xl font-semibold text-headingcol">Why Choose IGCSE?</h1>
+                    <p className="text-lg text-gray-700 mt-4">
+                        Prepare for success with the globally recognized IGCSE qualification.
+                    </p>
+                </header>
+
+                <section className="mb-12">
+                    <h2 className="text-2xl font-semibold text-headingcol">Key Benefits</h2>
+                    <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
+                        <li>🌍 Globally Recognized – Accepted by top universities and employers worldwide.</li>
+                        <li>📚 Broad Curriculum – Covers IGCSE Maths, Science, English, Humanities, and more.</li>
+                        <li>🎓 Flexible Subject Choices – Students select subjects based on academic goals.</li>
+                        <li>💡 Strong Academic Foundation – Develops critical thinking, problem-solving, and analytical skills.</li>
                     </ul>
-                </li>
-                <li>
-                    <span className="font-semibold">Global Perspective:</span> The IGCSE incorporates an international outlook, making
-                    students aware of global issues and diverse cultures. This aspect helps in
-                    cultivating a more rounded worldview and adaptability in a global context.
-                </li>
-            </ul>
+                </section>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-headingcol">Why Choose IGCSE?</h2>
-            <ul className="list-disc ml-6 text-gray-500">
-                <li>
-                    <span className="font-semibold">International Recognition:</span> The IGCSE is accepted by leading universities and
-                    employers worldwide, making it a versatile qualification for students aiming to
-                    pursue higher education internationally.
-                </li>
-                <li>
-                    <span className="font-semibold">Academic Rigor:</span> It is known for its rigorous academic standards, preparing
-                    students well for advanced studies.
-                </li>
-                <li>
-                    <span className="font-semibold">Assessment Variety:</span> The IGCSE uses a range of assessment methods, including
-                    written examinations, oral tests, coursework, and practical assessments. This
-                    variety helps cater to different learning styles and strengths.
-                </li>
-            </ul>
+                <section className="mb-12">
+                    <h2 className="text-2xl font-semibold text-headingcol">IGCSE Syllabus & Subjects</h2>
+                    <p className="mt-4 text-lg text-gray-600">
+                        The IGCSE syllabus covers core and elective subjects across various disciplines:
+                    </p>
+                    <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
+                        <li>✔ IGCSE Mathematics (Core & Extended)</li>
+                        <li>✔ IGCSE English Language & Literature</li>
+                        <li>✔ Sciences (Physics, Chemistry, Biology)</li>
+                        <li>✔ Humanities (History, Geography, Economics)</li>
+                        <li>✔ Creative & Technical Subjects (Art, Design & Technology, Computer Science)</li>
+                    </ul>
+                </section>
 
-            <p className="text-lg mt-4 text-gray-500">
-                The IGCSE not only lays a strong foundation for further education but also equips
-                students with lifelong learning skills essential for their personal and professional
-                development.
-            </p>
+                <section className="mb-12">
+                    <h2 className="text-2xl font-semibold text-headingcol">IGCSE Past Papers for Exam Preparation</h2>
+                    <p className="mt-4 text-lg text-gray-600">
+                        Practicing IGCSE past papers is essential for scoring high in exams. Here’s how they help:
+                    </p>
+                    <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
+                        <li>✅ Understand exam formats and marking schemes.</li>
+                        <li>✅ Improve time management and accuracy.</li>
+                        <li>✅ Boost confidence through real exam practice.</li>
+                    </ul>
+                </section>
+
+                <section className="mb-12">
+                    <h2 className="text-2xl font-semibold text-headingcol">Effective IGCSE Preparation with Expert Tuition</h2>
+                    <p className="mt-4 text-lg text-gray-600">
+                        Many students opt for IGCSE tuition or IGCSE tuition online for personalized coaching. Expert IGCSE Maths tutors provide structured lessons, exam strategies, and targeted practice.
+                    </p>
+                </section>
+
+                <footer className="text-center py-6">
+                    <h3 className="text-xl font-semibold text-headingcol">Start Your IGCSE Journey Today!</h3>
+                    <p className="mt-4 text-lg text-gray-700">
+                        Master the IGCSE syllabus, practice with IGCSE past papers, and excel in your exams with structured learning. Whether through self-study or IGCSE tuition online, a strong preparation plan ensures success in the IGCSE exams and beyond!
+                    </p>
+                </footer>
+            </div>
         </div>
     );
 };
