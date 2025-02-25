@@ -11,8 +11,8 @@ const GREGuide = () => {
                     </h1>
                     <p className="text-gray-700 text-justify leading-relaxed mb-4">
                         The <strong>Graduate Record Examination (GRE)</strong> is a critical step for students aiming to
-                        pursue <strong>graduate and business programs</strong> worldwide. Whether you’re targeting a
-                        <strong>master&apos;s program, MBA, or even select law programs,</strong> understanding the <strong>GRE
+                        pursue <strong>graduate and business programs</strong> worldwide. Whether you&apos;re targeting 
+                       a <strong>master&apos;s program, MBA, or even select law programs,</strong> understanding the <strong>GRE
                             exam pattern</strong> and preparing effectively is key to success.
                     </p>
                 </div>

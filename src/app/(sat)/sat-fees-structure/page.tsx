@@ -1,8 +1,8 @@
 // components/SATCourseFees.tsx
 import SATPackageComparison from '@/components/sat-fees-structure-section/sat-maths-fees-comparison';
-import SATMathsFees from '@/components/sat-fees-structure-section/sat-maths-fees-section';
+
 import SATRWPackageComparison from '@/components/sat-fees-structure-section/sat-reading-writing-comparison';
-import SATReadingWritingFees from '@/components/sat-fees-structure-section/sat-writing-fees-structure';
+
 import { Metadata } from 'next';
 import React from 'react';
 
@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     keywords: ["sat registration", "sat test registration", "sat exam registration", "best sat coaching"],
 }
 
+const courses = [
+    {
+        name: 'SAT',
+        originalPrice: 7849,
+        discountedPrice: 5499
+    },
+    
+];
 
 const SATCourseFees: React.FC = () => {
    
@@ -26,9 +34,32 @@ const SATCourseFees: React.FC = () => {
                 and small group coaching (up to 4 students) to ensure personalized learning and
                 maximum score improvement.
             </p>
+            <div>
+                <div className="container mx-auto p-6">
+                    <h1 className="text-3xl font-semibold text-center mb-6 text-headingcol">SAT Price </h1>
+                    <table className="min-w-full table-auto border-collapse shadow-lg">
+                        <thead>
+                            <tr className="bg-green-400 text-gray-700">
+                                <th className="px-6 py-3 text-left">Course</th>
+                                <th className="px-6 py-3 text-left">Original Price (INR/hour)</th>
+                                <th className="px-6 py-3 text-left">Discounted Price (INR/hour)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {courses.map((course, index) => (
+                                <tr key={index} className="border-b hover:bg-gray-100">
+                                    <td className="px-6 py-4">{course.name}</td>
+                                    <td className="px-6 py-4 text-red-700"><del>{course.originalPrice}</del></td>
+                                    <td className="px-6 py-4">{course.discountedPrice}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
             
-       <SATMathsFees/>
-       <SATReadingWritingFees/>
+       {/* <SATMathsFees/>
+       <SATReadingWritingFees/> */}
        <SATPackageComparison/>
        <SATRWPackageComparison/>
         

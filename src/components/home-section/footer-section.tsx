@@ -59,6 +59,7 @@ const Footer = () => {
                 {/* Resources Links */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h3 className="text-lg font-semibold mb-4">Resources</h3>
+                    <Link href="/blogs" className="hover:underline">Blogs</Link>
                     <Link href="/big-ideas" className="hover:underline">Big Ideas</Link>
                     <Link href="/training" className="hover:underline">Training</Link>
                     <Link href="/remote-learning" className="hover:underline">Remote Learning</Link>
