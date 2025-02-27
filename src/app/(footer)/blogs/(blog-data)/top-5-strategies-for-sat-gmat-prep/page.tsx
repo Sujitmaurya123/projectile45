@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlogPost: React.FC = () => {
     return (
-        <div className="max-w-6xl mx-auto p-6   mt-8">
+        <div className="max-w-6xl mx-auto p-6 mt-8">
             <h1 className="text-4xl font-extrabold text-center text-headingcol mb-6">
                 Top 5 Strategies for SAT/GMAT Preparation: A Step-by-Step Guide
             </h1>
@@ -14,7 +14,7 @@ const BlogPost: React.FC = () => {
                     Preparing for standardized tests like the SAT and GMAT can be challenging, but with the right approach, you can boost your confidence and maximize your scores. Whether you&apos;re aiming for a high SAT math score or looking to improve your GMAT verbal skills, the key lies in effective study habits, strategic test-taking, and smart time management.
                 </p>
                 <p className="mt-4 text-lg">
-                    Here’s a step-by-step guide to managing exam stress while preparing for the SAT or GMAT. Follow these proven strategies to stay on track and perform your best on test day.
+                    This guide outlines the best SAT/GMAT preparation strategies to help you achieve top scores while managing test anxiety effectively.
                 </p>
             </section>
 
@@ -23,10 +23,11 @@ const BlogPost: React.FC = () => {
                 <p className="mt-2 text-lg">
                     📅 When should you start preparing for the SAT or GMAT? Ideally, 3-6 months before the test to allow enough time for review, practice, and strategy development.
                 </p>
+                <p className="mt-2 text-lg">🎯 How to set realistic goals:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Set section-wise targets (e.g., aiming for 700+ in GMAT or 1500+ in SAT).</li>
-                    <li>Break preparation into manageable chunks to avoid last-minute cramming.</li>
-                    <li>Use a detailed study schedule that covers both content review and practice tests.</li>
+                    <li>✔️ Set section-wise targets (e.g., aiming for 700+ in GMAT or 1500+ in SAT).</li>
+                    <li>✔️ Break preparation into manageable chunks to avoid last-minute cramming.</li>
+                    <li>✔️ Use a detailed study schedule that covers both content review and practice tests.</li>
                 </ul>
                 <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
                 <p className="text-lg">
@@ -40,14 +41,14 @@ const BlogPost: React.FC = () => {
                     🔍 Identify problem areas early. For instance:
                 </p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Struggling with algebra on the SAT? Focus on problem-solving strategies.</li>
-                    <li>Finding GMAT Data Sufficiency questions tough? Practice logic-based approaches.</li>
+                    <li>✔️ Struggling with algebra on the SAT? Focus on problem-solving strategies.</li>
+                    <li>✔️ Finding GMAT Data Sufficiency questions tough? Practice logic-based approaches.</li>
                 </ul>
                 <p className="mt-4 text-lg">🧠 How to overcome weak areas:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Take diagnostic tests to pinpoint problem areas.</li>
-                    <li>Use adaptive learning methods—focus more on difficult topics while reinforcing strengths.</li>
-                    <li>Work with expert tutors (like those at Projectile 45 Tuition) who provide targeted guidance.</li>
+                    <li>✔️ Take diagnostic tests to pinpoint problem areas.</li>
+                    <li>✔️ Use adaptive learning methods—focus more on difficult topics while reinforcing strengths.</li>
+                    <li>✔️ Work with expert tutors (like those at Projectile 45 Tuition) who provide targeted guidance.</li>
                 </ul>
                 <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
                 <p className="text-lg">
@@ -61,15 +62,15 @@ const BlogPost: React.FC = () => {
                     ⏱️ Why are full-length practice tests important?
                 </p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>They help build stamina for long exams.</li>
-                    <li>They allow you to practice time management in a real test environment.</li>
-                    <li>They help identify patterns in mistakes, so you can adjust your strategy.</li>
+                    <li>✔️ They help build stamina for long exams.</li>
+                    <li>✔️ They allow you to practice time management in a real test environment.</li>
+                    <li>✔️ They help identify patterns in mistakes, so you can adjust your strategy.</li>
                 </ul>
                 <p className="mt-4 text-lg">📊 Best practices for taking mock tests:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Take one full-length test every 2-3 weeks.</li>
-                    <li>Analyze mistakes to understand where you went wrong.</li>
-                    <li>Simulate actual test-day conditions (quiet space, no distractions, timed sections).</li>
+                    <li>✔️ Take one full-length test every 2-3 weeks.</li>
+                    <li>✔️ Analyze mistakes to understand where you went wrong.</li>
+                    <li>✔️ Simulate actual test-day conditions (quiet space, no distractions, timed sections).</li>
                 </ul>
                 <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
                 <p className="text-lg">
@@ -82,10 +83,11 @@ const BlogPost: React.FC = () => {
                 <p className="mt-2 text-lg">
                     ⏳ Time is your biggest challenge during standardized tests. Managing it well can make or break your score.
                 </p>
+                <p className="mt-2 text-lg">📋 Effective time management strategies:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Prioritize easier questions first to build confidence.</li>
-                    <li>Use the process of elimination to narrow down multiple-choice answers.</li>
-                    <li>Skip tough questions and return to them later.</li>
+                    <li>✔️ Prioritize easier questions first to build confidence.</li>
+                    <li>✔️ Use the process of elimination to narrow down multiple-choice answers.</li>
+                    <li>✔️ Skip tough questions and return to them later.</li>
                 </ul>
                 <p className="mt-4 text-lg">📌 GMAT time-saving tip:</p>
                 <p className="text-lg">
@@ -108,14 +110,14 @@ const BlogPost: React.FC = () => {
                 </p>
                 <p className="mt-4 text-lg">📖 Key strategies for the SAT & GMAT:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>GMAT: Master sentence correction and quantitative reasoning tricks.</li>
-                    <li>SAT: Use skimming techniques for reading comprehension.</li>
-                    <li>Both: Learn guessing techniques to eliminate wrong answers when unsure.</li>
+                    <li>✔️ GMAT: Master sentence correction and quantitative reasoning tricks.</li>
+                    <li>✔️ SAT: Use skimming techniques for reading comprehension.</li>
+                    <li>✔️ Both: Learn guessing techniques to eliminate wrong answers when unsure.</li>
                 </ul>
                 <p className="mt-4 text-lg">❌ What NOT to do:</p>
                 <ul className="mt-2 list-disc list-inside">
-                    <li>Don’t rely on memorization alone—understand the logic behind questions.</li>
-                    <li>Don’t spend too much time on a single question—manage time wisely.</li>
+                    <li>🚫 Don’t rely on memorization alone—understand the logic behind questions.</li>
+                    <li>🚫 Don’t spend too much time on a single question—manage time wisely.</li>
                 </ul>
                 <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
                 <p className="text-lg">
@@ -129,11 +131,11 @@ const BlogPost: React.FC = () => {
                     Preparing for the SAT or GMAT requires a combination of smart study techniques, confidence-building strategies, and test-day time management.
                 </p>
                 <ul className="mt-4 list-disc list-inside">
-                    <li>Start early and follow a structured study plan.</li>
-                    <li>Identify weaknesses and work on them with targeted practice.</li>
-                    <li>Take full-length practice tests under exam conditions.</li>
-                    <li>Improve time management skills to handle the pressure of the clock.</li>
-                    <li>Use test-taking strategies to boost accuracy and confidence.</li>
+                    <li>✔️ Start early and follow a structured study plan.</li>
+                    <li>✔️ Identify weaknesses and work on them with targeted practice.</li>
+                    <li>✔️ Take full-length practice tests under exam conditions.</li>
+                    <li>✔️ Improve time management skills to handle the pressure of the clock.</li>
+                    <li>✔️ Use test-taking strategies to boost accuracy and confidence.</li>
                 </ul>
                 <p className="mt-4 text-lg font-bold text-headingcol">🚀 Need extra support?</p>
                 <p className="text-lg">

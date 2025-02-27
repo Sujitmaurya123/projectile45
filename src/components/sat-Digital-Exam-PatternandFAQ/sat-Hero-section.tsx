@@ -5,13 +5,13 @@ import Image from 'next/image';
 const SATHero = () => {
     return (
         <div className="container mx-auto p-4 md:p-8 max-w-6xl">
-            <h1 className="text-4xl md:text-5xl text-headingcol font-bold mb-6 md:mb-8 text-center">
+            <h1 className="text-4xl md:text-5xl text-headingcol font-bold mb-1 md:mb-1 text-center">
                 SAT Exam Pattern 2025: Everything You Need to Know
             </h1>
 
             <div className="flex flex-col-reverse  md:grid md:grid-cols-2 gap-6 md:gap-8 text-gray-600 font-medium">
                 <div>
-                    <p className="text-base text-justify md:text-lg leading-relaxed mt-9">
+                    <p className="text-base text-justify md:text-lg leading-relaxed mt-[100px]">
                         The <strong>SAT exam pattern</strong> for 2025 has been redesigned to make the test more
                         efficient, adaptive, and aligned with essential college-ready skills. Whether you&#39;re
                         preparing with a <strong>Digital SAT practice</strong> test or enrolling in a <strong>SAT prep course,</strong>
@@ -33,7 +33,7 @@ const SATHero = () => {
                     </p> */}
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center ">
                     <Image
                         src="/images/sat-digital2.svg"
                         alt="SAT Digital Exam Pattern Illustration"

@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
     </div>
 
     {/* Right Illustration */}
-    <div className="lg:w-1/2 mb-10 lg:mb-0  ">
+    <div className="lg:w-1/2 mb-10 lg:mb-[100px]  ">
       <Image
         src="/images/heroimg6.svg"
         alt="Illustration"

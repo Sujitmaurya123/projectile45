@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlogPost: React.FC = () => {
     return (
-        <div className="max-w-6xl mx-auto p-6  mt-8">
+        <div className="max-w-6xl mx-auto p-6 mt-8">
             <h1 className="text-4xl font-extrabold text-center text-headingcol mb-6">
                 Step-by-Step Guide to Managing Exam Stress and Boosting Confidence
             </h1>
@@ -88,7 +88,85 @@ const BlogPost: React.FC = () => {
                 </p>
             </section>
 
-            
+            <section className="mt-8 text-gray-800">
+                <h2 className="text-2xl font-semibold text-headingcol">Step 6: Tackle Exam Anxiety with Stress-Relief Techniques</h2>
+                <p className="mt-2 text-lg">
+                    Nervous before an exam? Use these proven techniques to stay calm and focused.
+                </p>
+                <ul className="mt-2 list-disc list-inside">
+                    <li>Listen to calming music or nature sounds.</li>
+                    <li>Take short walks to clear your mind.</li>
+                    <li>Stretch or do light physical activity.</li>
+                </ul>
+                <p className="mt-4 text-lg font-bold">📌 Why it works:</p>
+                <p className="text-lg">
+                    Engaging in stress-relief techniques for exam day helps regulate cortisol levels (the stress hormone) and keeps you in peak mental state.
+                </p>
+            </section>
+
+            <section className="mt-8 text-gray-800">
+                <h2 className="text-2xl font-semibold text-headingcol">Step 7: Focus on Strengths First</h2>
+                <p className="mt-2 text-lg">
+                    Many students make the mistake of fixating on difficult questions. A smarter approach is to start with strengths and gain momentum.
+                </p>
+                <ul className="mt-2 list-disc list-inside">
+                    <li>Answer easier questions first to build confidence.</li>
+                    <li>Use the process of elimination on multiple-choice questions.</li>
+                    <li>Skip difficult questions and come back later.</li>
+                </ul>
+                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="text-lg">
+                    At Projectile 45 Tuition, students learn strategic problem-solving methods to maximize scores while minimizing stress.
+                </p>
+            </section>
+
+            <section className="mt-8 text-gray-800">
+                <h2 className="text-2xl font-semibold text-headingcol">Step 8: Accept Imperfection and Keep Moving</h2>
+                <p className="mt-2 text-lg">
+                    Perfectionism can increase exam stress and slow down performance. Instead of striving for flawless answers, focus on doing your best.
+                </p>
+                <ul className="mt-2 list-disc list-inside">
+                    <li>If you make an error, don’t dwell on it—move forward.</li>
+                    <li>Focus on accuracy over perfection.</li>
+                    <li>Remind yourself that even top students make mistakes.</li>
+                </ul>
+                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="text-lg">
+                    Confidence comes from progress, not perfection. Keep pushing forward!
+                </p>
+            </section>
+
+            <section className="mt-8 text-gray-800">
+                <h2 className="text-2xl font-semibold text-headingcol">Step 9: Prepare for the Unexpected</h2>
+                <p className="mt-2 text-lg">
+                    What should you do if you get stuck on a tough question? Having a game plan reduces panic.
+                </p>
+                <ul className="mt-2 list-disc list-inside">
+                    <li>Skip and return to difficult questions later.</li>
+                    <li>Use educated guesses—don’t leave answers blank.</li>
+                    <li>Stay calm and manage your time wisely.</li>
+                </ul>
+                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="text-lg">
+                    Practicing with mock exams and tutoring at Projectile 45 Tuition can prepare you for any surprises on test day.
+                </p>
+            </section>
+
+            <section className="mt-8 text-gray-800">
+                <h2 className="text-2xl font-semibold text-headingcol">Step 10: Celebrate Your Hard Work!</h2>
+                <p className="mt-2 text-lg">
+                    Once your exam is over, acknowledge the effort you put in. Your results don’t define you—your commitment to learning does.
+                </p>
+                <ul className="mt-2 list-disc list-inside">
+                    <li>Reflect on what you did well rather than focusing on mistakes.</li>
+                    <li>Reward yourself for your hard work (even with a small break or treat).</li>
+                </ul>
+                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="text-lg">
+                    A healthy attitude toward exams builds confidence for future challenges.
+                </p>
+            </section>
+
             {/* Final Thoughts Section */}
             <section className="mt-8 border-t pt-8 text-gray-800">
                 <h2 className="text-2xl font-semibold text-headingcol">Final Thoughts: How to Stay Motivated While Preparing for SAT/GMAT and Other Exams</h2>
