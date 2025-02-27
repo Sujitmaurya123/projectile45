@@ -1,4 +1,5 @@
-import { FC } from 'react';
+"use client"
+import { FC, useState } from 'react';
 
 // Define a BlogPost type
 interface BlogPost {
@@ -183,12 +184,30 @@ const BlogPage: FC = () => {
         // },
     ];
 
+    // Define the number of posts per page
+    const postsPerPage = 9;
+
+    // State for the current page
+    const [currentPage, setCurrentPage] = useState(1);
+
+    // Calculate the index range for posts to display
+    const indexOfLastPost = currentPage * postsPerPage;
+    const indexOfFirstPost = indexOfLastPost - postsPerPage;
+    const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+    // Handle page change
+    const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
+
+    // Calculate total pages
+    const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+
+
     return (
         <div className="max-w-6xl mx-auto px-4 py-12">
             <h1 className="text-4xl font-bold text-center mb-8 text-headingcol">Blogs</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {blogPosts.map((post) => (
+                {currentPosts.map((post) => (
                     <div
                         key={post.slug}
                         className="border p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -204,6 +223,32 @@ const BlogPage: FC = () => {
                         </a>
                     </div>
                 ))}
+            </div>
+            {/* Pagination controls */}
+            <div className="flex justify-center mt-8">
+                <button
+                    onClick={() => paginate(currentPage - 1)}
+                    disabled={currentPage === 1}
+                    className="px-4 py-2 bg-gray-200 text-gray-700 rounded-l-lg"
+                >
+                    Prev
+                </button>
+                {[...Array(totalPages)].map((_, index) => (
+                    <button
+                        key={index}
+                        onClick={() => paginate(index + 1)}
+                        className={`px-4 py-2 ${currentPage === index + 1 ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700'} hover:bg-indigo-500`}
+                    >
+                        {index + 1}
+                    </button>
+                ))}
+                <button
+                    onClick={() => paginate(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                    className="px-4 py-2 bg-gray-200 text-gray-700 rounded-r-lg"
+                >
+                    Next
+                </button>
             </div>
         </div>
     );
