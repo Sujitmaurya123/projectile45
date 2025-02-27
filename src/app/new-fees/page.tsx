@@ -1,5 +1,4 @@
 "use client"
-
 import { useEffect, useState } from "react";
 
 const pricingData = {
@@ -32,39 +31,45 @@ const pricingData = {
     }
 } as const;
 
-// Define the type for valid country keys
 type CountryKey = keyof typeof pricingData;
-
-// Define the type for valid courses (excluding 'currency')
 type CourseKey = Exclude<keyof (typeof pricingData)["India"], "currency">;
 
 export default function Home() {
-    const [country, setCountry] = useState<CountryKey>("India"); // Default country
+    const [country, setCountry] = useState<CountryKey>("UK"); // Default set to "UK"
     const pricing = pricingData[country];
 
     useEffect(() => {
+        // Fetching location based on IP address
         fetch("https://ipapi.co/json/")
             .then((res) => res.json())
             .then((data) => {
-                let detectedCountry: CountryKey = "India"; // Default fallback
-                if (data.country_code === "GB") detectedCountry = "UK";
-                else if (data.country_code === "AE") detectedCountry = "UAE";
+                // Update country only if it's not already set
+                // if (country === "UK") {
+                //     let detectedCountry: CountryKey = "UK"; // Default to UK
+                //     if (data.country_code === "IN") detectedCountry = "India";
+                //     else if (data.country_code === "AE") detectedCountry = "UAE";
 
-                setCountry(detectedCountry);
+                //     setCountry(detectedCountry);
+                // }
+                
+                if(data.country_code==="IN"){
+                    setCountry("India");
+                } else if (data.country_code === "UK"){
+                    setCountry("UK");
+                } else if (data.country_code === "AE") {
+                    setCountry("UAE");
+                }
             })
             .catch(() => {
-                console.log("Error fetching location. Using default: India");
+                console.log("Error fetching location. Using default: UK");
             });
-    }, []);
+    }, []); // Dependency array ensures the effect runs only when country changes
 
     return (
         <main className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-6">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Pricing - <strong className="text-blue-600">{country}</strong>
             </h1>
-            {/* <p className="mt-2 text-lg text-gray-600 dark:text-gray-300">
-                Detected Country: <strong>{country}</strong>
-            </p> */}
 
             <div className="w-full max-w-4xl mt-6">
                 <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center">
@@ -72,7 +77,7 @@ export default function Home() {
                 </h2>
                 <table className="w-full mt-4 border-collapse border border-gray-300 dark:border-gray-700">
                     <thead>
-                        <tr className="bg-green-400  text-gray-700 ">
+                        <tr className="bg-green-400 text-gray-700">
                             <th className="p-3 border border-gray-300 dark:border-gray-700">Course</th>
                             <th className="p-3 border border-gray-300 dark:border-gray-700">Original Price ({pricing.currency}/hour)</th>
                             <th className="p-3 border border-gray-300 dark:border-gray-700">Discounted Price ({pricing.currency}/hour)</th>
@@ -87,7 +92,7 @@ export default function Home() {
                                     <tr key={courseKey} className="text-center">
                                         <td className="p-3 border border-gray-300 dark:border-gray-700 ">{courseKey}</td>
                                         <td className="p-3 border border-gray-300 dark:border-gray-700 text-red-800">
-                                            <del>{pricing.currency} {pricing[courseKey].original} </del> 
+                                            <del>{pricing.currency} {pricing[courseKey].original} </del>
                                         </td>
                                         <td className="p-3 border border-gray-300 dark:border-gray-700 text-black font-semibold">
                                             {pricing.currency} {pricing[courseKey].discounted}

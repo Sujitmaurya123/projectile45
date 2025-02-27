@@ -94,12 +94,12 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             </li>
                             <li>
                                 <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
-                                    IBDP-Maths-1
+                                    IBDP-Maths-AA
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/ibdp-maths-applications-interpretation-papers" className="hover:text-black">
-                                    IBDP-Maths-2
+                                    IBDP-Maths-AI
                                 </Link>
                             </li>
                             <li>

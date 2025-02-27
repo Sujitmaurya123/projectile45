@@ -1,8 +1,8 @@
 // components/IBTableOfContents.tsx
-import CombinedFAQPage from '@/components/ib-section/CombinedFAQPage';
-import IBCoachingFAQs from '@/components/ib-section/IbCoachingFAQs';
-import IBFAQs from '@/components/ib-section/IbFAQs';
-import IBOnlineCoachingFAQs from '@/components/ib-section/IbOnilneCoachingFAQs'; 
+// import CombinedFAQPage from '@/components/ib-section/CombinedFAQPage';
+// import IBCoachingFAQs from '@/components/ib-section/IbCoachingFAQs';
+// import IBFAQs from '@/components/ib-section/IbFAQs';
+// import IBOnlineCoachingFAQs from '@/components/ib-section/IbOnilneCoachingFAQs'; 
 import Link from 'next/link';
 import React from 'react';
 
@@ -60,14 +60,14 @@ const ibData: IBSection[] = [
         ],
     },
     {
-        title: 'IB Diploma Subjects &amp; Core Components',
+        title: 'IB Diploma Subjects & Core Components',
         href: '/ib-subject-choices',
         subsections: [
-            { title: 'Group 1: Studies in Language &amp; Literature', href: 'group-1' },
+            { title: 'Group 1: Studies in Language & Literature', href: 'group-1' },
             { title: 'Group 2: Language Acquisition', href: 'group-2' },
-            { title: 'Group 3: Individuals &amp; Societies (History, Economics, Psychology)', href: 'group-3' },
+            { title: 'Group 3: Individuals & Societies (History, Economics, Psychology)', href: 'group-3' },
             { title: 'Group 4: Sciences (IB Physics, Chemistry, Biology)', href: 'group-4' },
-            { title: 'Group 5: IB Maths (Analysis &amp; Approaches, Applications &amp; Interpretation)', href: 'group-5' },
+            { title: 'Group 5: IB Maths (Analysis & Approaches, Applications & Interpretation)', href: 'group-5' },
             { title: 'Group 6: Arts (Visual Arts, Music, Theatre)', href: 'group-6' },
         ],
     },
@@ -215,10 +215,10 @@ academics and personal growth..</li>
                             <ul className=" pl-6">
                                 {section.subsections.map((subsection, subIndex) => (
                                     <li  key={subIndex} className="mb-2  list-decimal">
-                                        {/* <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
+                                        <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
                                             <a className=" hover:underline">{subsection.title}</a>
-                                        </Link> */}
-                                        <p >{subsection.title}</p>
+                                        </Link>
+                                        {/* <p >{subsection.title}</p> */}
                                     </li>
                                 ))}
                             </ul>
@@ -228,10 +228,10 @@ academics and personal growth..</li>
             </ul>
         </div>
         <div>
-                <IBFAQs/>
+                {/* <IBFAQs/>
                 <IBCoachingFAQs/>
                 <IBOnlineCoachingFAQs/>
-                <CombinedFAQPage/>
+                <CombinedFAQPage/> */}
         </div>
         </>
     );
