@@ -37,7 +37,7 @@ const courses: Course[] = [
     {
         name: 'GRE',
         logo: '/images/gre-logo.svg',
-        link: '/gre',
+        link: '/about-gre',
         linkprep: '/gre-testprep'
     },
 ];

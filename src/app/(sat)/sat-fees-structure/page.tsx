@@ -8,7 +8,7 @@ import React from 'react';
 
 
 export const metadata: Metadata = {
-    title: "SAT Fees Structure | Projectile 45",
+    title: "SAT Fees Structure ",
     description: "Get detailed insights into the SAT exam fees, including registration costs, rescheduling fees, and additional charges. Plan your SAT preparation with P45 today!",
     keywords: ["sat registration", "sat test registration", "sat exam registration", "best sat coaching"],
 }

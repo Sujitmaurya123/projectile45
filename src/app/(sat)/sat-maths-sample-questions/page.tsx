@@ -57,8 +57,8 @@ const FileUpload: React.FC = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-2xl text-center font-semibold mb-4 text-headingcol">Send PPTX to Email</h2>
+        <div className="max-w-md mx-auto p-6 shadow-lg rounded-lg">
+            <h2 className="text-2xl text-center font-semibold mb-4 text-headingcol">Get a free SAT Math sample paper—just enter your name, email, and mobile number to start practicing now!</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 {/* Name Input */}
                 <input

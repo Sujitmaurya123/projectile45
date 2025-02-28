@@ -4,7 +4,7 @@ import React from 'react';
 
 
 export const metadata: Metadata = {
-    title: "SAT Exam Dates 2024-2025 | Projectile 45",
+    title: "SAT Exam Dates 2024-2025 ",
     description: "Check the latest SAT test dates for 2024-2025 and plan your exam preparation accordingly. Stay updated with P45 for official SAT schedules and deadlines.",
     keywords: ["sat test dates", "sat dates", "sat mock test", "sat test", "sat test prep"],
 }

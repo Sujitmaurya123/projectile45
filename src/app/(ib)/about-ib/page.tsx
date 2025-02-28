@@ -59,18 +59,7 @@ const ibData: IBSection[] = [
             { title: 'How IB Prepares Students for University', href: 'ib-university-prep' },
         ],
     },
-    {
-        title: 'IB Diploma Subjects & Core Components',
-        href: '/ib-subject-choices',
-        subsections: [
-            { title: 'Group 1: Studies in Language & Literature', href: 'group-1' },
-            { title: 'Group 2: Language Acquisition', href: 'group-2' },
-            { title: 'Group 3: Individuals & Societies (History, Economics, Psychology)', href: 'group-3' },
-            { title: 'Group 4: Sciences (IB Physics, Chemistry, Biology)', href: 'group-4' },
-            { title: 'Group 5: IB Maths (Analysis & Approaches, Applications & Interpretation)', href: 'group-5' },
-            { title: 'Group 6: Arts (Visual Arts, Music, Theatre)', href: 'group-6' },
-        ],
-    },
+    
     {
         title: 'University Recognition of the IB Diploma',
         href: '/ib-recognition',
@@ -96,6 +85,18 @@ const ibData: IBSection[] = [
             { title: 'Common Misconceptions about IB', href: 'misconceptions' },
             { title: 'IB for Students with Special Needs', href: 'special-needs' },
             { title: 'How to Transition to IB from Other Curricula', href: 'transition' },
+        ],
+    },
+    {
+        title: 'IB Diploma Subjects & Core Components',
+        href: '/ib-subject-choices',
+        subsections: [
+            { title: 'Group 1: Studies in Language & Literature', href: 'group-1' },
+            { title: 'Group 2: Language Acquisition', href: 'group-2' },
+            { title: 'Group 3: Individuals & Societies (History, Economics, Psychology)', href: 'group-3' },
+            { title: 'Group 4: Sciences (IB Physics, Chemistry, Biology)', href: 'group-4' },
+            { title: 'Group 5: IB Maths (Analysis & Approaches, Applications & Interpretation)', href: 'group-5' },
+            { title: 'Group 6: Arts (Visual Arts, Music, Theatre)', href: 'group-6' },
         ],
     },
 ];
@@ -205,27 +206,30 @@ academics and personal growth..</li>
                                 Program!</strong></p>
                     </section>
             </div>
-                <ul className="list-none  mt-4">
-                {ibData.map((section, index) => (
-                    <li key={index} className="mb-4">
-                        <Link href={section.href} legacyBehavior>
-                            <a className="text-lg font-semibold text-headingcol hover:underline mb-2">{section.title}</a>
-                        </Link>
-                        {section.subsections && (
-                            <ul className=" pl-6">
-                                {section.subsections.map((subsection, subIndex) => (
-                                    <li  key={subIndex} className="mb-2  list-decimal">
-                                        <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
-                                            <a className=" hover:underline">{subsection.title}</a>
-                                        </Link>
-                                        {/* <p >{subsection.title}</p> */}
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
-                    </li>
-                ))}
-            </ul>
+                <ul className="list-none mt-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {ibData.map((section, index) => (
+                        <li key={index} className="mb-4">
+                            <div className="bg-white  shadow-xl rounded-lg p-4">
+                                <Link href={section.href} legacyBehavior>
+                                    <a className="text-lg font-semibold text-headingcol hover:underline mb-2">{section.title}</a>
+                                </Link>
+                                {section.subsections && (
+                                    <ul className="pl-6">
+                                        {section.subsections.map((subsection, subIndex) => (
+                                            <li key={subIndex} className="mb-2 list-decimal">
+                                                <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
+                                                    <a className="hover:underline">{subsection.title}</a>
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+
+
         </div>
         <div>
                 {/* <IBFAQs/>

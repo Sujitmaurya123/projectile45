@@ -41,7 +41,7 @@ const SatUpdates = () => {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold text-headingcol">Prepare with a Digital SAT Practice Test</h2>
+                        <h2 className="text-2xl font-semibold text-headingcol">5. Prepare with a Digital SAT Practice Test</h2>
                         <p className="text-lg text-gray-600 mt-4">
                             To adapt to these changes, taking a <strong>Digital SAT practice test</strong> is one of the best ways to familiarize yourself with the exam’s structure and timing.
                         </p>
@@ -53,7 +53,7 @@ const SatUpdates = () => {
                     </section>
 
                     <section className=" mt-8">
-                        <h2 className="text-2xl font-semibold text-headingcol">Maximize Your Score with a SAT Prep Course</h2>
+                        <h2 className="text-2xl font-semibold text-headingcol">6. Maximize Your Score with a SAT Prep Course</h2>
                         <p className="text-lg text-gray-600 mt-4">
                             Enrolling in a <strong>SAT prep course</strong> provides expert guidance and structured study plans to tackle the updated exam. With experienced instructors, personalized strategies, and simulated tests, students gain the confidence to ace the <strong>Digital SAT</strong>.
                         </p>

@@ -94,7 +94,7 @@ export function FreeDemo({ setIsOpen }: { setIsOpen: (open: boolean) => void }) 
                 );
 
                 if (userEmailSent && response.ok) {
-                    toast.success("Form submitted successfully!");
+                    toast.success("Thank you for submitting the form. We’ve received it successfully!");
                     setIsOpen(false); // Close the popup on successful submission
                 } else {
                     toast.error("Failed to submit the form. Please try again.");

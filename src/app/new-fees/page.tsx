@@ -67,8 +67,8 @@ export default function Home() {
 
     return (
         <main className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-6">
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Pricing - <strong className="text-blue-600">{country}</strong>
+            <h1 className="text-3xl font-bold text-headingcol dark:text-white">
+                Pricing
             </h1>
 
             <div className="w-full max-w-4xl mt-6">

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { FC } from "react";
 
 export const metadata:Metadata={
-    title:"SAT Exam Preparation | Projectile 45 ",
+    title:"SAT Exam Preparation ",
     description: "Ace the SAT with P45! Get expert coaching, personalized mentoring, and proven strategies to maximize your score. Start your journey to top universities today!",
     keywords: ["About", "sat exam", "sat prep courses", "SAT Preparation", "digital sat", "best sat coaching"],
 }

@@ -60,15 +60,15 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h3 className="text-lg font-semibold mb-4">Resources</h3>
                     <Link href="/blogs" className="hover:underline">Blogs</Link>
-                    <Link href="/big-ideas" className="hover:underline">Big Ideas</Link>
+                    {/* <Link href="/big-ideas" className="hover:underline">Big Ideas</Link>
                     <Link href="/training" className="hover:underline">Training</Link>
-                    <Link href="/remote-learning" className="hover:underline">Remote Learning</Link>
+                    <Link href="/remote-learning" className="hover:underline">Remote Learning</Link> */}
                 </div>
 
                 {/* Community Links */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h3 className="text-lg font-semibold mb-4">Community</h3>
-                    <Link href="/teacher-community" className="hover:underline">Teacher Community</Link>
+                   
                     <a
                         href="https://www.facebook.com/projectile45"
                         target="_blank"
@@ -110,6 +110,12 @@ const Footer = () => {
                         Website Privacy Policy
                     </Link>
                 </p>
+                <div className=' flex justify-center mt-3'>
+
+                <p className='text-center w-1/2 '>
+                    GRE® is a registered trademark of ETS. GMAT® is a registered trademark of GMAC. SAT® is a registered trademark of the College Board. None of these organizations endorse or are affiliated with P45.
+                </p>
+                </div>
             </div>
 
             {/* Modal for Free Demo */}
