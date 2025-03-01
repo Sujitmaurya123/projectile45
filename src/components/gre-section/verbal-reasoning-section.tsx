@@ -3,16 +3,16 @@ import React from 'react';
 
 const VerbalReasoningSection: React.FC = () => {
     return (
-        <div className="container mx-auto p-4 max-w-6xl">
+        <div className="container mx-auto p-4 max-w-6xl text-gray-600">
             <p className="text-2xl font-bold mb-4 text-headingcol">VERBAL REASONING SECTION</p>
-            <p className="mb-4">
+            <p >
                 The Verbal Reasoning section of the GRE General Test assesses critical
                 reading, vocabulary usage, and analytical skills. It includes three types
                 of questions:
             </p>
 
             <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-2">1. Reading Comprehension:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">1. Reading Comprehension:</h3>
                 <ul className="list-disc pl-6 mb-2">
                     <li>Tests your ability to understand and interpret written material.</li>
                     <li>You&apos;ll read passages and answer related questions.</li>
@@ -20,7 +20,7 @@ const VerbalReasoningSection: React.FC = () => {
             </div>
 
             <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-2">2. Text Completion:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">2. Text Completion:</h3>
                 <ul className="list-disc pl-6 mb-2">
                     <li>Requires filling in blanks within a passage using context clues.</li>
                     <li>Focuses on understanding sentence structure and logical flow.</li>
@@ -28,7 +28,7 @@ const VerbalReasoningSection: React.FC = () => {
             </div>
 
             <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-2">3. Sentence Equivalence:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">3. Sentence Equivalence:</h3>
                 <ul className="list-disc pl-6 mb-2">
                     <li>
                         Involves completing a sentence with two words that create meaningfully
@@ -46,7 +46,7 @@ const VerbalReasoningSection: React.FC = () => {
 
             {/* Reading Comprehension Details Section */}
             <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-2">
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">
                     Reading Comprehension in GRE Verbal Reasoning:
                 </h3>
                 <p className="mb-4">
@@ -78,13 +78,13 @@ const VerbalReasoningSection: React.FC = () => {
                     </li>
                 </ul>
 
-                <h4 className="text-md font-semibold mt-4 mb-2">Passage Types and Sources</h4>
+                <h4 className="text-md font-semibold mt-4 mb-2 text-headingcol">Passage Types and Sources</h4>
                 <ul className="list-disc pl-6 mb-2">
                     <li>Structure: Most passages are one paragraph long, with a few longer ones</li>
                     <li>Topics: Content spans physical sciences, biological sciences, social sciences, business, arts, humanities, and everyday issues.</li>
                 </ul>
 
-                <h4 className="text-md font-semibold mt-4 mb-2">Question Types</h4>
+                <h4 className="text-md font-semibold mt-4 mb-2 text-headingcol">Question Types</h4>
                 <ul className="list-disc pl-6 mb-2">
                     <li>1. Select a single correct answer.</li>
                     <li>2. Select multiple correct answers (e.g., choosing two or three correct options)</li>
@@ -100,7 +100,7 @@ const VerbalReasoningSection: React.FC = () => {
                     incomplete passages by filling in missing words or phrases. This tests
                     your reasoning skills and understanding of context.
                 </p>
-                <h3 className="text-lg font-semibold mb-2">Question Structure:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Question Structure:</h3>
                 <ul className="list-disc pl-6 mb-4">
                     <li>Passage Length: 1 to 5 sentences.</li>
                     <li>Number of Blanks: 1 to 3 per passage.</li>
@@ -117,7 +117,7 @@ const VerbalReasoningSection: React.FC = () => {
                     </li>
                     <li>Scoring: No partial credit, all blanks must be filled correctly for points.</li>
                 </ul>
-                <h3 className="text-lg font-semibold mb-2">Key Skills Assessed:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Key Skills Assessed:</h3>
                 <ul className="list-disc pl-6">
                     <li>Understanding sentence structure and logical flow.</li>
                     <li>Reasoning from context and interpreting meaning.</li>
@@ -137,7 +137,7 @@ const VerbalReasoningSection: React.FC = () => {
                     meaningfully while producing two sentences with similar meanings. This
                     section focuses on contextual vocabulary and logical reasoning.
                 </p>
-                <h3 className="text-lg font-semibold mb-2">Question Structure:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Question Structure:</h3>
                 <ul className="list-disc pl-6 mb-4">
                     <li>Sentence Format: Single sentence with one blank.</li>
                     <li>Answer Choices: Six possible words or phrases.</li>
@@ -147,7 +147,7 @@ const VerbalReasoningSection: React.FC = () => {
                     </li>
                     <li>Scoring: No partial credit, both correct choices must be selected.</li>
                 </ul>
-                <h3 className="text-lg font-semibold mb-2">Key Skills Assessed:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Key Skills Assessed:</h3>
                 <ul className="list-disc pl-6">
                     <li>Vocabulary Mastery: Knowing precise word meanings.</li>
                     <li>Contextual Reasoning: Using context clues to infer intended meanings.</li>
@@ -174,9 +174,9 @@ const VerbalReasoningSection: React.FC = () => {
             </div>
             {/* Content Areas Covered */}
             <div className="mb-8">
-                <h2 className="text-xl font-bold mb-4">Content Areas Covered:</h2>
+                <h2 className="text-xl font-bold mb-4 text-headingcol">Content Areas Covered:</h2>
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">1. Arithmetic:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">1. Arithmetic:</h3>
                     <ul className="list-disc pl-6 mb-4">
                         <li>
                             Integers: Divisibility, factorization, prime numbers, remainders,
@@ -191,7 +191,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">2. Algebra:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">2. Algebra:</h3>
                     <ul className="list-disc pl-6 mb-4">
                         <li>Expressions: Operations with exponents, simplifying expressions</li>
                         <li>
@@ -206,7 +206,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">3. Geometry:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">3. Geometry:</h3>
                     <ul className="list-disc pl-6 mb-4">
                         <li>Figures: Lines, circles, triangles, quadrilaterals, polygons, and 3D shapes</li>
                         <li>Measurements: Area, perimeter, volume, and angle measurement</li>
@@ -215,7 +215,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">4. Data Analysis:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">4. Data Analysis:</h3>
                     <ul className="list-disc pl-6 mb-4">
                         <li>Statistics: Mean, median, mode, range, standard deviation, percentiles.</li>
                         <li>
@@ -242,7 +242,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </p>
 
                 <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-2">1. Quantitative Comparison Questions:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">1. Quantitative Comparison Questions:</h3>
                     <p className="mb-2">Task: Compare two quantities, labeled Quantity A and Quantity B.</p>
                     <p className="mb-2">Answer Choices:</p>
                     <ul className="list-disc pl-6">
@@ -254,7 +254,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-2">
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">
                         2. Multiple-Choice Questions-Select One Answer Choice:
                     </h3>
                     <p className="mb-2">
@@ -265,7 +265,7 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-2">
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">
                         3. Multiple-Choice Questions - Select One or More Answer Choices:
                     </h3>
                     <p className="mb-2">
@@ -279,13 +279,13 @@ const VerbalReasoningSection: React.FC = () => {
                 </div>
 
                 <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-2">4. Numeric Entry Questions:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">4. Numeric Entry Questions:</h3>
                     <p className="mb-2">Task: Enter the correct numerical answer directly into a blank box</p>
                     <p>Format: No answer choices provided, requiring precise calculations</p>
                 </div>
 
                 <div>
-                    <h3 className="text-lg font-semibold mb-2">Data Interpretation Sets:</h3>
+                    <h3 className="text-lg font-semibold mb-2 text-headingcol">Data Interpretation Sets:</h3>
                     <p className="mb-2">Structure:</p>
                     <ul className="list-disc pl-6 mb-2">
                         <li>A set of multiple questions based on the same dataset.</li>
@@ -320,7 +320,7 @@ const VerbalReasoningSection: React.FC = () => {
                 effectively.
             </p>
 
-            <h3 className="text-lg font-semibold mb-2">Task Structure:</h3>
+            <h3 className="text-lg font-semibold mb-2 text-headingcol">Task Structure:</h3>
             <div className="mb-6">
                 <h4 className="text-md font-semibold mb-2">&quot;Analyze an Issue&quot; Task</h4>
                 <p className="mb-2">Format: A 30-minute task presenting an opinion on an issue.</p>
@@ -338,8 +338,8 @@ const VerbalReasoningSection: React.FC = () => {
             </div>
 
             <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-2">Writing Environment:</h3>
-                <h4 className="text-md font-semibold mb-2">ETS Word Processor</h4>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Writing Environment:</h3>
+                <h4 className="text-md font-semibold mb-2 text-headingcol">ETS Word Processor</h4>
                 <ul className="list-disc pl-6 mb-4">
                     <li>Basic functionalities: insert, delete, cut, paste, and undo.</li>
                     <li>No spell check or grammar-check tools are provided.</li>
@@ -347,7 +347,7 @@ const VerbalReasoningSection: React.FC = () => {
             </div>
 
             <div>
-                <h3 className="text-lg font-semibold mb-2">Preparation Tips:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-headingcol">Preparation Tips:</h3>
                 <ol className="list-decimal pl-6">
                     <li>
                         <span className="font-semibold">Understand Scoring Criteria:</span> Review

@@ -106,7 +106,7 @@ const GMATSections = () => {
             {/* Questions */}
             <div className="mb-8">
                 <h3 className="text-lg font-semibold mb-2 text-headingcol">Consider each of the following statements. Does the information in the three emails support the inference stated?</h3>
-                <ul className="list-disc ml-4">
+                <ul className="list-disc ml-4 text-gray-600">
                     <li>The administrator is unwilling to pay any participant in the second group of invitees who were invited in the first group.</li>
                     <li>The project coordinator does not expect to be able to meet the goal for numbers of completed surveys.</li>
                     <li>The administrator is willing to accept some risk of exceeding the budget for compensating participants.</li>

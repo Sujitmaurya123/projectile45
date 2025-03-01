@@ -1,12 +1,18 @@
 "use client"
 
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
-// export const metadata: Metadata = {
-//     title: "Course Fees Structure",
-//     description: "Get a detailed breakdown of course fees, tuition costs, and registration charges. Explore flexible pricing options for SAT, GRE, GMAT, IB, and IGCSE at P45.",
-//     keywords: ["tuition fees", "SAT fees", "GMAT fees", "GRE fees", "IGCSE fees", "P45 courses fees"],
-// }
+type Metadata = {
+    title: string;
+    description: string;
+    keywords: string[]; // Ensures 'keywords' is always an array, never null or undefined
+};
+ const metadata: Metadata = {
+    title: "Course Fees Structure",
+    description: "Get a detailed breakdown of course fees, tuition costs, and registration charges. Explore flexible pricing options for SAT, GRE, GMAT, IB, and IGCSE at P45.",
+    keywords: ["tuition fees", "SAT fees", "GMAT fees", "GRE fees", "IGCSE fees", "P45 courses fees"],
+}
 
 const pricingData = {
     India: {
@@ -67,6 +73,12 @@ export default function Home() {
 
     return (
         <main className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-6">
+            {/* Dynamically setting metadata using Head component */}
+            <Head>
+                <title>{metadata.title as string}</title>
+                <meta name="description" content={metadata.description as string} />
+                <meta name="keywords" content={metadata.keywords.join(", ")||""} />
+            </Head>
             <h1 className="text-3xl font-bold text-headingcol dark:text-white">
                 Pricing
             </h1>
