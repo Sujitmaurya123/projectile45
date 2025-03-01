@@ -1,6 +1,22 @@
 "use client"
+
+
 import { FC, useState } from 'react';
 
+
+// // Export metadata directly in the page file
+// export const metadata: Metadata = {
+//     title: "Blogs Latest Insights & Exam Tips",
+//     description: "Stay updated with expert insights, exam strategies, and study tips for SAT, GMAT, GRE, IB, and IGCSE. Read the latest blogs to boost your test prep at P45.",
+//     keywords: [
+//         "SAT study tips",
+//         "GMAT strategies",
+//         "GRE preparation",
+//         "IB subject guides",
+//         "IGCSE exam tips",
+//         "P45 blog"
+//     ],
+// }; // This is the server-side metadata export
 // Define a BlogPost type
 interface BlogPost {
     title: string;
@@ -8,6 +24,7 @@ interface BlogPost {
     excerpt: string;
     slug: string;
 }
+
 
 const BlogPage: FC = () => {
     // Sample blog posts (you can replace it with data fetched from an API or CMS)
@@ -204,7 +221,10 @@ const BlogPage: FC = () => {
 
     return (
         <div className="max-w-6xl mx-auto px-4 py-12">
+            
             <h1 className="text-4xl font-bold text-center mb-8 text-headingcol">Blogs</h1>
+        
+            
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {currentPosts.map((post) => (

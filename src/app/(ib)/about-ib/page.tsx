@@ -3,8 +3,15 @@
 // import IBCoachingFAQs from '@/components/ib-section/IbCoachingFAQs';
 // import IBFAQs from '@/components/ib-section/IbFAQs';
 // import IBOnlineCoachingFAQs from '@/components/ib-section/IbOnilneCoachingFAQs'; 
+import { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "IB Exam Preparation ",
+    description: "Learn everything about the International Baccalaureate (IB), its curriculum, benefits, and how P45 prepares its students for global education success.",
+    keywords: ["International Baccalaureate", "international baccalaureate","international baccalaureate program","international baccalaureate diploma", "ib program"],
+}
 
 interface IBSection {
     title: string;
@@ -193,7 +200,7 @@ academics and personal growth..</li>
                         </ul>
                     </section>
 
-                    <section className='text-gray-600'>
+                    <section className='text-gray-600 mt-3'>
                         <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose Expert IB Tutors?</h2>
                         <ul className="list-disc list-inside">
                             <li className="mb-2">Personalized strategies for IB Maths, IB Physics, and all IB subjects</li>
@@ -206,7 +213,7 @@ academics and personal growth..</li>
                                 Program!</strong></p>
                     </section>
             </div>
-                <ul className="list-none mt-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <ul className="list-none mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {ibData.map((section, index) => (
                         <li key={index} className="mb-4">
                             <div className="bg-white  shadow-xl rounded-lg p-4">

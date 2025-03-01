@@ -64,7 +64,7 @@ const SATRWPackageComparison: React.FC = () => {
 
             <div className="mt-8">
                 <h3 className="text-lg font-semibold mb-2 text-gray-700">Highlights of 50-Hour SAT RW Package</h3> {/* Changed heading */}
-                <ul className="list-disc ml-6 space-y-2">
+                <ul className="list-disc ml-6 space-y-2 text-gray-600">
                     {highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>
                     ))}

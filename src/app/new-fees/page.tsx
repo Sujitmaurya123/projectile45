@@ -1,5 +1,12 @@
 "use client"
+import { Metadata } from "next";
 import { useEffect, useState } from "react";
+
+export const metadata: Metadata = {
+    title: "Course Fees Structure",
+    description: "Get a detailed breakdown of course fees, tuition costs, and registration charges. Explore flexible pricing options for SAT, GRE, GMAT, IB, and IGCSE at P45.",
+    keywords: ["tuition fees", "SAT fees", "GMAT fees", "GRE fees", "IGCSE fees", "P45 courses fees"],
+}
 
 const pricingData = {
     India: {
@@ -35,7 +42,7 @@ type CountryKey = keyof typeof pricingData;
 type CourseKey = Exclude<keyof (typeof pricingData)["India"], "currency">;
 
 export default function Home() {
-    const [country, setCountry] = useState<CountryKey>("UK"); // Default set to "UK"
+    const [country, setCountry] = useState<CountryKey>("India"); // Default set to "India"
     const pricing = pricingData[country];
 
     useEffect(() => {
@@ -43,27 +50,20 @@ export default function Home() {
         fetch("https://ipapi.co/json/")
             .then((res) => res.json())
             .then((data) => {
-                // Update country only if it's not already set
-                // if (country === "UK") {
-                //     let detectedCountry: CountryKey = "UK"; // Default to UK
-                //     if (data.country_code === "IN") detectedCountry = "India";
-                //     else if (data.country_code === "AE") detectedCountry = "UAE";
+                // Ensure that data.country_code is one of the known country codes (IN, GB, AE)
+                const countryCodeMap: Record<string, CountryKey> = {
+                    "IN": "India",
+                    "GB": "UK",
+                    "AE": "UAE"
+                };
 
-                //     setCountry(detectedCountry);
-                // }
-                
-                if(data.country_code==="IN"){
-                    setCountry("India");
-                } else if (data.country_code === "UK"){
-                    setCountry("UK");
-                } else if (data.country_code === "AE") {
-                    setCountry("UAE");
-                }
+                const detectedCountry = countryCodeMap[data.country_code as keyof typeof countryCodeMap] || "India"; // Default to India if not found
+                setCountry(detectedCountry);
             })
             .catch(() => {
-                console.log("Error fetching location. Using default: UK");
+                console.log("Error fetching location. Using default: India");
             });
-    }, []); // Dependency array ensures the effect runs only when country changes
+    }, []); // Dependency array ensures the effect runs only once when component mounts
 
     return (
         <main className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-6">

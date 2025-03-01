@@ -3,7 +3,7 @@ import React from 'react'
 const SatUpdates = () => {
     return (
         <div className="min-h-screen  ">
-            <div className="max-w-6xl mx-auto   p-4">
+            <div className="max-w-6xl mx-auto   ">
                 <h1 className="text-3xl font-bold text-center mb-8 text-headingcol">Key Updates to the SAT Exam Pattern 2025</h1>
 
                 <div className="space-y-8">
@@ -42,10 +42,10 @@ const SatUpdates = () => {
 
                     <section>
                         <h2 className="text-2xl font-semibold text-headingcol">5. Prepare with a Digital SAT Practice Test</h2>
-                        <p className="text-lg text-gray-600 mt-4">
+                        <p className="text-lg text-gray-600 ">
                             To adapt to these changes, taking a <strong>Digital SAT practice test</strong> is one of the best ways to familiarize yourself with the exam’s structure and timing.
                         </p>
-                        <ul className="list-disc pl-6 mt-4">
+                        <ul className="list-disc pl-6 text-gray-600">
                             <li>Understand the <strong>SAT exam pattern</strong></li>
                             <li>Improve <strong>time management and accuracy</strong></li>
                             <li>Identify <strong>strengths and weaknesses</strong> for targeted improvement</li>
@@ -54,10 +54,10 @@ const SatUpdates = () => {
 
                     <section className=" mt-8">
                         <h2 className="text-2xl font-semibold text-headingcol">6. Maximize Your Score with a SAT Prep Course</h2>
-                        <p className="text-lg text-gray-600 mt-4">
+                        <p className="text-lg text-gray-600 ">
                             Enrolling in a <strong>SAT prep course</strong> provides expert guidance and structured study plans to tackle the updated exam. With experienced instructors, personalized strategies, and simulated tests, students gain the confidence to ace the <strong>Digital SAT</strong>.
                         </p>
-                        <p className="mt-4 font-semibold">Ready to excel? Take a Digital SAT practice test today and join a top SAT prep course for the best results!</p>
+                        <p className="mt-4 font-semibold text-gray-800">Ready to excel? Take a Digital SAT practice test today and join a top SAT prep course for the best results!</p>
                     </section>
                 </div>
             </div>

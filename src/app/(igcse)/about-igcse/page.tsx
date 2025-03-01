@@ -1,8 +1,17 @@
 // components/IGCSEIntroduction.tsx
 
+import { Metadata } from 'next';
 import React from 'react';
 
-
+export const metadata: Metadata = {
+    title: "IGCSE Exam Preparation",
+    description: "Discover the IGCSE exam structure, syllabus, subjects, and key benefits. Access past year papers and get expert tuition for effective IGCSE preparation with P45 tutors.",
+    keywords: ["igcse syllabus",
+        "igcse",
+        "igcse english past papers",
+        "igcse tuition",
+        "igcse tuition online"],
+}
 
 const IGCSEIntroduction: React.FC = () => {
     return (

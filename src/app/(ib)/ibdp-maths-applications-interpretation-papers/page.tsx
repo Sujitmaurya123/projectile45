@@ -1,7 +1,16 @@
+import { Metadata } from 'next';
 import React from 'react'
 
 interface ContentItem {
     title: string;
+}
+
+export const metadata: Metadata = {
+    title: "IBDP Maths Applications & Interpretation",
+    description: "Get IBDP Maths Applications & Interpretation past papers, sample questions, and expert strategies with P45's top tutors and boost your IB scores.",
+    keywords: ["ib subjects", "ib diploma subjects",
+        "ib maths", "international baccalaureate",
+        "ib program"],
 }
 
 const contentItems: ContentItem[] = [
@@ -22,7 +31,7 @@ const IBDPMathsApplicationsInterpretationPapers: React.FC = () => {
         <div className="container  p-4 max-w-6xl  mx-auto ">
             <section>
 
-                <h1 className="text-4xl font-bold mb-2 text-center text-headingcol">Mathematics: Applications and
+                <h1 className="text-4xl font-bold  text-center text-headingcol">Mathematics: Applications and
                     Interpretation</h1>
                 <p className="text-xl font-bold mb-4 text-center text-headingcol">
                     (Higher level and Standard level)</p>
@@ -31,7 +40,7 @@ const IBDPMathsApplicationsInterpretationPapers: React.FC = () => {
 
 
                 <p className="text-2xl font-bold  text-center text-headingcol">Specimen Papers 1, 2 and 3</p>
-                <p className="text-2xl font-bold  text-center text-headingcol">First Examinations in 2021</p>
+                <p className="text-xl  text-center text-headingcol">First Examinations in 2021</p>
                 <p className="text-2xl font-bold mb-2 mt-5 text-center text-headingcol">CONTENTS</p>
 
 

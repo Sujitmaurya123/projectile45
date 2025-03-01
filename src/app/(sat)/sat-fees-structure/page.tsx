@@ -50,7 +50,7 @@ const SATCourseFees: React.FC = () => {
                             ))}
                         </tbody>
                     </table>
-                    <p className=" mt-8">
+                    <p className=" mt-8 text-gray-600">
                         At Projectile 45, our SAT courses are designed to provide comprehensive test
                         preparation for both Math and Reading &amp; Writing sections. We offer 1:1 coaching
                         and small group coaching (up to 4 students) to ensure personalized learning and

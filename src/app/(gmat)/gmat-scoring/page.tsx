@@ -1,6 +1,17 @@
 // components/GMATScoring.tsx
 
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "GMAT Scoring System | Score Breakdown & Calculation",
+    description: "Understand the GMAT scoring system, how scores are calculated, and what defines a good score. Get expert guidance from P45 to improve your GMAT performance.",
+    keywords: ["gmat coaching",
+        "gmat syllabus",
+        "gmat preparation",
+        "gmat practice questions",
+        "gmat sample questions"],
+}
 
 const GMATScoring = () => {
     return (

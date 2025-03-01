@@ -1,4 +1,15 @@
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "GRE Exam Preparation",
+    description: "Learn everything about the GRE exam, including its importance, format, and syllabus. Get expert guidance from P45 tutors to ace your GRE and boost your scores.",
+    keywords: ["best gre prep online",
+        "gre prep",
+        "gre exam syllabus",
+        "price gre",
+        "gre coaching"],
+}
 
 const GREGuide = () => {
     return (

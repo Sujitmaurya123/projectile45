@@ -1,6 +1,17 @@
 // components/GMATStructure.tsx
 
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "GMAT Exam Structure",
+    description: "Understand the GMAT exam structure, including section formats, duration, and question types. Get expert insights from P45 tutors to plan your prep effectively.",
+    keywords: ["gmat syllabus",
+        "gmat test",
+        "gmat prep",
+        "gmat exam syllabus",
+        "gmat exam pattern"],
+}
 
 const GMATStructure = () => {
     return (

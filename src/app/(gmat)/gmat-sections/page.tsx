@@ -1,6 +1,16 @@
 // components/GMATSections.tsx
 
+import { Metadata } from 'next';
 import React from 'react';
+export const metadata: Metadata = {
+    title: "GMAT Exam Section-Wise Breakdown",
+    description: "Explore all GMAT sections—Quantitative Reasoning, Verbal Reasoning, and Data Analysis. Learn expert tips from P45 tutors to excel in each section.",
+    keywords: ["gmat questions",
+        "exam gmat",
+        "gmat practice test",
+        "gmat prep",
+        "best gmat prep"],
+}
 
 const GMATSections = () => {
     return (
@@ -55,13 +65,13 @@ const GMATSections = () => {
                 <li><strong className='text-gray-700'>Two-Part Analysis:</strong> Measures your ability to solve complex problems. They could be quantitative, verbal, or some combination of both.</li>
             </ul>
             <h2 className='text-2xl font-bold text-headingcol'>Sample Question</h2>
-            <h1 className="text-2xl font-semibold mb-4 text-headingcol">Data Insights: Multi-Source Reasoning Sample Questions</h1>
-            <p className="mb-4 text-gray-600">
+            <h1 className="text-2xl font-semibold  text-headingcol">Data Insights: Multi-Source Reasoning Sample Questions</h1>
+            <p className=" text-gray-600">
                 Consider the following three emails. Does the information in the three emails support the inference stated?
             </p>
 
             {/* Email 1 */}
-            <div className="mb-8">
+            <div className="">
                 <h2 className="text-xl font-semibold mb-2 text-headingcol">Email from administrator to research staff</h2>
                 <p className="text-gray-700">
                     January 14, 4:04 am
@@ -72,7 +82,7 @@ const GMATSections = () => {
             </div>
 
             {/* Email 2 */}
-            <div className="mb-8">
+            <div className="mb-8 mt-7">
                 <h2 className="text-xl font-semibold mb-2 text-headingcol">Email from project coordinator in response to the administrator&apos;s January 15, 10:46 am message</h2>
                 <p className="text-gray-700">
                     January 15, 12:02 am

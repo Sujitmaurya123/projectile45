@@ -1,6 +1,17 @@
 // components/GMATOverview.tsx
 
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "GMAT Exam Preparation",
+    description: "Learn everything about the GMAT exam, its importance, format, and how to prepare effectively with expert strategies from P45 tutors.",
+    keywords: ["gmat coaching",
+    "gmat course",
+    "gmat preparation",
+    "gmat questions",
+    "igcse tuition onlin"],
+}
 
 const GMATOverview = () => {
     return (
@@ -37,7 +48,7 @@ const GMATOverview = () => {
                 preparedness and areas of improvement before applying to business schools.
             </p> */}
 
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Exam Pattern &amp; Syllabus</h2>
+            {/* <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Exam Pattern &amp; Syllabus</h2> */}
             <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Focus Edition 2024-2025</h2>
 
 

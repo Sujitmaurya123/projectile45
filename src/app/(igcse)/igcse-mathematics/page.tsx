@@ -5,8 +5,19 @@ import ExtendedSubjectContentsecond from '@/components/igcse-maths-section/Exten
 import SubjectContent from '@/components/igcse-maths-section/SubjectContent';
 import SubjectContentsecond from '@/components/igcse-maths-section/SubjectContentsecond';
 import SyllabusOverview from '@/components/igcse-maths-section/SyllabusOverview';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: "IGCSE Mathematics | Expert Tutoring & Past Papers",
+    description: "Master IGCSE Mathematics with expert tutoring, past papers, and problem-solving techniques. Improve your grades with personalized learning from P45 tutors.",
+    keywords: ["igcse syllabus",
+        "igcse maths past papers",
+        "igcse mathematics past papers",
+        "igcse tuition",
+        "igcse maths tutor"],
+}
 
 const IGCSEMaths: React.FC = () => {
     const iGCSEData = {

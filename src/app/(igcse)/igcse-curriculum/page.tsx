@@ -1,9 +1,18 @@
 // components/IGCSECurriculum.tsx
 
+import { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
 
-
+export const metadata: Metadata = {
+    title: "IGCSE Curriculum | Complete Subject Guide",
+    description: "Explore the IGCSE curriculum with a detailed subject guide, core vs. extended options, and exam formats. Prepare effectively with expert support from P45 tutors.",
+    keywords: ["igcse syllabus",
+        "igcse",
+        "igcse english past papers",
+        "igcse mathematics past papers",
+        "igcse maths tutor"],
+}
 
 const IGCSECurriculum: React.FC= () => {
     return (
