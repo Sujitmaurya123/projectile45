@@ -20,9 +20,13 @@ export async function GET(req: Request) {
   // **Static pages**
   const staticPages = [
     "about-sat", "about-ib", "about-gre", "about-gmat", "about-igcse", "new-fees", 
+    "sat-pattern","sat-test-dates",
+    "sat-fees-structure","ibdp-subjects","gre-pattern","gre-structure",
+    "gmat-structure","gmat-sections","gmat-scoring","igcse-curriculum","igcse-mathematics", "blogs",
     "ib-testprep", "igcse-testprep", "sat-testprep", "gmat-testprep", "gre-testprep", 
-    "free-demo", "about-us", "careers", "big-ideas", "training", "remote-learning", 
-    "teacher-community", "terms-of-conditions", "website-privacy-policy"
+    "sat-maths-sample-questions","ibdp-maths-analysis-approaches-papers","ibdp-maths-applications-interpretation-papers",
+    "ibpd-physics-papers",
+    "free-demo", "about-us", "careers", "terms-of-conditions", "website-privacy-policy",
   ];
 
   // // **Dynamic pages (Fetch from API)**

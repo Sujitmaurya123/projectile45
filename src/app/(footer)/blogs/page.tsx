@@ -1,27 +1,8 @@
 "use client"
 
-
-import Head from 'next/head';
 import { FC, useState } from 'react';
 
-type Metadata = {
-    title: string;
-    description: string;
-    keywords: string[]; // Ensures 'keywords' is always an array, never null or undefined
-};
-// // Export metadata directly in the page file
- const metadata: Metadata = {
-    title: "Blogs Latest Insights & Exam Tips",
-    description: "Stay updated with expert insights, exam strategies, and study tips for SAT, GMAT, GRE, IB, and IGCSE. Read the latest blogs to boost your test prep at P45.",
-    keywords: [
-        "SAT study tips",
-        "GMAT strategies",
-        "GRE preparation",
-        "IB subject guides",
-        "IGCSE exam tips",
-        "P45 blog"
-    ],
-}; // This is the server-side metadata export
+
 // Define a BlogPost type
 interface BlogPost {
     title: string;
@@ -226,12 +207,8 @@ const BlogPage: FC = () => {
 
     return (
         <div className="max-w-6xl mx-auto px-4 py-12">
-            {/* Dynamically setting metadata using Head component */}
-            <Head>
-                <title>{metadata.title as string}</title>
-                <meta name="description" content={metadata.description as string} />
-                <meta name="keywords" content={metadata.keywords.join(", ") || ""} />
-            </Head>
+          
+           
             
             <h1 className="text-4xl font-bold text-center mb-8 text-headingcol">Blogs</h1>
         
