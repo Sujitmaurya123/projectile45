@@ -33,7 +33,7 @@ const GMATOverview = () => {
                 educational and professional backgrounds.
             </p> */}
 
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol ">Why is the GMAT Important for MBA Admissions?</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol ">Why is the GMAT Important for MBA Admissions?</h2>
 
             <p className='text-gray-600'>
                 A high <strong>GMAT score</strong> boosts your chances of admission into top <strong>business schools</strong>
@@ -49,7 +49,7 @@ const GMATOverview = () => {
             </p> */}
 
             {/* <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Exam Pattern &amp; Syllabus</h2> */}
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Focus Edition 2024-2025</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">GMAT Focus Edition 2024-2025</h2>
 
 
             <p className='text-gray-600'>
@@ -65,7 +65,7 @@ const GMATOverview = () => {
             <p className='text-gray-600'>The <strong>GMAT exam syllabus</strong> no longer includes the Analytical Writing Assessment,
                 reducing the <strong>GMAT test duration</strong> to <strong>2 hours and 15 minutes.</strong></p>
 
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Preparation: How to Get a High Score?</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">GMAT Preparation: How to Get a High Score?</h2>
             <p className='text-gray-600'>Effective <strong>GMAT prep</strong> requires a strategic study plan, regular practice, and expert
                 guidance. Here&apos;s how to get started:</p>
             <ul className='text-gray-600'>
@@ -80,7 +80,7 @@ const GMATOverview = () => {
                 <li><strong>Analyse Weak Areas:</strong> Identify problem areas and refine your approach using
                     targeted GMAT practice questions.</li>
             </ul>
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">Best GMAT Courses for Comprehensive Preparation</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">Best GMAT Courses for Comprehensive Preparation</h2>
             <p className='text-gray-600'>Top GMAT courses offer:</p>
 
             <ul className="list-disc ml-4 text-gray-600">
@@ -90,7 +90,7 @@ const GMATOverview = () => {
                 <li><strong className='text-gray-700'>Access to GMAT sample questions &amp; study materials</strong>for efficient revision.</li>
 
             </ul>
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">GMAT Coaching: Your Path to a Top MBA Program</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">GMAT Coaching: Your Path to a Top MBA Program</h2>
             <p className='text-gray-600'>A structured <strong>GMAT coaching</strong> program helps you navigate the <strong>GMAT exam pattern</strong>,
                 understand complex topics, and develop test-taking strategies. With the right <strong>GMAT
                     prep</strong>, you can achieve a competitive <strong>GMAT score</strong> and gain admission to your dream

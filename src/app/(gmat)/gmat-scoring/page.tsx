@@ -62,7 +62,7 @@ const GMATScoring = () => {
 
             <h2 className="text-2xl font-semibold mt-8 text-headingcol">About the Score Scale</h2>
 
-            <p className='text-gray-700'>
+            <p className='text-gray-600'>
                 If you&apos;re familiar with the previous edition of the GMAT, you&apos;ll notice the Total Score scale is different. This change has been made to ensure you and schools can easily distinguish between a GMAT Exam - Focus Edition and previous GMAT Exam score.
             </p>
 
@@ -85,11 +85,11 @@ const GMATScoring = () => {
                 </tbody>
             </table>
 
-            <p className='text-gray-700'>
+            <p className='text-gray-600'>
                 The score scale for the GMAT Exam - Focus Edition has also been adjusted to reflect changes in the test-taking population, which has become more diverse and global. Over the years, scores have shifted significantly, resulting in an uneven distribution. The updated score scale fixes that, thus allowing schools to better differentiate your performance on the exam.
             </p>
 
-            <p className='text-gray-700'>
+            <p className='text-gray-600'>
                 In addition to the score scale recalibration, the following key changes distinguish GMAT Exam - Focus Edition:
             </p>
 

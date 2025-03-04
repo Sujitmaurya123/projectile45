@@ -18,7 +18,7 @@ const BlogPost: React.FC = () => {
                     <li>Use mock tests and diagnostic assessments to track progress.</li>
                     <li>Study in focused sessions (e.g., 45-minute blocks with short breaks).</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     Students at Projectile 45 Tuition follow structured learning plans to stay on track and build confidence well before exam day.
                 </p>
@@ -34,7 +34,7 @@ const BlogPost: React.FC = () => {
                     <li>Use positive affirmations – Repeat phrases like &quot;I am prepared and capable.&quot;</li>
                     <li>Avoid negative self-talk – Don’t focus on past mistakes.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Why it works:</p>
+                <p className="mt-4 text-lg font-bold"> Why it works:</p>
                 <p className="text-lg">
                     Developing a positive test-taking mindset reduces stress and helps you stay motivated while preparing for SAT/GMAT or other exams.
                 </p>
@@ -50,7 +50,7 @@ const BlogPost: React.FC = () => {
                     <li>Progressive muscle relaxation – Tense and release each muscle group.</li>
                     <li>Meditation and guided visualization – Picture yourself in a calm, confident state.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Pro Tip:</p>
                 <p className="text-lg">
                     Even just 5-10 minutes of mindfulness before an exam can significantly reduce stress.
                 </p>
@@ -66,7 +66,7 @@ const BlogPost: React.FC = () => {
                     <li>Start with easy questions to build confidence and save time.</li>
                     <li>Allocate time per section to avoid getting stuck on tough problems.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     Projectile 45 Tuition helps students master time-saving techniques to improve speed and accuracy under pressure.
                 </p>
@@ -82,7 +82,7 @@ const BlogPost: React.FC = () => {
                     <li>Eat brain-boosting foods (e.g., nuts, fruits, whole grains).</li>
                     <li>Avoid too much caffeine or energy drinks.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Pro Tip:</p>
                 <p className="text-lg">
                     A healthy body leads to better memory, concentration, and problem-solving skills during the test.
                 </p>
@@ -98,7 +98,7 @@ const BlogPost: React.FC = () => {
                     <li>Take short walks to clear your mind.</li>
                     <li>Stretch or do light physical activity.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Why it works:</p>
+                <p className="mt-4 text-lg font-bold"> Why it works:</p>
                 <p className="text-lg">
                     Engaging in stress-relief techniques for exam day helps regulate cortisol levels (the stress hormone) and keeps you in peak mental state.
                 </p>
@@ -114,7 +114,7 @@ const BlogPost: React.FC = () => {
                     <li>Use the process of elimination on multiple-choice questions.</li>
                     <li>Skip difficult questions and come back later.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     At Projectile 45 Tuition, students learn strategic problem-solving methods to maximize scores while minimizing stress.
                 </p>
@@ -130,7 +130,7 @@ const BlogPost: React.FC = () => {
                     <li>Focus on accuracy over perfection.</li>
                     <li>Remind yourself that even top students make mistakes.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Pro Tip:</p>
                 <p className="text-lg">
                     Confidence comes from progress, not perfection. Keep pushing forward!
                 </p>
@@ -146,7 +146,7 @@ const BlogPost: React.FC = () => {
                     <li>Use educated guesses—don’t leave answers blank.</li>
                     <li>Stay calm and manage your time wisely.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     Practicing with mock exams and tutoring at Projectile 45 Tuition can prepare you for any surprises on test day.
                 </p>
@@ -161,7 +161,7 @@ const BlogPost: React.FC = () => {
                     <li>Reflect on what you did well rather than focusing on mistakes.</li>
                     <li>Reward yourself for your hard work (even with a small break or treat).</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">📌 Pro Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Pro Tip:</p>
                 <p className="text-lg">
                     A healthy attitude toward exams builds confidence for future challenges.
                 </p>
@@ -179,11 +179,11 @@ const BlogPost: React.FC = () => {
                     <li>Develop time management skills through practice.</li>
                     <li>Build confidence by focusing on strengths.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold text-headingcol">🚀 Need extra support?</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> Need extra support?</p>
                 <p className="text-lg">
                     Projectile 45 Tuition offers expert coaching to help students overcome fear of exams and improve performance with personalized study plans.
                 </p>
-                <p className="mt-4 text-lg font-bold text-headingcol">🔥 With the right mindset and preparation, you can conquer any exam!</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> With the right mindset and preparation, you can conquer any exam!</p>
             </section>
         </div>
     );

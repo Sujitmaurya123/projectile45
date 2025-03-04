@@ -29,7 +29,7 @@ const GMATSections = () => {
                 not the underlying math skills. You cannot use a calculator while working on this section.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">Verbal Reasoning</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">Verbal Reasoning</h2>
 
             <p className='text-gray-600'>
                 This section measures your ability to read and comprehend written material and to reason and evaluate arguments.
@@ -46,7 +46,7 @@ const GMATSections = () => {
                 Critical Reasoning questions are based on a short reading passage, usually fewer than 100 words.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 text-headingcol">Data Insights</h2>
+            <h2 className="text-2xl font-semibold mt-4 text-headingcol">Data Insights</h2>
 
             <p className='text-gray-600'>
                 The Data Insights section measures candidates&apos; ability to analyze and interpret data and apply it to real-world business scenarios.
@@ -82,7 +82,7 @@ const GMATSections = () => {
             </div>
 
             {/* Email 2 */}
-            <div className="mb-8 mt-7">
+            <div className="mb-4 mt-4">
                 <h2 className="text-xl font-semibold mb-2 text-headingcol">Email from project coordinator in response to the administrator&apos;s January 15, 10:46 am message</h2>
                 <p className="text-gray-700">
                     January 15, 12:02 am
@@ -93,7 +93,7 @@ const GMATSections = () => {
             </div>
 
             {/* Email 3 */}
-            <div className="mb-8">
+            <div className="mb-4">
                 <h2 className="text-xl font-semibold mb-2 text-headingcol">Email from administrator to project coordinator in response to the project coordinator&apos;s January 15, 12:02 am message</h2>
                 <p className="text-gray-700">
                     January 15, 10:46 am
@@ -104,7 +104,7 @@ const GMATSections = () => {
             </div>
 
             {/* Questions */}
-            <div className="mb-8">
+            <div className="mb-4">
                 <h3 className="text-lg font-semibold mb-2 text-headingcol">Consider each of the following statements. Does the information in the three emails support the inference stated?</h3>
                 <ul className="list-disc ml-4 text-gray-600">
                     <li>The administrator is unwilling to pay any participant in the second group of invitees who were invited in the first group.</li>

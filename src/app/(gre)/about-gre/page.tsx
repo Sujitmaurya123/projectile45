@@ -20,7 +20,7 @@ const GREGuide = () => {
                     <h1 className="text-4xl text-center font-bold  text-headingcol mb-4">
                         GRE Exam Pattern &amp; Preparation: The Ultimate Guide for 2025
                     </h1>
-                    <p className="text-gray-700 text-justify leading-relaxed mb-4">
+                    <p className="text-gray-600 text-justify leading-relaxed mb-4">
                         The <strong>Graduate Record Examination (GRE)</strong> is a critical step for students aiming to
                         pursue <strong>graduate and business programs</strong> worldwide. Whether you&apos;re targeting 
                        a <strong>master&apos;s program, MBA, or even select law programs,</strong> understanding the <strong>GRE
@@ -31,14 +31,14 @@ const GREGuide = () => {
                 {/* Main Content */}
                 <div className=" ">
                     {/* What is GRE Section */}
-                    <section className="mb-12">
-                        <h2 className="text-2xl font-semibold  text-headingcol mb-4">What is the GRE?</h2>
+                    <section className="mb-4">
+                        <h2 className="text-2xl font-semibold  text-headingcol mb-2">What is the GRE?</h2>
                         
-                        <p className="text-gray-700 leading-relaxed text-justify">
+                        <p className="text-gray-600 leading-relaxed text-justify">
                             The <strong>GRE exam</strong> is a standardized test administered by <strong>Educational Testing
                                 Service (ETS)</strong> to assess:
                         </p>
-                        <ul className="text-gray-700">
+                        <ul className="text-gray-600">
                             <li><strong>1. Verbal Reasoning</strong> – Evaluates reading comprehension, vocabulary, and critical
                                 thinking.</li>
                             <li><strong>2. Quantitative Reasoning</strong> – Tests mathematical and problem-solving skills.</li>
@@ -54,22 +54,22 @@ admission criterion for graduate programs.
 
                     {/* Test Types Section */}
                     <section>
-                        <h2 className="text-2xl font-semibold  text-headingcol mb-6">GRE Pattern: General vs. Subject Tests</h2>
+                        <h2 className="text-2xl font-semibold  text-headingcol mb-2">GRE Pattern: General vs. Subject Tests</h2>
                         <div className="space-y-6">
                             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                                <h3 className="text-xl font-medium  text-headingcol mb-3">GRE General Test</h3>
-                                <p className="text-gray-700">
+                                <h3 className="text-xl font-medium  text-headingcol mb-2">GRE General Test</h3>
+                                <p className="text-gray-600">
                                     The GRE General Test measures essential quantitative, verbal, and analytical
                                     writing skills, making it the most commonly required test for graduate admissions.
                                 </p>
                             </div>
 
                             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                                <h3 className="text-xl font-medium  text-headingcol mb-3">GRE Subject Tests</h3>
-                                <p className="text-gray-700 mb-2">
+                                <h3 className="text-xl font-medium  text-headingcol mb-2">GRE Subject Tests</h3>
+                                <p className="text-gray-600 mb-2">
                                     Subject-specific exams that assess proficiency in specialized fields, including:
                                 </p>
-                                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                                <ul className="list-disc list-inside text-gray-600 space-y-1">
                                     <li>GRE Physics</li>
                                     <li>GRE Chemistry</li>
                                     <li>GRE Mathematics</li>

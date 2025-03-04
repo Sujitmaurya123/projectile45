@@ -9,7 +9,7 @@ const GREGuide = () => {
                 {/* Test Format Section */}
                 <section className="  p-8">
                     <h2 className="text-2xl font-semibold text-headingcol ">GRE Test Format and Structure</h2>
-                    <div className="space-y-4">
+                    <div className="">
                         <div className=" p-6   ">
                             <h3 className="text-xl font-medium  text-headingcol ">Analytical Writing Assessment (AWA)</h3>
                             <ul className="list-disc list-inside text-gray-600 space-y-2">
@@ -63,7 +63,7 @@ const GREGuide = () => {
 
                 {/* Registration and Fees Section */}
                 <section className=" p-8">
-                    <h2 className="text-2xl font-semibold  text-headingcol mb-6">GRE Registration and Fees</h2>
+                    <h2 className="text-2xl font-semibold  text-headingcol mb-2">GRE Registration and Fees</h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div>
                             <h3 className="text-xl font-medium  text-headingcol mb-2">Registration Process</h3>
@@ -90,7 +90,7 @@ const GREGuide = () => {
 
                 {/* Preparation Section */}
                 <section className=" p-8">
-                    <h2 className="text-2xl font-semibold  text-headingcol mb-6">Best GRE Prep Online: How to Get Started</h2>
+                    <h2 className="text-2xl font-semibold  text-headingcol mb-2">Best GRE Prep Online: How to Get Started</h2>
                     <div className="space-y-8">
                         <div>
                             <p className='text-gray-600'>To score high, an effective <strong>GRE prep</strong> strategy is essential. Here’s how you can ace

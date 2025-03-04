@@ -15,7 +15,7 @@ const GMATBlogPost: React.FC = () => {
                     In this guide, we’ll cover proven strategies to enhance your speed and accuracy, helping you achieve a top GMAT score.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-4 text-headingcol">📊 Understanding GMAT Data Insights Format & Question Types</h2>
+                <h2 className="text-2xl font-semibold mt-4 text-headingcol"> Understanding GMAT Data Insights Format & Question Types</h2>
                 <p className="mt-4 text-lg">
                     The GMAT Data Insights section consists of 20 questions to be solved in 45 minutes, giving you roughly 135 seconds per question. Here are the core question types you’ll encounter:
                 </p>
@@ -52,17 +52,17 @@ const GMATBlogPost: React.FC = () => {
                     </tbody>
                 </table>
 
-                <p className="mt-4 text-lg font-bold">🔹 Best time management strategy: Avoid excessive calculations! Use estimation and answer elimination techniques to save valuable time.</p>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Best time management strategy: Avoid excessive calculations! Use estimation and answer elimination techniques to save valuable time.</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     At Projectile 45 Tuition, students receive specialized GMAT coaching to refine data analysis and logical reasoning skills.
                 </p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">⏳ Sample GMAT Data Insights Questions & Quick-Solve Tips</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Sample GMAT Data Insights Questions & Quick-Solve Tips</h2>
 
-                <h3 className="text-xl font-semibold mt-4">📊 Sample 1: Table Analysis</h3>
+                <h3 className="text-xl font-semibold mt-4"> Sample 1: Table Analysis</h3>
                 <p className="mt-2 text-lg">
                     A company tracks revenue for three products over four years:
                 </p>
@@ -106,12 +106,12 @@ const GMATBlogPost: React.FC = () => {
                 <p className="text-lg">
                     If Product B&apos;s revenue continues to grow at the same rate, what is its projected revenue for 2025?
                 </p>
-                <p className="mt-4 text-lg font-bold">📌 Quick Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Quick Tip:</p>
                 <p className="text-lg">
                     Instead of lengthy calculations, recognize patterns and apply linear or compound growth methods.
                 </p>
 
-                <h3 className="text-xl font-semibold mt-4 text-headingcol">📈 Sample 2: Graphics Interpretation</h3>
+                <h3 className="text-xl font-semibold mt-4 text-headingcol"> Sample 2: Graphics Interpretation</h3>
                 <p className="mt-2 text-lg">
                     A scatter plot shows employee salaries vs. years of experience with the equation:
                 </p>
@@ -119,50 +119,50 @@ const GMATBlogPost: React.FC = () => {
                 <p className="mt-4 text-lg">
                     Question: What is the expected salary for an employee with 8 years of experience?
                 </p>
-                <p className="mt-4 text-lg font-bold">📌 Quick Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Quick Tip:</p>
                 <p className="text-lg">
                     Directly substitute values into the equation rather than recalculating from scratch.
                 </p>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     Projectile 45 Tuition trains students to recognize trends and avoid unnecessary calculations, helping them optimize their GMAT performance.
                 </p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">💡 Winning Strategies for GMAT Data Insights</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Winning Strategies for GMAT Data Insights</h2>
                 <ul className="mt-4 list-disc list-inside">
-                    <li className="text-lg">✅ Spot Trends Quickly: Identify patterns and key takeaways rather than analyzing every data point.</li>
-                    <li className="text-lg">✅ Master Data Tables & Graphs: Use answer elimination techniques before diving into calculations.</li>
-                    <li className="text-lg">✅ Develop Logical Reasoning Skills: Break multi-source reasoning questions into smaller, digestible parts.</li>
-                    <li className="text-lg">✅ Train with Timed Practice: Simulate real test conditions using official GMAT DI practice questions.</li>
+                    <li className="text-lg"> Spot Trends Quickly: Identify patterns and key takeaways rather than analyzing every data point.</li>
+                    <li className="text-lg"> Master Data Tables & Graphs: Use answer elimination techniques before diving into calculations.</li>
+                    <li className="text-lg"> Develop Logical Reasoning Skills: Break multi-source reasoning questions into smaller, digestible parts.</li>
+                    <li className="text-lg"> Train with Timed Practice: Simulate real test conditions using official GMAT DI practice questions.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Tip:</p>
+                <p className="mt-4 text-lg font-bold"> Tip:</p>
                 <p className="text-lg">
                     Projectile 45 Tuition offers GMAT-focused adaptive mock tests, ensuring students develop the necessary problem-solving speed and accuracy.
                 </p>
             </section>
 
             <section className="mt-8 border-t pt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">🎯 Final Thoughts: How to Overcome Exam Anxiety & Boost Performance</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Final Thoughts: How to Overcome Exam Anxiety & Boost Performance</h2>
                 <p className="mt-2 text-lg">
                     Excelling in the GMAT Data Insights section isn’t about memorizing formulas—it’s about structured thinking and making data-driven decisions efficiently.
                 </p>
                 <ul className="mt-4 list-disc list-inside">
-                    <li className="text-lg">✔️ Focus on trends instead of overanalyzing every data point.</li>
-                    <li className="text-lg">✔️ Use strategic elimination and estimation techniques.</li>
-                    <li className="text-lg">✔️ Break complex problems into simpler steps for better understanding.</li>
-                    <li className="text-lg">✔️ Practice under real exam conditions to build confidence and accuracy.</li>
+                    <li className="text-lg"> Focus on trends instead of overanalyzing every data point.</li>
+                    <li className="text-lg"> Use strategic elimination and estimation techniques.</li>
+                    <li className="text-lg"> Break complex problems into simpler steps for better understanding.</li>
+                    <li className="text-lg"> Practice under real exam conditions to build confidence and accuracy.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold text-headingcol">💡 How to stay motivated while preparing for the GMAT?</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> How to stay motivated while preparing for the GMAT?</p>
                 <p className="text-lg">
                     Develop a structured study plan, take adaptive tests, and focus on improving weak areas with targeted practice.
                 </p>
-                <p className="mt-4 text-lg font-bold text-headingcol">🚀 Want to improve your GMAT score?</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> Want to improve your GMAT score?</p>
                 <p className="text-lg">
                     Projectile 45 Tuition offers expert coaching to help students master time management, data interpretation, and logical reasoning for a high GMAT score.
                 </p>
-                <p className="mt-4 text-lg font-bold text-headingcol">✅ With the right approach and strategies, you can ace the GMAT Data Insights section and achieve your target score!</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> With the right approach and strategies, you can ace the GMAT Data Insights section and achieve your target score!</p>
             </section>
         </div>
     );

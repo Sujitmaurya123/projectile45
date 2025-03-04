@@ -135,8 +135,8 @@ const IBTableOfContents: React.FC = () => {
                             <li className="mb-2"> <strong>Career-related Program (CP) (Ages 16-19):</strong> A blend of academics and career-focused studies for skill-based learning.</li>
                         </ul>
                 </section>
-                    <section className="mb-8 text-gray-600">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose the IB Diploma?</h2>
+                    <section className="mb-4 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-2 text-headingcol">Why Choose the IB Diploma?</h2>
                         <ul className="list-disc list-inside">
                             <li className="mb-2"><strong>Globally Recognized:</strong> The <strong>International Baccalaureate Diploma</strong> is preferred
                                 by top universities worldwide.</li>
@@ -148,8 +148,8 @@ academics and personal growth..</li>
                                 in higher education and beyond.</li>
                         </ul>
                     </section>
-                    <section className="mb-8 text-gray-600">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Diploma Subjects &amp; Core Components</h2>
+                    <section className="mb-4 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-2 text-headingcol">IB Diploma Subjects &amp; Core Components</h2>
                         <p>The IB subjects list includes six core areas:</p>
                         <ul className="list-disc list-inside">
                             <li className="mb-2"><strong>Group 1:</strong> Studies in Language &amp; Literature</li>
@@ -165,8 +165,8 @@ academics and personal growth..</li>
                             </li>
                         </ul>
                     </section>
-                    <section className="mb-8 text-gray-600">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Core Components of the IB Diploma</h2>
+                    <section className="mb-4 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-2 text-headingcol">Core Components of the IB Diploma</h2>
                         <div className="space-y-4">
                             <div>
                                 <h3 className="text-xl font-medium">1. Theory of Knowledge (TOK)</h3>
@@ -186,8 +186,8 @@ academics and personal growth..</li>
                         </div>
                     </section>
 
-                    <section className="mb-8 text-gray-600">
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">IB Assessment &amp; Grading System</h2>
+                    <section className="mb-4 text-gray-600">
+                        <h2 className="text-2xl font-semibold mb-2 text-headingcol">IB Assessment &amp; Grading System</h2>
                         <ul className="list-disc list-inside">
                             <li className="mb-2"><strong>IB diploma subjects</strong> are scored on a <strong>1-7 scale,</strong> with <strong>TOK &amp; EE</strong> contributing
                                 up to <strong>3 bonus points</strong> (Max Score: <strong>45 points</strong>).</li>
@@ -201,7 +201,7 @@ academics and personal growth..</li>
                     </section>
 
                     <section className='text-gray-600 mt-3'>
-                        <h2 className="text-2xl font-semibold mb-4 text-headingcol">Why Choose Expert IB Tutors?</h2>
+                        <h2 className="text-2xl font-semibold mb-2 text-headingcol">Why Choose Expert IB Tutors?</h2>
                         <ul className="list-disc list-inside">
                             <li className="mb-2">Personalized strategies for IB Maths, IB Physics, and all IB subjects</li>
                             <li className="mb-2">Expert guidance for TOK essays, Extended Essays, and CAS projects</li>
