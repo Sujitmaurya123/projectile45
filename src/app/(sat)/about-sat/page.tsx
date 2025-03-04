@@ -23,7 +23,7 @@ const SATJourney: FC = () => {
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Meet the Squad</h2>
-                    <p className="mt-4 text-gray-600">
+                    <p className="mt-1 text-gray-600">
                         <strong>Lexi:</strong> The confident, book-loving strategist.
                         <br />
                         <strong>Jake:</strong> The laid-back, funny friend who loves a challenge.
@@ -34,7 +34,7 @@ const SATJourney: FC = () => {
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Level 1: Conquering the Reading &amp; Writing Section</h2>
-                    <p className="mt-4 text-gray-600">
+                    <p className="mt-1 text-gray-600">
                         <strong>Lexi:</strong> Yo, Jake! Have you heard about the <strong>Digital SAT 2025?</strong> It&apos;s adaptive—like a
                         game where the difficulty changes based on how well you do!
                         <br />
@@ -79,7 +79,7 @@ const SATJourney: FC = () => {
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Level 2: Tackling the Math Section</h2>
-                    <p className="mt-4 text-gray-600">
+                    <p className="mt-1 text-gray-600">
                         <strong>Lexi:</strong> Next up, <strong>Math</strong>. You&#39;ve got <strong>70 minutes</strong> to complete <strong>44 questions</strong> across
                         two modules. Topics include:
                     </p>
@@ -103,13 +103,13 @@ const SATJourney: FC = () => {
 
                 <div className=" p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-2xl font-semibold text-headingcol">Level 3: Cracking the Test Format</h2>
-                    <p className="mt-4 text-gray-600">
+                    <p className="mt-1 mb-2 text-gray-600">
                         <strong>Jake: </strong> Alright, so how does the whole thing add up?
                         <br /> 
                         <strong>Lexi:</strong> Here&apos;s the breakdown:
                     </p>
                     <SATExamTable />
-                    <p className="mt-4 text-gray-600">
+                    <p className="mt-2 text-gray-600">
                         <strong>Jake: </strong> And this whole thing is <strong>adaptive</strong>, right?
                         <br />
                         <strong>Lexi:</strong> Yep! Your second module in both sections changes in difficulty based on
@@ -118,8 +118,8 @@ const SATJourney: FC = () => {
                 </div>
 
                 <footer className=" p-6  rounded-lg shadow-lg">
-                    <h2 className="text-xl font-semibold text-headingcol">Level 4: Preparing for the Digital SAT</h2>
-                    <p className="mt-2 text-lg text-gray-700">
+                    <h2 className="text-2xl font-semibold text-headingcol">Level 4: Preparing for the Digital SAT</h2>
+                    <p className="mt-1  text-gray-600">
                         <strong>Jake: </strong>This sounds intense. Which <strong>SAT prep courses</strong> should I check out?
                         for this?
                         <br />
@@ -130,7 +130,7 @@ const SATJourney: FC = () => {
                         <br />
                         <strong>Lexi:</strong> You got this! Time to ace the Digital SAT!
                     </p>
-                    <p className="text-xl font-medium">Want to master the SAT exam? Enrol in top-rated SAT prep courses today!</p>
+                    <p className="text-xl font-medium text-headingcol mt-4">Want to master the SAT exam? Enrol in top-rated SAT prep courses today!</p>
                 </footer>
             </div>
         </div>

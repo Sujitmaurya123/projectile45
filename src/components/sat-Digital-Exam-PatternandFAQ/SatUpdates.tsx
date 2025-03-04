@@ -57,7 +57,7 @@ const SatUpdates = () => {
                         <p className="text-lg text-gray-600 ">
                             Enrolling in a <strong>SAT prep course</strong> provides expert guidance and structured study plans to tackle the updated exam. With experienced instructors, personalized strategies, and simulated tests, students gain the confidence to ace the <strong>Digital SAT</strong>.
                         </p>
-                        <p className="mt-4 font-semibold text-gray-800">Ready to excel? Take a Digital SAT practice test today and join a top SAT prep course for the best results!</p>
+                        <p className="mt-4 font-semibold  text-headingcol">Ready to excel? Take a Digital SAT practice test today and join a top SAT prep course for the best results!</p>
                     </section>
                 </div>
             </div>

@@ -28,14 +28,14 @@ const SATTestDatesTable: React.FC = () => {
     return (
         <div className="p-6 font-sans container mx-auto max-w-6xl">
             <h1 className="text-4xl font-bold mb-4 text-center text-headingcol">SAT Exam Dates 2025: Complete SAT Test Calendar &amp; Registration Guide</h1>
-            <p className="mb-4  font-bold text-center text-gray-700">Planning to take the <strong>SAT exam</strong> in 2025? Staying updated with the latest <strong>SAT exam
+            <p className="mb-4  font-bold text-center text-gray-600">Planning to take the <strong>SAT exam</strong> in 2025? Staying updated with the latest <strong>SAT exam
                 dates</strong> is crucial for effective test preparation. Below, you&apos;ll find the <strong>SAT exam
                     calendar</strong>, important <strong>SAT test dates 2025</strong>, registration deadlines, and expert tips for
                 <strong>SAT test preparation online.</strong></p>
            
         
         <div className="overflow-x-auto w-full">
-                <h3 className='mb-4 text-center text-2xl font-bold text-headingcol'>SAT Exam Dates 2025 – Official SAT Test Calendar</h3>
+                <h3 className='mb-4 text-center text-3xl font-bold text-headingcol'>SAT Exam Dates 2025 – Official SAT Test Calendar</h3>
             <table className="w-full border-collapse border border-gray-300 min-w-[600px] text-sm md:text-base">
                 <thead>
                     <tr className="bg-gray-100 font-medium text-gray-700">
@@ -61,7 +61,7 @@ const SATTestDatesTable: React.FC = () => {
                 {/* SAT Registration Section */}
                 <section className="   mt-8">
                     <h2 className="text-2xl font-semibold text-headingcol">SAT Exam Registration: How to Register for the SAT</h2>
-                    <p className="text-lg text-gray-600 mt-4">
+                    <p className="text-lg text-gray-600 ">
                         Registering for the SAT is simple. Follow these steps:
                     </p>
                     <ol className="list-decimal pl-6  text-gray-600">
@@ -80,7 +80,7 @@ const SATTestDatesTable: React.FC = () => {
                 {/* SAT Test Prep Section */}
                 <section className="   mt-4">
                     <h2 className="text-2xl font-semibold text-headingcol">Ace the SAT with SAT Test Prep &amp; Online Practice</h2>
-                    <p className="text-lg text-gray-600 mt-4">
+                    <p className="text-lg text-gray-600 ">
                         The SAT is a crucial step for college admissions, and strategic preparation is key. Our SAT test preparation online resources include:
                     </p>
                     <ul className="list-disc pl-6  text-gray-600">
@@ -95,7 +95,7 @@ const SATTestDatesTable: React.FC = () => {
                 {/* Importance of Following SAT Dates */}
                 <section className="   mt-4">
                     <h2 className="text-2xl font-semibold text-headingcol">Why It’s Important to Follow the SAT Test Dates 2025</h2>
-                    <ul className="list-disc pl-6 mt-4 text-gray-600">
+                    <ul className="list-disc pl-6  text-gray-600">
                         <li>Ensures enough time for SAT test preparation online</li>
                         <li>Helps plan around college application deadlines</li>
                         <li>Allows for a retake if needed to improve scores</li>

@@ -11,7 +11,7 @@ const SATPrepMistakes: FC = () => {
                 The Digital SAT (DSAT) is a significant milestone for students aspiring to study in top U.S. and international universities. However, many test-takers make avoidable mistakes that hinder their SAT score improvement. A well-planned approach, along with structured SAT prep courses, can make a huge difference in achieving a high SAT score. If you&apos;re preparing for the SAT, avoid these five common prep mistakes and follow expert SAT strategies to maximize your performance.
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">📌 Mistake #1: Not Understanding the Digital SAT Format</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Mistake #1: Not Understanding the Digital SAT Format</h2>
             <p className="text-lg text-gray-800 mb-4">
                 <strong>Why This Hurts Your Score:</strong> The new SAT format is adaptive, meaning your performance in Module 1 determines the difficulty level of Module 2. Additionally:
                 <ul className="list-inside list-disc pl-5">
@@ -31,10 +31,10 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-6">
-                <strong>💡 Pro Tip:</strong> Take at least three full-length SAT practice tests before the actual exam to build confidence.
+                <strong> Pro Tip:</strong> Take at least three full-length SAT practice tests before the actual exam to build confidence.
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">📌 Mistake #2: Relying on Memorization Instead of Strategies</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Mistake #2: Relying on Memorization Instead of Strategies</h2>
             <p className="text-lg text-gray-800 mb-4">
                 <strong>Why This Hurts Your Score:</strong> The SAT doesn’t test pure memorization. Many students waste hours memorizing vocabulary words and math formulas without actually mastering problem-solving techniques.
                 <ul className="list-inside list-disc pl-5">
@@ -52,10 +52,10 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-6">
-                <strong>💡 Pro Tip:</strong> Instead of cramming 100+ vocabulary words, practice understanding word meanings in context through sample passages.
+                <strong> Pro Tip:</strong> Instead of cramming 100+ vocabulary words, practice understanding word meanings in context through sample passages.
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">📌 Mistake #3: Poor Time Management</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Mistake #3: Poor Time Management</h2>
             <p className="text-lg text-gray-800 mb-4">
                 <strong>Why This Hurts Your Score:</strong> With the Digital SAT being shorter, students often:
                 <ul className="list-inside list-disc pl-5">
@@ -74,10 +74,10 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-6">
-                <strong>💡 Pro Tip:</strong> In Math, don’t waste time on a single tough problem—use strategic guessing and move on.
+                <strong> Pro Tip:</strong> In Math, don’t waste time on a single tough problem—use strategic guessing and move on.
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">📌 Mistake #4: Not Reviewing Mistakes Properly</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Mistake #4: Not Reviewing Mistakes Properly</h2>
             <p className="text-lg text-gray-800 mb-4">
                 <strong>Why This Hurts Your Score:</strong> Taking practice tests without reviewing mistakes is ineffective. If you don’t analyze why you got an answer wrong, you’re likely to repeat the same errors on test day.
             </p>
@@ -96,10 +96,10 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-6">
-                <strong>💡 Pro Tip:</strong> Spend twice as much time reviewing mistakes as you do taking new practice tests.
+                <strong> Pro Tip:</strong> Spend twice as much time reviewing mistakes as you do taking new practice tests.
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">📌 Mistake #5: Taking Too Many Full-Length Tests Without Targeted Practice</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Mistake #5: Taking Too Many Full-Length Tests Without Targeted Practice</h2>
             <p className="text-lg text-gray-800 mb-4">
                 <strong>Why This Hurts Your Score:</strong> Many students believe that taking multiple full-length tests will improve their score. However, without focused practice, simply taking more tests doesn’t lead to significant score improvements.
             </p>
@@ -118,7 +118,7 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-6">
-                <strong>💡 Pro Tip:</strong> If SAT Math is your weak area, dedicate extra time to:
+                <strong> Pro Tip:</strong> If SAT Math is your weak area, dedicate extra time to:
                 <ul className="list-inside list-disc pl-5">
                     <li>Algebra</li>
                     <li>Word problems</li>
@@ -126,7 +126,7 @@ const SATPrepMistakes: FC = () => {
                 </ul>
             </p>
 
-            <h2 className="text-2xl font-semibold text-headingcol mt-6">🎯 Final Takeaway: Smart Preparation = Higher SAT Scores!</h2>
+            <h2 className="text-2xl font-semibold text-headingcol mt-6"> Final Takeaway: Smart Preparation = Higher SAT Scores!</h2>
             <p className="text-lg text-gray-800 mb-6">
                 Avoiding these common SAT mistakes will help you boost your score and increase your college admission chances.
             </p>
@@ -139,7 +139,7 @@ const SATPrepMistakes: FC = () => {
                 <li>Enroll in expert-led SAT prep programs like Projectile 45 online tuition for structured guidance and high-impact learning strategies.</li>
             </ul>
             <p className="text-lg text-gray-800">
-                🚀 With the right approach, expert training, and consistent practice, you can maximize your SAT score and secure a place at your dream university!
+                 With the right approach, expert training, and consistent practice, you can maximize your SAT score and secure a place at your dream university!
             </p>
         </div>
     );

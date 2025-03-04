@@ -28,7 +28,7 @@ const IGCSEIntroduction: React.FC = () => {
 
             <div>
                 <header className=" mb-12">
-                    <h1 className="text-3xl font-semibold text-headingcol">Why Choose IGCSE?</h1>
+                    <h1 className="text-2xl font-semibold text-headingcol">Why Choose IGCSE?</h1>
                     <p className="text-lg text-gray-700 mt-4">
                         Prepare for success with the globally recognized IGCSE qualification.
                     </p>
@@ -37,10 +37,10 @@ const IGCSEIntroduction: React.FC = () => {
                 <section className="mb-12">
                     <h2 className="text-2xl font-semibold text-headingcol">Key Benefits</h2>
                     <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
-                        <li>🌍 Globally Recognized – Accepted by top universities and employers worldwide.</li>
-                        <li>📚 Broad Curriculum – Covers IGCSE Maths, Science, English, Humanities, and more.</li>
-                        <li>🎓 Flexible Subject Choices – Students select subjects based on academic goals.</li>
-                        <li>💡 Strong Academic Foundation – Develops critical thinking, problem-solving, and analytical skills.</li>
+                        <li> Globally Recognized – Accepted by top universities and employers worldwide.</li>
+                        <li> Broad Curriculum – Covers IGCSE Maths, Science, English, Humanities, and more.</li>
+                        <li> Flexible Subject Choices – Students select subjects based on academic goals.</li>
+                        <li> Strong Academic Foundation – Develops critical thinking, problem-solving, and analytical skills.</li>
                     </ul>
                 </section>
 
@@ -50,11 +50,11 @@ const IGCSEIntroduction: React.FC = () => {
                         The IGCSE syllabus covers core and elective subjects across various disciplines:
                     </p>
                     <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
-                        <li>✔ IGCSE Mathematics (Core & Extended)</li>
-                        <li>✔ IGCSE English Language & Literature</li>
-                        <li>✔ Sciences (Physics, Chemistry, Biology)</li>
-                        <li>✔ Humanities (History, Geography, Economics)</li>
-                        <li>✔ Creative & Technical Subjects (Art, Design & Technology, Computer Science)</li>
+                        <li> IGCSE Mathematics (Core & Extended)</li>
+                        <li> IGCSE English Language & Literature</li>
+                        <li> Sciences (Physics, Chemistry, Biology)</li>
+                        <li> Humanities (History, Geography, Economics)</li>
+                        <li> Creative & Technical Subjects (Art, Design & Technology, Computer Science)</li>
                     </ul>
                 </section>
 
@@ -64,9 +64,9 @@ const IGCSEIntroduction: React.FC = () => {
                         Practicing IGCSE past papers is essential for scoring high in exams. Here’s how they help:
                     </p>
                     <ul className="list-disc list-inside mt-4 space-y-3 text-lg text-gray-600">
-                        <li>✅ Understand exam formats and marking schemes.</li>
-                        <li>✅ Improve time management and accuracy.</li>
-                        <li>✅ Boost confidence through real exam practice.</li>
+                        <li> Understand exam formats and marking schemes.</li>
+                        <li> Improve time management and accuracy.</li>
+                        <li> Boost confidence through real exam practice.</li>
                     </ul>
                 </section>
 

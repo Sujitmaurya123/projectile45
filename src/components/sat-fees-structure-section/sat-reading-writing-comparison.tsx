@@ -40,11 +40,11 @@ const SATRWPackageComparison: React.FC = () => {
            
         
         <div>
-            <h2 className="text-xl font-semibold mb-4 text-center text-gray-700">Comparison: 30-Hour vs. 50-Hour SAT Reading & Writing Package</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-center text-headingcol">Comparison: 30-Hour vs. 50-Hour SAT Reading & Writing Package</h2>
             <div className="overflow-x-auto w-full">
                 <table className="w-full border-collapse border border-gray-300 min-w-[800px]">
                     <thead>
-                        <tr className="bg-yellow-100 text-gray-700">
+                        <tr className="bg-green-400 text-gray-700">
                             <th className="py-2 px-4 border border-gray-300 text-left">Feature</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">30-Hour SAT RW Package</th>
                             <th className="py-2 px-4 border border-gray-300 text-left">50-Hour SAT RW Package</th>
@@ -63,7 +63,7 @@ const SATRWPackageComparison: React.FC = () => {
             </div>
 
             <div className="mt-8">
-                <h3 className="text-lg font-semibold mb-2 text-gray-700">Highlights of 50-Hour SAT RW Package</h3> {/* Changed heading */}
+                <h3 className="text-2xl font-semibold mb-2 text-headingcol">Highlights of 50-Hour SAT RW Package</h3> {/* Changed heading */}
                 <ul className="list-disc ml-6 space-y-2 text-gray-600">
                     {highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>

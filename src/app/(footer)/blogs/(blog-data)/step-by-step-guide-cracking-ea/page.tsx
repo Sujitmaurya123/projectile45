@@ -21,7 +21,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li><strong>Quantitative Reasoning</strong>: Tests your understanding of fundamental math concepts, problem-solving abilities, and data interpretation.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Reviewing official EA sample questions can help you familiarize yourself with the exam’s format and expectations.
+                 Tip: Reviewing official EA sample questions can help you familiarize yourself with the exam’s format and expectations.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 2: Create a Personalized Study Plan</h2>
@@ -34,7 +34,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Allocate time for mock exams and self-assessment to track progress.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Enrolling in structured coaching, like Projectile 45 Tuition, can help streamline your study plan with expert guidance and personalized support.
+                 Tip: Enrolling in structured coaching, like Projectile 45 Tuition, can help streamline your study plan with expert guidance and personalized support.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 3: Identify and Improve Weak Areas</h2>
@@ -47,7 +47,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Learn from your mistakes—carefully review errors and ensure you don’t repeat them.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Adaptive learning platforms and targeted courses at Projectile 45 Tuition can help you focus on improving weak areas effectively.
+                 Tip: Adaptive learning platforms and targeted courses at Projectile 45 Tuition can help you focus on improving weak areas effectively.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 4: Utilize Official EA Study Materials</h2>
@@ -60,7 +60,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Be mindful that third-party study materials may not always reflect the actual exam’s difficulty.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Projectile 45 Tuition offers curated EA prep resources that provide a structured and effective learning experience.
+                 Tip: Projectile 45 Tuition offers curated EA prep resources that provide a structured and effective learning experience.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 5: Master Time Management</h2>
@@ -73,7 +73,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Use elimination techniques to quickly rule out incorrect answers.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Many students underestimate the importance of time constraints—training yourself to answer efficiently under pressure is key.
+                 Tip: Many students underestimate the importance of time constraints—training yourself to answer efficiently under pressure is key.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 6: Take Full-Length Practice Tests</h2>
@@ -86,7 +86,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Refine your test-taking strategy based on previous performances.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Projectile 45 Tuition offers EA mock tests that closely replicate the actual exam, helping you build confidence and familiarity.
+                 Tip: Projectile 45 Tuition offers EA mock tests that closely replicate the actual exam, helping you build confidence and familiarity.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 7: Learn Effective Test-Taking Strategies</h2>
@@ -99,7 +99,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Develop shortcuts for solving math problems efficiently.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Instead of memorizing formulas, focus on problem-solving techniques that improve speed and accuracy.
+                 Tip: Instead of memorizing formulas, focus on problem-solving techniques that improve speed and accuracy.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 8: Manage Stress and Stay Motivated</h2>
@@ -112,7 +112,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Trust your preparation and stay consistent.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: A well-structured coaching program, like Projectile 45 Tuition, provides the necessary guidance and support to reduce stress and improve focus.
+                 Tip: A well-structured coaching program, like Projectile 45 Tuition, provides the necessary guidance and support to reduce stress and improve focus.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 9: Final Review and Strategy Refinement</h2>
@@ -125,7 +125,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Ensure you get adequate rest before the exam to stay mentally sharp.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: A rested mind is far more effective than an overworked one—avoid cramming the night before the exam.
+                 Tip: A rested mind is far more effective than an overworked one—avoid cramming the night before the exam.
             </p>
 
             <h2 className="text-2xl font-semibold text-headingcol mt-6">Step 10: Take the Exam with Confidence</h2>
@@ -138,7 +138,7 @@ const CrackExecutiveAssessment: FC = () => {
                 <li>Trust your study plan and give it your best effort.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-6">
-                📌 Tip: Confidence plays a crucial role—if you&apos;ve followed a structured study plan, you&apos;re ready to succeed!
+                 Tip: Confidence plays a crucial role—if you&apos;ve followed a structured study plan, you&apos;re ready to succeed!
             </p>
 
             <div className="text-center mt-12 text-lg text-headingcol font-semibold">
@@ -151,16 +151,16 @@ const CrackExecutiveAssessment: FC = () => {
 
             <div className="mt-8 text-lg text-gray-800">
                 <ul className="list-inside list-disc pl-5">
-                    <li>✅ Understand the exam format and structure your study plan accordingly.</li>
-                    <li>✅ Identify weak areas and target them through focused practice.</li>
-                    <li>✅ Master time management techniques to avoid getting stuck on difficult questions.</li>
-                    <li>✅ Take full-length practice tests to build confidence and track progress.</li>
-                    <li>✅ Manage stress effectively and maintain a positive mindset.</li>
+                    <li> Understand the exam format and structure your study plan accordingly.</li>
+                    <li> Identify weak areas and target them through focused practice.</li>
+                    <li> Master time management techniques to avoid getting stuck on difficult questions.</li>
+                    <li> Take full-length practice tests to build confidence and track progress.</li>
+                    <li> Manage stress effectively and maintain a positive mindset.</li>
                 </ul>
             </div>
 
             <div className="mt-8 text-lg text-headingcol font-semibold">
-                For expert guidance and structured preparation, consider enrolling in Projectile 45 Tuition—a trusted coaching platform offering personalized EA prep courses tailored for busy professionals. With the right approach and expert support, your EA success is within reach! 🚀
+                For expert guidance and structured preparation, consider enrolling in Projectile 45 Tuition—a trusted coaching platform offering personalized EA prep courses tailored for busy professionals. With the right approach and expert support, your EA success is within reach! 
             </div>
         </div>
     );
