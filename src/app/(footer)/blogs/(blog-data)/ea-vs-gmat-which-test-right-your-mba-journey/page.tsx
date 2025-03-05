@@ -18,19 +18,19 @@ const EAvsGMATBlogPost: React.FC = () => {
                     Despite their differences, the GMAT and EA share several key similarities:
                 </p>
                 <ul className="list-disc list-inside mt-4">
-                    <li className="text-lg">✅ <strong>Designed for Business Schools:</strong> Both exams are widely accepted by top MBA and EMBA programs, evaluating your quantitative reasoning, logical thinking, and data interpretation skills.</li>
-                    <li className="text-lg">✅ <strong>Common Question Types:</strong> Both tests include:
+                    <li className="text-lg"> <strong>Designed for Business Schools:</strong> Both exams are widely accepted by top MBA and EMBA programs, evaluating your quantitative reasoning, logical thinking, and data interpretation skills.</li>
+                    <li className="text-lg"> <strong>Common Question Types:</strong> Both tests include:
                         <ul className="list-inside mt-2">
-                            <li>✔️ Verbal Reasoning – Reading comprehension, critical reasoning</li>
-                            <li>✔️ Quantitative Reasoning – Problem-solving, data sufficiency</li>
-                            <li>✔️ Integrated/Data Insights – Table analysis, multi-source reasoning, and graphical interpretation</li>
+                            <li> Verbal Reasoning – Reading comprehension, critical reasoning</li>
+                            <li> Quantitative Reasoning – Problem-solving, data sufficiency</li>
+                            <li> Integrated/Data Insights – Table analysis, multi-source reasoning, and graphical interpretation</li>
                         </ul>
                     </li>
-                    <li className="text-lg">✅ <strong>Computer-Adaptive Format:</strong> Both exams adapt their difficulty level based on your responses, ensuring a tailored assessment of your abilities.</li>
-                    <li className="text-lg">✅ <strong>No Advanced Math Required:</strong> Both tests focus on high-school-level arithmetic, algebra, and data analysis—you won’t need to master calculus or complex statistics.</li>
-                    <li className="text-lg">✅ <strong>Flexible Testing Options:</strong> You can take both tests either online or at a designated test center, allowing you to choose the most convenient option.</li>
+                    <li className="text-lg"> <strong>Computer-Adaptive Format:</strong> Both exams adapt their difficulty level based on your responses, ensuring a tailored assessment of your abilities.</li>
+                    <li className="text-lg"> <strong>No Advanced Math Required:</strong> Both tests focus on high-school-level arithmetic, algebra, and data analysis—you won’t need to master calculus or complex statistics.</li>
+                    <li className="text-lg"> <strong>Flexible Testing Options:</strong> You can take both tests either online or at a designated test center, allowing you to choose the most convenient option.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Need expert GMAT or EA preparation? Projectile 45 Tuition offers personalized coaching to help you achieve a competitive score!</p>
+                <p className="mt-4 text-lg font-bold"> Need expert GMAT or EA preparation? Projectile 45 Tuition offers personalized coaching to help you achieve a competitive score!</p>
             </section>
 
             <section className="mt-8 text-gray-800">
@@ -96,16 +96,16 @@ const EAvsGMATBlogPost: React.FC = () => {
                 <p className="mt-4 text-lg">
                     If you’re applying for a full-time MBA, the GMAT is your best bet. However, if you’re an experienced professional aiming for an EMBA, the EA is a better fit.
                 </p>
-                <p className="mt-4 text-lg font-bold">🚀 Which test should you take?</p>
+                <p className="mt-4 text-lg font-bold"> Which test should you take?</p>
                 <ul className="list-disc list-inside mt-4">
-                    <li className="text-lg">✔️ Choose GMAT if you’re applying to full-time MBA programs, have 0-5 years of work experience, and are comfortable with higher difficulty levels and adaptive testing.</li>
-                    <li className="text-lg">✔️ Choose EA if you’re targeting an Executive MBA (EMBA), have 8+ years of work experience, and prefer a shorter test with no penalty for skipping questions.</li>
+                    <li className="text-lg"> Choose GMAT if you’re applying to full-time MBA programs, have 0-5 years of work experience, and are comfortable with higher difficulty levels and adaptive testing.</li>
+                    <li className="text-lg"> Choose EA if you’re targeting an Executive MBA (EMBA), have 8+ years of work experience, and prefer a shorter test with no penalty for skipping questions.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">💡 Still unsure which test to take?</p>
+                <p className="mt-4 text-lg font-bold"> Still unsure which test to take?</p>
                 <p className="text-lg">
                     Get expert guidance from Projectile 45 Tuition—we help students and professionals build a personalized MBA strategy based on their career aspirations and academic strengths.
                 </p>
-                <p className="mt-4 text-lg font-bold">✅ With the right preparation, you can ace either test and secure your spot at a top business school!</p>
+                <p className="mt-4 text-lg font-bold"> With the right preparation, you can ace either test and secure your spot at a top business school!</p>
             </section>
 
             <section className="mt-8 border-t pt-8 text-gray-800">
@@ -113,7 +113,7 @@ const EAvsGMATBlogPost: React.FC = () => {
 
                 <h3 className="text-xl font-semibold mt-4 text-headingcol">For GMAT Takers: Applying to Full-Time MBA Programs</h3>
                 <ul className="list-disc list-inside mt-4">
-                    <li className="text-lg">✔️ Top Business Schools Accepting GMAT The GMAT is required by most full-time MBA programs worldwide. Some of the top institutions include:
+                    <li className="text-lg"> Top Business Schools Accepting GMAT The GMAT is required by most full-time MBA programs worldwide. Some of the top institutions include:
                         <ul className="list-inside mt-2">
                             <li>Harvard Business School (HBS)</li>
                             <li>Stanford GSB</li>
@@ -123,7 +123,7 @@ const EAvsGMATBlogPost: React.FC = () => {
                             <li>IIMs (India) – Executive MBA & 1-year MBA programs</li>
                         </ul>
                     </li>
-                    <li className="text-lg">✔️ Next Steps After GMAT:
+                    <li className="text-lg"> Next Steps After GMAT:
                         <ul className="list-inside mt-2">
                             <li>Shortlist programs based on score expectations and career goals.</li>
                             <li>Strengthen your essays, SOPs, and recommendation letters to showcase your strengths.</li>
@@ -135,7 +135,7 @@ const EAvsGMATBlogPost: React.FC = () => {
 
                 <h3 className="text-xl font-semibold mt-4 text-headingcol">For EA Takers: Applying to Executive MBA (EMBA) Programs</h3>
                 <ul className="list-disc list-inside mt-4 text-gray-800">
-                    <li className="text-lg">✔️ Top Business Schools Accepting EA The EA is widely accepted by leading Executive MBA programs, including:
+                    <li className="text-lg"> Top Business Schools Accepting EA The EA is widely accepted by leading Executive MBA programs, including:
                         <ul className="list-inside mt-2">
                             <li>Wharton EMBA</li>
                             <li>Chicago Booth EMBA</li>
@@ -145,7 +145,7 @@ const EAvsGMATBlogPost: React.FC = () => {
                             <li>Duke Fuqua EMBA</li>
                         </ul>
                     </li>
-                    <li className="text-lg">✔️ Next Steps After EA:
+                    <li className="text-lg"> Next Steps After EA:
                         <ul className="list-inside mt-2">
                             <li>Research B-schools that align with your leadership and career growth aspirations.</li>
                             <li>Highlight work experience and industry achievements in your application.</li>

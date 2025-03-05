@@ -11,7 +11,7 @@ const BlogPost: FC = () => {
                 If you’re looking for expert guidance to accelerate your SAT prep, Projetile 45 Tuition offers personalized coaching to help students master the SAT with proven strategies and resources.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">📅 Step-by-Step 30-Day SAT Study Plan</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Step-by-Step 30-Day SAT Study Plan</h2>
             <h3 className="font-semibold text-lg text-headingcol mb-4">Days 1-2: Establish Your Baseline & Set Goals</h3>
             <p className="text-lg text-gray-800 mb-8">
                 <strong>Take a Full-Length Practice Test:</strong> Start by assessing where you currently stand. Use an official SAT practice test to identify your strengths and weaknesses.
@@ -102,7 +102,7 @@ const BlogPost: FC = () => {
                 <strong>Pro Tip:</strong> Simulate real test conditions by taking practice exams at the same time as your actual SAT test.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🎯 Essential SAT Success Tips</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Essential SAT Success Tips</h2>
             <ul className="list-inside mb-8 text-lg text-gray-800">
                 <li><strong>Eliminate Weaknesses First:</strong> Strengthen low-scoring areas before refining strengths.</li>
                 <li><strong>Use Official SAT Practice Tests:</strong> They are the most reliable source for exam preparation.</li>
@@ -112,7 +112,7 @@ const BlogPost: FC = () => {
                 <li><strong>Final 48 Hours:</strong> Focus on light review, mental relaxation, and confidence-building.</li>
             </ul>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🎉 Conclusion: A 200-Point Boost is Within Reach!</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Conclusion: A 200-Point Boost is Within Reach!</h2>
             <p className="text-lg text-gray-800 mb-8">
                 By following this structured 30-day plan, staying disciplined, and practicing consistently, you can achieve significant SAT score improvement. Stay focused, believe in your preparation, and approach test day with confidence.
             </p>
@@ -120,7 +120,7 @@ const BlogPost: FC = () => {
                 For expert coaching, customized study plans, and high-quality practice materials, consider Projetile 45 Tuition to maximize your SAT success.
             </p>
             <p className="text-lg text-gray-800 mb-8">
-                Good luck—your higher SAT score is just 30 days away! 🚀
+                Good luck—your higher SAT score is just 30 days away! 
             </p>
         </div>
     );

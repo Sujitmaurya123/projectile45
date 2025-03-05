@@ -19,7 +19,7 @@ const BlogPost: FC = () => {
                 Understanding which topics yield the highest returns is key to GMAT success.
             </p>
 
-            <h3 className="font-semibold text-lg text-headingcol mb-4">📊 Quantitative Reasoning: Key Focus Areas</h3>
+            <h3 className="font-semibold text-lg text-headingcol mb-4"> Quantitative Reasoning: Key Focus Areas</h3>
             <ul className="list-inside mb-8 text-lg text-gray-800">
                 <li>Data Sufficiency Mastery (Learn how to determine if the information given is enough to solve a problem.)</li>
                 <li>Algebra & Equations (Linear equations, inequalities, quadratic equations.)</li>
@@ -27,19 +27,19 @@ const BlogPost: FC = () => {
                 <li>Statistics & Number Properties (Mean, median, standard deviation, and prime numbers.)</li>
             </ul>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>💡 Skip:</strong> Complex geometry and combinatorics—these topics are rarely tested!
+                <strong> Skip:</strong> Complex geometry and combinatorics—these topics are rarely tested!
             </p>
 
-            <h3 className="font-semibold text-lg text-headingcol mb-4">📖 Verbal Reasoning: Key Focus Areas</h3>
+            <h3 className="font-semibold text-lg text-headingcol mb-4"> Verbal Reasoning: Key Focus Areas</h3>
             <ul className="list-inside mb-8 text-lg text-gray-800">
                 <li>Critical Reasoning (CR) (Strengthen/weaken arguments, find assumptions, and evaluate arguments.)</li>
                 <li>Reading Comprehension (RC) (Main ideas, inference-based questions, tone, and detail-oriented questions.)</li>
             </ul>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>💡 No Sentence Correction!</strong> This means focusing on logic-based reasoning rather than grammar.
+                <strong> No Sentence Correction!</strong> This means focusing on logic-based reasoning rather than grammar.
             </p>
 
-            <h3 className="font-semibold text-lg text-headingcol mb-4">📈 Data Insights: Key Focus Areas</h3>
+            <h3 className="font-semibold text-lg text-headingcol mb-4"> Data Insights: Key Focus Areas</h3>
             <ul className="list-inside mb-8 text-lg text-gray-800">
                 <li>Data Interpretation (Charts, graphs, tables, and trend analysis.)</li>
                 <li>Multi-Source Reasoning (Combining different data sets to draw conclusions.)</li>
@@ -47,40 +47,40 @@ const BlogPost: FC = () => {
                 <li>Two-Part Analysis (Logical reasoning and numerical interpretation.)</li>
             </ul>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>💡 Avoid:</strong> Overcomplicating calculations—focus on estimation and mental math shortcuts instead.
+                <strong> Avoid:</strong> Overcomplicating calculations—focus on estimation and mental math shortcuts instead.
             </p>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">2. Quality Over Quantity: Smart Practice</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Practicing hundreds of questions without reviewing your mistakes is ineffective. Your biggest improvements will come from error analysis.
             </p>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>✔ Maintain an error log 📓—Track mistakes and note corrections.</li>
-                <li>✔ Identify patterns 🔍—Recognize recurring errors and address weaknesses.</li>
-                <li>✔ Review mistakes strategically—80% of improvement comes from analyzing past errors, not just solving more problems.</li>
+            <ul className="list-inside list-disc mb-8 text-lg text-gray-800">
+                <li> Maintain an error log —Track mistakes and note corrections.</li>
+                <li> Identify patterns —Recognize recurring errors and address weaknesses.</li>
+                <li> Review mistakes strategically—80% of improvement comes from analyzing past errors, not just solving more problems.</li>
             </ul>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">3. Master Adaptive Testing & Time Management</h2>
             <p className="text-lg text-gray-800 mb-8">
                 The GMAT Focus Edition consists of only 64 questions, down from 80, and allows section selection. This makes time management and strategic answering more important than ever.
             </p>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>✔ Time-Saving Strategies: Know when to skip tough questions and move on.</li>
-                <li>✔ Answer Elimination Techniques: Reduce answer choices to improve accuracy.</li>
-                <li>✔ Mental Math & Estimation: Reduce reliance on long calculations to save time.</li>
+            <ul className="list-inside list-disc mb-8 text-lg text-gray-800">
+                <li> Time-Saving Strategies: Know when to skip tough questions and move on.</li>
+                <li> Answer Elimination Techniques: Reduce answer choices to improve accuracy.</li>
+                <li> Mental Math & Estimation: Reduce reliance on long calculations to save time.</li>
             </ul>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">4. Use Official GMAT Resources Strategically</h2>
             <p className="text-lg text-gray-800 mb-8">
                 To apply the 80/20 rule effectively, stick to the best GMAT preparation materials:
             </p>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>🎯 GMAT Official Guide (Focus Edition)—Closest to actual exam questions.</li>
-                <li>🎯 GMAT Prep Software (Focus Edition)—Practice tests designed to mirror the exam’s adaptive nature.</li>
-                <li>🎯 Targeted GMAT Forums & Study Groups—Engage in high-value discussions and problem-solving strategies.</li>
+            <ul className="list-inside list-disc mb-8 text-lg text-gray-800">
+                <li> GMAT Official Guide (Focus Edition)—Closest to actual exam questions.</li>
+                <li> GMAT Prep Software (Focus Edition)—Practice tests designed to mirror the exam’s adaptive nature.</li>
+                <li> Targeted GMAT Forums & Study Groups—Engage in high-value discussions and problem-solving strategies.</li>
             </ul>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>💡 Skip:</strong> Outdated study materials that still include Sentence Correction and AWA sections.
+                <strong> Skip:</strong> Outdated study materials that still include Sentence Correction and AWA sections.
             </p>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">Projetile 45 Tuition: Your GMAT Success Partner</h2>
@@ -89,10 +89,10 @@ const BlogPost: FC = () => {
             </p>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">The GMAT 80/20 Success Formula</h2>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>✔ 20% Focus on High-Yield Topics → 80% Score Improvement</li>
-                <li>✔ 20% Error Analysis → 80% Faster Learning</li>
-                <li>✔ 20% Strategy Optimization → 80% Better Time Management</li>
+            <ul className="list-inside mb-8 list-disc text-lg text-gray-800">
+                <li> 20% Focus on High-Yield Topics → 80% Score Improvement</li>
+                <li> 20% Error Analysis → 80% Faster Learning</li>
+                <li> 20% Strategy Optimization → 80% Better Time Management</li>
             </ul>
 
             <h2 className="font-semibold text-xl text-headingcol mb-4">Conclusion: Study Smart, Not Hard</h2>
@@ -103,7 +103,7 @@ const BlogPost: FC = () => {
                 If you’re looking for expert GMAT coaching, Projetile 45 Tuition provides personalized study plans and proven strategies to help you achieve your target score.
             </p>
             <p className="text-lg text-gray-800 mb-8">
-                Are you ready to study smarter and score higher? Apply the 80/20 Rule today and see the difference in your GMAT preparation! 🚀
+                Are you ready to study smarter and score higher? Apply the 80/20 Rule today and see the difference in your GMAT preparation! 
             </p>
         </div>
     );

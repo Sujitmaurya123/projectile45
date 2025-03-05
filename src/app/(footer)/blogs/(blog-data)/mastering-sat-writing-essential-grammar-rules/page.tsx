@@ -147,11 +147,11 @@ const BlogPost: FC = () => {
             </p>
 
             <h3 className="font-semibold text-lg text-headingcol mb-4">Final Tips for SAT Writing Success</h3>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>✅ Identify and eliminate grammar errors through consistent practice.</li>
-                <li>✅ Learn common SAT grammar traps to avoid costly mistakes.</li>
-                <li>✅ Take full-length SAT practice tests to build confidence and timing.</li>
-                <li>✅ Work with expert instructors for personalized SAT preparation.</li>
+            <ul className="list-inside list-disc mb-8 text-lg text-gray-800">
+                <li> Identify and eliminate grammar errors through consistent practice.</li>
+                <li> Learn common SAT grammar traps to avoid costly mistakes.</li>
+                <li> Take full-length SAT practice tests to build confidence and timing.</li>
+                <li> Work with expert instructors for personalized SAT preparation.</li>
             </ul>
 
             <p className="text-lg text-gray-800 mb-8">

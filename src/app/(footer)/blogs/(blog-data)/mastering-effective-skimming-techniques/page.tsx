@@ -11,17 +11,17 @@ const BlogPost: FC = () => {
                 At Projectile 45 Tuition, we emphasize strategic reading methods that enhance comprehension while optimizing reading speed. In this article, we’ll explore the most effective skimming strategies that will improve your reading efficiency and exam performance.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🏃‍♂️ Why Skimming Matters</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Why Skimming Matters</h2>
             <p className="text-lg text-gray-800 mb-8">
                 When tackling long reading passages, especially on exams like the GMAT, GRE, or SAT, time is your biggest challenge. Skimming techniques help you extract important information quickly, enabling you to answer questions with both speed and accuracy.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🔑 What Is Skimming?</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> What Is Skimming?</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Skimming is a reading technique that allows you to grasp the general idea of a text without reading every word. It involves identifying key phrases, topic sentences, and structural cues while skipping unnecessary details.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">📋 Skimming vs. Scanning: Understanding the Difference</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Skimming vs. Scanning: Understanding the Difference</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Skimming: Reading quickly to understand the overall meaning.
                 <br />
@@ -31,7 +31,7 @@ const BlogPost: FC = () => {
                 Knowing when to use skimming and scanning is essential for effective reading comprehension, especially in standardized tests and academic settings.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🧠 Effective Skimming Techniques</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Effective Skimming Techniques</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Here are the most proven skimming strategies that will help you read faster and retain more information:
             </p>
@@ -92,7 +92,7 @@ const BlogPost: FC = () => {
                 <strong>Tip:</strong> Maintain a steady pace to avoid backtracking.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">⏳ When to Use Skimming</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> When to Use Skimming</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Skimming is especially useful for:
             </p>
@@ -102,16 +102,16 @@ const BlogPost: FC = () => {
                 <li>Workplace efficiency: When reviewing long reports or business documents.</li>
             </ul>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">📝 Common Mistakes to Avoid</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Common Mistakes to Avoid</h2>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>🚫 Reading Too Slowly:</strong> Skimming should be quick—don’t get bogged down.
+                <strong> Reading Too Slowly:</strong> Skimming should be quick—don’t get bogged down.
                 <br />
-                <strong>🚫 Missing the Main Idea:</strong> Focus on the general argument, not individual words.
+                <strong> Missing the Main Idea:</strong> Focus on the general argument, not individual words.
                 <br />
-                <strong>🚫 Overlooking Key Transitions:</strong> Pay close attention to logical connectors like “thus,” “hence,” and “despite”.
+                <strong> Overlooking Key Transitions:</strong> Pay close attention to logical connectors like “thus,” “hence,” and “despite”.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🏆 How to Improve Your Skimming Skills</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> How to Improve Your Skimming Skills</h2>
             <p className="text-lg text-gray-800 mb-8">
                 To get better at skimming for exams, consistent practice is key. Try these proven exercises:
             </p>
@@ -121,12 +121,12 @@ const BlogPost: FC = () => {
                 <li>Summarize Key Points: After skimming, write a one-sentence summary of the passage.</li>
             </ul>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">💪 Conclusion: Become a Skimming Pro</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Conclusion: Become a Skimming Pro</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Mastering effective skimming strategies can dramatically increase your reading efficiency, making it easier to tackle long and complex passages quickly. Projectile 45 Tuition incorporates speed reading techniques in its test prep programs to help students boost their comprehension and exam scores.
             </p>
             <p className="text-lg text-gray-800 mb-8">
-                <strong>📌 Key Takeaways:</strong>
+                <strong> Key Takeaways:</strong>
                 <ul className="list-inside mb-8 text-lg text-gray-800">
                     <li>Preview the passage and identify important sections.</li>
                     <li>Skim topic sentences to grasp the passage structure.</li>
@@ -135,7 +135,7 @@ const BlogPost: FC = () => {
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-8">
-                With consistent practice and strategic reading methods, you can develop an efficient skimming technique that enhances test performance and everyday reading comprehension. 🚀
+                With consistent practice and strategic reading methods, you can develop an efficient skimming technique that enhances test performance and everyday reading comprehension. 
             </p>
         </div>
     );

@@ -10,12 +10,12 @@ const BlogPost: FC = () => {
                 The day before an exam is your final opportunity to solidify key concepts, relax your mind, and prepare your body for optimal performance. Many students make the mistake of last-minute cramming, which can increase stress and hinder memory retention. Instead, focus on strategic revision, relaxation, and proper self-care to ensure that you walk into the exam hall feeling confident and prepared. If you’re looking for structured learning and expert guidance, Projectile 45 Tuition offers top-tier academic support, helping students master concepts efficiently.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🧘‍♂️ Introduction: The Power of the Day Before the Exam</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Introduction: The Power of the Day Before the Exam</h2>
             <p className="text-lg text-gray-800 mb-8">
                 The day before your exam is a crucial time to prepare both mentally and physically. Instead of overwhelming yourself with hours of cramming, focus on reviewing key concepts, relaxing, and ensuring that you&apos;re in the best state to tackle your exam with confidence.
             </p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🕒 1. Review Key Concepts, Not the Entire Syllabus</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 1. Review Key Concepts, Not the Entire Syllabus</h2>
             <p className="text-lg text-gray-800 mb-8">
                 It’s tempting to go through every single topic, but this approach often leads to unnecessary stress. The best strategy is to focus on the most important areas and consolidate what you already know.
             </p>
@@ -26,7 +26,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Avoid learning new topics at the last minute. Stick to what you already understand and strengthen those areas.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🛌 2. Rest and Sleep Well</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 2. Rest and Sleep Well</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Your brain needs rest to process and retain information. Lack of sleep can impair memory and focus, making it harder to recall information during the exam.
             </p>
@@ -37,7 +37,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Going to bed early and waking up refreshed will enhance concentration and mental clarity.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🍏 3. Eat a Nutritious Meal</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 3. Eat a Nutritious Meal</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Proper nutrition plays a crucial role in brain function and energy levels. Eating well the day before ensures steady energy levels during the exam.
             </p>
@@ -48,7 +48,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Brain-boosting foods such as nuts, fish, fruits, and dark chocolate can improve memory and focus.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🧘‍♀️ 4. Relax and Manage Stress</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 4. Relax and Manage Stress</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Feeling anxious is natural, but excessive stress can hinder performance. Engage in relaxation techniques to maintain a calm and focused mind.
             </p>
@@ -59,7 +59,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> A 10-minute mindfulness session can help reduce anxiety and increase focus.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">📝 5. Organize Exam Materials</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 5. Organize Exam Materials</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Avoid last-minute panic by ensuring you have everything you need for the exam ready in advance.
             </p>
@@ -70,7 +70,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Pack your bag the night before to minimize stress in the morning.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">📱 6. Limit Social Media and Distractions</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 6. Limit Social Media and Distractions</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Social media can be a major distraction and can also increase stress if you come across discussions about the exam.
             </p>
@@ -81,7 +81,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Unplug from screens at least an hour before bedtime to improve sleep quality.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🧠 7. Reflect on Your Efforts and Stay Positive</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 7. Reflect on Your Efforts and Stay Positive</h2>
             <p className="text-lg text-gray-800 mb-8">
                 Your mindset has a direct impact on your performance. Instead of doubting yourself, focus on the effort you have put in and believe in your abilities.
             </p>
@@ -92,7 +92,7 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Confidence is key. Trust in your preparation and ability to perform well.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🕶️ 8. Prepare for the Next Day</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> 8. Prepare for the Next Day</h2>
             <p className="text-lg text-gray-800 mb-8">
                 A stress-free morning starts with preparation the night before.
             </p>
@@ -103,24 +103,24 @@ const BlogPost: FC = () => {
             </ul>
             <p className="text-lg text-gray-800 mb-8"><strong>Tip:</strong> Waking up with plenty of time to spare will help you feel calm and in control.</p>
 
-            <h2 className="font-semibold text-xl text-headingcol mb-4">🎯 Conclusion: Focus on Confidence, Not Cramming</h2>
+            <h2 className="font-semibold text-xl text-headingcol mb-4"> Conclusion: Focus on Confidence, Not Cramming</h2>
             <p className="text-lg text-gray-800 mb-8">
                 The day before your exam is not about memorizing everything—it’s about reinforcing what you already know, relaxing, and setting yourself up for success. Follow these strategies to feel prepared, confident, and ready to perform at your best.
             </p>
             <p className="text-lg text-gray-800 mb-8">
                 <strong>Key Takeaways:</strong>
-                <ul className="list-inside mb-8 text-lg text-gray-800">
-                    <li>✅ Review important concepts rather than cramming.</li>
-                    <li>✅ Sleep for at least 7-8 hours for optimal brain function.</li>
-                    <li>✅ Eat a balanced meal and stay hydrated.</li>
-                    <li>✅ Engage in relaxation techniques to manage stress.</li>
-                    <li>✅ Prepare all necessary materials the night before.</li>
-                    <li>✅ Stay away from social media to avoid distractions.</li>
-                    <li>✅ Stay positive and trust your preparation.</li>
+                <ul className="list-inside mb-8 list-disc text-lg text-gray-800">
+                    <li> Review important concepts rather than cramming.</li>
+                    <li> Sleep for at least 7-8 hours for optimal brain function.</li>
+                    <li> Eat a balanced meal and stay hydrated.</li>
+                    <li> Engage in relaxation techniques to manage stress.</li>
+                    <li> Prepare all necessary materials the night before.</li>
+                    <li> Stay away from social media to avoid distractions.</li>
+                    <li> Stay positive and trust your preparation.</li>
                 </ul>
             </p>
             <p className="text-lg text-gray-800 mb-8">
-                By following these steps, you’ll maximize your chances of success and enter the exam hall feeling calm and prepared. If you need personalized coaching and expert guidance, Projectile 45 Tuition can help you develop effective study strategies and boost your confidence for exams. Best of luck! 🎉
+                By following these steps, you’ll maximize your chances of success and enter the exam hall feeling calm and prepared. If you need personalized coaching and expert guidance, Projectile 45 Tuition can help you develop effective study strategies and boost your confidence for exams. Best of luck! 
             </p>
         </div>
     );

@@ -8,26 +8,26 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
             </h1>
 
             <section className='text-gray-800'>
-                <h2 className="text-2xl font-semibold mt-4 text-headingcol">📖 Understanding the Digital SAT Reading & Writing Section</h2>
+                <h2 className="text-2xl font-semibold mt-4 text-headingcol"> Understanding the Digital SAT Reading & Writing Section</h2>
                 <p className="mt-2 text-lg">
                     The redesigned Digital SAT RW section is structured as follows:
                 </p>
                 <ul className="list-disc list-inside mt-4">
-                    <li className="text-lg">✅ 54 questions divided into two adaptive modules</li>
-                    <li className="text-lg">✅ Short passages (25–150 words) instead of lengthy readings</li>
-                    <li className="text-lg">✅ Integrated Reading & Writing questions in both modules</li>
-                    <li className="text-lg">✅ Multiple-choice format with four answer choices</li>
-                    <li className="text-lg">✅ No separate Evidence-Based Reading and Writing (EBRW) sections</li>
+                    <li className="text-lg"> 54 questions divided into two adaptive modules</li>
+                    <li className="text-lg"> Short passages (25–150 words) instead of lengthy readings</li>
+                    <li className="text-lg"> Integrated Reading & Writing questions in both modules</li>
+                    <li className="text-lg"> Multiple-choice format with four answer choices</li>
+                    <li className="text-lg"> No separate Evidence-Based Reading and Writing (EBRW) sections</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🚀 Did you know? Projectile 45 Tuition offers customized SAT prep courses to help students master the new Digital SAT format with ease!</p>
+                <p className="mt-4 text-lg font-bold"> Did you know? Projectile 45 Tuition offers customized SAT prep courses to help students master the new Digital SAT format with ease!</p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">📝 Section Breakdown & Question Types</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Section Breakdown & Question Types</h2>
                 <p className="mt-4 text-lg">The Reading & Writing section is evenly split between comprehension and grammar-based questions. Let’s explore each category in detail:</p>
 
-                <h3 className="text-xl font-semibold mt-4 text-headingcol">📌 READING QUESTIONS (Comprehension & Vocabulary)</h3>
-                <p className="mt-2 text-lg">📊 ~50% of the RW Section</p>
+                <h3 className="text-xl font-semibold mt-4 text-headingcol"> READING QUESTIONS (Comprehension & Vocabulary)</h3>
+                <p className="mt-2 text-lg"> ~50% of the RW Section</p>
                 <table className="min-w-full mt-4 table-auto border-collapse">
                     <thead>
                         <tr>
@@ -65,10 +65,10 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
                     </tbody>
                 </table>
 
-                <p className="mt-4 text-lg font-bold">🔹 Strategy Tip: Pay attention to keywords, the author’s tone, and passage structure to quickly identify the correct answers.</p>
+                <p className="mt-4 text-lg font-bold"> Strategy Tip: Pay attention to keywords, the author’s tone, and passage structure to quickly identify the correct answers.</p>
 
-                <h3 className="text-xl font-semibold mt-8 text-headingcol">📌 WRITING QUESTIONS (Grammar & Logical Reasoning)</h3>
-                <p className="mt-2 text-lg">📊 ~50% of the RW Section</p>
+                <h3 className="text-xl font-semibold mt-8 text-headingcol"> WRITING QUESTIONS (Grammar & Logical Reasoning)</h3>
+                <p className="mt-2 text-lg"> ~50% of the RW Section</p>
                 <table className="min-w-full mt-4 table-auto border-collapse">
                     <thead>
                         <tr>
@@ -106,31 +106,31 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
                     </tbody>
                 </table>
 
-                <p className="mt-4 text-lg font-bold">🔹 Strategy Tip: Read the sentence without the underlined portion to predict the best answer choice.</p>
-                <p className="text-lg font-bold">🚀 Need expert help with SAT grammar rules? Projectile 45 Tuition provides personalized SAT prep classes focusing on sentence structure, transitions, and conciseness strategies.</p>
+                <p className="mt-4 text-lg font-bold"> Strategy Tip: Read the sentence without the underlined portion to predict the best answer choice.</p>
+                <p className="text-lg font-bold"> Need expert help with SAT grammar rules? Projectile 45 Tuition provides personalized SAT prep classes focusing on sentence structure, transitions, and conciseness strategies.</p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">⏳ Time Management: Mastering the Clock!</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Time Management: Mastering the Clock!</h2>
                 <p className="mt-2 text-lg">
                     With only 64 minutes for 54 questions, you need strong time management skills.
                 </p>
                 <ul className="list-disc list-inside mt-4">
-                    <li className="text-lg">📌 Average Time Per Question: ~1 minute</li>
-                    <li className="text-lg">🏃 Don’t get stuck! Flag difficult questions and return later.</li>
-                    <li className="text-lg">📝 Use elimination strategies to quickly narrow down choices.</li>
-                    <li className="text-lg">⚡ Aim for accuracy in the first module to receive a more challenging second module.</li>
+                    <li className="text-lg"> Average Time Per Question: ~1 minute</li>
+                    <li className="text-lg"> Don’t get stuck! Flag difficult questions and return later.</li>
+                    <li className="text-lg"> Use elimination strategies to quickly narrow down choices.</li>
+                    <li className="text-lg"> Aim for accuracy in the first module to receive a more challenging second module.</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">🔹 Pro Tip: Take at least five full-length Digital SAT mock tests to develop strong pacing skills.</p>
+                <p className="mt-4 text-lg font-bold"> Pro Tip: Take at least five full-length Digital SAT mock tests to develop strong pacing skills.</p>
                 <p className="text-lg">
-                    🚀 Looking for top-notch SAT practice tests? Projectile 45 Tuition provides realistic SAT mock tests that mirror the actual exam format.
+                     Looking for top-notch SAT practice tests? Projectile 45 Tuition provides realistic SAT mock tests that mirror the actual exam format.
                 </p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">📝 Sample Digital SAT RW Questions</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Sample Digital SAT RW Questions</h2>
 
-                <h3 className="text-xl font-semibold mt-4 text-headingcol">📖 Reading Sample Question</h3>
+                <h3 className="text-xl font-semibold mt-4 text-headingcol"> Reading Sample Question</h3>
                 <p className="text-lg">Passage:</p>
                 <blockquote className="border-l-4 pl-4 italic mt-2 text-lg">
                     “The newly discovered exoplanet, Gliese 581g, has sparked scientific interest because its orbital path suggests that it may have conditions suitable for life. However, some astronomers argue that more data is needed before reaching definitive conclusions.”
@@ -142,10 +142,10 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
                     <li>C) To argue that Gliese 581g is habitable</li>
                     <li>D) To suggest that further research is required before making claims</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold">✅ Correct Answer: D</p>
+                <p className="mt-4 text-lg font-bold"> Correct Answer: D</p>
                 <p className="mt-2 text-lg">The passage emphasizes the need for more data before drawing conclusions.</p>
 
-                <h3 className="text-xl font-semibold mt-8">📝 Writing Sample Question</h3>
+                <h3 className="text-xl font-semibold mt-8"> Writing Sample Question</h3>
                 <p className="text-lg">Sentence:</p>
                 <blockquote className="border-l-4 pl-4 italic mt-2 text-lg">
                     “The scientist’s experiments, which were conducted over a five-year period, has yielded significant breakthroughs in renewable energy.”
@@ -157,31 +157,31 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
                     <li>C) is yielding</li>
                     <li>D) had yielded</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold text-headingcol">✅ Correct Answer: B</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> Correct Answer: B</p>
                 <p className="mt-2 text-lg">The subject “experiments” is plural, so the verb should be “have yielded.”</p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">🎯 Final Takeaways: How to Boost Your Digital SAT RW Score!</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Final Takeaways: How to Boost Your Digital SAT RW Score!</h2>
                 <ul className="list-disc list-inside mt-4 text-lg">
-                    <li>🔹 Master question types</li>
-                    <li>🔹 Practice full-length tests</li>
-                    <li>🔹 Read complex texts & news articles daily</li>
-                    <li>🔹 Review key grammar rules</li>
-                    <li>🔹 Think logically before answering</li>
+                    <li> Master question types</li>
+                    <li> Practice full-length tests</li>
+                    <li> Read complex texts & news articles daily</li>
+                    <li> Review key grammar rules</li>
+                    <li> Think logically before answering</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold text-headingcol">💡 Start practicing today to maximize your SAT score!</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> Start practicing today to maximize your SAT score!</p>
             </section>
 
             <section className="mt-8 text-gray-800">
-                <h2 className="text-2xl font-semibold text-headingcol">🚀 Why Choose Projectile 45 Tuition for SAT Prep?</h2>
+                <h2 className="text-2xl font-semibold text-headingcol"> Why Choose Projectile 45 Tuition for SAT Prep?</h2>
                 <ul className="list-disc list-inside mt-4 text-lg">
-                    <li>🎯 Expert SAT Tutors with years of experience</li>
-                    <li>📚 Customized Study Plans based on individual strengths</li>
-                    <li>📝 Real Digital SAT Mock Tests with score analysis</li>
-                    <li>💡 Advanced Strategies for Time Management & Accuracy</li>
+                    <li> Expert SAT Tutors with years of experience</li>
+                    <li> Customized Study Plans based on individual strengths</li>
+                    <li> Real Digital SAT Mock Tests with score analysis</li>
+                    <li> Advanced Strategies for Time Management & Accuracy</li>
                 </ul>
-                <p className="mt-4 text-lg font-bold text-headingcol">🎓 Join Projectile 45 Tuition today and achieve your dream SAT score!</p>
+                <p className="mt-4 text-lg font-bold text-headingcol"> Join Projectile 45 Tuition today and achieve your dream SAT score!</p>
             </section>
         </div>
     );

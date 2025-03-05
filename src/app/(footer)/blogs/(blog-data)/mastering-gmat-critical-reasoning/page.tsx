@@ -104,12 +104,12 @@ const BlogPost: FC = () => {
             <p className="text-lg text-gray-800 mb-8">
                 By honing your skills in logical analysis, assumption identification, and argument evaluation, you can significantly improve your performance in the GMAT Critical Reasoning section. Remember:
             </p>
-            <ul className="list-inside mb-8 text-lg text-gray-800">
-                <li>✅ Identify premises and conclusions clearly.</li>
-                <li>✅ Strengthen and weaken arguments with logical precision.</li>
-                <li>✅ Spot hidden assumptions and logical flaws.</li>
-                <li>✅ Eliminate extreme or irrelevant answer choices.</li>
-                <li>✅ Practice regularly under timed conditions.</li>
+            <ul className="list-inside mb-8 list-disc text-lg text-gray-800">
+                <li> Identify premises and conclusions clearly.</li>
+                <li> Strengthen and weaken arguments with logical precision.</li>
+                <li> Spot hidden assumptions and logical flaws.</li>
+                <li> Eliminate extreme or irrelevant answer choices.</li>
+                <li> Practice regularly under timed conditions.</li>
             </ul>
 
             <p className="text-lg text-gray-800 mb-8">

@@ -119,12 +119,12 @@ const BlogPost: FC = () => {
                     By following these study hacks, you can maximize your Digital SAT score and improve your chances of securing admission to top universities. The key to success is early preparation, consistency, and using the best resources available.
                 </p>
                 <p className="mt-2">Good Luck!</p>
-                <h3 className="font-semibold text-2xl text-headingcol mt-6">🚀 Why Choose Projectile 45 Tuition for SAT Prep?</h3>
+                <h3 className="font-semibold text-2xl text-headingcol mt-6"> Why Choose Projectile 45 Tuition for SAT Prep?</h3>
                 <ul className="list-inside mt-4">
-                    <li>✅ Expert SAT Tutors with years of experience</li>
-                    <li>✅ Customized Study Plans based on individual strengths</li>
-                    <li>✅ Real Digital SAT Mock Tests with detailed score analysis</li>
-                    <li>✅ Advanced Time Management & Accuracy Strategies</li>
+                    <li> Expert SAT Tutors with years of experience</li>
+                    <li> Customized Study Plans based on individual strengths</li>
+                    <li> Real Digital SAT Mock Tests with detailed score analysis</li>
+                    <li> Advanced Time Management & Accuracy Strategies</li>
                 </ul>
                 <p className="mt-4">Start your SAT preparation today with Projectile 45 Tuition and achieve your dream score!</p>
             </div>
