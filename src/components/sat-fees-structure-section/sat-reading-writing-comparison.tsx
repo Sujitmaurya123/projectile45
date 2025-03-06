@@ -25,15 +25,15 @@ const SATRWPackageComparison: React.FC = () => {
         { feature: 'Extra Live Interaction Hours', package30: <span className="text-red-500">✘</span>, package50: <span className="text-green-500">✔</span> },
     ];
 
-    const highlights = [
-        'Advanced Passage Analysis: Training to tackle paired passages and infer meaning effectively.',
-        'Grammar Mastery: In-depth focus on tricky grammar and Standard English Conventions',
-        'Mock Test Discussions: Detailed reviews of MOCK tests, including strategies for passage navigation.',
-        'Enhanced Practice: Access to a broader range of Reading and Writing questions.',
-        'Personalized Feedback: Tailored improvement plans based on strengths and weaknesses.',
-        'Critical Thinking Development: Emphasis on connecting ideas, analyzing structure, and identifying author intent.',
-        'Interactive Sessions: Greater focus on live discussions for individual doubts and concepts.',
-    ];
+    // const highlights = [
+    //     'Advanced Passage Analysis: Training to tackle paired passages and infer meaning effectively.',
+    //     'Grammar Mastery: In-depth focus on tricky grammar and Standard English Conventions',
+    //     'Mock Test Discussions: Detailed reviews of MOCK tests, including strategies for passage navigation.',
+    //     'Enhanced Practice: Access to a broader range of Reading and Writing questions.',
+    //     'Personalized Feedback: Tailored improvement plans based on strengths and weaknesses.',
+    //     'Critical Thinking Development: Emphasis on connecting ideas, analyzing structure, and identifying author intent.',
+    //     'Interactive Sessions: Greater focus on live discussions for individual doubts and concepts.',
+    // ];
 
     return (
         <div className="p-6 font-sans container mx-auto max-w-6xl">
@@ -64,11 +64,20 @@ const SATRWPackageComparison: React.FC = () => {
 
             <div className="mt-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcol">Highlights of 50-Hour SAT RW Package</h3> {/* Changed heading */}
-                <ul className="list-disc ml-6 space-y-2 text-gray-600">
+                {/* <ul className="list-disc ml-6 space-y-2 text-gray-600">
                     {highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>
                     ))}
-                </ul>
+                </ul> */}
+                    <ul className="list-disc ml-6 space-y-2 text-gray-600">
+                        <li><strong>Advanced Passage Analysis:</strong> Training to tackle paired passages and infer meaning effectively.</li>
+                        <li><strong>Grammar Mastery:</strong> In-depth focus on tricky grammar and Standard English Conventions.</li>
+                        <li><strong>Mock Test Discussions:</strong> Detailed reviews of MOCK tests, including strategies for passage navigation.</li>
+                        <li><strong>Enhanced Practice:</strong> Access to a broader range of Reading and Writing questions.</li>
+                        <li><strong>Personalized Feedback:</strong> Tailored improvement plans based on strengths and weaknesses.</li>
+                        <li><strong>Critical Thinking Development:</strong> Emphasis on connecting ideas, analyzing structure, and identifying author intent.</li>
+                        <li><strong>Interactive Sessions:</strong> Greater focus on live discussions for individual doubts and concepts.</li>
+                    </ul>
             </div>
         </div>
         </div>  

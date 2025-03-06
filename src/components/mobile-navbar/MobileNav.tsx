@@ -53,8 +53,8 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/sat-test-dates" className="hover:text-black">
-                                    SAT Test Dates
+                                <Link href="/sat-exam-dates" className="hover:text-black">
+                                    SAT Exam Dates
                                 </Link>
                             </li>
                             <li>

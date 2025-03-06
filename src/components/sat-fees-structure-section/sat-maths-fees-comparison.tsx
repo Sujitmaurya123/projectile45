@@ -24,13 +24,13 @@ const SATPackageComparison: React.FC = () => {
         { feature: 'Extra Live Interaction Hours', package30: <span className="text-red-500">✘</span>, package50: <span className="text-green-500">✔</span> },
     ];
 
-    const highlights = [
-        'Advanced Problem-Solving: Greater focus on higher-difficulty questions and techniques.',
-        'Mock Test Discussions: Each test is reviewed in detail, with strategies for improvement.',
-        'Increased Practice Material (Advanced Question Sets): Access to advanced question sets',
-        'Personalized Feedback: Comprehensive performance analysis after every test.',
-        'Flexibility and Interaction: More live sessions and one-on-one interactions to address individual challenges.',
-    ];
+    // const highlights = [
+    //     'Advanced Problem-Solving: Greater focus on higher-difficulty questions and techniques.',
+    //     'Mock Test Discussions: Each test is reviewed in detail, with strategies for improvement.',
+    //     'Increased Practice Material (Advanced Question Sets): Access to advanced question sets',
+    //     'Personalized Feedback: Comprehensive performance analysis after every test.',
+    //     'Flexibility and Interaction: More live sessions and one-on-one interactions to address individual challenges.',
+    // ];
 
     return (
         <div className="p-6 font-sans container mx-auto max-w-6xl">
@@ -61,11 +61,18 @@ const SATPackageComparison: React.FC = () => {
 
             <div className="mt-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcol">Highlights of 50-Hour SAT Maths Package</h3>
-                <ul className="list-disc ml-6 space-y-2 text-gray-600">
+                {/* <ul className="list-disc ml-6 space-y-2 text-gray-600">
                     {highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>
                     ))}
-                </ul>
+                </ul> */}
+                    <ul className="list-disc ml-6 space-y-2 text-gray-600">
+                        <li><strong>Advanced Problem-Solving:</strong> Greater focus on higher-difficulty questions and techniques.</li>
+                        <li><strong>Mock Test Discussions:</strong> Each test is reviewed in detail, with strategies for improvement.</li>
+                        <li><strong>Increased Practice Material (Advanced Question Sets):</strong> Access to advanced question sets.</li>
+                        <li><strong>Personalized Feedback:</strong> Comprehensive performance analysis after every test.</li>
+                        <li><strong>Flexibility and Interaction:</strong> More live sessions and one-on-one interactions to address individual challenges.</li>
+                    </ul>
             </div>
         </div>
     </div>

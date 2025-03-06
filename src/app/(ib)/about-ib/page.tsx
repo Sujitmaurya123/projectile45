@@ -225,7 +225,7 @@ academics and personal growth..</li>
                                         {section.subsections.map((subsection, subIndex) => (
                                             <li key={subIndex} className="mb-2 list-decimal">
                                                 <Link href={`${section.href}#${subsection.href}`} legacyBehavior>
-                                                    <a className="hover:underline">{subsection.title}</a>
+                                                    <a className="hover:underline text-gray-800">{subsection.title}</a>
                                                 </Link>
                                             </li>
                                         ))}
