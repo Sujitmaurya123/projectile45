@@ -1,22 +1,47 @@
-import React from 'react';
-import Image from 'next/image';
-import { Button } from '../ui/button';
-import Link from 'next/link';
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 const CallToActionSection = () => {
     return (
-        <section className=" py-16 bg-[#f5f5f6] bg-opacity-70">
+        <section className="py-16 bg-[#f5f5f6] bg-opacity-70">
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
-                <div className="flex-1">
-                    <Image
-                        src="/images/footerimg3.svg" // Replace with the actual path to your illustration
-                        alt="Students studying together"
-                        width={300}
-                        height={300}
-                        className="md:mr-16  "
-                    />
-                </div>
-                <div className="flex-1 text-center md:text-left md:mt-0">
+
+                {/* Left Image Section */}
+                <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    className="flex-1"
+                >
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.3 }}
+                        className="md:mr-16"
+                    >
+                        <Image
+                            src="/images/footerimg3.svg"
+                            alt="Students studying together"
+                            width={300}
+                            height={300}
+                            className="rounded-lg shadow-lg"
+                        />
+                    </motion.div>
+                </motion.div>
+
+                {/* Right Text Section */}
+                <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    className="flex-1 text-center md:text-left md:mt-0"
+                >
                     <h2 className="text-3xl font-bold mb-4 text-headingcol">
                         Are you ready to take the next step toward your goals?
                     </h2>
@@ -24,12 +49,18 @@ const CallToActionSection = () => {
                         Join us to transform your test preparation—because the future belongs to
                         those who dare to dream big.
                     </p>
-                    <Link  href="free-demo">
-                    <Button className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white font-bold py-2 px-4 rounded mt-4">
-                        Get Started
-                    </Button>
+                    <Link href="free-demo">
+                        <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <Button className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white font-bold py-2 px-4 rounded mt-4">
+                                Get Started
+                            </Button>
+                        </motion.div>
                     </Link>
-                </div>
+                </motion.div>
             </div>
         </section>
     );

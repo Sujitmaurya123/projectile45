@@ -4,7 +4,7 @@ import Script from "next/script";
 
 import { cn } from "@/lib/utils"
 
-import { SiteHeader } from "@/components/site-header"
+import { SiteHeader } from "@/components/SiteHeader"
 import Footer from "@/components/home-section/footer-section"
 import StickyButton from "@/components/sticky-component/sticky-button"
 import { Toaster } from 'react-hot-toast';
