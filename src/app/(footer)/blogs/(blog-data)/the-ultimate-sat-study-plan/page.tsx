@@ -6,7 +6,7 @@ const SATPreparationTimeline: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 The Ultimate SAT Study Plan: When and How to Start Preparing for the Digital SAT
             </h1>
-            <Image src="/images/studyplan.jpg" alt='The Ultimate SAT Study Plan' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            <Image src="/images/blog/studyplan.jpg" alt='The Ultimate SAT Study Plan' width="800" height="300" className='  mx-auto mb-6 p-2'/>
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Preparing for the Digital SAT (DSAT) is no longer just about memorizing formulas and vocabulary—it requires a well-structured study plan, time management strategies, and adaptive test-taking techniques. The DSAT is shorter, adaptive, and taken on a computer, making it essential for students to prepare strategically.
                 So, when should you start studying for the SAT? And how can you maximize your score without last-minute cramming?

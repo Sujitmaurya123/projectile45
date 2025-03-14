@@ -1,4 +1,5 @@
 // components/EAvsGMATBlogPost.tsx
+import Image from 'next/image';
 import React from 'react';
 
 const EAvsGMATBlogPost: React.FC = () => {
@@ -7,6 +8,7 @@ const EAvsGMATBlogPost: React.FC = () => {
             <h1 className="text-4xl font-extrabold text-center mb-6 text-headingcol">
                 EA vs. GMAT: Which Test is Right for Your MBA Journey?
             </h1>
+            <Image src="/images/blog/10.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <section className="text-gray-800">
                 <p className="mt-4 text-lg">

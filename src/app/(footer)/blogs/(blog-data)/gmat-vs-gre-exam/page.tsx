@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const GMATvsGRE: FC = () => {
@@ -6,6 +7,7 @@ const GMATvsGRE: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 GMAT vs. GRE: Which Exam is Right for You?
             </h1>
+            <Image src="/images/blog/2.jpg" alt='GMAT vs. GRE: Which Exam is Right for You?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Choosing between the GMAT (Graduate Management Admission Test) and the GRE (Graduate Record Examination) is a crucial decision for students aspiring for an MBA or other graduate programs. Both exams are widely accepted, but they differ significantly in structure, scoring, and focus areas.
                 <br />

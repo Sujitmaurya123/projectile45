@@ -1,4 +1,5 @@
 // components/BlogPost.tsx
+import Image from 'next/image';
 import React from 'react';
 
 const BlogPost: React.FC = () => {
@@ -7,6 +8,7 @@ const BlogPost: React.FC = () => {
             <h1 className="text-4xl font-extrabold text-center text-headingcol mb-6">
                 Step-by-Step Guide to Managing Exam Stress and Boosting Confidence
             </h1>
+            <Image src="/images/blog/7.jpg" alt='Step-by-Step Guide to Managing Exam Stress and Boosting Confidence' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <section className='text-gray-800'>
                 <h2 className="text-2xl font-semibold text-headingcol mt-4">Step 1: Start Preparing Early and Stay Consistent</h2>

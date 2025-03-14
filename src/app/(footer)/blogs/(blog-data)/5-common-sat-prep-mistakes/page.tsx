@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const SATPrepMistakes: FC = () => {
@@ -6,7 +7,8 @@ const SATPrepMistakes: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 5 Common SAT Prep Mistakes and How to Avoid Them
             </h1>
-
+            <Image src="/images/blog/3.jpg" alt='5 Common SAT Prep Mistakes and How to Avoid Them' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 The Digital SAT (DSAT) is a significant milestone for students aspiring to study in top U.S. and international universities. However, many test-takers make avoidable mistakes that hinder their SAT score improvement. A well-planned approach, along with structured SAT prep courses, can make a huge difference in achieving a high SAT score. If you&apos;re preparing for the SAT, avoid these five common prep mistakes and follow expert SAT strategies to maximize your performance.
             </p>

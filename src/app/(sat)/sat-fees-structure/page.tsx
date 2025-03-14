@@ -27,7 +27,7 @@ const SATCourseFees: React.FC = () => {
 
     return (
         <div className="p-6 font-sans container mx-auto max-w-6xl">
-            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">SAT Coaching Fees at Projectile 45</h1>
+            <h1 className="text-5xl font-bold mb-4 text-center text-headingcol">SAT Coaching  at Projectile 45</h1>
             
             <div>
                 <div className="container mx-auto p-6">

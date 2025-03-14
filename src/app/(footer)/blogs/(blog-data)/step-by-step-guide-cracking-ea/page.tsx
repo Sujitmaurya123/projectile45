@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const CrackExecutiveAssessment: FC = () => {
@@ -6,7 +7,8 @@ const CrackExecutiveAssessment: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Step-by-Step Guide to Cracking the Executive Assessment (EA) for Business Professionals
             </h1>
-
+            <Image src="/images/blog/5.jpg" alt='Step-by-Step Guide to Cracking the Executive Assessment (EA)' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 The Executive Assessment (EA) is a crucial exam for experienced professionals looking to secure admission into executive MBA programs. Designed to test critical thinking, problem-solving, and data analysis skills, the EA consists of three main sections: Integrated Reasoning (IR), Verbal Reasoning, and Quantitative Reasoning. Balancing a full-time job while preparing for the EA can be challenging, but with a structured study plan and smart strategies, you can achieve success. Here’s a step-by-step guide to help you crack the EA confidently and efficiently.
             </p>

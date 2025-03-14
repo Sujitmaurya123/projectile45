@@ -1,4 +1,5 @@
 // components/BlogPost.tsx
+import Image from 'next/image';
 import React from 'react';
 
 const BlogPost: React.FC = () => {
@@ -7,6 +8,7 @@ const BlogPost: React.FC = () => {
             <h1 className="text-4xl font-extrabold text-center text-headingcol mb-6">
                 Top 5 Strategies for SAT/GMAT Preparation: A Step-by-Step Guide
             </h1>
+            <Image src="/images/blog/8.jpg" alt='Top 5 Strategies for SAT/GMAT Preparation: A Step-by-Step Guide' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <section className='text-gray-800'>
                 <h2 className="text-2xl font-semibold mt-4 text-headingcol">Preparing for the SAT or GMAT</h2>

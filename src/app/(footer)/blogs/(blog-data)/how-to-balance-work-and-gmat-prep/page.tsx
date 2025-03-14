@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BalanceWorkGMAT: FC = () => {
@@ -6,7 +7,8 @@ const BalanceWorkGMAT: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 How to Balance Work and GMAT Preparation Effectively
             </h1>
-
+            <Image src="/images/blog/4.jpg" alt='How to Balance Work and GMAT Preparation Effectively' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Preparing for the GMAT while working full-time can feel overwhelming. Between job responsibilities, deadlines, and personal commitments, finding time for consistent GMAT study sessions is challenging. However, with smart time management, efficient study strategies, and expert guidance, you can achieve your target GMAT score without compromising your career. If you&apos;re struggling to balance work and GMAT prep, these expert-backed strategies will help you stay on track while ensuring maximum productivity.
             </p>

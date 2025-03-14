@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const GMATBlogPost: React.FC = () => {
@@ -6,6 +7,7 @@ const GMATBlogPost: React.FC = () => {
             <h1 className="text-4xl font-extrabold text-center mb-6 text-headingcol">
                 Mastering Data Insights on the GMAT: Strategies for High Scores
             </h1>
+            <Image src="/images/blog/9.jpg" alt=' Mastering Data Insights on the GMAT: Strategies for High Scores' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <section className='text-gray-800'>
                 <p className="mt-4 text-lg">

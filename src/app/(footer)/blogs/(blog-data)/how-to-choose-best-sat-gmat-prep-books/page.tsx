@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const ChooseSatGmatBooks: FC = () => {
@@ -6,6 +7,7 @@ const ChooseSatGmatBooks: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 How to Choose the Best SAT/GMAT Prep Books for High Scores
             </h1>
+            <Image src="/images/blog/6.jpg" alt='How to Choose the Best SAT/GMAT Prep Books for High Scores' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Achieving a high score on the SAT or GMAT starts with selecting the right prep books. With numerous options available, it’s essential to choose study guides that match your skill level, offer realistic practice tests, and provide effective strategies. Whether you&apos;re a beginner or an advanced test-taker, this guide will help you find the best SAT and GMAT prep books to maximize your score.
