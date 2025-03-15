@@ -238,12 +238,7 @@ academics and personal growth..</li>
 
 
         </div>
-        <div>
-                {/* <IBFAQs/>
-                <IBCoachingFAQs/>
-                <IBOnlineCoachingFAQs/>
-                <CombinedFAQPage/> */}
-        </div>
+        
         </>
     );
 };

@@ -21,8 +21,6 @@ export default function Home() {
      <CourseSection/>
       <Projectile45Benefits/>
       <HelpGrowSection/>
-      {/* <ClassroomSection/>
-      <MissionSection/> */}
       <CallToActionSection/>
     </div>
   );

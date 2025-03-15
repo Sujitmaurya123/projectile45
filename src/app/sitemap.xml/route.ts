@@ -23,7 +23,6 @@ export async function GET(req: Request) {
     "sat-pattern","sat-test-dates",
     "sat-fees-structure","ibdp-subjects","gre-pattern","gre-structure",
     "gmat-structure","gmat-sections","gmat-scoring","igcse-curriculum","igcse-mathematics", "blogs",
-    "ib-testprep", "igcse-testprep", "sat-testprep", "gmat-testprep", "gre-testprep", 
     "sat-maths-sample-questions","ibdp-maths-analysis-approaches-papers","ibdp-maths-applications-interpretation-papers",
     "ibpd-physics-papers",
     "free-demo", "about-us", "careers", "terms-of-conditions", "website-privacy-policy",
