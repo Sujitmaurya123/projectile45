@@ -1,5 +1,33 @@
 import { FC } from 'react';
 import Image from 'next/image';
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: "The Ultimate SAT Study Plan",
+    description: "The Ultimate SAT Study Plan: When and How to Start Preparing for the Digital SAT",
+    keywords: [
+        "SAT study tips",
+        "P45 blog"
+    ],
+    openGraph: {
+        title: "The Ultimate SAT Study Plan",
+        description: "The Ultimate SAT Study Plan: When and How to Start Preparing for the Digital SAT",
+        url: "https://www.p45.in/blogs/the-ultimate-sat-study-plan", // Replace with the actual URL
+        type: "article",
+        images: [
+            {
+                url:"images/blog/studyplan.jpg", // Replace with actual image URL
+                width: 1200,
+                height: 630,
+                alt: "The Ultimate SAT Study Plan",
+            },
+        ],
+        siteName: "P45", // Replace with actual site name
+    },
+    
+};
+
 const SATPreparationTimeline: FC = () => {
     return (
         <div className="max-w-6xl mx-auto px-4 py-12">
