@@ -7,8 +7,7 @@ export const metadata: Metadata = {
     title: "The Ultimate SAT Study Plan",
     description: "The Ultimate SAT Study Plan: When and How to Start Preparing for the Digital SAT",
     keywords: [
-        "SAT study tips",
-        "P45 blog"
+        "sat exam", "sat prep courses", "SAT Preparation", "digital sat", "best sat coaching"
     ],
     openGraph: {
         title: "The Ultimate SAT Study Plan",

@@ -1,5 +1,34 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { FC } from 'react';
+
+export const metadata: Metadata = {
+    title: "Balance Work and GMAT Prep: Top Strategies",
+    description: "Discover practical tips to manage your job responsibilities while preparing for the GMAT. Learn how to create a flexible study schedule, utilize short breaks for quick reviews, and maintain productivity to achieve your target GMAT score.​",
+    keywords: [
+        "gmat syllabus",
+        "gmat test",
+        "gmat prep",
+        "gmat course",
+        "gmat preparation"
+    ],
+    openGraph: {
+        title: "Balance Work and GMAT Prep: Top Strategies",
+        description: "Discover practical tips to manage your job responsibilities while preparing for the GMAT. Learn how to create a flexible study schedule, utilize short breaks for quick reviews, and maintain productivity to achieve your target GMAT score.​",
+        url: "https://www.p45.in/blogs/how-to-balance-work-and-gmat-prep", // Replace with the actual URL
+        type: "article",
+        images: [
+            {
+                url: "images/blog/4.jpg", // Replace with actual image URL
+                width: 1200,
+                height: 630,
+                alt: "Balance Work and GMAT Prep: Top Strategies",
+            },
+        ],
+        siteName: "P45", // Replace with actual site name
+    },
+
+};
 
 const BalanceWorkGMAT: FC = () => {
     return (

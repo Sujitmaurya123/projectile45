@@ -1,5 +1,34 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { FC } from 'react';
+
+export const metadata: Metadata = {
+    title: "Step-by-Step Guide to Cracking the Executive Assessment (EA)",
+    description: "Unlock your potential with our comprehensive guide to the Executive Assessment. Learn about the exam structure, personalized study plans, time management strategies, and effective test-taking techniques to excel in your EA journey.​",
+    keywords: [
+        "Executive Assessment preparation",
+        "EA exam strategies",
+        "Integrated Reasoning tips",
+        "Quantitative Reasoning practice",
+        "Verbal Reasoning techniques"
+    ],
+    openGraph: {
+        title: "Step-by-Step Guide to Cracking the Executive Assessment (EA)",
+        description: "Unlock your potential with our comprehensive guide to the Executive Assessment. Learn about the exam structure, personalized study plans, time management strategies, and effective test-taking techniques to excel in your EA journey.​",
+        url: "https://www.p45.in/blogs/how-to-balance-work-and-gmat-prep", // Replace with the actual URL
+        type: "article",
+        images: [
+            {
+                url: "images/blog/5.jpg", // Replace with actual image URL
+                width: 1200,
+                height: 630,
+                alt: "Step-by-Step Guide to Cracking the Executive Assessment (EA)",
+            },
+        ],
+        siteName: "P45", // Replace with actual site name
+    },
+
+};
 
 const CrackExecutiveAssessment: FC = () => {
     return (

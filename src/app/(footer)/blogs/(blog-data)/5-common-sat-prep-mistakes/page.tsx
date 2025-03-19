@@ -1,5 +1,30 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { FC } from 'react';
+
+export const metadata: Metadata = {
+    title: "5 Common SAT Prep Mistakes",
+    description: "Discover the top 5 mistakes students make when preparing for the Digital SAT and learn effective strategies to avoid them. Boost your SAT score with expert insights and proven techniques.​",
+    keywords: [
+        "sat exam", "sat prep courses", "SAT Preparation", "digital sat", "best sat coaching"
+    ],
+    openGraph: {
+        title: "5 Common SAT Prep Mistakes",
+        description: "Discover the top 5 mistakes students make when preparing for the Digital SAT and learn effective strategies to avoid them. Boost your SAT score with expert insights and proven techniques.​",
+        url: "https://www.p45.in/blogs/5-common-sat-prep-mistakes", // Replace with the actual URL
+        type: "article",
+        images: [
+            {
+                url: "images/blog/3.jpg", // Replace with actual image URL
+                width: 1200,
+                height: 630,
+                alt: "5 Common SAT Prep Mistakes",
+            },
+        ],
+        siteName: "P45", // Replace with actual site name
+    },
+
+};
 
 const SATPrepMistakes: FC = () => {
     return (

@@ -1,5 +1,34 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { FC } from 'react';
+
+export const metadata: Metadata = {
+    title: "GMAT vs GRE: Key Differences, Which Exam to Choose & Why?",
+    description: "Confused between GMAT & GRE? Compare exam formats, scoring, difficulty, and which test is best for MBA, MS, or PhD programs. Read now to make the right choice!",
+    keywords: [
+        "best gre prep online",
+        "gre prep",
+        "gre exam syllabus",
+        "gmat course",
+        "gmat preparation"
+    ],
+    openGraph: {
+        title: "GMAT vs GRE: Key Differences, Which Exam to Choose & Why?",
+        description: "Confused between GMAT & GRE? Compare exam formats, scoring, difficulty, and which test is best for MBA, MS, or PhD programs. Read now to make the right choice!",
+        url: "https://www.p45.in/blogs/gmat-vs-gre-exam", // Replace with the actual URL
+        type: "article",
+        images: [
+            {
+                url: "images/blog/2.jpg", // Replace with actual image URL
+                width: 1200,
+                height: 630,
+                alt: "GMAT vs GRE: Key Differences, Which Exam to Choose & Why?",
+            },
+        ],
+        siteName: "P45", // Replace with actual site name
+    },
+
+};
 
 const GMATvsGRE: FC = () => {
     return (

@@ -70,7 +70,7 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold mb-4">Community</h3>
                    
                     <a
-                        href="https://www.facebook.com/projectile45"
+                        href="https://www.facebook.com/Projectile.45"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
@@ -86,7 +86,7 @@ const Footer = () => {
                         Twitter
                     </a>
                     <a
-                        href="https://www.instagram.com/projectile45"
+                        href="https://www.instagram.com/projectile.45"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
