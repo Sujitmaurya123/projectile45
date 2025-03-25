@@ -94,7 +94,7 @@ const CourseSection: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="text-lg text-gray-500 mb-10 text-center max-w-3xl font-bold"
             >
-                From critical skills to technical topics, EdTech supports your professional development. Choose the
+                From critical skills to technical topics, P45 supports your professional development. Choose the
                 right course to enhance your journey.
             </motion.p>
 
