@@ -79,7 +79,7 @@ const AboutUs: FC = () => {
                 </section>
 
                 <section className="mb-8">
-                    <h2 className="text-3xl font-semibold text-headingcol mb-2">Mohammed Feroz Khan : Redefining Learning Experiences</h2>
+                    {/* <h2 className="text-3xl font-semibold text-headingcol mb-2">Mohammed Feroz Khan : Redefining Learning Experiences</h2>
                     <p className="text-lg text-gray-600">
                         A dynamic leader with a passion for driving meaningful change. I have successfully built academic programs from
                          the ground up, led high-performing teams, and delivered substantial business growth through strategic planning
@@ -87,27 +87,19 @@ const AboutUs: FC = () => {
                            fostering innovation and enhancing learning outcomes. Holding a PGDM from IIM Calcutta and a B.Tech (Hons.) from 
                            IIT Kharagpur, I am dedicated to creating transformative educational experiences through forward-thinking strategies
                             and data-driven decision-making.
-                    </p>
-                    <h2 className="text-3xl font-semibold text-headingcol mb-2 mt-4">Mohammed Feroz Khan: Transforming Learning, Step by Step</h2>
+                    </p> */}
+                    <h2 className="text-3xl font-semibold text-headingcol mb-2 mt-2">Mohammed Feroz Khan (MFK): Transforming Learning, Step by Step</h2>
 
                     <p className="text-lg text-gray-600">
-                        Mohammed Feroz Khan has always believed that learning should be engaging, practical, and future-ready. His
-                        journey—from IIT Kharagpur to IIM Calcutta—was just the beginning. Over the years, he has built academic
-                        programs from the ground up, led teams to success, and helped businesses grow through smart planning and
-                        innovation.
+                        A visionary leader driven by a passion for transforming education, MFK has dedicated his career to innovation, strategic growth, and impactful learning. With a PGDM from IIM Calcutta and a B.Tech (Hons.) from IIT Kharagpur, his journey has been defined by building academic programs from the ground up, leading high-performing teams, and delivering substantial business growth through smart planning and operational excellence.
                     </p>
-                    <p className="text-lg text-gray-600 mt-4">
-                        Feroz doesn’t just manage numbers and strategies—he creates learning experiences that truly make a difference.
-                        Whether it’s designing new courses, mentoring teams, or improving how students learn, he focuses on making
-                        education more effective and impactful.
+                    <p className="text-lg text-gray-600 mt-2">
+                        MFK doesn’t just manage numbers and strategies—he creates transformative learning experiences. His expertise spans academic leadership, R&D, and P&L management, with a strong focus on fostering innovation and enhancing learning outcomes. Over the years, he has successfully mentored hundreds of thousands of students for various competitive exams, helping them achieve their academic and professional goals. Whether designing cutting-edge courses, mentoring teams, or improving student engagement, he blends data-driven insights with creativity to shape the future of education.
+
                     </p>
-                    <p className="text-lg text-gray-600 mt-4">
-                        With a strong background in academic leadership, research, and business strategy, he has helped organizations scale
-                         while ensuring students get the best possible education. His approach is simple: use data, creativity, and a deep
-                          understanding of learning to shape the future of education.
-                    </p>
-                    <p className="text-lg text-gray-600 mt-4">
-                        For Feroz, education isn’t just about teaching—it’s about transforming lives and making learning more meaningful for everyone.
+                   
+                    <p className="text-lg text-gray-600 mt-2 ">
+                        For MFK, education isn’t just about teaching—it’s about <strong>inspiring change, transforming lives, and making learning </strong>more meaningful for everyone.
                     </p>
                 </section>
             </div>
