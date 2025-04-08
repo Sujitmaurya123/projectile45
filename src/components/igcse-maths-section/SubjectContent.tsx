@@ -161,11 +161,7 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4 ">
-                              <ul className="list-disc">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100  rounded">
-                                      Notes and examples
-                                  </li>
-                              </ul>
+                              
                           </section>
                       </div>
 
@@ -403,26 +399,20 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
+                              
                           </section>
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.17 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                         
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C1.18 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                          
                       </div>
@@ -444,9 +434,7 @@ const SubjectContent:React.FC= () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
+                              
                           </section>
                       </div>
 
@@ -472,9 +460,7 @@ const SubjectContent:React.FC= () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="max-w-sm">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.3 Extended content only.</li>
-                              </ul>
+                             
                           </section>
                           <section className="max-w-sm">
                               <ul className="list-disc ">

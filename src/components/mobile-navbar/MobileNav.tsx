@@ -172,6 +172,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/igcse-mathematics" className="hover:text-black"> IGCSE Mathematics</Link></li>
                             <li><Link href="/igcse-physics" className="hover:text-black"> IGCSE Physics</Link></li>
                             <li><Link href="/igcse-chemistry" className="hover:text-black"> IGCSE Chemistry</Link></li>
+                            <li><Link href="/igcse-physics-questions-paper" className="hover:text-black"> IGCSE Physics Questions Paper</Link></li>
                             {/* <li><Link href="/igcse-languages" className="hover:text-black"> IGCSE Languages</Link></li>
                             <li><Link href="/igcse-humanities-social" className="hover:text-black"> IGCSE Humanities &amp; Social Sciences</Link></li>
                             <li><Link href="/igcse-creative-professional" className="hover:text-black"> IGCSE Creative &amp; Professional</Link></li>

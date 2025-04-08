@@ -520,9 +520,7 @@ const ExtendedSubjectContentsecond = () => {
                      
 
                           <div className="flex flex-col md:flex-row justify-between items-start">
-                              <div className="flex-1 min-h-[100px] p-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
+                              
                               <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
@@ -533,14 +531,12 @@ const ExtendedSubjectContentsecond = () => {
 
                         </div>
                           <div className="flex flex-col md:flex-row justify-between items-start">
-                              <div className="flex-1 min-h-[100px] p-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
+                              
                               <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
                                   <li>e.g. solve:</li>
-                                  <ul className="list-disc pl-6">
+                                  <ul className="list-disc ">
                                       <li>sin x = √3/2 for 0° ≤ x ≤ 360°</li>
                                       <li>2 cos x + 1 = 0 for 0° ≤ x ≤ 360°.</li>
                                   </ul>
@@ -834,9 +830,7 @@ const ExtendedSubjectContentsecond = () => {
                         </div>
 
                         <div className="flex flex-col md:flex-row justify-between items-start">
-                              <div className="flex-1 min-h-[100px] p-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
+                              
                               <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">

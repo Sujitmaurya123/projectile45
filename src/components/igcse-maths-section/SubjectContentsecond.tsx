@@ -67,9 +67,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.8 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -146,9 +144,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C2.12 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -158,9 +154,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100 ">C2.13 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -183,11 +177,7 @@ const SubjectContentsecond = () => {
                                   <li>Use and interpret Cartesian coordinates in two dimensions.</li>
                               </ul>
                           </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
-                          </section>
+                          
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
@@ -222,9 +212,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.4 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -271,9 +259,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C3.7 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -462,9 +448,7 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
+                              
                           </section>
                       </div>
 
@@ -540,9 +524,7 @@ const SubjectContentsecond = () => {
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C4.8 Extended content only.</li>
-                              </ul>
+                              
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
                               <ul className="list-disc ">
@@ -700,11 +682,7 @@ const SubjectContentsecond = () => {
                                   <li>Know and use Pythagoras&apos; theorem.</li>
                               </ul>
                           </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
-                          </section>
+                          
                       </div>
 
                       <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
@@ -723,55 +701,6 @@ const SubjectContentsecond = () => {
                               </ul>
                           </section>
                       </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.3 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.4 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.5 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C6.6 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
                   </div>
               </div>
           </div>
@@ -805,42 +734,6 @@ const SubjectContentsecond = () => {
                                   <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
                                   <li>Questions will not involve combinations of transformations. A ruler must be used for all straight edges.</li>
                                   <li>Positive and fractional scale factors only.</li>
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.2 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.3 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
-
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C7.4 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
                               </ul>
                           </section>
                       </div>
@@ -913,17 +806,7 @@ const SubjectContentsecond = () => {
                           </section>
                       </div>
 
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C8.4 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
+                     
 
                   </div>
               </div>
@@ -1033,29 +916,9 @@ const SubjectContentsecond = () => {
                           </section>
                       </div>
 
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.6 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
+                    
 
-                      <div className="flex flex-col md:flex-row justify-center items-start space-x-6 mt-6">
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc pl-6">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">C9.7 Extended content only.</li>
-                              </ul>
-                          </section>
-                          <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                              </ul>
-                          </section>
-                      </div>
+                
 
                   </div>
               </div>

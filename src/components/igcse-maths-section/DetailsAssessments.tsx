@@ -8,13 +8,17 @@ const DetailsAssessments = () => {
           <div className="container mx-auto text-gray-600">
               <div className="section mb-6">
                   <h2 className="text-xl font-semibold mb-2 text-headingcol">4 Details of the Assessment</h2>
-                  <p>All candidates take two components.</p>
-                  <p>Candidates who have studied the Core subject content, or who are expected to achieve a grade D or below, should be entered for Paper 1 and Paper 3. These candidates will be eligible for grades C to G.</p>
-                  <p>Candidates who have studied the Extended subject content and who are expected to achieve a grade C or above should be entered for Paper 2 and Paper 4. These candidates will be eligible for grades A to E.</p>
-                  <p>All papers assess AO1 Knowledge and understanding of mathematical techniques and AO2 Analyse, interpret and communicate mathematically.</p>
-                  <p>All papers consist of structured and unstructured questions. Structured questions contain parts, e.g. (a), (b), (c), etc., and unstructured questions do not.</p>
-                  <p>Questions may assess more than one topic from the subject content.</p>
-                  <p>For all papers, candidates write their answers on the question paper. They must show all necessary working in the spaces provided.</p>
+                  <ul className='list-disc'>
+
+                  <li>All candidates take two components.</li>
+                  <li>Candidates who have studied the Core subject content, or who are expected to achieve a grade D or below, should be entered for Paper 1 and Paper 3. These candidates will be eligible for grades C to G.</li>
+                  <li>Candidates who have studied the Extended subject content and who are expected to achieve a grade C or above should be entered for Paper 2 and Paper 4. These candidates will be eligible for grades A to E.</li>
+                  <li>All papers assess AO1 Knowledge and understanding of mathematical techniques and AO2 Analyse, interpret and communicate mathematically.</li>
+                  <li>All papers consist of structured and unstructured questions. Structured questions contain parts, e.g. (a), (b), (c), etc., and unstructured questions do not.</li>
+                  <li>Questions may assess more than one topic from the subject content.</li>
+                  <li>For all papers, candidates write their answers on the question paper. They must show all necessary working in the spaces provided.</li>
+                 
+                 </ul>
                   <h3 className="text-lg font-semibold">Additional materials for exams</h3>
                   <p>For both Core and Extended papers, candidates should have the following geometrical instruments:</p>
                   <ul className="list-disc pl-6">
@@ -22,10 +26,13 @@ const DetailsAssessments = () => {
                       <li>a protractor</li>
                       <li>a ruler.</li>
                   </ul>
-                  <p>Tracing paper may be used as an additional material for all four papers. Candidates cannot bring their own tracing paper but may request it during the examination.</p>
-                  <p>Candidates should have a scientific calculator for Papers 3 and 4; one with trigonometric functions is strongly recommended. Algebraic or graphical calculators are not permitted. Please see the Cambridge Handbook at www.cambridgeinternational.org/eoguide for guidance on use of calculators in the examinations.</p>
-                  <p>Calculators are not allowed for Paper 1 and Paper 2.</p>
-                  <p>The Additional materials list for exams is updated before each series. You can view the list for the relevant series and year on our website in the Phase 4 - Before the exams section of the Cambridge Exams Officer&apos;s Guide at www.cambridgeinternational.org/eoguide.</p>
+                  <ul className='list-disc'>
+
+                  <li>Tracing paper may be used as an additional material for all four papers. Candidates cannot bring their own tracing paper but may request it during the examination.</li>
+                  <li>Candidates should have a scientific calculator for Papers 3 and 4; one with trigonometric functions is strongly recommended. Algebraic or graphical calculators are not permitted. Please see the Cambridge Handbook at www.cambridgeinternational.org/eoguide for guidance on use of calculators in the examinations.</li>
+                  <li>Calculators are not allowed for Paper 1 and Paper 2.</li>
+                  <li>The Additional materials list for exams is updated before each series. You can view the list for the relevant series and year on our website in the Phase 4 - Before the exams section of the Cambridge Exams Officer&apos;s Guide at www.cambridgeinternational.org/eoguide.</li>
+                  </ul>
               </div>
           </div>
           <div className="container mx-auto text-gray-600">

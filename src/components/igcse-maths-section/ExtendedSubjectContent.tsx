@@ -148,9 +148,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
+                              
                           </section>
                       </div>
 
@@ -207,9 +205,7 @@ const ExtendedSubjectContent = () => {
                               </ul>
                           </section>
                           <section className="flex-1 min-h-[100px] p-4">
-                              <ul className="list-disc ">
-                                  <li className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples</li>
-                              </ul>
+                              
                           </section>
                       </div>
 
@@ -405,10 +401,7 @@ const ExtendedSubjectContent = () => {
                   </ul>
                     </div>
                   <div className='flex-1 min-h-[100px] p-4 '>
-                  <p className="mt-2 font-medium list-none mb-3 bg-red-100">Notes and examples:</p>
-                  <ul className="list-disc pl-6">
-                      <li>...</li>
-                  </ul>
+                  
 
                     </div>
               </div>
@@ -866,9 +859,7 @@ const ExtendedSubjectContent = () => {
                                   <li>Interpret and obtain the equation of a straight-line graph.</li>
                               </ul>
                           </div>
-                            <div className="flex-1 min-h-[100px] p-4">
-                                <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                            </div>
+                            
                       
                       </div>
 
@@ -887,16 +878,12 @@ const ExtendedSubjectContent = () => {
                                   </ul>
                               </ul>
                           </div>
-                              <div className="flex-1 min-h-[100px] p-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
+                              
                           </div>
 
                             <div className='flex flex-col md:flex-row justify-between items-start'>
 
-                              <div className="flex-1 min-h-[100px] p-4">
-                              <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
-                          </div>
+                              
                               <div className="flex-1 min-h-[100px] p-4">
                               <h3 className="text-lg font-semibold bg-red-100">Notes and examples</h3>
                               <ul className="list-disc pl-6 text-gray-600">
