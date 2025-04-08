@@ -1,115 +1,87 @@
 "use client"
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
-import toast from "react-hot-toast";
+import { useState } from 'react';
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 
-const FileUpload: React.FC = () => {
-    const [name, setName] = useState<string>("");
-    const [mobile, setMobile] = useState<string>("");
-    const [email, setEmail] = useState<string>("");
-    const [loading, setLoading] = useState<boolean>(false);
-    const [message, setMessage] = useState<string | null>(null);
+export default function SendMailForm() {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        mobile: '',
+        subjects: {
+            math: false,
+            // physics: false,
+            // chemistry: false,
+        }
+    });
 
-    // Handle input changes
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
-        if (name === "name") setName(value);
-        if (name === "mobile") setMobile(value);
-        if (name === "email") setEmail(value);
+        setFormData(prev => ({ ...prev, [name]: value }));
     };
 
-    // Handle form submit
+    const handleCheckboxChange = (subject: string) => {
+        setFormData(prev => ({
+            ...prev,
+            subjects: {
+                ...prev.subjects,
+                [subject]: !prev.subjects[subject as keyof typeof prev.subjects],
+            }
+        }));
+    };
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (!name || !mobile || !email) {
-            setMessage("Please fill in all fields.");
-            return;
-        }
+        const selectedSubjects = Object.entries(formData.subjects)
+            .filter(([, checked]) => checked)
+            .map(([subject]) => subject);
 
-        setLoading(true);
-        setMessage(null);
+        const payload = {
+            ...formData,
+            subjects: selectedSubjects
+        };
 
-        // File link (stored in public folder)
-        const fileLink = `${window.location.origin}/files/SAT_Maths_P45.pptx`;
-
-        try {
-            const result = await emailjs.send(
-                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_IDPPTX!,
-                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_USERPPTX!,
-                {
-                    name,
-                    mobile,
-                    email,
-                    fileLink, // Pass the file link to the email template
-                },
-                process.env.NEXT_PUBLIC_EMAILJS_USER_IDPPTX!
-            );
-            setMessage("Email sent successfully!");
-            toast.success("Email sent successfully!")
-            console.log(result);
-        } catch (error) {
-            setMessage("Failed to send email.");
-            toast.error("Failed to send email.");
-            console.error(error);
-        } finally {
-            setLoading(false);
-        }
+        // Send mail logic goes here, for now log to console
+        console.log('Sending email with data:', payload);
     };
 
     return (
-        <div className="max-w-md mx-auto p-6 shadow-lg rounded-lg">
-            <h2 className="text-2xl text-center font-semibold mb-4 text-headingcol">Get a free SAT Math sample paper—just enter your name, email, and mobile number to start practicing now!</h2>
+        <div className="max-w-6xl mx-auto p-4">
+            <h1 className="text-4xl font-bold mb-4 text-headingcol">Get a free SAT sample paper—just enter your name, email, and mobile number to start practicing now!</h1>
+            <div className="max-w-xl mx-auto p-4">
+
             <form onSubmit={handleSubmit} className="space-y-4">
-                {/* Name Input */}
-                <input
-                    type="text"
-                    name="name"
-                    value={name}
-                    onChange={handleInputChange}
-                    placeholder="Your Name"
-                    className="block w-full p-2 border border-gray-300 rounded"
-                />
-
-                {/* Mobile Number Input */}
-                <input
-                    type="text"
-                    name="mobile"
-                    value={mobile}
-                    onChange={handleInputChange}
-                    placeholder="Your Mobile Number"
-                    className="block w-full p-2 border border-gray-300 rounded"
-                />
-
-                {/* Email Input */}
-                <input
-                    type="email"
-                    name="email"
-                    value={email}
-                    onChange={handleInputChange}
-                    placeholder="Your Email"
-                    className="block w-full p-2 border border-gray-300 rounded"
-                />
-
-                {/* Submit Button */}
-                <button
-                    type="submit"
-                    className={`w-full py-2 bg-blue-500 text-white rounded ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
-                    disabled={loading}
-                >
-                    {loading ? "Sending..." : "Send Email"}
-                </button>
-            </form>
-
-            {/* Message */}
-            {message && (
-                <div
-                    className={`mt-4 text-center ${message === "Email sent successfully!" ? 'text-green-600' : 'text-red-600'}`}
-                >
-                    {message}
+                <div>
+                    <Label htmlFor="name">Name</Label>
+                    <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
                 </div>
-            )}
+                <div>
+                    <Label htmlFor="email">Email (Gmail)</Label>
+                    <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
+                </div>
+                <div>
+                    <Label htmlFor="mobile">Mobile Number</Label>
+                    <Input id="mobile" name="mobile" type="tel" value={formData.mobile} onChange={handleChange} required />
+                </div>
+
+                <div>
+                    <Label className="block mb-2">Subjects</Label>
+                    <div className="space-y-2">
+                        {['math'].map(subject => (
+                            <div key={subject} className="flex items-center space-x-2">
+                                <Checkbox id={subject} checked={formData.subjects[subject as keyof typeof formData.subjects]} onCheckedChange={() => handleCheckboxChange(subject)} />
+                                <Label htmlFor={subject} className="capitalize">{subject}</Label>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <Button type="submit" className="w-full mt-4 text-lg py-6 hover:bg-blue-600">Send Email</Button>
+
+            </form>
+           </div>
         </div>
     );
-};
-
-export default FileUpload;
+}

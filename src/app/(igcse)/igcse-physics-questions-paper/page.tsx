@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState } from 'react';
@@ -7,16 +8,18 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
 const subjectsList = [
-    "Mathematics: analysis and approaches higher level paper 1 specimen paper",
-    "Mathematics: analysis and approaches higher level paper 1 markscheme",
-    "Mathematics: analysis and approaches higher level paper 2 specimen paper",
-    "Mathematics: analysis and approaches higher level paper 2 markscheme",
-    "Mathematics: analysis and approaches higher level paper 3 specimen paper",
-    "Mathematics: analysis and approaches higher level paper 3 markscheme",
-    "Mathematics: analysis and approaches standard level paper 1 specimen paper",
-    "Mathematics: analysis and approaches standard level paper 1 markscheme",
-    "Mathematics: analysis and approaches standard level paper 2 specimen paper",
-    "Mathematics: analysis and approaches standard level paper 2 markscheme",
+    'Physics: IGCSE Physics june-2023 markscheme paper-11',
+    'Physics: IGCSE Physics june-2023 markscheme paper-21',
+    'Physics: IGCSE Physics june-2023 markscheme paper-31',
+    'Physics: IGCSE Physics june-2023 markscheme paper-41',
+    'Physics: IGCSE Physics june-2023 markscheme paper-51',
+    'Physics: IGCSE Physics june-2023 markscheme paper-61',
+    'Physics: IGCSE Physics june-2023 question paper-11',
+    'Physics: IGCSE Physics june-2023 question paper-21',
+    'Physics: IGCSE Physics june-2023 question paper-31',
+    'Physics: IGCSE Physics june-2023 question paper-41',
+    'Physics: IGCSE Physics june-2023 question paper-51',
+    'Physics: IGCSE Physics june-2023 question paper-61',   
 ];
 
 export default function SendMailForm() {
@@ -63,10 +66,8 @@ export default function SendMailForm() {
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 md:px-8">
             <section className="mb-10 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold text-headingcol mb-2">Mathematics: Analysis and Approaches</h1>
-                <p className="text-xl md:text-2xl font-semibold text-headingcol">(Higher Level and Standard Level)</p>
-                <p className="text-2xl font-bold text-headingcol mt-2">Specimen Papers 1, 2 and 3</p>
-                <p className="text-lg text-muted-foreground">First Examinations in 2021</p>
+                <h1 className="text-4xl md:text-5xl font-bold text-headingcol mb-2">IGCSE Physics Questions Paper</h1>
+
             </section>
 
             <div className="bg-white dark:bg-muted rounded-2xl shadow-xl p-8 md:p-10 max-w-3xl mx-auto">
