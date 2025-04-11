@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 
 const SATDropdown: React.FC = () => {
@@ -37,9 +38,9 @@ const SATDropdown: React.FC = () => {
             {/* Trigger Button */}
             <span
                 onClick={toggleTestPrep}
-                className="text-lg font-medium transition-colors hover:text-black/80 flex justify-center cursor-pointer"
+                className="text-lg font-medium transition-colors hover:text-black/80 flex justify-center  cursor-pointer"
             >
-                SAT{isSATOpen ? "▲" : "▼"}
+                SAT{isSATOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
             </span>
 
             {/* Dropdown Content */}

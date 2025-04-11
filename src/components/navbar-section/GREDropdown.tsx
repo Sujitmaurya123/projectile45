@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 
 const GREDropdown: React.FC = () => {
@@ -38,7 +39,7 @@ const GREDropdown: React.FC = () => {
             {/* Trigger Button */}
             <span onClick={toggleTestPrep}
                 className=" text-balance  font-medium transition-colors hover:text-black/80 flex justify-center  cursor-pointer">
-                GRE{isSATOpen ? "▲" : "▼"}
+                GRE{isSATOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
             </span>
 
             {/* Dropdown Content */}

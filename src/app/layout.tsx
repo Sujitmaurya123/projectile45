@@ -10,6 +10,7 @@ import StickyButton from "@/components/sticky-component/sticky-button"
 import { Toaster } from 'react-hot-toast';
 import FaqChat from "@/components/FAQsChats/FaqChat";
 
+
 // Define the metadata for the app
 // export const metadata: Metadata = {
 //   title: {
@@ -100,6 +101,35 @@ export default function RootLayout({ children }: RootLayoutProps) {
             })(window,document,'script','dataLayer','GTM-KLMMPFVV');
           `}
       </Script>
+      {/* Meta Pixel Script */}
+      <Script
+        id="fb-pixel"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod ?
+              n.callMethod.apply(n, arguments) : n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '24264381986494869');
+              fbq('track', 'PageView');
+            `,
+        }}
+      />
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          alt="facebook Image"
+          style={{ display: 'none' }}
+          src="https://www.facebook.com/tr?id=24264381986494869&ev=PageView&noscript=1"
+        />
+      </noscript>
+      {/* End Meta Pixel */}
       <body
         className={cn(
           "min-h-screen bg-gradient-to-br from-pink-40 to-purple-200 font-sans antialiased"
@@ -114,6 +144,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        
         
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader />

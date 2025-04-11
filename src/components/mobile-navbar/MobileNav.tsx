@@ -3,6 +3,8 @@ import Link from "next/link";
 import {   useState } from "react";
 import { Button } from "../ui/button";
 import { FreeDemo } from "../free-demo-signup/FreeDemo";
+import { ChevronDown, ChevronUp } from "lucide-react";
+
 
 
 const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
@@ -12,7 +14,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     const [isGMATOpen, setIsGMATOpen] = useState(false);
     const [isIGCSEOpen, setIsIGCSEOpen] = useState(false);
     const [isFreeDemoOpen, setIsFreeDemoOpen] = useState(false);
-
+    const [isIBOpenDownload, setIsIBOpenDownload]=useState(false);
      
 
     const handleDropdownClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -33,9 +35,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 <span
                     onClick={() => setIsSATOpen(!isSATOpen)}
 
-                    className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                    className="w-full text-left text-xl flex text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
-                    SAT {isSATOpen ? "▲" : "▼"}
+                    SAT {isSATOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </span>
                 {isSATOpen && (
                     <div onClick={handleDropdownClick}
@@ -76,9 +78,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div >
                 <span
                     onClick={() => setIsIBOpen(!isIBOpen)}
-                    className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                    className="w-full text-left flex text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
-                    IB {isIBOpen ? "▲" : "▼"}
+                    IB {isIBOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </span>
                 {isIBOpen && (
                     <div onClick={handleDropdownClick}
@@ -92,7 +94,69 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                     IBDP-Subjects
                                 </Link>
                             </li>
+
                             <li>
+                                <Link href="/ib-other-curriculum" className="hover:text-black">
+                                    IB and Other Curriculum
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/ib-university-readiness" className="hover:text-black">
+                                    IB & University Readiness
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/preparing-ib-exams" className="hover:text-black">
+                                    Preparing for the IB Exams
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/ib-curriculum-faqs" className="hover:text-black">
+                                    IB Curriculum & FAQs
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/ib-diploma-subjects-core-components" className="hover:text-black">
+                                    IB Diploma Subjects & Core Components
+                                </Link>
+                            </li>
+
+                            <li>
+                                <span
+                                    onClick={() => setIsIBOpenDownload(!isIBOpenDownload)}
+                                    className="w-full text-left flex  text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                                >
+                                    IBDP-downloads{isIBOpenDownload ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                                </span>
+                                {isIBOpenDownload && (
+                                    <div onClick={handleDropdownClick}
+                                        className="mt-2 pl-[80px]  max-h-[300px] overflow-y-auto text-gray-700">
+
+                                        <ul className="space-y-2">
+                                            <li>
+
+                                                <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
+                                                    IBDP-Maths-AA
+                                                </Link>
+                                            </li>
+                                            <li>
+
+                                                <Link href="/ibdp-maths-applications-interpretation-papers" className="hover:text-black">
+                                                    IBDP-Maths-AI
+                                                </Link>
+                                            </li>
+                                            <li>
+
+                                                <Link href="/ibpd-physics-papers" className="hover:text-black">
+                                                    IBDP-Physics
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                )}
+                            </li>
+                            
+                            {/* <li>
                                 <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
                                     IBDP-Maths-AA
                                 </Link>
@@ -106,7 +170,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                 <Link href="/ibpd-physics-papers" className="hover:text-black">
                                     IBDP-Physics
                                 </Link>
-                            </li>
+                            </li> */}
 
 
                         </ul>
@@ -118,9 +182,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div >
                 <span
                     onClick={() => setIsGREOpen(!isGREOpen)}
-                    className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                    className="w-full text-left flex text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
-                    GRE {isGREOpen ? "▲" : "▼"}
+                    GRE {isGREOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </span>
                 {isGREOpen && (
                     <div onClick={handleDropdownClick}
@@ -138,9 +202,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div>
                 <span
                     onClick={() => setIsGMATOpen(!isGMATOpen)}
-                    className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                    className="w-full text-left flex text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
-                    GMAT {isGMATOpen ? "▲" : "▼"}
+                    GMAT {isGMATOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </span>
                 {isGMATOpen && (
                     <div onClick={handleDropdownClick}
@@ -159,9 +223,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div>
                 <span
                     onClick={() => setIsIGCSEOpen(!isIGCSEOpen)}
-                    className="w-full text-left text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
+                    className="w-full text-left flex text-xl text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
                 >
-                    IGCSE {isIGCSEOpen ? "▲" : "▼"}
+                    IGCSE {isIGCSEOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </span>
                 {isIGCSEOpen && (
                     <div onClick={handleDropdownClick}
