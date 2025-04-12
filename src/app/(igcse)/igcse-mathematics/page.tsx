@@ -1,9 +1,7 @@
 
-import DetailsAssessments from '@/components/igcse-maths-section/DetailsAssessments';
-import ExtendedSubjectContent from '@/components/igcse-maths-section/ExtendedSubjectContent';
-import ExtendedSubjectContentsecond from '@/components/igcse-maths-section/ExtendedSubjectContentsecond';
+
 import SubjectContent from '@/components/igcse-maths-section/SubjectContent';
-import SubjectContentsecond from '@/components/igcse-maths-section/SubjectContentsecond';
+
 import SyllabusOverview from '@/components/igcse-maths-section/SyllabusOverview';
 import { Metadata } from 'next';
 import Image from 'next/image';
@@ -87,13 +85,8 @@ const IGCSEMaths: React.FC = () => {
             <SyllabusOverview/>
             {/* Subject-Content */}
             <SubjectContent/>
-            <SubjectContentsecond/>
+            
 
-            <ExtendedSubjectContent/>
-
-            <ExtendedSubjectContentsecond/>
-
-            <DetailsAssessments/>
            
         </div>
     );

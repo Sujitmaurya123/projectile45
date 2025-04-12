@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
-import IBDPDropdown from "./IBDPDropdown";
+
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 
@@ -68,16 +68,8 @@ const IBDropdown: React.FC = () => {
                                         IB and Other Curriculum 
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/ib-university-readiness" className="hover:text-black">
-                                        IB & University Readiness
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/preparing-ib-exams" className="hover:text-black">
-                                        Preparing for the IB Exams
-                                    </Link>
-                                </li>
+                                
+                                
                                 <li>
                                     <Link href="/ib-curriculum-faqs" className="hover:text-black">
                                         IB Curriculum & FAQs
@@ -88,11 +80,11 @@ const IBDropdown: React.FC = () => {
                                         IB Diploma Subjects & Core Components
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
 
                                     <IBDPDropdown />
 
-                                </li>
+                                </li> */}
                                 {/* <li>
                                     <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
                                         IBDP-Maths-AA

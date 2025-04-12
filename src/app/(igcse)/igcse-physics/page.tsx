@@ -6,20 +6,20 @@ const CourseOverview = () => {
             <div className="max-w-6xl mx-auto space-y-12">
                 <header className="text-center">
                     <h1 className="text-5xl font-semibold text-headingcol">IGCSE Physics - Complete Course Overview</h1>
-                    <p className="mt-4 text-lg text-gray-600">
+                    <p className="mt-4 text-lg text-gray-600 max-w-4xl mx-auto">
                         Cambridge IGCSE Physics provides students with a deep understanding of fundamental physics concepts, experimental techniques, and problem-solving strategies. The syllabus is designed for learners aged 14-16 years and offers a strong foundation for higher-level studies such as A-Level, IB, and university-level STEM courses.
 
                     </p>
-                    <p className="mt-4 text-lg text-gray-600">
+                    <p className="mt-4 text-lg text-gray-600 max-w-4xl mx-auto">
                         This qualification emphasizes scientific inquiry, practical applications, and analytical skills, preparing students for real-world problem-solving and careers in science and engineering.
                     </p>
                 </header>
 
                 <section>
                     <h2 className="text-3xl font-semibold text-headingcol">Core Concepts & Learning Outcomes</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 border rounded-md p-6 bg-gray-100">
                         {/* Motion, Forces & Energy */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md">
                             <h3 className="text-xl font-semibold text-headingcol">1️ Motion, Forces & Energy</h3>
                             <p className='text-gray-600'>
                               Understanding how objects move and interact with forces and energy.
@@ -64,7 +64,7 @@ const CourseOverview = () => {
                         </div>
 
                         {/* Thermal Physics */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md ">
                             <h3 className="text-xl font-semibold text-headingcol">2️ Thermal Physics</h3>
                             <p className='text-gray-600'>Understanding heat, temperature, and energy transfer mechanisms.</p>
                             <h6 className='text-gray-900'>2.1 Kinetic Particle Theory</h6>
@@ -94,9 +94,9 @@ const CourseOverview = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 border rounded-md p-6 bg-gray-100">
                         {/* Waves */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md">
                             <h3 className="text-xl font-semibold text-headingcol">3️ Waves</h3>
                             <p className='text-gray-600'>Understanding oscillations, sound, light, and electromagnetic waves.</p>
                             <h6 className='text-gray-900'>3.1 General Properties of Waves</h6>
@@ -132,7 +132,7 @@ const CourseOverview = () => {
                         </div>
 
                         {/* Electricity & Magnetism */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md">
                             <h3 className="text-xl font-semibold text-headingcol"> Electricity & Magnetism</h3>
                             <p className='text-gray-600'>Understanding circuits, electrical energy, magnetism, and electromagnetism.</p>
                             <h6 className='text-gray-900'>4.1 Electric Circuits</h6>
@@ -154,9 +154,9 @@ const CourseOverview = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 border rounded-md p-6 bg-gray-100">
                         {/* Nuclear Physics */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md">
                             <h3 className="text-xl font-semibold text-headingcol"> Nuclear Physics</h3>
                             <p className='text-gray-600'>Understanding atomic structure, radioactivity, and nuclear reactions.</p>
                             <h6 className='text-gray-900'>5.1 Atomic Structure</h6>
@@ -176,7 +176,7 @@ const CourseOverview = () => {
                         </div>
 
                         {/* Space Physics */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 bg-white rounded-md p-4 shadow-md">
                             <h3 className="text-xl font-semibold text-headingcol"> Space Physics</h3>
                             <p className='text-gray-600'>Understanding planetary motion, gravity, and the universe.</p>
                             <h6 className='text-gray-900'>6.1 The Solar System</h6>

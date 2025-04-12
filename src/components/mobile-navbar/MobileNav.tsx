@@ -14,7 +14,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     const [isGMATOpen, setIsGMATOpen] = useState(false);
     const [isIGCSEOpen, setIsIGCSEOpen] = useState(false);
     const [isFreeDemoOpen, setIsFreeDemoOpen] = useState(false);
-    const [isIBOpenDownload, setIsIBOpenDownload]=useState(false);
+  
      
 
     const handleDropdownClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -59,16 +59,12 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                     SAT Exam Dates
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/sat-fees-structure" className="hover:text-black">
-                                    Fees Structure
-                                </Link>
-                            </li>
-                            <li>
+                            
+                            {/* <li>
                                 <Link href="https://docs.google.com/presentation/d/16tnqwISLHmGFBFKJQNqPefsudQobDcka/edit?usp=sharing&ouid=109136177157247340664&rtpof=true&sd=true" className="hover:text-black">
                                     SAT Maths - Sample Questions
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 )}
@@ -100,16 +96,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                     IB and Other Curriculum
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/ib-university-readiness" className="hover:text-black">
-                                    IB & University Readiness
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/preparing-ib-exams" className="hover:text-black">
-                                    Preparing for the IB Exams
-                                </Link>
-                            </li>
+                            
                             <li>
                                 <Link href="/ib-curriculum-faqs" className="hover:text-black">
                                     IB Curriculum & FAQs
@@ -121,56 +108,9 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                                 </Link>
                             </li>
 
-                            <li>
-                                <span
-                                    onClick={() => setIsIBOpenDownload(!isIBOpenDownload)}
-                                    className="w-full text-left flex  text-gray-700 font-medium transition-colors hover:text-black/80 focus:outline-none cursor-pointer"
-                                >
-                                    IBDP-downloads{isIBOpenDownload ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-                                </span>
-                                {isIBOpenDownload && (
-                                    <div onClick={handleDropdownClick}
-                                        className="mt-2 pl-[80px]  max-h-[300px] overflow-y-auto text-gray-700">
-
-                                        <ul className="space-y-2">
-                                            <li>
-
-                                                <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
-                                                    IBDP-Maths-AA
-                                                </Link>
-                                            </li>
-                                            <li>
-
-                                                <Link href="/ibdp-maths-applications-interpretation-papers" className="hover:text-black">
-                                                    IBDP-Maths-AI
-                                                </Link>
-                                            </li>
-                                            <li>
-
-                                                <Link href="/ibpd-physics-papers" className="hover:text-black">
-                                                    IBDP-Physics
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                )}
-                            </li>
+                           
                             
-                            {/* <li>
-                                <Link href="/ibdp-maths-analysis-approaches-papers" className="hover:text-black">
-                                    IBDP-Maths-AA
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/ibdp-maths-applications-interpretation-papers" className="hover:text-black">
-                                    IBDP-Maths-AI
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/ibpd-physics-papers" className="hover:text-black">
-                                    IBDP-Physics
-                                </Link>
-                            </li> */}
+                           
 
 
                         </ul>
@@ -236,11 +176,7 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                             <li><Link href="/igcse-mathematics" className="hover:text-black"> IGCSE Mathematics</Link></li>
                             <li><Link href="/igcse-physics" className="hover:text-black"> IGCSE Physics</Link></li>
                             <li><Link href="/igcse-chemistry" className="hover:text-black"> IGCSE Chemistry</Link></li>
-                            <li><Link href="/igcse-physics-questions-paper" className="hover:text-black"> IGCSE Physics Questions Paper</Link></li>
-                            {/* <li><Link href="/igcse-languages" className="hover:text-black"> IGCSE Languages</Link></li>
-                            <li><Link href="/igcse-humanities-social" className="hover:text-black"> IGCSE Humanities &amp; Social Sciences</Link></li>
-                            <li><Link href="/igcse-creative-professional" className="hover:text-black"> IGCSE Creative &amp; Professional</Link></li>
-                            <li><Link href="/igcse-english-literature" className="hover:text-black"> IGCSE English Language &amp; Literature</Link></li> */}
+
                         </ul>
                     </div>
                 )}

@@ -1,54 +1,79 @@
-"use client";
+"use client"
+import React from 'react';
+import { Star } from 'lucide-react';
+import { motion } from 'framer-motion';
 
-import React from "react";
-import Image from "next/image";
-import { motion } from "framer-motion";
+interface Testimonial {
+    author: string;
+    authorDetails: string;
+    rating: number;
+    text: string;
+}
 
-const HelpGrowSection = () => {
+const testimonials: Testimonial[] = [
+    {
+        author: "Gino (Parent of student in IBDP, NLCS Dubai)",
+        authorDetails: "Testimonial from parent of a girl who scored 1580 out of 1600 in sat exam She is in class 11",
+        rating: 4.9,
+        text: "My daughter is currently pursuing the IB Diploma Programme (AAHL), and we had the pleasure of engaging Rajesh and Firoz for support. They were comprehensive, supportive, and extremely diligent in ensuring her academic success. Rajesh and Firoz went above and beyond, helping her build effective strategies, addressing specific areas of concern, introducing multiple approaches to problem-solving, and meticulously guiding her to avoid common errors. Their guidance was particularly valuable given the rigorous academic demands of her curriculum. In addition, their support for SAT preparation was instrumental in helping my daughter achieve a fantastic score. I highly recommend Rajesh and Firoz to any parent looking for dedicated, personalized, and highly effective academic support. Thank you both for your invaluable guidance - we wish you continued success!",
+    },
+];
+
+const containerVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (i = 1) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: i * 0.3,
+            duration: 0.6,
+            ease: 'easeOut'
+        }
+    })
+};
+
+const TestimonialsSection = () => {
     return (
-        <section className="py-16">
-            <div className="container mx-auto flex flex-col px-6 md:px-10 lg:px-20 items-center md:flex-row md:justify-between">
-                {/* Left Content */}
-                <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: false, amount: 0.2 }}
-                    className="flex-1 text-center md:text-left md:mt-0"
-                >
-                    <h2 className="text-3xl font-bold mb-4 text-headingcol">Help them grow their own way</h2>
-                    <p className="text-lg text-gray-500 lg:w-3/4 text-justify">
-                        Our online tutoring service is tailored for students preparing for the SAT, GMAT, and GRE.
-                        We don&apos;t just teach strategies—we ignite critical thinking, sharpen problem-solving skills,
-                        and build confidence to tackle these competitive exams head-on.
-                    </p>
-                </motion.div>
-
-                {/* Right Illustration */}
-                <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    viewport={{ once: false, amount: 0.2 }}
-                    className="justify-end"
-                >
-                    <motion.div
-                        whileHover={{ scale: 1.05 }}
-                        transition={{ duration: 0.3 }}
-                        className="md:mr-16"
-                    >
-                        <Image
-                            src="/images/helpimg5.svg"
-                            alt="Tutor helping students"
-                            width={350}
-                            height={350}
-                            className="rounded-lg shadow-lg"
-                        />
-                    </motion.div>
-                </motion.div>
+        <section className="py-12 bg-gray-50">
+            <div className="container mx-auto px-4">
+                <h2 className="text-4xl font-bold text-headingcol text-center mb-4">
+                    Real Stories, Real Success, Hear from Our Students
+                </h2>
+                <p className="text-gray-600 text-center mb-8">
+                    Don&apos;t just take it from us. Our students share how P45 helped transform their study abroad journey.
+                </p>
+                <div className="flex justify-center">
+                    <div className='w-[700px]'>
+                        {testimonials.map((testimonial, index) => (
+                            <motion.div
+                                key={index}
+                                className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-300 mb-6"
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: false, amount: 0.3 }}
+                                custom={index}
+                                variants={containerVariants}
+                            >
+                                <div className="flex items-center justify-between mb-4">
+                                    <h3 className="text-lg font-semibold text-headingcol">{testimonial.author}</h3>
+                                    <div className="flex items-center gap-1">
+                                        <Star className="w-5 h-5 text-yellow-500" />
+                                        <span className="text-sm font-medium text-gray-700">{testimonial.rating}/5</span>
+                                    </div>
+                                </div>
+                                <p className="text-gray-600 mb-4 text-sm">
+                                    {testimonial.text}
+                                </p>
+                                <p className="text-headingcol font-semibold text-sm italic w-[400px]">
+                                    Testimonial from {testimonial.authorDetails}
+                                </p>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </section>
     );
 };
 
-export default HelpGrowSection;
+export default TestimonialsSection;
