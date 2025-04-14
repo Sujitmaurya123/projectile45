@@ -13,8 +13,8 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
     {
         author: "Gino (Parent of student in IBDP, NLCS Dubai)",
-        authorDetails: "Testimonial from parent of a girl who scored 1580 out of 1600 in sat exam She is in class 11",
-        rating: 4.9,
+        authorDetails: "Testimonial from parent of a candidate who scored 1580 out of 1600 in Digital SAT -March 2025 exam",
+        rating: 5,
         text: "My daughter is currently pursuing the IB Diploma Programme (AAHL), and we had the pleasure of engaging Rajesh and Firoz for support. They were comprehensive, supportive, and extremely diligent in ensuring her academic success. Rajesh and Firoz went above and beyond, helping her build effective strategies, addressing specific areas of concern, introducing multiple approaches to problem-solving, and meticulously guiding her to avoid common errors. Their guidance was particularly valuable given the rigorous academic demands of her curriculum. In addition, their support for SAT preparation was instrumental in helping my daughter achieve a fantastic score. I highly recommend Rajesh and Firoz to any parent looking for dedicated, personalized, and highly effective academic support. Thank you both for your invaluable guidance - we wish you continued success!",
     },
 ];
@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
                                     {testimonial.text}
                                 </p>
                                 <p className="text-headingcol font-semibold text-sm italic w-[400px]">
-                                    Testimonial from {testimonial.authorDetails}
+                                     {testimonial.authorDetails}
                                 </p>
                             </motion.div>
                         ))}

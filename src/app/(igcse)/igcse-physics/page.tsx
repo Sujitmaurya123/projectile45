@@ -29,15 +29,13 @@ const CourseOverview = () => {
                                 <li>Defining distance, displacement, speed, velocity, and acceleration</li>
                                 <li>Interpreting distance-time and velocity-time graphs</li>
                                 <li>Equations of motion:</li>
-                                <li>v=u+at</li>
-                                <li>s=ut+1/2at^2</li>
-                                <li>v^2=u^2+2as</li>
+                                
                                 <li>Free fall and acceleration due to gravity (g=9.8 m/s^2)</li>
                             </ul>
                             <h6 className='text-gray-900'>1.2 Forces & Newton’s Laws</h6>
                             <ul className='text-gray-600 list-inside list-disc'>
                                 <li>Newton’s First Law: Objects remain at rest or in uniform motion unless acted upon by an external force</li>
-                                <li>Newton’s Second Law: F=maF = maF=ma (Force = Mass × Acceleration)</li>
+                                
                                 <li>Newton’s Third Law: Action-reaction pairs in interactions</li>
                                 <li>Friction, air resistance, and terminal velocity</li>
                                 <li>Circular motion: Centripetal force and real-life examples (e.g., satellites, roller coasters)</li>
@@ -45,10 +43,10 @@ const CourseOverview = () => {
                             </ul>
                             <h6 className='text-gray-900'>1.3 Momentum & Impulse</h6>
                             <ul className='text-gray-600 list-inside list-disc'>
-                                <li>Momentum formula: p=mv (momentum= mass x velocity)</li>
-                                <li>Law of Conservation of Momentum: m1v1 + m2v2 = m1u1 + m2u2</li>
+                                <li>Momentum formula</li>
+                                <li>Law of Conservation of Momentum</li>
 
-                                <li>Impulse: F x Δt = Δ(mv)</li>
+                                <li>Impulse</li>
 
                             </ul>
                             <h6 className='text-gray-900'>1.4 Work, Energy & Power</h6>
