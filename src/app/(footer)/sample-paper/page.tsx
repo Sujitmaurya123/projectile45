@@ -23,7 +23,9 @@ const papers = [
     {
         title: "IGCSE",
         links: [
-            { name: "IGCSE Physics Questions Paper", url: "/igcse-physics-questions-paper" },
+            { name: "IGCSE Physics Question Papers", url: "/igcse-physics-questions-paper" },
+            { name: "IGCSE Chemistry question papers", url: "/igcse-chemistry-questions-paper" },
+
            
         ],
     },

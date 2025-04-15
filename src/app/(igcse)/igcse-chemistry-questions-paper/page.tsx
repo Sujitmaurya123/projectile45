@@ -8,18 +8,20 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
 const subjectsList = [
-    'Physics: IGCSE Physics june-2023 markscheme paper-11',
-    'Physics: IGCSE Physics june-2023 markscheme paper-21',
-    'Physics: IGCSE Physics june-2023 markscheme paper-31',
-    'Physics: IGCSE Physics june-2023 markscheme paper-41',
-    'Physics: IGCSE Physics june-2023 markscheme paper-51',
-    'Physics: IGCSE Physics june-2023 markscheme paper-61',
-    'Physics: IGCSE Physics june-2023 question paper-11',
-    'Physics: IGCSE Physics june-2023 question paper-21',
-    'Physics: IGCSE Physics june-2023 question paper-31',
-    'Physics: IGCSE Physics june-2023 question paper-41',
-    'Physics: IGCSE Physics june-2023 question paper-51',
-    'Physics: IGCSE Physics june-2023 question paper-61',   
+    'Chemistry: IGCSE Chemistry june-2023-mark-scheme-paper-11',
+    'Chemistry: IGCSE Chemistry june-2023 markscheme paper-21',
+    'Chemistry: IGCSE Chemistry june-2023 markscheme paper-31',
+    'Chemistry: IGCSE Chemistry june-2023 markscheme paper-41',
+    'Chemistry: IGCSE Chemistry june-2023 markscheme paper-51',
+    'Chemistry: IGCSE Chemistry june-2023 markscheme paper-61',
+
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-1-mark-scheme',
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-2-mark-scheme',
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-3-mark-scheme',
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-4-mark-scheme',
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-5-mark-scheme',
+    'Chemistry: IGCSE Chemistry 2023-specimen-paper-6-mark-scheme',
+  
 ];
 
 export default function SendMailForm() {
@@ -66,7 +68,7 @@ export default function SendMailForm() {
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 md:px-8">
             <section className="mb-10 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold text-headingcol mb-2">IGCSE Physics Question Papers</h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-headingcol mb-2">IGCSE Chemistry Question Papers</h1>
 
             </section>
 

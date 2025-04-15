@@ -4,7 +4,7 @@ import React from 'react'
 
 
 export const metadata: Metadata = {
-    title: "IGCSE Physics Question Papers",
+    title: "IGCSE Chemistry Question Papers",
     description: "Download IGCSE Physics past papers, topic-wise questions, and expert revision strategies to enhance your understanding and boost your IGCSE Physics scores.",
     keywords: ["igcse physics", "igcse subjects", ],
 }
