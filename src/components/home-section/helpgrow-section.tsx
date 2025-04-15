@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Star } from 'lucide-react';
+
 import { motion } from 'framer-motion';
 
 interface Testimonial {
@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
                                 <div className="flex items-center justify-between mb-4">
                                     <h3 className="text-lg font-semibold text-headingcol">{testimonial.author}</h3>
                                     <div className="flex items-center gap-1">
-                                        <Star className="w-5 h-5 text-yellow-500" />
+                                        ⭐⭐⭐⭐⭐
                                         <span className="text-sm font-medium text-gray-700">{testimonial.rating}/5</span>
                                     </div>
                                 </div>

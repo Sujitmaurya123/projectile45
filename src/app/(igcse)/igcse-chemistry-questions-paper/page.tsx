@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-
+import { toast } from 'react-hot-toast';
 const subjectsList = [
     'Chemistry: IGCSE Chemistry june-2023-mark-scheme-paper-11',
     'Chemistry: IGCSE Chemistry june-2023 markscheme paper-21',
@@ -34,6 +34,7 @@ export default function SendMailForm() {
             return acc;
         }, {} as Record<string, boolean>)
     });
+    const [isSending, setIsSending] = useState(false);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -52,17 +53,49 @@ export default function SendMailForm() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setIsSending(true);
+
+        // Filter out selected subjects
         const selectedSubjects = Object.entries(formData.subjects)
             .filter(([, checked]) => checked)
             .map(([subject]) => subject);
 
         const payload = {
             ...formData,
-            subjects: selectedSubjects
+            subjects: selectedSubjects,
         };
 
-        // Replace with actual email sending logic
-        console.log('Sending email with data:', payload);
+        try {
+            // Send form data to the API route
+            const response = await fetch("/api/chemistry-send-mail", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload),
+            });
+
+            if (response.ok) {
+                toast.success("Email sent successfully!");
+                setFormData({
+                    name: "",
+                    email: "",
+                    mobile: "",
+                    subjects: subjectsList.reduce((acc, subject) => {
+                        acc[subject] = false;
+                        return acc;
+                    }, {} as Record<string, boolean>),
+                });
+            } else {
+                toast.error("Error sending email.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            toast.error("Error sending email.");
+        }finally{
+            setIsSending(false);
+
+        }
     };
 
     return (
@@ -109,7 +142,13 @@ export default function SendMailForm() {
                         </div>
                     </div>
 
-                    <Button type="submit" className="w-full mt-4 text-lg py-6 hover:bg-blue-600">Send Email</Button>
+                    <Button
+                        type="submit"
+                        className="w-full mt-4 text-lg py-6 hover:bg-blue-600"
+                        disabled={isSending}
+                    >
+                        {isSending ? 'Sending...' : 'Send Email'}
+                    </Button>
                 </form>
             </div>
         </div>

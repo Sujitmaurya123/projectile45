@@ -1,9 +1,11 @@
-"use client"
+'use client';
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
+import { toast } from "react-hot-toast";
 
 export default function SendMailForm() {
     const [formData, setFormData] = useState({
@@ -12,10 +14,11 @@ export default function SendMailForm() {
         mobile: '',
         subjects: {
             math: false,
-            // physics: false,
-            // chemistry: false,
-        }
+            // physics,
+        },
     });
+
+    const [isSending, setIsSending] = useState(false);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -28,60 +31,116 @@ export default function SendMailForm() {
             subjects: {
                 ...prev.subjects,
                 [subject]: !prev.subjects[subject as keyof typeof prev.subjects],
-            }
+            },
         }));
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setIsSending(true);
+
         const selectedSubjects = Object.entries(formData.subjects)
             .filter(([, checked]) => checked)
             .map(([subject]) => subject);
 
         const payload = {
-            ...formData,
-            subjects: selectedSubjects
+            name: formData.name,
+            email: formData.email,
+            mobile: formData.mobile,
+            subjects: selectedSubjects,
         };
 
-        // Send mail logic goes here, for now log to console
-        console.log('Sending email with data:', payload);
+        try {
+            const res = await fetch('/api/send-mail-sat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+            });
+
+            if (!res.ok) throw new Error('Failed to send email');
+           toast.success('Email sent successfully! Check your inbox.');
+
+            // Reset form
+            setFormData({
+                name: '',
+                email: '',
+                mobile: '',
+                subjects: { math: false },
+            });
+        } catch (error) {
+            console.error(error);
+            toast.error('Failed to send email. Please try again.');
+        } finally {
+            setIsSending(false);
+        }
     };
 
     return (
         <div className="max-w-6xl mx-auto p-4">
-            <h1 className="text-4xl font-bold mb-4 text-headingcol">Get a free SAT sample paper—just enter your name, email, and mobile number to start practicing now!</h1>
-            <div className="max-w-xl mx-auto p-4">
+            <h1 className="text-4xl font-bold mb-6 text-gray-800">
+                Get a free SAT sample paper — enter your info below!
+            </h1>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                    <Label htmlFor="name">Name</Label>
-                    <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
-                </div>
-                <div>
-                    <Label htmlFor="email">Email (Gmail)</Label>
-                    <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
-                </div>
-                <div>
-                    <Label htmlFor="mobile">Mobile Number</Label>
-                    <Input id="mobile" name="mobile" type="tel" value={formData.mobile} onChange={handleChange} required />
-                </div>
-
-                <div>
-                    <Label className="block mb-2">Subjects</Label>
-                    <div className="space-y-2">
-                        {['math'].map(subject => (
-                            <div key={subject} className="flex items-center space-x-2">
-                                <Checkbox id={subject} checked={formData.subjects[subject as keyof typeof formData.subjects]} onCheckedChange={() => handleCheckboxChange(subject)} />
-                                <Label htmlFor={subject} className="capitalize">{subject}</Label>
-                            </div>
-                        ))}
+            <div className="max-w-xl mx-auto p-6 bg-white shadow-md rounded-xl space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-4">
+                    <div>
+                        <Label htmlFor="name">Name</Label>
+                        <Input
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                        />
                     </div>
-                </div>
 
-                <Button type="submit" className="w-full mt-4 text-lg py-6 hover:bg-blue-600">Send Email</Button>
+                    <div>
+                        <Label htmlFor="email">Gmail</Label>
+                        <Input
+                            id="email"
+                            name="email"
+                            type="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
 
-            </form>
-           </div>
+                    <div>
+                        <Label htmlFor="mobile">Mobile Number</Label>
+                        <Input
+                            id="mobile"
+                            name="mobile"
+                            type="tel"
+                            value={formData.mobile}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <Label className="block mb-2">Select Subject</Label>
+                        <div className="space-y-2">
+                            <div className="flex items-center space-x-2">
+                                <Checkbox
+                                    id="math"
+                                    checked={formData.subjects.math}
+                                    onCheckedChange={() => handleCheckboxChange('math')}
+                                />
+                                <Label htmlFor="math">SAT Maths (PPTX)</Label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <Button
+                        type="submit"
+                        className="w-full mt-4 text-lg py-6 hover:bg-blue-600"
+                        disabled={isSending}
+                    >
+                        {isSending ? 'Sending...' : 'Send Email'}
+                    </Button>
+                </form>
+            </div>
         </div>
     );
 }
