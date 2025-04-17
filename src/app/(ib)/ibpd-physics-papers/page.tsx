@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-
+import { toast } from 'react-hot-toast';
 const subjectsList = [
      'Physics higher level paper 1A specimen question paper' ,
      'Physics higher level paper 1A specimen markscheme' ,
@@ -32,6 +32,8 @@ export default function SendMailForm() {
             return acc;
         }, {} as Record<string, boolean>)
     });
+    const [isSending, setIsSending] = useState(false);
+
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -50,18 +52,43 @@ export default function SendMailForm() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setIsSending(true);
+
         const selectedSubjects = Object.entries(formData.subjects)
             .filter(([, checked]) => checked)
             .map(([subject]) => subject);
 
         const payload = {
-            ...formData,
-            subjects: selectedSubjects
+            name: formData.name,
+            email: formData.email,
+            mobile: formData.mobile,
+            subjects: selectedSubjects,
         };
 
-        // Replace with actual email sending logic
-        console.log('Sending email with data:', payload);
+        try {
+            const res = await fetch('/api/physics-send-mails', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(payload),
+            });
+
+            const data = await res.json();
+            if (data.success) {
+                toast.success('Email sent successfully!');
+            } else {
+                toast.error('Failed to send email. Please try again.');
+            }
+        } catch (err) {
+            console.error(err);
+            toast.error('An error occurred while sending the email.');
+        }finally{
+            setIsSending(false);
+
+        }
     };
+
 
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 md:px-8">
@@ -109,7 +136,13 @@ export default function SendMailForm() {
                         </div>
                     </div>
 
-                    <Button type="submit" className="w-full mt-4 text-lg py-6 hover:bg-blue-600">Send Email</Button>
+                    <Button
+                        type="submit"
+                        className="w-full mt-4 text-lg py-6 hover:bg-blue-600"
+                        disabled={isSending}
+                    >
+                        {isSending ? 'Sending...' : 'Send Email'}
+                    </Button>
                 </form>
             </div>
         </div>

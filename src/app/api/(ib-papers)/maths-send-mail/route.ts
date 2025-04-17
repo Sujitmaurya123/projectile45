@@ -18,15 +18,15 @@ export async function POST(req: Request) {
     // Mapping subjects to filenames (You can extend this)
     const subjectToFileMap: Record<string, string> = {
       "Mathematics: analysis and approaches higher level paper 1 specimen paper": "HL_Paper1_Specimen.pdf",
-      "Mathematics: analysis and approaches higher level paper 1 markscheme": "HL_Paper1_Markscheme.pdf",
-      "Mathematics: analysis and approaches higher level paper 2 specimen paper": "HL_Paper2_Specimen.pdf",
-      "Mathematics: analysis and approaches higher level paper 2 markscheme": "HL_Paper2_Markscheme.pdf",
-      "Mathematics: analysis and approaches higher level paper 3 specimen paper": "HL_Paper3_Specimen.pdf",
-      "Mathematics: analysis and approaches higher level paper 3 markscheme": "HL_Paper3_Markscheme.pdf",
-      "Mathematics: analysis and approaches standard level paper 1 specimen paper": "SL_Paper1_Specimen.pdf",
-      "Mathematics: analysis and approaches standard level paper 1 markscheme": "SL_Paper1_Markscheme.pdf",
-      "Mathematics: analysis and approaches standard level paper 2 specimen paper": "SL_Paper2_Specimen.pdf",
-      "Mathematics: analysis and approaches standard level paper 2 markscheme": "SL_Paper2_Markscheme.pdf",
+      "Mathematics: analysis and approaches higher level paper 1 markscheme": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches higher level paper 2 specimen paper": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches higher level paper 2 markscheme": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches higher level paper 3 specimen paper": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches higher level paper 3 markscheme": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches standard level paper 1 specimen paper": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches standard level paper 1 markscheme": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches standard level paper 2 specimen paper": "HL_Paper1_Specimen.pdf",
+      "Mathematics: analysis and approaches standard level paper 2 markscheme": "HL_Paper1_Specimen.pdf",
     };
 
     const attachments = subjects
