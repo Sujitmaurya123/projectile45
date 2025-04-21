@@ -1,25 +1,11 @@
 
+'use client'
 
-// const IBDPSubjects = () => {
-//   return (
-//     <div>page</div>
-//   )
-// }
+import { ChevronDown, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
 
-// export default IBDPSubjects
 
-// components/SubjectTable.tsx
-import { Metadata } from 'next';
-import React from 'react';
-
-export const metadata: Metadata = {
-    title: "IBDP Exam Subjects ",
-    description: "Discover the full list of IBDP subjects, including core and elective courses, to help you choose the right subjects for your academic and career goals.",
-    keywords: ["ib subjects list",
-        "ib subjects", "international baccalaureate",
-        "IB Program", "ib diploma subjects"],
-}
-interface Subject {
+type Subject = {
     SUBJECT_CODE: string;
     NAME_ON_TRANSCRIPT: string;
     SUBJECT_NAME_FULL: string;
@@ -28,7 +14,9 @@ interface Subject {
     SUBJECT_GROUP?: string;
     COMMENTS?: string;
     YEAR?: string;
-}
+};
+
+type GroupedSubjects = Record<string, Subject[]>;
 const subjects: Subject[] =[
     {
         "SUBJECT_CODE": "112826",
@@ -1438,15 +1426,18 @@ const subjects: Subject[] =[
     
 ]
 
-interface DiscontinuedSubject {
+type DiscontinuedSubject = {
+    SUBJECT_GROUP?: string;
     SUBJECT_CODE: string;
     NAME_ON_TRANSCRIPT: string;
     SUBJECT_NAME_FULL: string;
-    SL: string;
-    HL: string;
-    COMMENTS: string;
-    YEAR: string;
-}
+    SL?: string;
+    HL?: string;
+    COMMENTS?: string;
+    YEAR?: string | number;
+};
+
+type GroupedSubjectss = Record<string, DiscontinuedSubject[]>;
 const Discontinuedsubjects: DiscontinuedSubject[] = [
     {
         "SUBJECT_CODE": "108714",
@@ -1623,75 +1614,160 @@ const Discontinuedsubjects: DiscontinuedSubject[] = [
     
 ]
 
-const IBDPSubjects: React.FC =()=> {
+
+const IBDPSubjects: React.FC = () => {
+    // Replace with your actual data imports
+    const [isOpen, setIsOpen] = useState(false); // Add loading state
+    const [isOpen2, setIsOpen2] = useState(false); // Add loading state
+
+    const toggleOpen = () => {
+        setIsOpen(prev => !prev);
+    };
+    const toggleOpen2 = () => {
+        setIsOpen2(prev => !prev);
+    };
+
+    // Group subjects by SUBJECT_GROUP
+    const groupedSubjects: GroupedSubjects = subjects.reduce((acc, subject) => {
+        const group = subject.SUBJECT_GROUP || 'Other';
+        if (!acc[group]) acc[group] = [];
+        acc[group].push(subject);
+        return acc;
+    }, {} as GroupedSubjects);
+
+
+    const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
+
+    const toggleGroup = (group: string) => {
+        setOpenGroups((prev) => ({
+            ...prev,
+            [group]: !prev[group],
+        }));
+    };
+
+    const groupedDiscontinuedSubjects: GroupedSubjectss = Discontinuedsubjects.reduce(
+        (acc, subject) => {
+            const group = subject.SUBJECT_NAME_FULL || "Other";
+            if (!acc[group]) acc[group] = [];
+            acc[group].push(subject);
+            return acc;
+        },
+        {} as GroupedSubjectss
+    );
+    const [openGroupss, setOpenGroupss] = useState<Record<string, boolean>>({});
+    const toggleGroup2 = (group: string) => {
+        setOpenGroupss((prev) => ({
+            ...prev,
+            [group]: !prev[group],
+        }));
+    };
+   
     return (
         <>
-            <h1 className="text-4xl font-bold mb-4 text-headingcol text-center" >IBDP Subjects</h1>
-            <p className="text-2xl font-bold mt-4 text-headingcol text-center" >All Diploma Programme (DP) Subjects</p>
-            <div className="overflow-x-auto mt-6 max-w-6xl container mx-auto">
-            <table className="  divide-y divide-gray-200 table-auto">
-                <thead className="bg-blue-200">
-                    <tr>
-                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SUBJECT CODE</th>
-                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">NAME ON TRANSCRIPT</th>
-                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SUBJECT NAME FULL</th>
-                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SL</th>
-                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">HL</th>
-                        {subjects.some(s => s.SUBJECT_GROUP) && <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SUBJECT GROUP</th>}
-                        {subjects.some(s => s.COMMENTS) && <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">COMMENTS</th>}
-                        {subjects.some(s => s.YEAR) && <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">YEAR</th>}
-                    </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                    {subjects.map((subject, index) => (
-                        <tr key={index}>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{subject.SUBJECT_CODE}</td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.NAME_ON_TRANSCRIPT}</td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.SUBJECT_NAME_FULL}</td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.SL}</td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.HL}</td>
-                            {subjects.some(s => s.SUBJECT_GROUP) && <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.SUBJECT_GROUP}</td>}
-                            {subjects.some(s => s.COMMENTS) && <td className="px-6 py-4 text-sm text-gray-500">{subject.COMMENTS}</td>}
-                            {subjects.some(s => s.YEAR) && <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.YEAR}</td>}
-                        </tr>
+            <h1 className="text-4xl font-bold mb-4 text-headingcol text-center">IBDP Subjects</h1>
+            <p className="text-2xl font-bold mt-4 text-headingcol text-center">All Diploma Programme (DP) Subjects</p>
+
+            <div className="mt-8 space-y-4 max-w-6xl container mx-auto">
+                {Object.entries(groupedSubjects).map(([group, subjects]) => (
+                    <div key={group} className="border rounded-lg shadow-md p-4">
+                        <button
+                            onClick={() => {toggleGroup(group), toggleOpen()}}
+                            className="flex items-center justify-between w-full text-xl font-semibold text-headingcol "
+                        >
+                        
+                            <span>{group} </span> 
+                            {isOpen ? <ChevronDown /> : <ChevronRight />}
+                        </button>
+
+                        {openGroups[group] && (
+                            <table className="w-full mt-4 divide-y divide-gray-200 table-auto">
+                                <thead className="bg-blue-100">
+                                    <tr>
+                                        <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Code</th>
+                                        <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Transcript Name</th>
+                                        <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Full Name</th>
+                                        <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">SL</th>
+                                        <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">HL</th>
+                                        {subjects.some(s => s.COMMENTS) && (
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Comments</th>
+                                        )}
+                                        {subjects.some(s => s.YEAR) && (
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Year</th>
+                                        )}
+                                    </tr>
+                                </thead>
+                                <tbody className="bg-white divide-y divide-gray-100">
+                                    {subjects.map((subject, index) => (
+                                        <tr key={index}>
+                                            <td className="px-4 py-2 text-sm">{subject.SUBJECT_CODE}</td>
+                                            <td className="px-4 py-2 text-sm">{subject.NAME_ON_TRANSCRIPT}</td>
+                                            <td className="px-4 py-2 text-sm">{subject.SUBJECT_NAME_FULL}</td>
+                                            <td className="px-4 py-2 text-sm">{subject.SL}</td>
+                                            <td className="px-4 py-2 text-sm">{subject.HL}</td>
+                                            {subject.COMMENTS && <td className="px-4 py-2 text-sm">{subject.COMMENTS}</td>}
+                                            {subject.YEAR && <td className="px-4 py-2 text-sm">{subject.YEAR}</td>}
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        )}
+                    </div>
+                ))}
+            </div>
+
+            {/* Discontinued Section */}
+            <div className="mt-12">
+                <p className="text-2xl font-bold text-headingcol text-center">DISCONTINUED SUBJECTS</p>
+
+                <div className="mt-8 space-y-4 max-w-6xl container mx-auto">
+                    {Object.entries(groupedDiscontinuedSubjects).map(([group, subjects]) => (
+                        <div key={group} className="border rounded-lg shadow-md p-4">
+                            <button
+                                onClick={() => { toggleGroup2(group), toggleOpen2() }}
+                                className="flex items-center justify-between w-full text-xl font-semibold text-headingcol "
+                            >
+
+                                <span>{group} </span>
+                                {isOpen2 ? <ChevronDown /> : <ChevronRight />}
+                            </button>
+
+                            {openGroupss[group] && (
+                                <table className="w-full mt-4 divide-y divide-gray-200 table-auto">
+                                    <thead className="bg-red-100">
+                                        <tr>
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Code</th>
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Transcript Name</th>
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Full Name</th>
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">SL</th>
+                                            <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">HL</th>
+                                            {subjects.some((s) => s.COMMENTS) && (
+                                                <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Comments</th>
+                                            )}
+                                            {subjects.some((s) => s.YEAR) && (
+                                                <th className="px-4 py-2 text-left text-xs font-medium text-gray-700">Year</th>
+                                            )}
+                                        </tr>
+                                    </thead>
+                                    <tbody className="bg-white divide-y divide-gray-100">
+                                        {subjects.map((subject, index) => (
+                                            <tr key={index}>
+                                                <td className="px-4 py-2 text-sm">{subject.SUBJECT_CODE}</td>
+                                                <td className="px-4 py-2 text-sm">{subject.NAME_ON_TRANSCRIPT}</td>
+                                                <td className="px-4 py-2 text-sm">{subject.SUBJECT_NAME_FULL}</td>
+                                                <td className="px-4 py-2 text-sm">{subject.SL}</td>
+                                                <td className="px-4 py-2 text-sm">{subject.HL}</td>
+                                                {subject.COMMENTS && <td className="px-4 py-2 text-sm">{subject.COMMENTS}</td>}
+                                                {subject.YEAR && <td className="px-4 py-2 text-sm">{subject.YEAR}</td>}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            )}
+                        </div>
                     ))}
-                </tbody>
-            </table>
-        </div>
-
-            <div>
-                <p className="text-2xl font-bold mt-4 text-headingcol text-center">DISCONTINUED SUBJECTS</p>
-                <div className="overflow-x-auto mt-6">
-                    <table className="max-w-6xl container mx-auto divide-y divide-gray-200 table-auto">
-                        <thead className="bg-blue-200">
-                            <tr>
-                                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SUBJECT CODE</th>
-                                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">NAME ON TRANSCRIPT</th>
-                                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SUBJECT NAME FULL</th>
-                                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">SL</th>
-                                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">HL</th>
-
-                                {Discontinuedsubjects.some(s => s.COMMENTS) && <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">COMMENTS</th>}
-                                {Discontinuedsubjects.some(s => s.YEAR) && <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-800 uppercase tracking-wider">YEAR</th>}
-                            </tr>
-                        </thead>
-                        <tbody className="bg-white divide-y divide-gray-200">
-                            {Discontinuedsubjects.map((subject, index) => (
-                                <tr key={index}>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{subject.SUBJECT_CODE}</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.NAME_ON_TRANSCRIPT}</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.SUBJECT_NAME_FULL}</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.SL}</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.HL}</td>
-
-                                    {subject.COMMENTS && <td className="px-6 py-4 text-sm text-gray-500">{subject.COMMENTS}</td>}
-                                    {subject.YEAR && <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{subject.YEAR}</td>}
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
                 </div>
             </div>
+          
 
         </>
     );
