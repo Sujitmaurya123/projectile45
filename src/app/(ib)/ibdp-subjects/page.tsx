@@ -1617,15 +1617,7 @@ const Discontinuedsubjects: DiscontinuedSubject[] = [
 
 const IBDPSubjects: React.FC = () => {
     // Replace with your actual data imports
-    const [isOpen, setIsOpen] = useState(false); // Add loading state
-    const [isOpen2, setIsOpen2] = useState(false); // Add loading state
-
-    const toggleOpen = () => {
-        setIsOpen(prev => !prev);
-    };
-    const toggleOpen2 = () => {
-        setIsOpen2(prev => !prev);
-    };
+   
 
     // Group subjects by SUBJECT_GROUP
     const groupedSubjects: GroupedSubjects = subjects.reduce((acc, subject) => {
@@ -1671,12 +1663,12 @@ const IBDPSubjects: React.FC = () => {
                 {Object.entries(groupedSubjects).map(([group, subjects]) => (
                     <div key={group} className="border rounded-lg shadow-md p-4">
                         <button
-                            onClick={() => {toggleGroup(group), toggleOpen()}}
+                            onClick={() => toggleGroup(group)}
                             className="flex items-center justify-between w-full text-xl font-semibold text-headingcol "
                         >
                         
                             <span>{group} </span> 
-                            {isOpen ? <ChevronDown /> : <ChevronRight />}
+                            {openGroups ? <ChevronDown /> : <ChevronRight />}
                         </button>
 
                         {openGroups[group] && (
@@ -1723,12 +1715,13 @@ const IBDPSubjects: React.FC = () => {
                     {Object.entries(groupedDiscontinuedSubjects).map(([group, subjects]) => (
                         <div key={group} className="border rounded-lg shadow-md p-4">
                             <button
-                                onClick={() => { toggleGroup2(group), toggleOpen2() }}
-                                className="flex items-center justify-between w-full text-xl font-semibold text-headingcol "
-                            >
+                                onClick={() => toggleGroup2(group)}
+                                className="flex items-center justify-between w-full text-xl font-semibold text-headingcol"
 
-                                <span>{group} </span>
-                                {isOpen2 ? <ChevronDown /> : <ChevronRight />}
+                            >
+                                <span> {group}</span> 
+                                {openGroupss ? <ChevronDown /> : <ChevronRight />}
+
                             </button>
 
                             {openGroupss[group] && (
