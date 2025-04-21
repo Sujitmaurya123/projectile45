@@ -1,12 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
-import Link from "next/link";
+import { FreeDemo } from "../free-demo-signup/FreeDemo";
 
 const CallToActionSection = () => {
+     const [isOpen, setIsOpen] = useState(false);
     return (
         <section className="py-16 bg-[#f5f5f6] bg-opacity-70">
             <div className="container mx-auto px-6 md:px-10 lg:px-20 flex flex-col items-center md:flex-row md:justify-between">
@@ -49,19 +50,21 @@ const CallToActionSection = () => {
                         Join us to transform your test preparation—because the future belongs to
                         those who dare to dream big.
                     </p>
-                    <Link href="free-demo">
+                    
                         <motion.div
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <Button className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white font-bold py-2 px-4 rounded mt-4">
+                            <Button onClick={() => setIsOpen(true)} className="bg-white hover:bg-purple-600 text-purple-600 hover:text-white font-bold py-2 px-4 rounded mt-4">
                                 Get Started
                             </Button>
                         </motion.div>
-                    </Link>
+                   
                 </motion.div>
             </div>
+              {/* Modal for Free Demo */}
+                        {isOpen && <FreeDemo setIsOpen={setIsOpen} />}
         </section>
     );
 };
