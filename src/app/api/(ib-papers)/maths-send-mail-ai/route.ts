@@ -72,7 +72,7 @@ export async function POST(req: Request) {
       from: `"Specimen Papers" <${process.env.GMAIL_USER}>`,
       to: email,
       subject: 'Your Requested Math AI Specimen Papers 🧮',
-      text: `Hi ${name},\n\nThank you for your request!\n\nThe selected Mathematics: Applications and Interpretation specimen papers are attached.\n\nBest regards,\nTeam`,
+      text: `Hi ${name},\n\nThank you for your request!\n\nThe selected Mathematics: Applications and Interpretation specimen papers are attached.\n\nBest regards,\nP45 Team`,
       attachments,
     };
 

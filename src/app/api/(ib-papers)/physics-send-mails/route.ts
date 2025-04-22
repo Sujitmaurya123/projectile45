@@ -75,7 +75,7 @@ export async function POST(req: Request) {
       from: `"Physics Specimen Papers" <${process.env.GMAIL_USER}>`,
       to: email,
       subject: 'Requested Physics HL/SL Specimen Papers 📡',
-      text: `Hi ${name},\n\nThank you for your request!\n\nThe selected Physics Higher and Standard Level specimen papers are attached.\n\nBest regards,\nTeam`,
+      text: `Hi ${name},\n\nThank you for your request!\n\nThe selected Physics Higher and Standard Level specimen papers are attached.\n\nBest regards,\nP45 Team`,
       attachments,
     };
 

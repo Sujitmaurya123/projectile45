@@ -79,7 +79,7 @@ We've also included a quick summary document (Email_Temp.pdf) with helpful notes
 If you need resources for other subjects or sessions, feel free to reach out!
 
 Best regards,  
-Chemistry Papers Team
+P45 Team
 `.trim();
 
     const mailOptions = {

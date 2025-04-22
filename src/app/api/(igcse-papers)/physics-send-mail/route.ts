@@ -76,7 +76,7 @@ Please find attached the markschemes and question papers you selected. We've als
 Need more resources or help? Let us know anytime.
 
 Best regards,  
-Physics Papers Team
+P45 Team
 `.trim();
 
     const mailOptions = {

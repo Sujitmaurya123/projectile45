@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
       from: process.env.GMAIL_USER,
       to: email,
       subject: 'Your Free SAT Practice Material',
-      text: `Hi ${name},\n\nPlease find your requested SAT files attached.\n\nThanks!`,
+      text: `Hi ${name},\n\nPlease find your requested SAT files attached.\n\nBest regards,\nP45 Team`,
       attachments,
     });
 

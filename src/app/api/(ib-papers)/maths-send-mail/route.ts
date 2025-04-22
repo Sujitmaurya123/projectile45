@@ -73,7 +73,7 @@ export async function POST(req: Request) {
       from: `"Practice Papers" <${process.env.GMAIL_USER}>`,
       to: email,
       subject: 'Your Requested Math Specimen Papers 📄',
-      text: `Hi ${name},\n\nThank you for your interest.\n\nWe've attached the papers you selected.\n\nRegards,\nTeam`,
+      text: `Hi ${name},\n\nThank you for your interest.\n\nWe've attached the papers you selected.\n\nRegards,\nP45 Team`,
       attachments,
     };
 
