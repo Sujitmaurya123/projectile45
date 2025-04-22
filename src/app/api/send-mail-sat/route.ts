@@ -11,28 +11,42 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ message: 'Invalid request' }, { status: 400 });
   }
 
-  // Map subject to actual filenames
   const subjectToFile: Record<string, string> = {
     math: 'SAT_Maths_P45.pptx',
-    // physics: 'SAT_Physics_123.pdf', // Add more if needed
+    // Add more if needed
   };
 
-  const attachments = subjects
-  .map((subject: string) => {
-    const fileName = subjectToFile[subject];
-    if (!fileName) return null;
+  // Always include this file
+  const alwaysIncludeFiles: string[] = ['Email_temp.pdf'];
 
-    const filePath = path.join(process.cwd(), 'public', 'files', fileName);
-    if (!fs.existsSync(filePath)) return null;
+  const attachments = [
+    // User-selected subjects
+    ...subjects.map((subject: string) => {
+      const fileName = subjectToFile[subject];
+      if (!fileName) return null;
 
-    return {
-      filename: fileName,
-      content: fs.readFileSync(filePath),
-      contentType: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
-    };
-  })
-  .filter((attachment): attachment is { filename: string; content: Buffer; contentType: string } => attachment !== null);
+      const filePath = path.join(process.cwd(), 'public', 'files', fileName);
+      if (!fs.existsSync(filePath)) return null;
 
+      return {
+        filename: fileName,
+        content: fs.readFileSync(filePath),
+        contentType: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+      };
+    }),
+
+    // Always-included files (like Email_temp.pdf)
+    ...alwaysIncludeFiles.map((fileName) => {
+      const filePath = path.join(process.cwd(), 'public', 'files', fileName);
+      if (!fs.existsSync(filePath)) return null;
+
+      return {
+        filename: fileName,
+        content: fs.readFileSync(filePath),
+        contentType: 'application/pdf',
+      };
+    }),
+  ].filter((attachment): attachment is { filename: string; content: Buffer; contentType: string } => attachment !== null);
 
   try {
     const transporter = nodemailer.createTransport({

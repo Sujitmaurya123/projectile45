@@ -1,22 +1,18 @@
-// app/api/send-mail/route.ts
-
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import fs from 'fs';
 import path from 'path';
-
 
 interface Attachment {
   filename: string;
   content: Buffer;
   contentType: string;
 }
+
 export async function POST(req: Request) {
   try {
-    // Parsing the incoming JSON payload from the frontend
     const { name, email, subjects } = await req.json();
 
-    // Mapping subjects to corresponding filenames
     const subjectToFileMap: Record<string, string> = {
       'Physics: IGCSE Physics june-2023 markscheme paper-11': 'Physics_Paper11_Markscheme.pdf',
       'Physics: IGCSE Physics june-2023 markscheme paper-21': 'Physics_Paper21_Markscheme.pdf',
@@ -32,8 +28,7 @@ export async function POST(req: Request) {
       'Physics: IGCSE Physics june-2023 specimen question paper-6': 'Physics_Paper61_specimen_Question.pdf',
     };
 
-    // Create an array of attachments based on the selected subjects
-    const attachments = subjects
+    const subjectAttachments: Attachment[] = subjects
       .map((subject: string) => {
         const fileName = subjectToFileMap[subject];
         if (!fileName) return null;
@@ -47,9 +42,22 @@ export async function POST(req: Request) {
           contentType: 'application/pdf',
         };
       })
-      .filter((attachment:Attachment): attachment is { filename: string; content: Buffer; contentType: string } => attachment !== null);
+      .filter((attachment: Attachment): attachment is Attachment => attachment !== null);
 
-    // Configure the Nodemailer transporter
+    // Always include Email_Temp.pdf
+    const defaultAttachmentPath = path.join(process.cwd(), 'public', 'files', 'Email_Temp.pdf');
+    const defaultAttachment: Attachment | null = fs.existsSync(defaultAttachmentPath)
+      ? {
+          filename: 'Email_Temp.pdf',
+          content: fs.readFileSync(defaultAttachmentPath),
+          contentType: 'application/pdf',
+        }
+      : null;
+
+    const attachments: Attachment[] = defaultAttachment
+      ? [...subjectAttachments, defaultAttachment]
+      : [...subjectAttachments];
+
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -58,24 +66,32 @@ export async function POST(req: Request) {
       },
     });
 
-    // Setup the email content
+    const emailBody = `
+Hi ${name},
+
+Thank you for requesting IGCSE Physics materials.
+
+Please find attached the markschemes and question papers you selected. We've also included a helpful summary document (Email_Temp.pdf) to assist with your revision.
+
+Need more resources or help? Let us know anytime.
+
+Best regards,  
+Physics Papers Team
+`.trim();
+
     const mailOptions = {
-      from: `"Physics Papers" <${process.env.GMAIL_USER}>`, // Sender's email
-      to: email, // Recipient's email
-      subject: 'Your Requested Physics Papers 📄', // Email subject
-      text: `Hi ${name},\n\nThank you for your interest. Please find attached the Physics papers you requested.\n\nBest regards,\nPhysics Papers Team`, // Email body
-      attachments, // Attach the PDFs based on selected subjects
+      from: `"Physics Papers" <${process.env.GMAIL_USER}>`,
+      to: email,
+      subject: 'Your Requested Physics Papers 📄',
+      text: emailBody,
+      attachments,
     };
 
-    // Send the email
     await transporter.sendMail(mailOptions);
 
-    // Return a success response
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Error sending email:', error);
-
-    // Return an error response in case of failure
     return NextResponse.json({ success: false, error: 'Failed to send email' }, { status: 500 });
   }
 }

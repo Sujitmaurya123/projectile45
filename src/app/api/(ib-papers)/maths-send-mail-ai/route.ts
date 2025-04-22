@@ -8,9 +8,10 @@ type CustomAttachment = {
   content: Buffer;
   contentType: string;
 };
+
 export async function POST(req: Request) {
   try {
-    const { name, email,  subjects } = await req.json();
+    const { name, email, subjects } = await req.json();
 
     const subjectToFileMap: Record<string, string> = {
       "Mathematics: applications and interpretation higher level paper 1 specimen paper": "AI_HL_Paper1_Specimen.pdf",
@@ -25,7 +26,10 @@ export async function POST(req: Request) {
       "Mathematics: applications and interpretation standard level paper 2 markscheme": "AI_HL_Paper1_Specimen.pdf",
     };
 
-    const attachments = subjects
+    // Always include this file
+    const alwaysIncludeFiles: string[] = ['Email_temp.pdf'];
+
+    const subjectAttachments: CustomAttachment[] = subjects
       .map((subject: string) => {
         const fileName = subjectToFileMap[subject];
         if (!fileName) return null;
@@ -39,7 +43,22 @@ export async function POST(req: Request) {
           contentType: 'application/pdf',
         };
       })
-      .filter((attachment: CustomAttachment): attachment is { filename: string; content: Buffer; contentType: string } => attachment !== null);
+      .filter((attachment:CustomAttachment): attachment is CustomAttachment => attachment !== null);
+
+    const alwaysAttachments: CustomAttachment[] = alwaysIncludeFiles
+      .map((fileName) => {
+        const filePath = path.join(process.cwd(), 'public', 'files', fileName);
+        if (!fs.existsSync(filePath)) return null;
+
+        return {
+          filename: fileName,
+          content: fs.readFileSync(filePath),
+          contentType: 'application/pdf',
+        };
+      })
+      .filter((attachment): attachment is CustomAttachment => attachment !== null);
+
+    const attachments = [...subjectAttachments, ...alwaysAttachments];
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',

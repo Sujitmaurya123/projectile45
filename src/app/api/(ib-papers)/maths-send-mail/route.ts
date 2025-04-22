@@ -1,5 +1,3 @@
-// app/api/send-mail/route.ts
-
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import fs from 'fs';
@@ -13,7 +11,7 @@ type CustomAttachment = {
 
 export async function POST(req: Request) {
   try {
-    const { name, email,subjects } = await req.json();
+    const { name, email, subjects } = await req.json();
 
     // Mapping subjects to filenames (You can extend this)
     const subjectToFileMap: Record<string, string> = {
@@ -29,7 +27,10 @@ export async function POST(req: Request) {
       "Mathematics: analysis and approaches standard level paper 2 markscheme": "HL_Paper1_Specimen.pdf",
     };
 
-    const attachments = subjects
+    // Files that are always included
+    const alwaysIncludeFiles: string[] = ['Email_temp.pdf'];
+
+    const subjectAttachments: CustomAttachment[] = subjects
       .map((subject: string) => {
         const fileName = subjectToFileMap[subject];
         if (!fileName) return null;
@@ -43,9 +44,23 @@ export async function POST(req: Request) {
           contentType: 'application/pdf',
         };
       })
-      .filter((attachment:CustomAttachment): attachment is { filename: string; content: Buffer; contentType: string } => attachment !== null);
+      .filter((attachment:CustomAttachment): attachment is CustomAttachment => attachment !== null);
 
-    // Configure transporter
+    const alwaysAttachments: CustomAttachment[] = alwaysIncludeFiles
+      .map((fileName) => {
+        const filePath = path.join(process.cwd(), 'public', 'files', fileName);
+        if (!fs.existsSync(filePath)) return null;
+
+        return {
+          filename: fileName,
+          content: fs.readFileSync(filePath),
+          contentType: 'application/pdf',
+        };
+      })
+      .filter((attachment): attachment is CustomAttachment => attachment !== null);
+
+    const attachments = [...subjectAttachments, ...alwaysAttachments];
+
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -63,6 +78,7 @@ export async function POST(req: Request) {
     };
 
     await transporter.sendMail(mailOptions);
+
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Email send failed:', error);

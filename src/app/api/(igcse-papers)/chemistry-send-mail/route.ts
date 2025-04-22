@@ -11,10 +11,8 @@ interface Attachment {
 
 export async function POST(req: Request) {
   try {
-    // Parsing the incoming JSON payload from the frontend
     const { name, email, subjects } = await req.json();
 
-    // Mapping subjects to corresponding filenames
     const subjectToFileMap: Record<string, string> = {
       'Chemistry: IGCSE Chemistry june-2023-mark-scheme-paper-11': 'Chemistry_Paper11_Markscheme.pdf',
       'Chemistry: IGCSE Chemistry june-2023 markscheme paper-21': 'Chemistry_Paper21_Markscheme.pdf',
@@ -30,8 +28,8 @@ export async function POST(req: Request) {
       'Chemistry: IGCSE Chemistry 2023-specimen-paper-6-mark-scheme': 'Chemistry_SpecimenPaper6_Markscheme.pdf',
     };
 
-    // Create an array of attachments based on the selected subjects
-    const attachments: Attachment[] = subjects
+    // Subject-based attachments
+    const subjectAttachments: Attachment[] = subjects
       .map((subject: string) => {
         const fileName = subjectToFileMap[subject];
         if (!fileName) return null;
@@ -45,9 +43,22 @@ export async function POST(req: Request) {
           contentType: 'application/pdf',
         };
       })
-      .filter((attachment:Attachment): attachment is Attachment => attachment !== null);
+      .filter((attachment: Attachment): attachment is Attachment => attachment !== null);
 
-    // Configure the Nodemailer transporter
+    // Always include Email_Temp.pdf
+    const defaultAttachmentPath = path.join(process.cwd(), 'public', 'files', 'Email_Temp.pdf');
+    const defaultAttachment: Attachment | null = fs.existsSync(defaultAttachmentPath)
+      ? {
+          filename: 'Email_Temp.pdf',
+          content: fs.readFileSync(defaultAttachmentPath),
+          contentType: 'application/pdf',
+        }
+      : null;
+
+    const attachments: Attachment[] = defaultAttachment
+      ? [...subjectAttachments, defaultAttachment]
+      : [...subjectAttachments];
+
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -56,24 +67,34 @@ export async function POST(req: Request) {
       },
     });
 
-    // Setup the email content
+    const emailBody = `
+Hi ${name},
+
+Thank you for your interest in IGCSE Chemistry revision materials.
+
+Attached you'll find the papers and markschemes you selected.
+
+We've also included a quick summary document (Email_Temp.pdf) with helpful notes.
+
+If you need resources for other subjects or sessions, feel free to reach out!
+
+Best regards,  
+Chemistry Papers Team
+`.trim();
+
     const mailOptions = {
-      from: `"Chemistry Papers" <${process.env.GMAIL_USER}>`, // Sender's email
-      to: email, // Recipient's email
-      subject: 'Your Requested Chemistry Papers 📄', // Email subject
-      text: `Hi ${name},\n\nThank you for your interest. Please find attached the Chemistry papers you requested.\n\nBest regards,\nChemistry Papers Team`, // Email body
-      attachments, // Attach the PDFs based on selected subjects
+      from: `"Chemistry Papers" <${process.env.GMAIL_USER}>`,
+      to: email,
+      subject: 'Your Requested Chemistry Papers 📄',
+      text: emailBody,
+      attachments,
     };
 
-    // Send the email
     await transporter.sendMail(mailOptions);
 
-    // Return a success response
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Error sending email:', error);
-
-    // Return an error response in case of failure
     return NextResponse.json({ success: false, error: 'Failed to send email' }, { status: 500 });
   }
 }
