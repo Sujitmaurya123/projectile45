@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const DigitalSATReadingWritingBlogPost: React.FC = () => {
@@ -6,6 +7,7 @@ const DigitalSATReadingWritingBlogPost: React.FC = () => {
             <h1 className="text-4xl font-extrabold text-center mb-6 text-headingcol">
                 Mastering the Digital SAT Reading & Writing Section: Strategies for a High Score
             </h1>
+            <Image src="/images/blog/11.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
 
             <section className='text-gray-800'>
                 <h2 className="text-2xl font-semibold mt-4 text-headingcol"> Understanding the Digital SAT Reading & Writing Section</h2>

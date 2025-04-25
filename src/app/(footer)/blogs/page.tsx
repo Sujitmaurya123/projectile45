@@ -75,18 +75,18 @@ const BlogPage: FC = () => {
             excerpt: 'If you’re planning to pursue an MBA or Executive MBA (EMBA), one of the first decisions you’ll face is choosing between the GMAT Focus Edition and the Executive Assessment (EA). While both tests assess critical thinking, problem-solving, and data analysis skills, they cater to different types of applicants. Understanding their differences will help you make an informed decision and maximize your chances of admission...',
             slug: '/blogs/ea-vs-gmat-which-test-right-your-mba-journey',
         },
-        // {
-        //     title: 'Mastering the Digital SAT Reading & Writing Section: Strategies for a High Score',
-        //     date: 'January 20, 2025',
-        //     excerpt: 'The Digital SAT Reading & Writing (RW) section has undergone significant changes, making it more streamlined, adaptive, and skill-focused. With 54 questions to be completed in 64 minutes, students must navigate reading comprehension, grammar, and logical reasoning questions efficiently. A strong SAT score can significantly boost your college applications, so mastering this section is essential...',
-        //     slug: '/blogs/mastering-the-digital-sat-reading-writing',
-        // },
-        // {
-        //     title: 'Top 10 Study Hacks for Digital SAT Success',
-        //     date: 'February 25, 2025',
-        //     excerpt: 'Preparing for the Digital SAT requires a strategic study plan tailored to the new format. With its adaptive testing system, shorter duration (2 hours and 14 minutes), and online interface, students must adopt smarter preparation methods. Here are the top 10 study hacks to help you excel on the Digital SAT and achieve your dream score...',
-        //     slug: '/blogs/top-10-study-hacks-sat',
-        // },
+        {
+            title: 'Mastering the Digital SAT Reading & Writing Section: Strategies for a High Score',
+            date: 'January 20, 2025',
+            excerpt: 'The Digital SAT Reading & Writing (RW) section has undergone significant changes, making it more streamlined, adaptive, and skill-focused. With 54 questions to be completed in 64 minutes, students must navigate reading comprehension, grammar, and logical reasoning questions efficiently. A strong SAT score can significantly boost your college applications, so mastering this section is essential...',
+            slug: '/blogs/mastering-the-digital-sat-reading-writing',
+        },
+        {
+            title: 'Top 10 Study Hacks for Digital SAT Success',
+            date: 'February 25, 2025',
+            excerpt: 'Preparing for the Digital SAT requires a strategic study plan tailored to the new format. With its adaptive testing system, shorter duration (2 hours and 14 minutes), and online interface, students must adopt smarter preparation methods. Here are the top 10 study hacks to help you excel on the Digital SAT and achieve your dream score...',
+            slug: '/blogs/top-10-study-hacks-sat',
+        },
         // {
         //     title: 'Mastering the GMAT Focus Edition: A Strategic Study Plan for Success',
         //     date: 'January 20, 2025',

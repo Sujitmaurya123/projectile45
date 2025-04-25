@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Top 10 Study Hacks for Digital SAT Success
             </h1>
+                        <Image src="/images/blog/12.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Preparing for the Digital SAT requires a strategic study plan tailored to the new format. With its adaptive testing system, shorter duration (2 hours and 14 minutes), and online interface, students must adopt smarter preparation methods. Here are the top 10 study hacks to help you excel on the Digital SAT and achieve your dream score.
             </p>
