@@ -48,7 +48,7 @@ export default function CoachingPage() {
         whatsapp: "",
         country: "", // will fill after detection
     });
-    const [loadingCountry, setLoadingCountry] = useState(true); // loader flag
+    const [, setLoadingCountry] = useState(true); // loader flag
     const [loading, setLoading] = useState(false);
 
     // Handle input changes
@@ -182,22 +182,7 @@ export default function CoachingPage() {
                     </div>
 
                     {/* Show detected country */}
-                    {loadingCountry && (
-                        <p className="text-gray-500 italic text-center">Detecting your location...</p>
-                    )}
-                    {!loadingCountry && form.country && (
-                        <div className="flex flex-col space-y-2">
-                            <Label htmlFor="country" className="text-lg font-medium text-gray-700">
-                                Detected Country
-                            </Label>
-                            <Input
-                                name="country"
-                                value={form.country}
-                                readOnly
-                                className="p-3 rounded-xl border border-gray-200 bg-gray-100 text-gray-600"
-                            />
-                        </div>
-                    )}
+                   
 
                     <div className="text-center">
                         <Button
