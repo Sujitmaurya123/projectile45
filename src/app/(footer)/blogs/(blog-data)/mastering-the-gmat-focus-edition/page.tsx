@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Mastering the GMAT Focus Edition: A Strategic Study Plan for Success
             </h1>
+                <Image src="/images/blog/13.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 The GMAT Focus Edition presents a streamlined, adaptive format designed to assess problem-solving, critical reasoning, and data analysis skills efficiently. With its shorter duration and refined question sets, preparing effectively is crucial for achieving a high score. This guide outlines a structured GMAT study schedule, incorporating best practices, expert strategies, and essential resources to help you excel.
             </p>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 EA vs. GMAT: Which Test is Right for Your MBA Journey?
             </h1>
+                            <Image src="/images/blog/14.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Deciding between the Executive Assessment (EA) and the GMAT can be challenging, especially if you&apos;re planning to apply for an MBA program. Both exams assess business school readiness, but they cater to different applicants. This guide will help you understand their similarities, differences, and which one aligns best with your career goals.
             </p>

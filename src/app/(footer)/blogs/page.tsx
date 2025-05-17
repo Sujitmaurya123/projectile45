@@ -87,18 +87,18 @@ const BlogPage: FC = () => {
             excerpt: 'Preparing for the Digital SAT requires a strategic study plan tailored to the new format. With its adaptive testing system, shorter duration (2 hours and 14 minutes), and online interface, students must adopt smarter preparation methods. Here are the top 10 study hacks to help you excel on the Digital SAT and achieve your dream score...',
             slug: '/blogs/top-10-study-hacks-sat',
         },
-        // {
-        //     title: 'Mastering the GMAT Focus Edition: A Strategic Study Plan for Success',
-        //     date: 'January 20, 2025',
-        //     excerpt: 'The GMAT Focus Edition presents a streamlined, adaptive format designed to assess problem-solving, critical reasoning, and data analysis skills efficiently. With its shorter duration and refined question sets, preparing effectively is crucial for achieving a high score. This guide outlines a structured GMAT study schedule, incorporating best practices, expert strategies, and essential resources to help you excel...',
-        //     slug: '/blogs/mastering-the-gmat-focus-edition',
-        // },
-        // {
-        //     title: 'EA vs. GMAT: Which Test is Right for Your MBA Journey?',
-        //     date: 'January 20, 2025',
-        //     excerpt: "Deciding between the Executive Assessment (EA) and the GMAT can be challenging, especially if you're planning to apply for an MBA program.Both exams assess business school readiness, but they cater to different applicants.This guide will help you understand their similarities, differences, and which one aligns best with your career goals...",
-        //     slug: '/blogs/ea-vs-gmat-test-right-your-mba-journey',
-        // },
+        {
+            title: 'Mastering the GMAT Focus Edition: A Strategic Study Plan for Success',
+            date: 'January 20, 2025',
+            excerpt: 'The GMAT Focus Edition presents a streamlined, adaptive format designed to assess problem-solving, critical reasoning, and data analysis skills efficiently. With its shorter duration and refined question sets, preparing effectively is crucial for achieving a high score. This guide outlines a structured GMAT study schedule, incorporating best practices, expert strategies, and essential resources to help you excel...',
+            slug: '/blogs/mastering-the-gmat-focus-edition',
+        },
+        {
+            title: 'EA vs. GMAT: Which Test is Right for Your MBA Journey?',
+            date: 'January 20, 2025',
+            excerpt: "Deciding between the Executive Assessment (EA) and the GMAT can be challenging, especially if you're planning to apply for an MBA program.Both exams assess business school readiness, but they cater to different applicants.This guide will help you understand their similarities, differences, and which one aligns best with your career goals...",
+            slug: '/blogs/ea-vs-gmat-test-right-your-mba-journey',
+        },
         // {
         //     title: 'Smart Guessing Strategies for Quantitative Reasoning MCQs',
         //     date: 'January 20, 2025',
