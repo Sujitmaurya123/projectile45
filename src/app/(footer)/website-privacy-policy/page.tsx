@@ -61,7 +61,7 @@ const PrivacyPolicy = () => {
                     <li>Opt-out of marketing communications.</li>
                     <li>Restrict data processing under certain conditions.</li>
                 </ul>
-                <p>To exercise these rights, contact us at [Insert Contact Email].</p>
+                <p>To exercise these rights, contact us at Email:info@projectile45.com.</p>
             </section>
 
             <section className="mt-6">
@@ -79,6 +79,8 @@ const PrivacyPolicy = () => {
                 <p>For any questions or concerns regarding this Privacy Policy, please contact us at:</p>
                 <p><strong>Projectile45</strong></p>
                 <p>Email:info@projectile45.com </p>
+                <p>Mobile Number: +919949450786 </p>
+
             </section>
         </div>
     );

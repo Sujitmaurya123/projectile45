@@ -99,18 +99,18 @@ const BlogPage: FC = () => {
             excerpt: "Deciding between the Executive Assessment (EA) and the GMAT can be challenging, especially if you're planning to apply for an MBA program.Both exams assess business school readiness, but they cater to different applicants.This guide will help you understand their similarities, differences, and which one aligns best with your career goals...",
             slug: '/blogs/ea-vs-gmat-test-right-your-mba-journey',
         },
-        // {
-        //     title: 'Smart Guessing Strategies for Quantitative Reasoning MCQs',
-        //     date: 'January 20, 2025',
-        //     excerpt: "Preparing for a standardized test like the GMAT, GRE, or SAT? At some point, you'll face a tricky quantitative reasoning question that leaves you stumped. Instead of leaving it blank, use smart guessing strategies to improve your chances of selecting the correct answer. While guessing isn't a substitute for preparation, strategic elimination and logical reasoning can significantly boost your score. Here’s how you can make educated guesses on multiple-choice questions (MCQs)...",
-        //     slug: '/blogs/smart-guessing-strategies-quantitative-reasoning-mcqs',
-        // },
-        // {
-        //     title: 'Mastering SAT Writing: Essential Grammar Rules for a High Score',
-        //     date: 'January 20, 2025',
-        //     excerpt: "Achieving a top score in the SAT Writing section requires a strong grasp of English grammar. This section tests your ability to identify and correct grammatical errors in a passage, making it crucial to understand key grammar rules. Here are the fundamental concepts you must master to excel in SAT Writing...",
-        //     slug: '/blogs/mastering-sat-writing-essential-grammar-rules',
-        // },
+        {
+            title: 'Smart Guessing Strategies for Quantitative Reasoning MCQs',
+            date: 'January 20, 2025',
+            excerpt: "Preparing for a standardized test like the GMAT, GRE, or SAT? At some point, you'll face a tricky quantitative reasoning question that leaves you stumped. Instead of leaving it blank, use smart guessing strategies to improve your chances of selecting the correct answer. While guessing isn't a substitute for preparation, strategic elimination and logical reasoning can significantly boost your score. Here’s how you can make educated guesses on multiple-choice questions (MCQs)...",
+            slug: '/blogs/smart-guessing-strategies-quantitative-reasoning-mcqs',
+        },
+        {
+            title: 'Mastering SAT Writing: Essential Grammar Rules for a High Score',
+            date: 'January 20, 2025',
+            excerpt: "Achieving a top score in the SAT Writing section requires a strong grasp of English grammar. This section tests your ability to identify and correct grammatical errors in a passage, making it crucial to understand key grammar rules. Here are the fundamental concepts you must master to excel in SAT Writing...",
+            slug: '/blogs/mastering-sat-writing-essential-grammar-rules',
+        },
         // {
         //     title: 'Mastering GMAT Critical Reasoning: Proven Strategies for Success',
         //     date: 'January 20, 2025',

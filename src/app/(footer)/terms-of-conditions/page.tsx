@@ -89,6 +89,8 @@ const TermsAndConditions: React.FC = () => {
                         <br />
                         <strong>Email:</strong> info@projectile45.com 
                         <br />
+                        <p>Mobile Number: +919949450786 </p>
+
                        
                     </p>
                 </section>

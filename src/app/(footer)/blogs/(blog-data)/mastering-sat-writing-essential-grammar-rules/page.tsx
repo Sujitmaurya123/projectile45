@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Mastering SAT Writing: Essential Grammar Rules for a High Score
             </h1>
+                 <Image src="/images/blog/16.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Achieving a top score in the SAT Writing section requires a strong grasp of English grammar. This section tests your ability to identify and correct grammatical errors in a passage, making it crucial to understand key grammar rules. Here are the fundamental concepts you must master to excel in SAT Writing.
             </p>

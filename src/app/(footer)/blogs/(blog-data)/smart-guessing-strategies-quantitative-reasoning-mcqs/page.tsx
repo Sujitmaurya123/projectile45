@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Smart Guessing Strategies for Quantitative Reasoning MCQs
             </h1>
+                 <Image src="/images/blog/15.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Preparing for a standardized test like the GMAT, GRE, or SAT? At some point, you&apos;ll face a tricky quantitative reasoning question that leaves you stumped. Instead of leaving it blank, use smart guessing strategies to improve your chances of selecting the correct answer. While guessing isn&apos;t a substitute for preparation, strategic elimination and logical reasoning can significantly boost your score. Here’s how you can make educated guesses on multiple-choice questions (MCQs).
             </p>
