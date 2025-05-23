@@ -111,18 +111,18 @@ const BlogPage: FC = () => {
             excerpt: "Achieving a top score in the SAT Writing section requires a strong grasp of English grammar. This section tests your ability to identify and correct grammatical errors in a passage, making it crucial to understand key grammar rules. Here are the fundamental concepts you must master to excel in SAT Writing...",
             slug: '/blogs/mastering-sat-writing-essential-grammar-rules',
         },
-        // {
-        //     title: 'Mastering GMAT Critical Reasoning: Proven Strategies for Success',
-        //     date: 'January 20, 2025',
-        //     excerpt: "The GMAT Critical Reasoning section is designed to assess your ability to analyze arguments, evaluate logical structures, and identify assumptions. Many test-takers find this section challenging, but with the right approach, you can improve your accuracy and confidence.If you're preparing for the GMAT, especially with the support of expert coaching like Projectile 45 Tuition, these strategies will help you tackle even the trickiest questions efficiently...",
-        //     slug: '/blogs/mastering-gmat-critical-reasoning',
-        // },
-        // {
-        //     title: 'Mastering Effective Skimming Techniques for Long Passages',
-        //     date: 'January 20, 2025',
-        //     excerpt: "When tackling long reading passages, especially on exams like the GMAT, GRE, or SAT, time is your biggest challenge. Skimming techniques help you efficiently extract important information, enabling you to answer questions with both speed and accuracy.At Projetile 45 Tuition, we emphasize strategic reading methods that enhance comprehension while optimizing reading speed.In this article, we’ll explore the most effective skimming strategies that will improve your reading efficiency and exam performance...",
-        //     slug: '/blogs/mastering-effective-skimming-techniques',
-        // },
+        {
+            title: 'Mastering GMAT Critical Reasoning: Proven Strategies for Success',
+            date: 'January 20, 2025',
+            excerpt: "The GMAT Critical Reasoning section is designed to assess your ability to analyze arguments, evaluate logical structures, and identify assumptions. Many test-takers find this section challenging, but with the right approach, you can improve your accuracy and confidence.If you're preparing for the GMAT, especially with the support of expert coaching like Projectile 45 Tuition, these strategies will help you tackle even the trickiest questions efficiently...",
+            slug: '/blogs/mastering-gmat-critical-reasoning',
+        },
+        {
+            title: 'Mastering Effective Skimming Techniques for Long Passages',
+            date: 'January 20, 2025',
+            excerpt: "When tackling long reading passages, especially on exams like the GMAT, GRE, or SAT, time is your biggest challenge. Skimming techniques help you efficiently extract important information, enabling you to answer questions with both speed and accuracy.At Projetile 45 Tuition, we emphasize strategic reading methods that enhance comprehension while optimizing reading speed.In this article, we’ll explore the most effective skimming strategies that will improve your reading efficiency and exam performance...",
+            slug: '/blogs/mastering-effective-skimming-techniques',
+        },
         // {
         //     title: 'Mastering Difficult Questions: Strategies to Save Time and Boost Accuracy',
         //     date: 'January 20, 2025',

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Mastering Effective Skimming Techniques for Long Passages
             </h1>
+                                         <Image src="/images/blog/18.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Speeding up your reading without missing key details is essential for tackling long passages in exams like the GMAT, GRE, and SAT. Skimming techniques can help you efficiently extract important information, enabling you to answer questions with speed and accuracy.
                 At Projectile 45 Tuition, we emphasize strategic reading methods that enhance comprehension while optimizing reading speed. In this article, we’ll explore the most effective skimming strategies that will improve your reading efficiency and exam performance.

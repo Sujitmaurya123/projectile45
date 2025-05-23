@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Mastering GMAT Critical Reasoning: Proven Strategies for Success
             </h1>
+                             <Image src="/images/blog/17.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 The GMAT Critical Reasoning section is designed to assess your ability to analyze arguments, evaluate logical structures, and identify assumptions. Many test-takers find this section challenging, but with the right approach, you can improve your accuracy and confidence.
                 If you&apos;re preparing for the GMAT, especially with the support of expert coaching like Projectile 45 Tuition, these strategies will help you tackle even the trickiest questions efficiently.
