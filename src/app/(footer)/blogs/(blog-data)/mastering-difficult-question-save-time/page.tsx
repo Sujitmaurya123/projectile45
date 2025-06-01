@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Mastering Difficult Questions: Strategies to Save Time and Boost Accuracy
             </h1>
+                                                     <Image src="/images/blog/19.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 Conquering difficult questions, whether on exams like the GMAT, GRE, SAT, or during job interviews, can seem daunting. But with the right strategies and mindset, you can approach tough questions with confidence and efficiency. In this article, we’ll explore proven strategies that will help you tackle challenging questions effectively and maximize your performance, all while saving precious time.
                 Additionally, we&apos;ll show how Projectile 45 Tuition can help you refine your test-taking techniques.

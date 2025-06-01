@@ -123,18 +123,18 @@ const BlogPage: FC = () => {
             excerpt: "When tackling long reading passages, especially on exams like the GMAT, GRE, or SAT, time is your biggest challenge. Skimming techniques help you efficiently extract important information, enabling you to answer questions with both speed and accuracy.At Projetile 45 Tuition, we emphasize strategic reading methods that enhance comprehension while optimizing reading speed.In this article, we’ll explore the most effective skimming strategies that will improve your reading efficiency and exam performance...",
             slug: '/blogs/mastering-effective-skimming-techniques',
         },
-        // {
-        //     title: 'Mastering Difficult Questions: Strategies to Save Time and Boost Accuracy',
-        //     date: 'January 20, 2025',
-        //     excerpt: "Facing tough questions during exams or interviews can feel overwhelming, especially when working under strict time constraints. Whether you're tackling standardized tests like the GMAT, GRE, or SAT, or navigating tricky job interview questions, having a structured approach can make all the difference. In this article, we’ll explore proven strategies to help you confidently manage challenging questions without wasting precious time. Plus, we'll show you how Projetile 45 Tuition can enhance your test-taking skills with expert guidance...",
-        //     slug: '/blogs/mastering-difficult-question-save-time',
-        // },
-        // {
-        //     title: 'Maximize Your Success: What to Do One Day Before the Exam',
-        //     date: 'January 20, 2025',
-        //     excerpt: "The day before an exam is your final opportunity to solidify key concepts, relax your mind, and prepare your body for optimal performance. Many students make the mistake of last-minute cramming, which can increase stress and hinder memory retention. Instead, focus on strategic revision, relaxation, and proper self-care to ensure that you walk into the exam hall feeling confident and prepared...",
-        //     slug: '/blogs/maximize-your-success-what-do-one-day-before-exam',
-        // },
+        {
+            title: 'Mastering Difficult Questions: Strategies to Save Time and Boost Accuracy',
+            date: 'January 20, 2025',
+            excerpt: "Facing tough questions during exams or interviews can feel overwhelming, especially when working under strict time constraints. Whether you're tackling standardized tests like the GMAT, GRE, or SAT, or navigating tricky job interview questions, having a structured approach can make all the difference. In this article, we’ll explore proven strategies to help you confidently manage challenging questions without wasting precious time. Plus, we'll show you how Projetile 45 Tuition can enhance your test-taking skills with expert guidance...",
+            slug: '/blogs/mastering-difficult-question-save-time',
+        },
+        {
+            title: 'Maximize Your Success: What to Do One Day Before the Exam',
+            date: 'January 20, 2025',
+            excerpt: "The day before an exam is your final opportunity to solidify key concepts, relax your mind, and prepare your body for optimal performance. Many students make the mistake of last-minute cramming, which can increase stress and hinder memory retention. Instead, focus on strategic revision, relaxation, and proper self-care to ensure that you walk into the exam hall feeling confident and prepared...",
+            slug: '/blogs/maximize-your-success-what-do-one-day-before-exam',
+        },
         // {
         //     title: 'Boost Your SAT Score by 200 Points in 30 Days: A Strategic Study Plan',
         //     date: 'January 20, 2025',

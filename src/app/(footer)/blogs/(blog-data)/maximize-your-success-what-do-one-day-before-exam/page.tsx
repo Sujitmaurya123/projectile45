@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FC } from 'react';
 
 const BlogPost: FC = () => {
@@ -6,6 +7,8 @@ const BlogPost: FC = () => {
             <h1 className="text-4xl font-bold text-center text-headingcol mb-8">
                 Maximize Your Success: What to Do One Day Before the Exam
             </h1>
+                                                     <Image src="/images/blog/20.jpg" alt='EA vs. GMAT: Which Test is Right for Your MBA Journey?' width="800" height="300" className='  mx-auto mb-6 p-2'/>
+            
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 The day before an exam is your final opportunity to solidify key concepts, relax your mind, and prepare your body for optimal performance. Many students make the mistake of last-minute cramming, which can increase stress and hinder memory retention. Instead, focus on strategic revision, relaxation, and proper self-care to ensure that you walk into the exam hall feeling confident and prepared. If you’re looking for structured learning and expert guidance, Projectile 45 Tuition offers top-tier academic support, helping students master concepts efficiently.
             </p>
