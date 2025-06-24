@@ -96,13 +96,13 @@ export function SiteHeader() {
             </Link>
            
             
-            <span
+            {/* <span
               
               className=" text-lg font-medium transition-colors hover:text-black/80 cursor-pointer"
               onClick={() => setIsOpen(true)}
             >
               Free Demo
-            </span>
+            </span> */}
           
               <Button onClick={() => setIsOpen(true)}
               className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-lg cursor-pointer"

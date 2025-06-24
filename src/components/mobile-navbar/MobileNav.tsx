@@ -190,12 +190,12 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             </Link>
                 </div>
             {/* Free Demo */}
-            <span
+            {/* <span
                 className="text-xl text-balance font-medium transition-colors hover:text-black/80 cursor-pointer text-gray-700"
                 onClick={() => setIsFreeDemoOpen(true)}
             >
                 Free Demo
-            </span>
+            </span> */}
             <Button onClick={() => setIsFreeDemoOpen(true)} className="text-purple-600 bg-white hover:bg-purple-700 hover:text-white rounded-3xl text-xl">
                 Sign up for free
             </Button>
